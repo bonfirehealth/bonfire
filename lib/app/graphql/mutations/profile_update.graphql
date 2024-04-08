@@ -1,0 +1,109 @@
+mutation UpdateProfile($input: UpdateProfileInput!) {
+  updateProfile(input: $input) {
+    ... on Profile {
+      id
+      age
+      gender
+      weight
+      weightUnit
+      weightUnitName
+      height
+      heightUnit
+      heightUnitName
+      bodyMassIndex
+      mood
+      stressLevel
+      stressIndex
+      bodyTemperature
+      oxygenLevel
+      oxygenSaturationLevel
+      respiratoryRate
+      systolicBloodPressure
+      diastolicBloodPressure
+      heartRate
+      heartRateVariability
+      sympatheticNervousSystemIndex
+      timezone
+      assessments(limit: 999999999) {
+        items {
+          ... on Assessment {
+            id
+            createdAt
+            updatedAt
+            startDate
+            endDate
+            mood
+            stressLevel
+            stressIndex
+            bodyTemperature
+            oxygenLevel
+            oxygenSaturationLevel
+            respiratoryRate
+            systolicBloodPressure
+            diastolicBloodPressure
+            heartRate
+            heartRateManual
+            heartRateManualSource
+            heartRateVariability
+            sympatheticNervousSystemIndex
+            score
+            profileID
+            assessmentSelfCareId
+            selfCare {
+              ... on SelfCare {
+                id
+                createdAt
+                updatedAt
+                description
+                name
+                icon
+                routePath
+                selfCareSelfCareTypeId
+                selfCareType {
+                  ... on SelfCareType {
+                    id
+                    identifier
+                    name
+                  }
+                }
+              }
+            }
+            _version
+            _deleted
+          }
+        }
+      }
+      activities {
+        items {
+          ... on ProfileActivity {
+            id
+          }
+        }
+      }
+      notifications {
+        items {
+          ... on Notification {
+            id
+          }
+        }
+      }
+      preferences {
+        items {
+          ... on ProfilePreference {
+            id
+          }
+        }
+      }
+      selfCareUsages {
+        items {
+          ... on SelfCareUsage {
+            id
+          }
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

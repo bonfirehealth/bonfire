@@ -1,0 +1,202 @@
+mutation CreateUserGroup($input: CreateUserGroupInput!) {
+  createUserGroup(input: $input) {
+    ... on UserGroup {
+      id
+      groupID
+      group {
+        ... on Group {
+          id
+          createdAt
+          updatedAt
+          description
+          icon
+          identifier
+          index
+          isApproved
+          isHidden
+          name
+          numberOfClicks
+          numberOfQuestions
+          numberOfUsers
+          numberOfViews
+          numberOfVotes
+          organisationID
+          organisation {
+            ... on Organisation {
+              id
+              code
+              name
+            }
+          }
+          suggesterID
+          suggester {
+            ... on User {
+              id
+              username
+            }
+          }
+          groupGroupTypeId
+          groupType {
+            ... on GroupType {
+              id
+              description
+              icon
+              identifier
+              name
+              organisationID
+            }
+          }
+          users {
+            items {
+              id
+              userID
+              user {
+                ... on User {
+                  id
+                  username
+                  userUserTypeId
+                  userType {
+                    ... on UserType {
+                      id
+                      description
+                      identifier
+                      name
+                    }
+                  }
+                }
+              }
+              groupID
+              group {
+                ... on Group {
+                  id
+                  name
+                }
+              }
+            }
+          }
+          questions {
+            items {
+              ... on Question {
+                ... on Question {
+                  id
+                  createdAt
+                  updatedAt
+                  description
+                  identifier
+                  index
+                  isHidden
+                  name
+                  numberOfAnswers
+                  numberOfClicks
+                  numberOfSaves
+                  numberOfVotes
+                  numberOfViews
+                  userID
+                  groupID
+                  files {
+                    items {
+                      ... on QuestionFile {
+                        id
+                        createdAt
+                        updatedAt
+                        isHidden
+                        key
+                        name
+                        url
+                        userID
+                        questionID
+                        _deleted
+                        _lastChangedAt
+                        _version
+                      }
+                    }
+                  }
+                  votes {
+                    items {
+                      ... on QuestionVote {
+                        id
+                        createdAt
+                        updatedAt
+                        isHidden
+                        userID
+                        questionID
+                        _deleted
+                        _lastChangedAt
+                        _version
+                      }
+                    }
+                  }
+                  _deleted
+                  _lastChangedAt
+                  _version
+                }
+              }
+            }
+          }
+          tags {
+            items {
+              ... on GroupTagGroup {
+                id
+                groupTagID
+                groupTag {
+                  ... on GroupTag {
+                    id
+                    description
+                    identifier
+                    name
+                    organisationID
+                  }
+                }
+                groupID
+                group {
+                  ... on Group {
+                    id
+                  }
+                }
+              }
+            }
+          }
+          votes {
+            items {
+              ... on GroupVote {
+                id
+                createdAt
+                updatedAt
+                isHidden
+                userID
+                user {
+                  ... on User {
+                    id
+                  }
+                }
+                groupID
+                group {
+                  ... on Group {
+                    id
+                  }
+                }
+                _deleted
+                _lastChangedAt
+                _version
+              }
+            }
+          }
+          _deleted
+          _lastChangedAt
+          _version
+        }
+      }
+      userID
+      user {
+        ... on User {
+          id
+          username
+          photoBase64
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

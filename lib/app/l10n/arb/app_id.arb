@@ -1,0 +1,2572 @@
+{
+    "@@x-loco-version": "1.0.28 20230907-1",
+    "@@locale": "id",
+    "@@last_modified": "2023-09-15T11:55:44+0545",
+    "@@author": "Bonfire Health",
+    "addAComment": "Tambahkan komentar",
+    "@addAComment": {
+        "type": "text",
+        "description": "addAComment",
+        "source_text": "Add a comment"
+    },
+    "addAnAnswer": "Tambahkan jawaban",
+    "@addAnAnswer": {
+        "type": "text",
+        "description": "addAnAnswer",
+        "source_text": "Add an answer"
+    },
+    "age": "Usia",
+    "@age": {
+        "type": "text",
+        "description": "age",
+        "source_text": "Age"
+    },
+    "alissaSays": "Kata Alissa",
+    "@alissaSays": {
+        "type": "text",
+        "description": "alissaSays",
+        "source_text": "Alissa says"
+    },
+    "allTime": "Sepanjang waktu",
+    "@allTime": {
+        "type": "text",
+        "description": "allTime",
+        "source_text": "All Time"
+    },
+    "allowNotifications": "Izinkan Notifikasi",
+    "@allowNotifications": {
+        "type": "text",
+        "description": "allowNotifications",
+        "source_text": "Allow Notifications"
+    },
+    "alreadyHaveAccount": "Sudah memiliki akun? Masuk.",
+    "@alreadyHaveAccount": {
+        "type": "text",
+        "description": "alreadyHaveAccount",
+        "source_text": "Already have an account? Log in."
+    },
+    "anger": "Amarah",
+    "@anger": {
+        "type": "text",
+        "description": "anger",
+        "source_text": "Anger"
+    },
+    "anonymousAccountCreated": "Akun anonim berhasil dibuat!",
+    "@anonymousAccountCreated": {
+        "type": "text",
+        "description": "anonymousAccountCreated",
+        "source_text": "Anonymous account successfully created!"
+    },
+    "askAboutYourHealth": "Tanyakan tentang kesehatan Anda",
+    "@askAboutYourHealth": {
+        "type": "text",
+        "description": "askAboutYourHealth",
+        "source_text": "Ask about your health"
+    },
+    "askInThisSupportGroup": "Tanyakan dalam kelompok pendukung ini",
+    "@askInThisSupportGroup": {
+        "type": "text",
+        "description": "askInThisSupportGroup",
+        "source_text": "Ask in this support group"
+    },
+    "askPeerForSupport": "Minta dukungan sesama",
+    "@askPeerForSupport": {
+        "type": "text",
+        "description": "askPeerForSupport",
+        "source_text": "Ask a peer for support"
+    },
+    "askQuestion": "Bertanya",
+    "@askQuestion": {
+        "type": "text",
+        "description": "askQuestion",
+        "source_text": "Ask Question"
+    },
+    "askQuestionSubtitle1": "Pertimbangkan untuk memulai pertanyaan Anda",
+    "@askQuestionSubtitle1": {
+        "type": "text",
+        "description": "askQuestionSubtitle1",
+        "source_text": "Consider starting your question with "
+    },
+    "askQuestionSubtitle2": "akan, apa, mengapa, kapan, siapa atau bagaimana",
+    "@askQuestionSubtitle2": {
+        "type": "text",
+        "description": "askQuestionSubtitle2",
+        "source_text": "will, what, why, when, who or how"
+    },
+    "assessmentActionSubtitle": "Apa yang bisa saya lakukan selanjutnya?",
+    "@assessmentActionSubtitle": {
+        "type": "text",
+        "description": "assessmentActionSubtitle",
+        "source_text": "What can I do next?"
+    },
+    "assessments": "Penilaian",
+    "@assessments": {
+        "type": "text",
+        "description": "assessments",
+        "source_text": "Assessments"
+    },
+    "attendingToYou": "Saya menghadiri Anda ...",
+    "@attendingToYou": {
+        "type": "text",
+        "description": "attendingToYou",
+        "source_text": "I'm attending to you..."
+    },
+    "back": "Kembali",
+    "@back": {
+        "type": "text",
+        "description": "back",
+        "source_text": "Back"
+    },
+    "biometricNotAuthenticated": "Kredensial biometrik Anda tidak diautentikasi, silakan coba lagi.",
+    "@biometricNotAuthenticated": {
+        "type": "text",
+        "description": "biometricNotAuthenticated",
+        "source_text": "Your biometric credential is not authenticated, please try again."
+    },
+    "bloodOxygenLevel": "Kadar Oksigen Darah",
+    "@bloodOxygenLevel": {
+        "type": "text",
+        "description": "bloodOxygenLevel",
+        "source_text": "Blood Oxygen Level"
+    },
+    "bloodOxygenLevelDescription": "Kadar Oksigen Darah adalah jumlah oksigen yang bersirkulasi di dalam darah. Kadar oksigen dalam darah dapat diukur menggunakan oksimeter. Dengan oksimeter, dokter menganggap kadar di bawah 95% adalah rendah.",
+    "@bloodOxygenLevelDescription": {
+        "type": "text",
+        "description": "bloodOxygenLevelDescription",
+        "source_text": "Blood Oxygen Level is the amount of oxygen circulating in their blood. A person can measure their blood oxygen levels using a pulse oximeter. On a pulse oximeter, doctors consider levels under 95% to be low. "
+    },
+    "bloodOxygenLevelNormalRangeValues": "95% SpO2 ke atas",
+    "@bloodOxygenLevelNormalRangeValues": {
+        "type": "text",
+        "description": "bloodOxygenLevelNormalRangeValues",
+        "source_text": "95 %SpO2 and above"
+    },
+    "bloodOxygenLevelSymbol": "%SpO2",
+    "@bloodOxygenLevelSymbol": {
+        "type": "text",
+        "description": "bloodOxygenLevelSymbol",
+        "source_text": "%SpO2"
+    },
+    "bloodPressure": "Tekanan Darah",
+    "@bloodPressure": {
+        "type": "text",
+        "description": "bloodPressure",
+        "source_text": "Blood Pressure"
+    },
+    "bloodPressureDescription": "Tekanan darah diukur dengan dua angka: Angka pertama, disebut tekanan darah sistolik, mengukur tekanan di dalam arteri ketika jantung berdenyut. Angka kedua, disebut tekanan darah diastolik, mengukur tekanan di dalam arteri ketika jantung istirahat di antara setiap denyut.",
+    "@bloodPressureDescription": {
+        "type": "text",
+        "description": "bloodPressureDescription",
+        "source_text": "Blood pressure is measured using two numbers: The first number, called systolic blood pressure, measures the pressure in your arteries when your heart beats. The second number, called diastolic blood pressure, measures the pressure in your arteries when your heart rests between beats."
+    },
+    "bloodPressureNormalRangeValues": "120/80 mmHg ke bawah",
+    "@bloodPressureNormalRangeValues": {
+        "type": "text",
+        "description": "bloodPressureNormalRangeValues",
+        "source_text": "120/80 mmHg and below"
+    },
+    "bloodPressureSymbol": "mmHg",
+    "@bloodPressureSymbol": {
+        "type": "text",
+        "description": "bloodPressureSymbol",
+        "source_text": "mmHg"
+    },
+    "bloodPressureSystolic": "Blood Pressure (Systolic)",
+    "@bloodPressureSystolic": {
+        "type": "text",
+        "description": "bloodPressureSystolic",
+        "source_text": "Blood Pressure (Systolic)"
+    },
+    "both": "Keduanya",
+    "@both": {
+        "type": "text",
+        "description": "both",
+        "source_text": "Both"
+    },
+    "bpm": "bpm",
+    "@bpm": {
+        "type": "text",
+        "description": "bpm",
+        "source_text": "bpm"
+    },
+    "bySigning1": "Dengan masuk, Anda menyetujui",
+    "@bySigning1": {
+        "type": "text",
+        "description": "bySigning1",
+        "source_text": "By signing in, you agree to our app's"
+    },
+    "bySigning2": "Ketentuan Layanan aplikasi kami",
+    "@bySigning2": {
+        "type": "text",
+        "description": "bySigning2",
+        "source_text": "terms of service"
+    },
+    "cameraPermissionDeniedMessage": "Harap aktifkan izin kamera di pengaturan peramban Anda.",
+    "@cameraPermissionDeniedMessage": {
+        "type": "text",
+        "description": "cameraPermissionDeniedMessage",
+        "source_text": "Please enable camera permission in your browser settings."
+    },
+    "cameraPermissionDeniedTitle": "Izin Kamera Ditolak",
+    "@cameraPermissionDeniedTitle": {
+        "type": "text",
+        "description": "cameraPermissionDeniedTitle",
+        "source_text": "Camera Permission Denied"
+    },
+    "cancel": "Batalkan",
+    "@cancel": {
+        "type": "text",
+        "description": "cancel",
+        "source_text": "Cancel"
+    },
+    "challenge": "Tantangan",
+    "@challenge": {
+        "type": "text",
+        "description": "challenge",
+        "source_text": "Challenge"
+    },
+    "characters": "karakter",
+    "@characters": {
+        "type": "text",
+        "description": "characters",
+        "source_text": "characters"
+    },
+    "chatResponseQuestionEmptyMessage": "Pertanyaan Anda tidak boleh kosong.",
+    "@chatResponseQuestionEmptyMessage": {
+        "type": "text",
+        "description": "chatResponseQuestionEmptyMessage",
+        "source_text": "Your question should not be empty."
+    },
+    "chatResponseSystemErrorMessage": "Ups! Terjadi kesalahan. Silakan periksa koneksi jaringan Anda atau hubungi kami untuk bantuan.",
+    "@chatResponseSystemErrorMessage": {
+        "type": "text",
+        "description": "chatResponseSystemErrorMessage",
+        "source_text": "Oops! An error occurred. Please check your network connection or contact us for assistance."
+    },
+    "chatResponseViolateQuestionMessage": "Pertanyaan Anda melanggar kebijakan penggunaan kami. Silakan ajukan pertanyaan yang berbeda.",
+    "@chatResponseViolateQuestionMessage": {
+        "type": "text",
+        "description": "chatResponseViolateQuestionMessage",
+        "source_text": "Your question violates our usage policies. Please ask a different question."
+    },
+    "childGroup": "Anak-anak",
+    "@childGroup": {
+        "type": "text",
+        "description": "childGroup",
+        "source_text": "Child"
+    },
+    "childGroupRange": "0-16 tahun",
+    "@childGroupRange": {
+        "type": "text",
+        "description": "childGroupRange",
+        "source_text": "0-16 yo"
+    },
+    "choosePreferences": "Apa yang ingin Anda kelola?",
+    "@choosePreferences": {
+        "type": "text",
+        "description": "choosePreferences",
+        "source_text": "What do you wish to manage?"
+    },
+    "choosePreferencesConfidential": "Preferensi Anda sangat rahasia.",
+    "@choosePreferencesConfidential": {
+        "type": "text",
+        "description": "choosePreferencesConfidential",
+        "source_text": "Your preferences are strictly confidential."
+    },
+    "choosePreferencesSubtitle": "Anda dapat memilih lebih dari satu dan mengubah preferensi kapan saja.",
+    "@choosePreferencesSubtitle": {
+        "type": "text",
+        "description": "choosePreferencesSubtitle",
+        "source_text": "You can choose more than one and change preferences anytime."
+    },
+    "completeProfileSubtitle": "Lengkapi profil Anda untuk mempersonalisasikan pengalaman pengguna Anda.",
+    "@completeProfileSubtitle": {
+        "type": "text",
+        "description": "completeProfileSubtitle",
+        "source_text": "Complete your profile to personalise your user experience."
+    },
+    "completeProfileTitle": "Profil lengkap",
+    "@completeProfileTitle": {
+        "type": "text",
+        "description": "completeProfileTitle",
+        "source_text": "Complete Profile"
+    },
+    "confirmReportGroupSubtitle": "Terima kasih telah melaporkan. Pengajuan Anda dikirim ke administrator organisasi Anda untuk ditinjau.",
+    "@confirmReportGroupSubtitle": {
+        "type": "text",
+        "description": "confirmReportGroupSubtitle",
+        "source_text": "Thank you for reporting. Your submission is sent to your organisation administrator for review."
+    },
+    "confirmReportGroupTitle": "Konfirmasi Laporan Grup",
+    "@confirmReportGroupTitle": {
+        "type": "text",
+        "description": "confirmReportGroupTitle",
+        "source_text": "Report Group Confirmation"
+    },
+    "confirmReportUserSubtitle": "Terima kasih telah melaporkan. Pengajuan Anda dikirim ke administrator organisasi Anda untuk ditinjau.",
+    "@confirmReportUserSubtitle": {
+        "type": "text",
+        "description": "confirmReportUserSubtitle",
+        "source_text": "Thank you for reporting. Your submission is sent to your organisation administrator for review."
+    },
+    "confirmReportUserTitle": "Laporkan Konfirmasi Pengguna",
+    "@confirmReportUserTitle": {
+        "type": "text",
+        "description": "confirmReportUserTitle",
+        "source_text": "Report User Confirmation"
+    },
+    "confirmSuggestGroupSubtitle": "Terima kasih telah menyarankan grup baru. Grup baru membutuhkan setidaknya 10 suara untuk dibuat dan dibuka.",
+    "@confirmSuggestGroupSubtitle": {
+        "type": "text",
+        "description": "confirmSuggestGroupSubtitle",
+        "source_text": "Thank you for suggesting new group. The new group requires at least 10 votes to be created and opened."
+    },
+    "confirmSuggestGroupTitle": "Menyarankan konfirmasi kelompok",
+    "@confirmSuggestGroupTitle": {
+        "type": "text",
+        "description": "confirmSuggestGroupTitle",
+        "source_text": "Suggest Group Confirmation"
+    },
+    "continueWithPasscode": "Lanjutkan dengan kode sandi hanya",
+    "@continueWithPasscode": {
+        "type": "text",
+        "description": "continueWithPasscode",
+        "source_text": "Continue with passcode only"
+    },
+    "createPasscode": "Buat kode sandi",
+    "@createPasscode": {
+        "type": "text",
+        "description": "createPasscode",
+        "source_text": "Create Passcode"
+    },
+    "credentialsCopiedMessage": "Anda dapat menempelkan kredensial di mana saja di ponsel.",
+    "@credentialsCopiedMessage": {
+        "type": "text",
+        "description": "credentialsCopiedMessage",
+        "source_text": "You can paste the credentials to anywhere in your phone."
+    },
+    "credentialsCopiedTitle": "Kredensial Disalin",
+    "@credentialsCopiedTitle": {
+        "type": "text",
+        "description": "credentialsCopiedTitle",
+        "source_text": "Credentials Copied"
+    },
+    "credentialsNotValidMessage": "Kredensial Anda tidak valid.",
+    "@credentialsNotValidMessage": {
+        "type": "text",
+        "description": "credentialsNotValidMessage",
+        "source_text": "Your credentials are not valid."
+    },
+    "credentialsNotValidTitle": "Kredensial Tidak Valid",
+    "@credentialsNotValidTitle": {
+        "type": "text",
+        "description": "credentialsNotValidTitle",
+        "source_text": "Invalid Credentials"
+    },
+    "credentialsValidMessage": "Kredensial Anda valid.",
+    "@credentialsValidMessage": {
+        "type": "text",
+        "description": "credentialsValidMessage",
+        "source_text": "Your credentials are valid."
+    },
+    "credentialsValidTitle": "Kredensial Valid",
+    "@credentialsValidTitle": {
+        "type": "text",
+        "description": "credentialsValidTitle",
+        "source_text": "Valid Credentials"
+    },
+    "dashboard": "Dasbor",
+    "@dashboard": {
+        "type": "text",
+        "description": "dashboard",
+        "source_text": "Dashboard"
+    },
+    "day": "Hari",
+    "@day": {
+        "type": "text",
+        "description": "day",
+        "source_text": "Day"
+    },
+    "defaultTopQuestionOfTheWeek": "Siapa dalam hidup Anda (atau bahkan influencer) yang menginspirasi Anda untuk menjadi mental dan fisik?",
+    "@defaultTopQuestionOfTheWeek": {
+        "type": "text",
+        "description": "defaultTopQuestionOfTheWeek",
+        "source_text": "Who in your life (or even an influencer) inspires you to be mentally and physically fit?"
+    },
+    "delete": "Hapus",
+    "@delete": {
+        "type": "text",
+        "description": "delete",
+        "source_text": "Delete"
+    },
+    "description": "Deskripsi",
+    "@description": {
+        "type": "text",
+        "description": "description",
+        "source_text": "Description"
+    },
+    "diastolicBloodPressure": "Tekanan Darah Diastolik",
+    "@diastolicBloodPressure": {
+        "type": "text",
+        "description": "diastolicBloodPressure",
+        "source_text": "Diastolic Blood Pressure"
+    },
+    "diastolicBloodPressureSymbol": "DP",
+    "@diastolicBloodPressureSymbol": {
+        "type": "text",
+        "description": "diastolicBloodPressureSymbol",
+        "source_text": "DP"
+    },
+    "done": "Selesai",
+    "@done": {
+        "type": "text",
+        "description": "done",
+        "source_text": "Done"
+    },
+    "earnCredits": "Dapatkan kredit",
+    "@earnCredits": {
+        "type": "text",
+        "description": "earnCredits",
+        "source_text": "Earn Credits"
+    },
+    "earnCreditsSubtitle": "Lengkapi salah satu dari aktivitas 1 menit ini untuk mendapatkan kredit. Kredit memberi Anda voucher.",
+    "@earnCreditsSubtitle": {
+        "type": "text",
+        "description": "earnCreditsSubtitle",
+        "source_text": "Complete any of these 1-min activities to gain Credits. Credits earn you vouchers."
+    },
+    "emailAddress": "Alamat email",
+    "@emailAddress": {
+        "type": "text",
+        "description": "emailAddress",
+        "source_text": "Email Address"
+    },
+    "emailAddressNotAvailableMessage": "Alamat email yang Anda pilih tidak tersedia. Pilih alamat email lain.",
+    "@emailAddressNotAvailableMessage": {
+        "type": "text",
+        "description": "emailAddressNotAvailableMessage",
+        "source_text": "The email address you have chosen is not available. Please select another email address."
+    },
+    "emailAddressNotAvailableTitle": "Alamat email tidak tersedia",
+    "@emailAddressNotAvailableTitle": {
+        "type": "text",
+        "description": "emailAddressNotAvailableTitle",
+        "source_text": "Email Address Not Available"
+    },
+    "engageAlissaConfidential1": "Semua data kesehatan Anda tetap",
+    "@engageAlissaConfidential1": {
+        "type": "text",
+        "description": "engageAlissaConfidential1",
+        "source_text": "All your health data stays "
+    },
+    "engageAlissaConfidential2": "pribadi dan rahasia",
+    "@engageAlissaConfidential2": {
+        "type": "text",
+        "description": "engageAlissaConfidential2",
+        "source_text": "private and confidential "
+    },
+    "engageAlissaConfidential3": "di ponsel Anda saja",
+    "@engageAlissaConfidential3": {
+        "type": "text",
+        "description": "engageAlissaConfidential3",
+        "source_text": "on your phone only"
+    },
+    "engageAlissaNow": "Libatkan Alissa sekarang",
+    "@engageAlissaNow": {
+        "type": "text",
+        "description": "engageAlissaNow",
+        "source_text": "Engage Alissa Now"
+    },
+    "engageAlissaSubtitle": "Anda dapat menganggap Alissa sebagai asisten Siri atau Google untuk dukungan emosional. Dia akan mengingatkan Anda ketika dia merasakan bahwa Anda membutuhkan bantuan.",
+    "@engageAlissaSubtitle": {
+        "type": "text",
+        "description": "engageAlissaSubtitle",
+        "source_text": "You can think of Alissa as the Siri or Google Assistant for emotional support. She will alert you when she senses you need help."
+    },
+    "engageAlissaTitle": "Mari kita kenal Alissa",
+    "@engageAlissaTitle": {
+        "type": "text",
+        "description": "engageAlissaTitle",
+        "source_text": "Let's get to know Alissa"
+    },
+    "enterOrganisationCode": "Masukkan kode organisasi",
+    "@enterOrganisationCode": {
+        "type": "text",
+        "description": "enterOrganisationCode",
+        "source_text": "Enter organisation code"
+    },
+    "enterPasscode": "Masukkan kode sandi 6 digit",
+    "@enterPasscode": {
+        "type": "text",
+        "description": "enterPasscode",
+        "source_text": "Enter a 6-digit passcode"
+    },
+    "enterPersonalEmailAddress": "Masukkan email pribadi Anda di sini",
+    "@enterPersonalEmailAddress": {
+        "type": "text",
+        "description": "enterPersonalEmailAddress",
+        "source_text": "Enter your personal email here"
+    },
+    "enterQuestionDescriptionHere": "Masukkan deskripsi di sini (opsional)",
+    "@enterQuestionDescriptionHere": {
+        "type": "text",
+        "description": "enterQuestionDescriptionHere",
+        "source_text": "Enter description here (optional)"
+    },
+    "enterQuestionHere": "Masukkan pertanyaan di sini",
+    "@enterQuestionHere": {
+        "type": "text",
+        "description": "enterQuestionHere",
+        "source_text": "Enter question here"
+    },
+    "enterTitleHere": "Masukkan judul di sini",
+    "@enterTitleHere": {
+        "type": "text",
+        "description": "enterTitleHere",
+        "source_text": "Enter title here"
+    },
+    "enterUniqueUsername": "Masukkan nama pengguna yang unik",
+    "@enterUniqueUsername": {
+        "type": "text",
+        "description": "enterUniqueUsername",
+        "source_text": "Enter unique username"
+    },
+    "enterYourFinNumber": "Masukkan nomor FIN Anda",
+    "@enterYourFinNumber": {
+        "type": "text",
+        "description": "enterYourFinNumber",
+        "source_text": "Enter your FIN number"
+    },
+    "error": "Eror",
+    "@error": {
+        "type": "text",
+        "description": "error",
+        "source_text": "Error"
+    },
+    "exitAppConfirmationTitle": "Apakah Anda yakin ingin keluar dari aplikasi?",
+    "@exitAppConfirmationTitle": {
+        "type": "text",
+        "description": "exitAppConfirmationTitle",
+        "source_text": "Are you sure you want to exit the app?"
+    },
+    "facebookAd1": "Checkup kesehatan gratis selama streaming video live 10 detik? Bisa!",
+    "@facebookAd1": {
+        "type": "text",
+        "description": "facebookAd1",
+        "source_text": "Get a free health checkup while doing a 10 seconds live video stream? Sure!"
+    },
+    "facebookAd2": "Jaga kesehatan di tahun 2023. Ayo checkup kesehatan gratis dalam 10 detik dengan ponsel!",
+    "@facebookAd2": {
+        "type": "text",
+        "description": "facebookAd2",
+        "source_text": "Take control of your health in 2023. Get a free health checkup in 10 seconds using your phone!"
+    },
+    "facebookAd3": "Stres? Cek level stres Anda hanya dengan kamera ponsel dalam 10 detik.",
+    "@facebookAd3": {
+        "type": "text",
+        "description": "facebookAd3",
+        "source_text": "Feeling stressed? Check your stress levels with just your phone's camera in 10 seconds."
+    },
+    "facebookAd4": "Tidak ada waktu checkup kesehatan?",
+    "@facebookAd4": {
+        "type": "text",
+        "description": "facebookAd4",
+        "source_text": "No time for a health checkup? "
+    },
+    "facebookAd5": "Lebih sehat di tahun 2023",
+    "@facebookAd5": {
+        "type": "text",
+        "description": "facebookAd5",
+        "source_text": "Be a healthier you in 2023"
+    },
+    "facebookAd6": "Cek level stres Anda dalam 10 detik",
+    "@facebookAd6": {
+        "type": "text",
+        "description": "facebookAd6",
+        "source_text": "Check your stress level in 10s"
+    },
+    "facebookAd7": "Tidak perlu pemantau kebugaran",
+    "@facebookAd7": {
+        "type": "text",
+        "description": "facebookAd7",
+        "source_text": "No fitness tracker needed"
+    },
+    "facebookAd8": "Pantau kesehatan untuk hidup lebih baik",
+    "@facebookAd8": {
+        "type": "text",
+        "description": "facebookAd8",
+        "source_text": "Know your health, be better"
+    },
+    "facebookAd9": "Jangan khawatir, checkup saja",
+    "@facebookAd9": {
+        "type": "text",
+        "description": "facebookAd9",
+        "source_text": "Don't worry, just checkup"
+    },
+    "fatigueLevel": "Tingkat Kelelahan",
+    "@fatigueLevel": {
+        "type": "text",
+        "description": "fatigueLevel",
+        "source_text": "Fatigue Level"
+    },
+    "female": "Perempuan",
+    "@female": {
+        "type": "text",
+        "description": "female",
+        "source_text": "Female"
+    },
+    "filter": "Saring",
+    "@filter": {
+        "type": "text",
+        "description": "filter",
+        "source_text": "Filter"
+    },
+    "finalizingYourVitals": "Menyelesaikan tanda vital Anda…",
+    "@finalizingYourVitals": {
+        "type": "text",
+        "description": "finalizingYourVitals",
+        "source_text": "Finalizing your vitals..."
+    },
+    "gender": "Gender",
+    "@gender": {
+        "type": "text",
+        "description": "gender",
+        "source_text": "Gender"
+    },
+    "generateAnotherUsername": "Menghasilkan nama pengguna lain",
+    "@generateAnotherUsername": {
+        "type": "text",
+        "description": "generateAnotherUsername",
+        "source_text": "Generate another username"
+    },
+    "generateCredentialsWarningMessage1": "Kirim kredensial rahasia ke email pribadi Anda supaya data kesehatan yang berharga ini tidak hilang di kemudian hari.",
+    "@generateCredentialsWarningMessage1": {
+        "type": "text",
+        "description": "generateCredentialsWarningMessage1",
+        "source_text": "Send your secret credentials to your personal email so you don't lose your valuable health data in the future."
+    },
+    "generateCredentialsWarningMessage2": "Jika Anda melupakan kata sandi saat ini, gunakan kode pemulihan di https://app.bonfire.health/#/recover untuk mengakses akun kembali.",
+    "@generateCredentialsWarningMessage2": {
+        "type": "text",
+        "description": "generateCredentialsWarningMessage2",
+        "source_text": "If you have forgotten your current password, you can use your recovery codes to regain access to your account at https://app.bonfire.health/#/recover"
+    },
+    "getHelpNow": "Dapatkan bantuan sekarang",
+    "@getHelpNow": {
+        "type": "text",
+        "description": "getHelpNow",
+        "source_text": "Get help now"
+    },
+    "getStarted": "Memulai",
+    "@getStarted": {
+        "type": "text",
+        "description": "getStarted",
+        "source_text": "Get Started"
+    },
+    "globalConfirmation": "Konfirmasi",
+    "@globalConfirmation": {
+        "type": "text",
+        "description": "globalConfirmation",
+        "source_text": "Confirmation"
+    },
+    "goAnonymous": "Pergi anonim.",
+    "@goAnonymous": {
+        "type": "text",
+        "description": "goAnonymous",
+        "source_text": "Go anonymous."
+    },
+    "goals": "Sasaran",
+    "@goals": {
+        "type": "text",
+        "description": "goals",
+        "source_text": "Goals"
+    },
+    "grief": "Duka",
+    "@grief": {
+        "type": "text",
+        "description": "grief",
+        "source_text": "Grief"
+    },
+    "groups": "Kelompok",
+    "@groups": {
+        "type": "text",
+        "description": "groups",
+        "source_text": "Groups"
+    },
+    "heartRate": "Denyut Jantung",
+    "@heartRate": {
+        "type": "text",
+        "description": "heartRate",
+        "source_text": "Heart Rate"
+    },
+    "heartRateDescription": "Denyut Jantung adalah kecepatan detak jantung yang diukur berdasarkan jumlah kontraksi jantung per menit.",
+    "@heartRateDescription": {
+        "type": "text",
+        "description": "heartRateDescription",
+        "source_text": "Heart Rate is the speed of the heartbeat measured by the number of contractions of the heart per minute."
+    },
+    "heartRateNormalRangeValues": "60 sampai 100 BPM",
+    "@heartRateNormalRangeValues": {
+        "type": "text",
+        "description": "heartRateNormalRangeValues",
+        "source_text": "60 to 100 BPM"
+    },
+    "heartRateReading": "Angka Denyut Jantung",
+    "@heartRateReading": {
+        "type": "text",
+        "description": "heartRateReading",
+        "source_text": "Heart Rate Reading"
+    },
+    "heartRateReadingSource": "Sumber Angka Denyut Jantung",
+    "@heartRateReadingSource": {
+        "type": "text",
+        "description": "heartRateReadingSource",
+        "source_text": "Source of Heart Rate Reading"
+    },
+    "heartRateSymbol": "BPM",
+    "@heartRateSymbol": {
+        "type": "text",
+        "description": "heartRateSymbol",
+        "source_text": "BPM"
+    },
+    "heartRateVariability": "Variabilitas Denyut Jantung",
+    "@heartRateVariability": {
+        "type": "text",
+        "description": "heartRateVariability",
+        "source_text": "Heart Rate Variability"
+    },
+    "heartRateVariabilityDescription": "Variabilitas Denyut Jantung (HRV) adalah ukuran variasi waktu di antara setiap denyut jantung. Ini adalah indikator stres, HRV lebih tinggi berarti lebih baik.",
+    "@heartRateVariabilityDescription": {
+        "type": "text",
+        "description": "heartRateVariabilityDescription",
+        "source_text": "Heart Rate Variability is simply a measure of the variation in time between each heartbeat. It is an indicator of stress, higher hrv is better."
+    },
+    "heartRateVariabilityNormalRangeValues": "20 sampai 200 HRV",
+    "@heartRateVariabilityNormalRangeValues": {
+        "type": "text",
+        "description": "heartRateVariabilityNormalRangeValues",
+        "source_text": "20 to 200 HRV"
+    },
+    "heartRateVariabilitySymbol": "HRV",
+    "@heartRateVariabilitySymbol": {
+        "type": "text",
+        "description": "heartRateVariabilitySymbol",
+        "source_text": "HRV"
+    },
+    "height": "Tinggi",
+    "@height": {
+        "type": "text",
+        "description": "height",
+        "source_text": "Height"
+    },
+    "helloAlissa": "Perkenalkan Alissa, asisten checkup kesehatan Anda.",
+    "@helloAlissa": {
+        "type": "text",
+        "description": "helloAlissa",
+        "source_text": "Say hello to Alissa, your health checkup assistant."
+    },
+    "helloAlissaSubtitle": "Dapatkan pemberitahuan penting tentang kesehatan dan temukan hal-hal baru mengenai kesehatan fisik dan mental Anda.",
+    "@helloAlissaSubtitle": {
+        "type": "text",
+        "description": "helloAlissaSubtitle",
+        "source_text": "Get important health alerts and discover new things about your mental and physical health."
+    },
+    "helpPeerNow": "Bantu sesama sekarang",
+    "@helpPeerNow": {
+        "type": "text",
+        "description": "helpPeerNow",
+        "source_text": "Help a peer now"
+    },
+    "high": "Tinggi",
+    "@high": {
+        "type": "text",
+        "description": "high",
+        "source_text": "High"
+    },
+    "howSelfCareGoalsWorkSubtitle1": "Aplikasi Anda melacak menit yang dihabiskan untuk menjaga kesehatan mental Anda.",
+    "@howSelfCareGoalsWorkSubtitle1": {
+        "type": "text",
+        "description": "howSelfCareGoalsWorkSubtitle1",
+        "source_text": "Your app tracks your minutes spent in taking care of your mental health."
+    },
+    "howSelfCareGoalsWorkTitle": "Bagaimana tujuan perawatan diri bekerja",
+    "@howSelfCareGoalsWorkTitle": {
+        "type": "text",
+        "description": "howSelfCareGoalsWorkTitle",
+        "source_text": "How Self-Care Goals Work"
+    },
+    "howSupportGroupsWorkSubtitle1": "Grup pendukung memberi Anda ruang yang aman untuk mencari nasihat dengan cepat dari kolega seperti Anda.",
+    "@howSupportGroupsWorkSubtitle1": {
+        "type": "text",
+        "description": "howSupportGroupsWorkSubtitle1",
+        "source_text": "Support groups give you a safe space to seek advice quickly from colleagues like you."
+    },
+    "howSupportGroupsWorkSubtitle2": "Bergabunglah dengan grup yang ada atau sarankan yang baru. Kelompok baru yang disarankan membutuhkan setidaknya 10 suara untuk dibuat dan dibuka.",
+    "@howSupportGroupsWorkSubtitle2": {
+        "type": "text",
+        "description": "howSupportGroupsWorkSubtitle2",
+        "source_text": "Join existing groups or suggest new ones. New suggested groups require at least 10 votes to be created and opened."
+    },
+    "howSupportGroupsWorkTitle": "Bagaimana kelompok pendukung bekerja",
+    "@howSupportGroupsWorkTitle": {
+        "type": "text",
+        "description": "howSupportGroupsWorkTitle",
+        "source_text": "How Support Groups Work"
+    },
+    "hrv": "hrv",
+    "@hrv": {
+        "type": "text",
+        "description": "hrv",
+        "source_text": "hrv"
+    },
+    "insights": "Informasi",
+    "@insights": {
+        "type": "text",
+        "description": "insights",
+        "source_text": "Insights"
+    },
+    "invalidEmailAddressMessage": "Alamat email tidak valid. Silakan coba lagi.",
+    "@invalidEmailAddressMessage": {
+        "type": "text",
+        "description": "invalidEmailAddressMessage",
+        "source_text": "Email address is invalid. Please try again."
+    },
+    "invalidEmailAddressTitle": "Alamat Email Tidak Valid",
+    "@invalidEmailAddressTitle": {
+        "type": "text",
+        "description": "invalidEmailAddressTitle",
+        "source_text": "Invalid Email Address"
+    },
+    "invoices": "Invois",
+    "@invoices": {
+        "type": "text",
+        "description": "invoices",
+        "source_text": "Invoices"
+    },
+    "join": "Bergabung",
+    "@join": {
+        "type": "text",
+        "description": "join",
+        "source_text": "Join"
+    },
+    "joined": "Telah Bergabung",
+    "@joined": {
+        "type": "text",
+        "description": "joined",
+        "source_text": "Joined"
+    },
+    "journeys": "Perjalanan",
+    "@journeys": {
+        "type": "text",
+        "description": "journeys",
+        "source_text": "Journeys"
+    },
+    "landingMessage": "Saat ini aplikasi hanya tersedia di peramban web mobile menggunakan perangkat mobile. Gunakan perangkat mobile Anda untuk mengakses aplikasi ini.",
+    "@landingMessage": {
+        "type": "text",
+        "description": "landingMessage",
+        "source_text": "The app is currently available only on mobile web browser using your mobile device. Please kindly use your mobile device to access the app."
+    },
+    "landingTitle": "Selamat Datang di Checkup",
+    "@landingTitle": {
+        "type": "text",
+        "description": "landingTitle",
+        "source_text": "Welcome to Checkup"
+    },
+    "lastUpdatedAt": "Terakhir diperbarui pada",
+    "@lastUpdatedAt": {
+        "type": "text",
+        "description": "lastUpdatedAt",
+        "source_text": "Last updated at"
+    },
+    "login": "Masuk",
+    "@login": {
+        "type": "text",
+        "description": "login",
+        "source_text": "Login"
+    },
+    "loginSubtitle": "Masuk ke akun organisasi Anda",
+    "@loginSubtitle": {
+        "type": "text",
+        "description": "loginSubtitle",
+        "source_text": "Login to your organisation account"
+    },
+    "loginTitle": "Login Organisasi",
+    "@loginTitle": {
+        "type": "text",
+        "description": "loginTitle",
+        "source_text": "Organisation Login"
+    },
+    "logout": "Keluar",
+    "@logout": {
+        "type": "text",
+        "description": "logout",
+        "source_text": "Logout"
+    },
+    "low": "Rendah",
+    "@low": {
+        "type": "text",
+        "description": "low",
+        "source_text": "Low"
+    },
+    "male": "Laki-Laki",
+    "@male": {
+        "type": "text",
+        "description": "male",
+        "source_text": "Male"
+    },
+    "member": "Anggota",
+    "@member": {
+        "type": "text",
+        "description": "member",
+        "source_text": "Member"
+    },
+    "middleAgedAdultGroup": "Separuh Baya",
+    "@middleAgedAdultGroup": {
+        "type": "text",
+        "description": "middleAgedAdultGroup",
+        "source_text": "Middle Age Adult"
+    },
+    "middleAgedAdultGroupRange": "31-45 tahun",
+    "@middleAgedAdultGroupRange": {
+        "type": "text",
+        "description": "middleAgedAdultGroupRange",
+        "source_text": "31-45 yo"
+    },
+    "month": "Bulan",
+    "@month": {
+        "type": "text",
+        "description": "month",
+        "source_text": "Month"
+    },
+    "monthApr": "Apr",
+    "@monthApr": {
+        "type": "text",
+        "description": "monthApr",
+        "source_text": "Apr"
+    },
+    "monthAug": "Agu",
+    "@monthAug": {
+        "type": "text",
+        "description": "monthAug",
+        "source_text": "Aug"
+    },
+    "monthDec": "Des",
+    "@monthDec": {
+        "type": "text",
+        "description": "monthDec",
+        "source_text": "Dec"
+    },
+    "monthFeb": "Feb",
+    "@monthFeb": {
+        "type": "text",
+        "description": "monthFeb",
+        "source_text": "Feb"
+    },
+    "monthJan": "Jan",
+    "@monthJan": {
+        "type": "text",
+        "description": "monthJan",
+        "source_text": "Jan"
+    },
+    "monthJul": "Jul",
+    "@monthJul": {
+        "type": "text",
+        "description": "monthJul",
+        "source_text": "Jul"
+    },
+    "monthJun": "Jun",
+    "@monthJun": {
+        "type": "text",
+        "description": "monthJun",
+        "source_text": "Jun"
+    },
+    "monthMar": "Mar",
+    "@monthMar": {
+        "type": "text",
+        "description": "monthMar",
+        "source_text": "Mar"
+    },
+    "monthMay": "Mei",
+    "@monthMay": {
+        "type": "text",
+        "description": "monthMay",
+        "source_text": "May"
+    },
+    "monthNov": "Nov",
+    "@monthNov": {
+        "type": "text",
+        "description": "monthNov",
+        "source_text": "Nov"
+    },
+    "monthOct": "Okt",
+    "@monthOct": {
+        "type": "text",
+        "description": "monthOct",
+        "source_text": "Oct"
+    },
+    "monthSep": "Sep",
+    "@monthSep": {
+        "type": "text",
+        "description": "monthSep",
+        "source_text": "Sep"
+    },
+    "myAssessments": "Penilaian saya",
+    "@myAssessments": {
+        "type": "text",
+        "description": "myAssessments",
+        "source_text": "My Assessments"
+    },
+    "myHealthData": "Data kesehatan saya",
+    "@myHealthData": {
+        "type": "text",
+        "description": "myHealthData",
+        "source_text": "My Health Data"
+    },
+    "myHealthDataSubtitle": "Data kesehatan pribadi Anda menunjukkan tingkat stres Anda dari waktu ke waktu.",
+    "@myHealthDataSubtitle": {
+        "type": "text",
+        "description": "myHealthDataSubtitle",
+        "source_text": "Your personal health data shows your stress level over time."
+    },
+    "myLatestSuggestions": "Saran Terakhir Saya",
+    "@myLatestSuggestions": {
+        "type": "text",
+        "description": "myLatestSuggestions",
+        "source_text": "My Latest Suggestions"
+    },
+    "myLatestVitalReadings": "Angka Vital Terbaru Saya",
+    "@myLatestVitalReadings": {
+        "type": "text",
+        "description": "myLatestVitalReadings",
+        "source_text": "My Latest Vital Readings"
+    },
+    "myPreferences": "Preferensi saya",
+    "@myPreferences": {
+        "type": "text",
+        "description": "myPreferences",
+        "source_text": "My Preferences"
+    },
+    "mySavedQuestions": "Pertanyaan saya yang disimpan",
+    "@mySavedQuestions": {
+        "type": "text",
+        "description": "mySavedQuestions",
+        "source_text": "My Saved Questions"
+    },
+    "newPassword": "Kata sandi baru",
+    "@newPassword": {
+        "type": "text",
+        "description": "newPassword",
+        "source_text": "New password"
+    },
+    "newPasswordConfirm": "Konfirmasi kata sandi baru",
+    "@newPasswordConfirm": {
+        "type": "text",
+        "description": "newPasswordConfirm",
+        "source_text": "Confirm new password"
+    },
+    "next": "Lanjut",
+    "@next": {
+        "type": "text",
+        "description": "next",
+        "source_text": "Next"
+    },
+    "no": "Tidak",
+    "@no": {
+        "type": "text",
+        "description": "no",
+        "source_text": "No"
+    },
+    "noAnswers": "Bagikan jawaban Anda kepada grup",
+    "@noAnswers": {
+        "type": "text",
+        "description": "noAnswers",
+        "source_text": "Share your answer to the group"
+    },
+    "noAssessmentsMessage": "Tidak ada penilaian",
+    "@noAssessmentsMessage": {
+        "type": "text",
+        "description": "noAssessmentsMessage",
+        "source_text": "No assessments"
+    },
+    "noComments": "Bagikan komentar Anda kepada grup",
+    "@noComments": {
+        "type": "text",
+        "description": "noComments",
+        "source_text": "Share your comment to the group"
+    },
+    "noData": "Tidak ada data",
+    "@noData": {
+        "type": "text",
+        "description": "noData",
+        "source_text": "No Data"
+    },
+    "noGroups": "Mulai grup baru untuk memulai",
+    "@noGroups": {
+        "type": "text",
+        "description": "noGroups",
+        "source_text": "Start a new group to get started"
+    },
+    "noHealthDataMessage": "Data kesehatan tidak tersedia. Mulai pemeriksaan pertama Anda.",
+    "@noHealthDataMessage": {
+        "type": "text",
+        "description": "noHealthDataMessage",
+        "source_text": "No health data available. Get started with your first screening."
+    },
+    "noQuestions": "Membuat pertanyaan baru untuk memulai",
+    "@noQuestions": {
+        "type": "text",
+        "description": "noQuestions",
+        "source_text": "Create a new question to get started"
+    },
+    "normal": "Normal",
+    "@normal": {
+        "type": "text",
+        "description": "normal",
+        "source_text": "Normal"
+    },
+    "normalRange": "Kisaran Normal",
+    "@normalRange": {
+        "type": "text",
+        "description": "normalRange",
+        "source_text": "Normal Range"
+    },
+    "normalweight": "Berat Badan Normal",
+    "@normalweight": {
+        "type": "text",
+        "description": "normalweight",
+        "source_text": "Normal Weight"
+    },
+    "normalweightRange": "18,5–22,9",
+    "@normalweightRange": {
+        "type": "text",
+        "description": "normalweightRange",
+        "source_text": "18.5-22.9"
+    },
+    "obese": "Obesitas",
+    "@obese": {
+        "type": "text",
+        "description": "obese",
+        "source_text": "Obese"
+    },
+    "obeseRange": ">29,9",
+    "@obeseRange": {
+        "type": "text",
+        "description": "obeseRange",
+        "source_text": ">29.9"
+    },
+    "ok": "Oke",
+    "@ok": {
+        "type": "text",
+        "description": "ok",
+        "source_text": "OK"
+    },
+    "oldAgedAdultGroup": "Lanjut Usia",
+    "@oldAgedAdultGroup": {
+        "type": "text",
+        "description": "oldAgedAdultGroup",
+        "source_text": "Old Aged Adult"
+    },
+    "oldAgedAdultGroupRange": ">45 tahun",
+    "@oldAgedAdultGroupRange": {
+        "type": "text",
+        "description": "oldAgedAdultGroupRange",
+        "source_text": ">45 yo"
+    },
+    "oneTime": "Satu kali",
+    "@oneTime": {
+        "type": "text",
+        "description": "oneTime",
+        "source_text": "One-time"
+    },
+    "oneTimeSubtitle": "Periksa risiko apnea tidur dalam beberapa pertanyaan",
+    "@oneTimeSubtitle": {
+        "type": "text",
+        "description": "oneTimeSubtitle",
+        "source_text": "Check for sleep apnea risk in a few questions"
+    },
+    "others": "Yang lain",
+    "@others": {
+        "type": "text",
+        "description": "others",
+        "source_text": "Others"
+    },
+    "overweight": "Berat Badan Berlebih",
+    "@overweight": {
+        "type": "text",
+        "description": "overweight",
+        "source_text": "Overweight"
+    },
+    "overweightRange": "23–24,9",
+    "@overweightRange": {
+        "type": "text",
+        "description": "overweightRange",
+        "source_text": "23-24.9"
+    },
+    "oxygenLevel": "Level Oksigen",
+    "@oxygenLevel": {
+        "type": "text",
+        "description": "oxygenLevel",
+        "source_text": "Oxygen Level"
+    },
+    "oxygenLevelSymbol": "O2",
+    "@oxygenLevelSymbol": {
+        "type": "text",
+        "description": "oxygenLevelSymbol",
+        "source_text": "O2"
+    },
+    "parenthood": "Orang tua",
+    "@parenthood": {
+        "type": "text",
+        "description": "parenthood",
+        "source_text": "Parenthood"
+    },
+    "passcodeNotMatched": "Kode sandi tidak sesuai, silakan coba lagi.",
+    "@passcodeNotMatched": {
+        "type": "text",
+        "description": "passcodeNotMatched",
+        "source_text": "The passcode does not match, please try again."
+    },
+    "password": "Kata sandi",
+    "@password": {
+        "type": "text",
+        "description": "password",
+        "source_text": "Password"
+    },
+    "passwordNotMatchedMessage": "Kata sandi Anda tidak sesuai dengan kata sandi konfirmasi",
+    "@passwordNotMatchedMessage": {
+        "type": "text",
+        "description": "passwordNotMatchedMessage",
+        "source_text": "Your password does not match with the confirm password."
+    },
+    "passwordNotMatchedTitle": "Kata Sandi Tidak Sesuai",
+    "@passwordNotMatchedTitle": {
+        "type": "text",
+        "description": "passwordNotMatchedTitle",
+        "source_text": "Password Not Matched"
+    },
+    "passwordNotMetRequirementMessage": "Kata sandi harus terdiri dari minimal satu huruf besar, satu huruf kecil, satu digit, dan satu karakter spesial. Panjang kata sandi minimal 8 karakter.",
+    "@passwordNotMetRequirementMessage": {
+        "type": "text",
+        "description": "passwordNotMetRequirementMessage",
+        "source_text": "Your password should contains at least 1 uppercase letter, 1 lowercase letter, 1 digit and 1 special character. Your password length should have a minimum of 8 characters."
+    },
+    "passwordNotMetRequirementTitle": "Persyaratan Kata Sandi Tidak Terpenuhi",
+    "@passwordNotMetRequirementTitle": {
+        "type": "text",
+        "description": "passwordNotMetRequirementTitle",
+        "source_text": "Password Requirements Not Met"
+    },
+    "passwordNotValidMessage": "Kata sandi Anda tidak valid.",
+    "@passwordNotValidMessage": {
+        "type": "text",
+        "description": "passwordNotValidMessage",
+        "source_text": "Your password is not valid."
+    },
+    "passwordNotValidTitle": "Kata Sandi Tidak Valid",
+    "@passwordNotValidTitle": {
+        "type": "text",
+        "description": "passwordNotValidTitle",
+        "source_text": "Invalid Password"
+    },
+    "pauseForNow": "Saya akan berhenti untuk saat ini",
+    "@pauseForNow": {
+        "type": "text",
+        "description": "pauseForNow",
+        "source_text": "I'll pause for now"
+    },
+    "pauseSupportAnytime": "Anda dapat menjeda dukungan saya kapan saja",
+    "@pauseSupportAnytime": {
+        "type": "text",
+        "description": "pauseSupportAnytime",
+        "source_text": "You can pause my support at any time"
+    },
+    "personalDevelopment": "Pengembangan Diri",
+    "@personalDevelopment": {
+        "type": "text",
+        "description": "personalDevelopment",
+        "source_text": "Personal Development"
+    },
+    "pleaseChooseGroup": "Pilih grup",
+    "@pleaseChooseGroup": {
+        "type": "text",
+        "description": "pleaseChooseGroup",
+        "source_text": "Please choose group"
+    },
+    "poweredBy": "Dipersembahkan oleh",
+    "@poweredBy": {
+        "type": "text",
+        "description": "poweredBy",
+        "source_text": "Powered by"
+    },
+    "poweredByCheckup": "Dipersembahkan oleh Checkup",
+    "@poweredByCheckup": {
+        "type": "text",
+        "description": "poweredByCheckup",
+        "source_text": "Powered by Checkup"
+    },
+    "preobese": "Pra-Obesitas",
+    "@preobese": {
+        "type": "text",
+        "description": "preobese",
+        "source_text": "Pre-Obese"
+    },
+    "preobeseRange": "25–29,9",
+    "@preobeseRange": {
+        "type": "text",
+        "description": "preobeseRange",
+        "source_text": "25-29.9"
+    },
+    "previous": "Sebelumnya",
+    "@previous": {
+        "type": "text",
+        "description": "previous",
+        "source_text": "Previous"
+    },
+    "profile": "Profil",
+    "@profile": {
+        "type": "text",
+        "description": "profile",
+        "source_text": "Profile"
+    },
+    "questionsAndAnswers": "Q&A",
+    "@questionsAndAnswers": {
+        "type": "text",
+        "description": "questionsAndAnswers",
+        "source_text": "Q&A"
+    },
+    "readinessIndex": "Indeks Kesiapan",
+    "@readinessIndex": {
+        "type": "text",
+        "description": "readinessIndex",
+        "source_text": "Readiness Index"
+    },
+    "readinessIndexDescription": "Indeks Kesiapan mengukur perubahan dalam pemulihan dan stres tubuh Anda. Jika Indeks Kesiapan Anda adalah 80/100, itu menunjukkan bahwa sistem saraf Anda 80% dalam pemulihan (istirahat dan cerna) dan 20% dalam stres (lawan atau terbang). Indeks Kesiapan yang lebih tinggi adalah ideal.",
+    "@readinessIndexDescription": {
+        "type": "text",
+        "description": "readinessIndexDescription",
+        "source_text": "The Readiness Index measures the changes in your body’s recovery and stress states. If your Readiness Index is 80/100, it indicates your nervous system is 80% in recovery (rest and digest) and 20% in stress (fight or flight). A higher Readiness Index is ideal."
+    },
+    "readinessIndexNormalRangeValues": "50 hingga 100 RI",
+    "@readinessIndexNormalRangeValues": {
+        "type": "text",
+        "description": "readinessIndexNormalRangeValues",
+        "source_text": "50 to 100 RI"
+    },
+    "readinessIndexSymbol": "RI",
+    "@readinessIndexSymbol": {
+        "type": "text",
+        "description": "readinessIndexSymbol",
+        "source_text": "RI"
+    },
+    "readinessLevel": "Tingkat kesiapan",
+    "@readinessLevel": {
+        "type": "text",
+        "description": "readinessLevel",
+        "source_text": "Readiness Level"
+    },
+    "recoverAccount": "Pulihkan akun",
+    "@recoverAccount": {
+        "type": "text",
+        "description": "recoverAccount",
+        "source_text": "Recover account"
+    },
+    "recoverAccountSubtitle": "Pulihkan akun Anda dengan kode pemulihan",
+    "@recoverAccountSubtitle": {
+        "type": "text",
+        "description": "recoverAccountSubtitle",
+        "source_text": "Recover your account using the recovery code"
+    },
+    "recoverAccountTitle": "Pulihkan akun",
+    "@recoverAccountTitle": {
+        "type": "text",
+        "description": "recoverAccountTitle",
+        "source_text": "Recover account"
+    },
+    "recoveryCode": "Kode pemulihan",
+    "@recoveryCode": {
+        "type": "text",
+        "description": "recoveryCode",
+        "source_text": "Recovery code"
+    },
+    "recoveryCodes": "Kode Pemulihan",
+    "@recoveryCodes": {
+        "type": "text",
+        "description": "recoveryCodes",
+        "source_text": "Recovery Codes"
+    },
+    "recurring": "Berulang",
+    "@recurring": {
+        "type": "text",
+        "description": "recurring",
+        "source_text": "Recurring"
+    },
+    "recurringSubtitle": "Periksa level stres Anda dalam 5 pertanyaan singkat",
+    "@recurringSubtitle": {
+        "type": "text",
+        "description": "recurringSubtitle",
+        "source_text": "Check in on your stress level in 5 short questions"
+    },
+    "reenterPasscode": "Masukkan kode sandi Anda lagi",
+    "@reenterPasscode": {
+        "type": "text",
+        "description": "reenterPasscode",
+        "source_text": "Enter your passcode again"
+    },
+    "relationships": "Hubungan",
+    "@relationships": {
+        "type": "text",
+        "description": "relationships",
+        "source_text": "Relationships"
+    },
+    "reportGroup": "Laporan Grup",
+    "@reportGroup": {
+        "type": "text",
+        "description": "reportGroup",
+        "source_text": "Report group"
+    },
+    "reportUser": "Laporan pengguna",
+    "@reportUser": {
+        "type": "text",
+        "description": "reportUser",
+        "source_text": "Report user"
+    },
+    "resetPassword": "Reset kata sandi",
+    "@resetPassword": {
+        "type": "text",
+        "description": "resetPassword",
+        "source_text": "Reset password"
+    },
+    "resetPasswordFailedMessage": "Kata sandi akun Anda tidak berhasil direset. Silakan coba lagi.",
+    "@resetPasswordFailedMessage": {
+        "type": "text",
+        "description": "resetPasswordFailedMessage",
+        "source_text": "Your account password did not reset successfully. Please try again."
+    },
+    "resetPasswordFailedTitle": "Reset Kata Sandi Gagal",
+    "@resetPasswordFailedTitle": {
+        "type": "text",
+        "description": "resetPasswordFailedTitle",
+        "source_text": "Reset Password Failed"
+    },
+    "resetPasswordRedirectMessage": "Harap menunggu sementara kami mengarahkan Anda ke halaman masuk…",
+    "@resetPasswordRedirectMessage": {
+        "type": "text",
+        "description": "resetPasswordRedirectMessage",
+        "source_text": "Please wait while we redirect you to the sign in page..."
+    },
+    "resetPasswordSubtitle": "Atur kata sandi baru",
+    "@resetPasswordSubtitle": {
+        "type": "text",
+        "description": "resetPasswordSubtitle",
+        "source_text": "Set new password"
+    },
+    "resetPasswordSuccessMessage": "Kata sandi telah berhasil diatur ulang.",
+    "@resetPasswordSuccessMessage": {
+        "type": "text",
+        "description": "resetPasswordSuccessMessage",
+        "source_text": "The password has been reset successfully."
+    },
+    "resetPasswordSuccessTitle": "Reset Kata Sandi Berhasil",
+    "@resetPasswordSuccessTitle": {
+        "type": "text",
+        "description": "resetPasswordSuccessTitle",
+        "source_text": "Reset Password Success"
+    },
+    "resetPasswordTitle": "Reset kata sandi",
+    "@resetPasswordTitle": {
+        "type": "text",
+        "description": "resetPasswordTitle",
+        "source_text": "Reset password"
+    },
+    "respiratoryRate": "Laju Pernapasan",
+    "@respiratoryRate": {
+        "type": "text",
+        "description": "respiratoryRate",
+        "source_text": "Respiratory Rate"
+    },
+    "respiratoryRateDescription": "Laju pernapasan adalah jumlah tarikan dan embusan napas per menit. Laju pernapasan ini biasanya diukur ketika seseorang sedang istirahat dan hanya memperhatikan jumlah napas selama satu menit dengan menghitung berapa kali dadanya naik.",
+    "@respiratoryRateDescription": {
+        "type": "text",
+        "description": "respiratoryRateDescription",
+        "source_text": "The respiration rate is the number of breaths a person takes per minute. The rate is usually measured when a person is at rest and simply involves counting the number of breaths for one minute by counting how many times the chest rises."
+    },
+    "respiratoryRateNormalRangeValues": "12 sampai 16 RR",
+    "@respiratoryRateNormalRangeValues": {
+        "type": "text",
+        "description": "respiratoryRateNormalRangeValues",
+        "source_text": "12 to 16 RR"
+    },
+    "respiratoryRateSymbol": "RR",
+    "@respiratoryRateSymbol": {
+        "type": "text",
+        "description": "respiratoryRateSymbol",
+        "source_text": "RR"
+    },
+    "resumeQuestion": "Resume?",
+    "@resumeQuestion": {
+        "type": "text",
+        "description": "resumeQuestion",
+        "source_text": "Resume?"
+    },
+    "rewards": "Hadiah",
+    "@rewards": {
+        "type": "text",
+        "description": "rewards",
+        "source_text": "Rewards"
+    },
+    "save": "Simpan",
+    "@save": {
+        "type": "text",
+        "description": "save",
+        "source_text": "Save"
+    },
+    "saveCredentials": "Simpan Kredensial",
+    "@saveCredentials": {
+        "type": "text",
+        "description": "saveCredentials",
+        "source_text": "Save Credentials"
+    },
+    "savedCollection": "Koleksi Tersimpan",
+    "@savedCollection": {
+        "type": "text",
+        "description": "savedCollection",
+        "source_text": "Saved Collection"
+    },
+    "savedHealthSuggestions": "Saran Kesehatan",
+    "@savedHealthSuggestions": {
+        "type": "text",
+        "description": "savedHealthSuggestions",
+        "source_text": "Health Suggestions"
+    },
+    "savedQuestions": "Pertanyaan",
+    "@savedQuestions": {
+        "type": "text",
+        "description": "savedQuestions",
+        "source_text": "Questions"
+    },
+    "screening": "Pemeriksaan",
+    "@screening": {
+        "type": "text",
+        "description": "screening",
+        "source_text": "Screening"
+    },
+    "screeningBadVideoQualityMessage": "Video terlihat gelap, mari kita temukan sudut atau tempat yang lebih cerah ...",
+    "@screeningBadVideoQualityMessage": {
+        "type": "text",
+        "description": "screeningBadVideoQualityMessage",
+        "source_text": "The video looks dark, let's find a brighter angle or place..."
+    },
+    "screeningCheckingVideoQualityMessage": "Memastikan kualitas video Anda cocok untuk Instagram atau TikTok…",
+    "@screeningCheckingVideoQualityMessage": {
+        "type": "text",
+        "description": "screeningCheckingVideoQualityMessage",
+        "source_text": "Making sure your video quality is Instagram or TikTok-worthy..."
+    },
+    "screeningPredictingMessage": "Analisis selesai! Silakan bersantai sementara kami mengukur alat vital Anda…",
+    "@screeningPredictingMessage": {
+        "type": "text",
+        "description": "screeningPredictingMessage",
+        "source_text": "Analysis complete! You can relax while we measure your vitals..."
+    },
+    "screeningRecordingMessage": "Menganalisis… Harap pastikan kepala Anda diam dan wajah di dalam kotak…",
+    "@screeningRecordingMessage": {
+        "type": "text",
+        "description": "screeningRecordingMessage",
+        "source_text": "Analyzing... Please keep your head still and face in the box..."
+    },
+    "screeningStartMessage": "Sebelum kita mulai, mari kita napas dalam -dalam",
+    "@screeningStartMessage": {
+        "type": "text",
+        "description": "screeningStartMessage",
+        "source_text": "Before we begin, let's take a deep breath for 5 seconds..."
+    },
+    "screeningSubtitle": "Tekan untuk memindai wajah Anda dan memeriksa tanda vital Anda",
+    "@screeningSubtitle": {
+        "type": "text",
+        "description": "screeningSubtitle",
+        "source_text": "Press to scan your face and check your vitals"
+    },
+    "screeningTitle": "Bagaimana perasaan Anda hari ini?",
+    "@screeningTitle": {
+        "type": "text",
+        "description": "screeningTitle",
+        "source_text": "How are you feeling today?"
+    },
+    "screeningWarmUpMessage": "Taktu djúpt andann í 5 sekúndur ...",
+    "@screeningWarmUpMessage": {
+        "type": "text",
+        "description": "screeningWarmUpMessage",
+        "source_text": "Take a deep breath for 5 seconds..."
+    },
+    "search": "Mencari",
+    "@search": {
+        "type": "text",
+        "description": "search",
+        "source_text": "Search"
+    },
+    "secretCredentialsSentMessage": "Kredensial rahasia telah dikirim ke alamat email pribadi Anda.",
+    "@secretCredentialsSentMessage": {
+        "type": "text",
+        "description": "secretCredentialsSentMessage",
+        "source_text": "Your secret credentials has just sent to your personal email address."
+    },
+    "secretCredentialsSentTitle": "Kredensial Rahasia Terkirim",
+    "@secretCredentialsSentTitle": {
+        "type": "text",
+        "description": "secretCredentialsSentTitle",
+        "source_text": "Secret Credentials Sent"
+    },
+    "secureWithBiometrics": "Aman dengan biometrik",
+    "@secureWithBiometrics": {
+        "type": "text",
+        "description": "secureWithBiometrics",
+        "source_text": "Secure With Biometrics"
+    },
+    "selectPhoto": "Pilih foto",
+    "@selectPhoto": {
+        "type": "text",
+        "description": "selectPhoto",
+        "source_text": "Select Photo"
+    },
+    "send": "Kirim",
+    "@send": {
+        "type": "text",
+        "description": "send",
+        "source_text": "Send"
+    },
+    "setAnswer": "{answer} jawaban",
+    "@setAnswer": {
+        "type": "text",
+        "description": "setAnswer",
+        "source_text": "{answer} answer",
+        "placeholders": {
+            "answer": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setAnswers": "{answers} jawaban",
+    "@setAnswers": {
+        "type": "text",
+        "description": "setAnswers",
+        "source_text": "{answers} answers",
+        "placeholders": {
+            "answers": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setByUsername": "oleh {username}",
+    "@setByUsername": {
+        "type": "text",
+        "description": "setByUsername",
+        "source_text": "by {username}",
+        "placeholders": {
+            "username": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setComment": "{comment} komentar",
+    "@setComment": {
+        "type": "text",
+        "description": "setComment",
+        "source_text": "{comment} comment",
+        "placeholders": {
+            "comment": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setComments": "{comments} Komentar",
+    "@setComments": {
+        "type": "text",
+        "description": "setComments",
+        "source_text": "{comments} comments",
+        "placeholders": {
+            "comments": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setCreditsEarned": "{earnedCredits} kredit",
+    "@setCreditsEarned": {
+        "type": "text",
+        "description": "setCreditsEarned",
+        "source_text": "{earnedCredits} Credits",
+        "placeholders": {
+            "earnedCredits": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setCreditsToEarn": "{earnCredits} kredit",
+    "@setCreditsToEarn": {
+        "type": "text",
+        "description": "setCreditsToEarn",
+        "source_text": "{earnCredits} Credits",
+        "placeholders": {
+            "earnCredits": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setDaysAgo": "{days} hari lalu",
+    "@setDaysAgo": {
+        "type": "text",
+        "description": "setDaysAgo",
+        "source_text": "{days}d ago",
+        "placeholders": {
+            "days": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setFemales": "{numberOfFemales} Perempuan",
+    "@setFemales": {
+        "type": "text",
+        "description": "setFemales",
+        "source_text": "{numberOfFemales} Females",
+        "placeholders": {
+            "numberOfFemales": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setFoundMatches": "Ditemukan {numberOfMatches} cocok",
+    "@setFoundMatches": {
+        "type": "text",
+        "description": "setFoundMatches",
+        "source_text": "Found {numberOfMatches} matches",
+        "placeholders": {
+            "numberOfMatches": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setGoAnonymousSubtitle": "Kami tidak mengumpulkan atau membagikan data pribadi apa pun dengan siapa pun. Bahkan dengan majikan Anda, {organisationName}",
+    "@setGoAnonymousSubtitle": {
+        "type": "text",
+        "description": "setGoAnonymousSubtitle",
+        "source_text": "We do not collect or share any personal data with anyone. Not even with your employer, {organisationName}",
+        "placeholders": {
+            "organisationName": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setHoursAgo": "{hours} jam lalu",
+    "@setHoursAgo": {
+        "type": "text",
+        "description": "setHoursAgo",
+        "source_text": "{hours}h ago",
+        "placeholders": {
+            "hours": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setHowSelfCareGoalsWorkSubtitle2": "Habiskan lebih banyak waktu setiap minggu untuk istirahat rutin atau menonton suasana hati Anda. Pikirkan Anda dapat menikmati {minutes} menit perawatan diri momen dalam seminggu?",
+    "@setHowSelfCareGoalsWorkSubtitle2": {
+        "type": "text",
+        "description": "setHowSelfCareGoalsWorkSubtitle2",
+        "source_text": "Spend more time every week taking regular breaks or watching your mood. Think you can enjoy {minutes} mins of self-care moments a week?",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setLastDays": "{numberOfDays} hari terakhir",
+    "@setLastDays": {
+        "type": "text",
+        "description": "setLastDays",
+        "source_text": "Last {numberOfDays} days",
+        "placeholders": {
+            "numberOfDays": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMales": "{numberOfMales} Laki-Laki",
+    "@setMales": {
+        "type": "text",
+        "description": "setMales",
+        "source_text": "{numberOfMales} Males",
+        "placeholders": {
+            "numberOfMales": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMember": "{member} anggota",
+    "@setMember": {
+        "type": "text",
+        "description": "setMember",
+        "source_text": "{member} member",
+        "placeholders": {
+            "member": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMembers": "{members} anggota",
+    "@setMembers": {
+        "type": "text",
+        "description": "setMembers",
+        "source_text": "{members} members",
+        "placeholders": {
+            "members": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinsLeft": "{minutes} menit lagi",
+    "@setMinsLeft": {
+        "type": "text",
+        "description": "setMinsLeft",
+        "source_text": "{minutes} mins left",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinutes": "{minutes} menit",
+    "@setMinutes": {
+        "type": "text",
+        "description": "setMinutes",
+        "source_text": "{minutes} mins ",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinutesAgo": "{minutes} menit lalu",
+    "@setMinutesAgo": {
+        "type": "text",
+        "description": "setMinutesAgo",
+        "source_text": "{minutes}m ago",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMore": "{numberOf} lebih",
+    "@setMore": {
+        "type": "text",
+        "description": "setMore",
+        "source_text": "{numberOf} more",
+        "placeholders": {
+            "numberOf": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setQuestion": "{question} pertanyaan",
+    "@setQuestion": {
+        "type": "text",
+        "description": "setQuestion",
+        "source_text": "{question} question",
+        "placeholders": {
+            "question": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setQuestions": "{questions} pertanyaan",
+    "@setQuestions": {
+        "type": "text",
+        "description": "setQuestions",
+        "source_text": "{questions} questions",
+        "placeholders": {
+            "questions": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSave": "{numberOfSaves} Simpan",
+    "@setSave": {
+        "type": "text",
+        "description": "setSave",
+        "source_text": "{numberOfSaves} save",
+        "placeholders": {
+            "numberOfSaves": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSaves": "{numberOfSaves} Menyimpan",
+    "@setSaves": {
+        "type": "text",
+        "description": "setSaves",
+        "source_text": "{numberOfSaves} saves",
+        "placeholders": {
+            "numberOfSaves": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSecondsAgo": "{seconds} detik lalu",
+    "@setSecondsAgo": {
+        "type": "text",
+        "description": "setSecondsAgo",
+        "source_text": "{seconds}s ago",
+        "placeholders": {
+            "seconds": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSlotsLeft": "Slot kiri: {currentAvailableSlots} / {totalSlots}",
+    "@setSlotsLeft": {
+        "type": "text",
+        "description": "setSlotsLeft",
+        "source_text": "Slots left: {currentAvailableSlots} / {totalSlots}",
+        "placeholders": {
+            "currentAvailableSlots": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            },
+            "totalSlots": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setStressLevel": "Tingkat stres Anda kelihatannya {stressLevel}.",
+    "@setStressLevel": {
+        "type": "text",
+        "description": "setStressLevel",
+        "source_text": "Your stress level seems {stressLevel}.",
+        "placeholders": {
+            "stressLevel": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setTakeMinsSelfCare2": "{minutes} menit",
+    "@setTakeMinsSelfCare2": {
+        "type": "text",
+        "description": "setTakeMinsSelfCare2",
+        "source_text": "{minutes} mins ",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setUsersAggregatedVitals": "Tanda vital gabungan {numberOfUsers} pengguna",
+    "@setUsersAggregatedVitals": {
+        "type": "text",
+        "description": "setUsersAggregatedVitals",
+        "source_text": "{numberOfUsers} users' aggregated vitals",
+        "placeholders": {
+            "numberOfUsers": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVote": "{vote} vote",
+    "@setVote": {
+        "type": "text",
+        "description": "setVote",
+        "source_text": "{vote} vote",
+        "placeholders": {
+            "vote": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVotes": "{votes} vote",
+    "@setVotes": {
+        "type": "text",
+        "description": "setVotes",
+        "source_text": "{votes} votes",
+        "placeholders": {
+            "votes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVotesRemaining": "Membutuhkan {numberOfVotes} suara yang tersisa untuk dibuka",
+    "@setVotesRemaining": {
+        "type": "text",
+        "description": "setVotesRemaining",
+        "source_text": "Requires {numberOfVotes} votes left to open",
+        "placeholders": {
+            "numberOfVotes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setWeeksAgo": "{weeks} minggu lalu",
+    "@setWeeksAgo": {
+        "type": "text",
+        "description": "setWeeksAgo",
+        "source_text": "{weeks}w ago",
+        "placeholders": {
+            "weeks": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setYearsAgo": "{years} tahun lalu",
+    "@setYearsAgo": {
+        "type": "text",
+        "description": "setYearsAgo",
+        "source_text": "{years}y ago",
+        "placeholders": {
+            "years": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "settings": "Pengaturan",
+    "@settings": {
+        "type": "text",
+        "description": "settings",
+        "source_text": "Settings"
+    },
+    "setupCredentialsMessage": "Mohon tunggu sementara kami mengatur akun anonim Checkup Anda…",
+    "@setupCredentialsMessage": {
+        "type": "text",
+        "description": "setupCredentialsMessage",
+        "source_text": "Please wait while we setting up your Checkup anonymous account..."
+    },
+    "shareYourAnswer": "Bagikan jawaban Anda",
+    "@shareYourAnswer": {
+        "type": "text",
+        "description": "shareYourAnswer",
+        "source_text": "Share your answer"
+    },
+    "signIn": "Masuk",
+    "@signIn": {
+        "type": "text",
+        "description": "signIn",
+        "source_text": "Sign In"
+    },
+    "signInSubtitle": "Masuk ke akun anonim Anda",
+    "@signInSubtitle": {
+        "type": "text",
+        "description": "signInSubtitle",
+        "source_text": "Sign in to your anonymous account"
+    },
+    "signInTitle": "Masuk",
+    "@signInTitle": {
+        "type": "text",
+        "description": "signInTitle",
+        "source_text": "Sign In"
+    },
+    "signOut": "Keluar",
+    "@signOut": {
+        "type": "text",
+        "description": "signOut",
+        "source_text": "Sign out"
+    },
+    "skip": "Lewati",
+    "@skip": {
+        "type": "text",
+        "description": "skip",
+        "source_text": "Skip"
+    },
+    "skipGeneratedCredentialsDescription": "Apa Anda yakin ingin melewatkan pengiriman kredensial rahasia ke email pribadi? Harap diketahui bahwa ini tidak dapat diubah lagi dan tidak bisa dipulihkan di kemudian hari.",
+    "@skipGeneratedCredentialsDescription": {
+        "type": "text",
+        "description": "skipGeneratedCredentialsDescription",
+        "source_text": "Are you sure to skip sending the secret credentials to your personal email? Please note that this is irreversible and cannot be recovered in the future."
+    },
+    "skipGeneratedCredentialsTitle": "Peringatan Melewatkan",
+    "@skipGeneratedCredentialsTitle": {
+        "type": "text",
+        "description": "skipGeneratedCredentialsTitle",
+        "source_text": "Skip Warning"
+    },
+    "stressIndex": "Indeks Stres",
+    "@stressIndex": {
+        "type": "text",
+        "description": "stressIndex",
+        "source_text": "Stress Index"
+    },
+    "stressIndexDescription": "Indeks Stres Baevsky adalah ukuran geometrik HRV yang merefleksikan stres sistem kardiovaskular. Indeks stres antara 0 dan 3 berarti level stres rendah. Indeks stres antara 4 dan 5 berarti level stres normal. Indeks stres antara 7 dan 10 berarti level stres tinggi.",
+    "@stressIndexDescription": {
+        "type": "text",
+        "description": "stressIndexDescription",
+        "source_text": "Baevsky's Stress Index is a geometric measure of HRV reflecting cardiovascular system stress. Stress index between 0 and 3 means low stress level. Stress index between 4 and 5 means normal stress level. Stress index between 7 and 10 means high stress level."
+    },
+    "stressIndexNormalRangeValues": "4 sampai 6 SI",
+    "@stressIndexNormalRangeValues": {
+        "type": "text",
+        "description": "stressIndexNormalRangeValues",
+        "source_text": "4 to 6 SI"
+    },
+    "stressIndexSymbol": "SI",
+    "@stressIndexSymbol": {
+        "type": "text",
+        "description": "stressIndexSymbol",
+        "source_text": "SI"
+    },
+    "stressLevel": "Level Stres",
+    "@stressLevel": {
+        "type": "text",
+        "description": "stressLevel",
+        "source_text": "Stress Level"
+    },
+    "stressLevelTitle": "Tingkat stres Anda kelihatannya",
+    "@stressLevelTitle": {
+        "type": "text",
+        "description": "stressLevelTitle",
+        "source_text": "Your stress level seems"
+    },
+    "submit": "Kirim",
+    "@submit": {
+        "type": "text",
+        "description": "submit",
+        "source_text": "Submit"
+    },
+    "suggest": "Sarankan",
+    "@suggest": {
+        "type": "text",
+        "description": "suggest",
+        "source_text": "Suggest"
+    },
+    "suggestNewSupportGroup": "Sarankan Grup Dukungan Baru",
+    "@suggestNewSupportGroup": {
+        "type": "text",
+        "description": "suggestNewSupportGroup",
+        "source_text": "Suggest New Support Group"
+    },
+    "suggestNewSupportGroupSubtitle": "Grup pendukung akan membuka percakapan yang penting bagi Anda:",
+    "@suggestNewSupportGroupSubtitle": {
+        "type": "text",
+        "description": "suggestNewSupportGroupSubtitle",
+        "source_text": "A support group would open conversations that matter to you:"
+    },
+    "suggestion": "Saran",
+    "@suggestion": {
+        "type": "text",
+        "description": "suggestion",
+        "source_text": "Suggestion"
+    },
+    "suggestionsSubtitle": "Ini satu hal kecil yang bisa Anda coba",
+    "@suggestionsSubtitle": {
+        "type": "text",
+        "description": "suggestionsSubtitle",
+        "source_text": "Here’s one small thing you can try doing"
+    },
+    "supportGroups": "Kelompok Dukungan",
+    "@supportGroups": {
+        "type": "text",
+        "description": "supportGroups",
+        "source_text": "Support Groups"
+    },
+    "systolicBloodPressure": "Tekanan Darah Sistolik",
+    "@systolicBloodPressure": {
+        "type": "text",
+        "description": "systolicBloodPressure",
+        "source_text": "Systolic Blood Pressure"
+    },
+    "systolicBloodPressureSymbol": "SP",
+    "@systolicBloodPressureSymbol": {
+        "type": "text",
+        "description": "systolicBloodPressureSymbol",
+        "source_text": "SP"
+    },
+    "takeMinsSelfCare1": "Mengambil",
+    "@takeMinsSelfCare1": {
+        "type": "text",
+        "description": "takeMinsSelfCare1",
+        "source_text": "Take "
+    },
+    "takeMinsSelfCare3": "momen perawatan diri minggu ini",
+    "@takeMinsSelfCare3": {
+        "type": "text",
+        "description": "takeMinsSelfCare3",
+        "source_text": "of self-care moments this week"
+    },
+    "temperature": "Suhu",
+    "@temperature": {
+        "type": "text",
+        "description": "temperature",
+        "source_text": "Temperature"
+    },
+    "temperatureDescription": "Suhu adalah kisaran suhu khas yang ditemukan pada manusia.",
+    "@temperatureDescription": {
+        "type": "text",
+        "description": "temperatureDescription",
+        "source_text": "Temperature is the typical temperature range found in humans."
+    },
+    "temperatureNormalRangeValues": "36.1°C to 37.2°C",
+    "@temperatureNormalRangeValues": {
+        "type": "text",
+        "description": "temperatureNormalRangeValues",
+        "source_text": "36.1°C to 37.2°C"
+    },
+    "temperatureSymbol": "°C",
+    "@temperatureSymbol": {
+        "type": "text",
+        "description": "temperatureSymbol",
+        "source_text": "°C"
+    },
+    "termsOfService": "Ketentuan Layanan",
+    "@termsOfService": {
+        "type": "text",
+        "description": "termsOfService",
+        "source_text": "Terms of service"
+    },
+    "thankYou": "Terima kasih",
+    "@thankYou": {
+        "type": "text",
+        "description": "thankYou",
+        "source_text": "Thank you"
+    },
+    "theCreditsSystem": "Sistem kredit",
+    "@theCreditsSystem": {
+        "type": "text",
+        "description": "theCreditsSystem",
+        "source_text": "The Credits System"
+    },
+    "theCreditsSystemSubtitle1": "Saat Anda menjaga kesehatan mental Anda atau membantu seorang kolega, Anda mendapatkan kredit yang dapat ditukar dengan imbalan seperti voucher grabfood.",
+    "@theCreditsSystemSubtitle1": {
+        "type": "text",
+        "description": "theCreditsSystemSubtitle1",
+        "source_text": "When you take care of your mental health or help a colleague, you earn Credits which are exchangeable for rewards like GrabFood vouchers."
+    },
+    "theCreditsSystemSubtitle2": "Anda dapat melihat daftar kegiatan di sini yang mendapatkan kredit. Ketika Anda menghasilkan cukup, kami akan memberi tahu Anda melalui aplikasi untuk menebus voucher Anda.",
+    "@theCreditsSystemSubtitle2": {
+        "type": "text",
+        "description": "theCreditsSystemSubtitle2",
+        "source_text": "You can view a list of activities here that earn Credits. When you earn enough, we will notify you through the app to redeem your vouchers."
+    },
+    "title": "Judul",
+    "@title": {
+        "type": "text",
+        "description": "title",
+        "source_text": "Title"
+    },
+    "tooManyPasscodes": "Terlalu banyak kode sandi untuk diingat?",
+    "@tooManyPasscodes": {
+        "type": "text",
+        "description": "tooManyPasscodes",
+        "source_text": "Too many passcodes to remember?"
+    },
+    "topAnswer": "Jawaban Teratas",
+    "@topAnswer": {
+        "type": "text",
+        "description": "topAnswer",
+        "source_text": "Top Answer"
+    },
+    "topComment": "Komentar Teratas",
+    "@topComment": {
+        "type": "text",
+        "description": "topComment",
+        "source_text": "Top Comment"
+    },
+    "topQuestionOfTheWeekSubtitle": "{topQuestion}",
+    "@topQuestionOfTheWeekSubtitle": {
+        "type": "text",
+        "description": "topQuestionOfTheWeekSubtitle",
+        "source_text": "{topQuestion}",
+        "placeholders": {
+            "topQuestion": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "topQuestionOfTheWeekTitle": "Pertanyaan Kelompok Dukungan Teratas Minggu Ini",
+    "@topQuestionOfTheWeekTitle": {
+        "type": "text",
+        "description": "topQuestionOfTheWeekTitle",
+        "source_text": "Top Support Group Question of The Week"
+    },
+    "totalActiveUsersByAgeGroup": "Total Pengguna Aktif Berdasarkan Kelompok Usia",
+    "@totalActiveUsersByAgeGroup": {
+        "type": "text",
+        "description": "totalActiveUsersByAgeGroup",
+        "source_text": "Total Active Users by Age Group"
+    },
+    "totalActiveUsersByBodyMassIndex": "Total Pengguna Aktif Berdasarkan Indeks Massa Tubuh",
+    "@totalActiveUsersByBodyMassIndex": {
+        "type": "text",
+        "description": "totalActiveUsersByBodyMassIndex",
+        "source_text": "Total Active Users by Body Mass Index"
+    },
+    "totalActiveUsersByGender": "Total Pengguna Aktif Berdasarkan Gender",
+    "@totalActiveUsersByGender": {
+        "type": "text",
+        "description": "totalActiveUsersByGender",
+        "source_text": "Total Active Users by Gender"
+    },
+    "totalNumberOfActiveUsers": "Pengguna Aktif",
+    "@totalNumberOfActiveUsers": {
+        "type": "text",
+        "description": "totalNumberOfActiveUsers",
+        "source_text": "Active Users"
+    },
+    "totalNumberOfCompletedScreenings": "Pemeriksaan (Selesai)",
+    "@totalNumberOfCompletedScreenings": {
+        "type": "text",
+        "description": "totalNumberOfCompletedScreenings",
+        "source_text": "Screenings (Completed)"
+    },
+    "totalNumberOfEAPSuggestionsClicked": "EAP Diklik",
+    "@totalNumberOfEAPSuggestionsClicked": {
+        "type": "text",
+        "description": "totalNumberOfEAPSuggestionsClicked",
+        "source_text": "EAP Clicked"
+    },
+    "totalNumberOfIncompletedScreenings": "Pemeriksaan (Tidak Selesai)",
+    "@totalNumberOfIncompletedScreenings": {
+        "type": "text",
+        "description": "totalNumberOfIncompletedScreenings",
+        "source_text": "Screenings (Incompleted)"
+    },
+    "totalNumberOfSuggestionsClicked": "Triage Diklik",
+    "@totalNumberOfSuggestionsClicked": {
+        "type": "text",
+        "description": "totalNumberOfSuggestionsClicked",
+        "source_text": "Triage Clicked"
+    },
+    "totalNumberOfSuggestionsViewed": "Triage Dilihat",
+    "@totalNumberOfSuggestionsViewed": {
+        "type": "text",
+        "description": "totalNumberOfSuggestionsViewed",
+        "source_text": "Triage Viewed"
+    },
+    "totalNumberOfUsers": "Total Pengguna",
+    "@totalNumberOfUsers": {
+        "type": "text",
+        "description": "totalNumberOfUsers",
+        "source_text": "Total Users"
+    },
+    "totalUsersByAgeGroup": "Pengguna Berdasarkan Kelompok Usia",
+    "@totalUsersByAgeGroup": {
+        "type": "text",
+        "description": "totalUsersByAgeGroup",
+        "source_text": "Users by Age Group"
+    },
+    "totalUsersByBodyMassIndex": "Pengguna Berdasarkan IMT",
+    "@totalUsersByBodyMassIndex": {
+        "type": "text",
+        "description": "totalUsersByBodyMassIndex",
+        "source_text": "Users by BMI"
+    },
+    "totalUsersByGender": "Pengguna Berdasarkan Gender",
+    "@totalUsersByGender": {
+        "type": "text",
+        "description": "totalUsersByGender",
+        "source_text": "Users by Gender"
+    },
+    "underweight": "Berat Badan Kurang",
+    "@underweight": {
+        "type": "text",
+        "description": "underweight",
+        "source_text": "Underweight"
+    },
+    "underweightRange": "<18,5",
+    "@underweightRange": {
+        "type": "text",
+        "description": "underweightRange",
+        "source_text": "<18.5"
+    },
+    "unknown": "Tidak diketahui",
+    "@unknown": {
+        "type": "text",
+        "description": "unknown",
+        "source_text": "Unknown"
+    },
+    "useSupportedBrowserMessage": "Peramban ini tidak kompatibel. Harap gunakan versi terbaru peramban Chrome (khusus Android) atau Safari (khusus iOS) untuk mengakses fitur ini.",
+    "@useSupportedBrowserMessage": {
+        "type": "text",
+        "description": "useSupportedBrowserMessage",
+        "source_text": "This browser is not compatible. Please kindly use the latest version of Chrome (Android only) or Safari (iOS only) browser to access this feature."
+    },
+    "useSupportedBrowserTitle": "Gunakan Peramban yang Didukung",
+    "@useSupportedBrowserTitle": {
+        "type": "text",
+        "description": "useSupportedBrowserTitle",
+        "source_text": "Use Supported Browser"
+    },
+    "useTouchFaceId": "Gunakan Touch/Face ID",
+    "@useTouchFaceId": {
+        "type": "text",
+        "description": "useTouchFaceId",
+        "source_text": "Use Touch/Face ID"
+    },
+    "useTouchFaceIdSubtitle": "Masuk dengan cepat dan aman menggunakan sentuhan atau id wajah",
+    "@useTouchFaceIdSubtitle": {
+        "type": "text",
+        "description": "useTouchFaceIdSubtitle",
+        "source_text": "Log in quickly and securely using Touch or Face ID"
+    },
+    "username": "nama pengguna",
+    "@username": {
+        "type": "text",
+        "description": "username",
+        "source_text": "username"
+    },
+    "users": "Pengguna",
+    "@users": {
+        "type": "text",
+        "description": "users",
+        "source_text": "Users"
+    },
+    "viewMySuggestions": "Lihat Saran Saya",
+    "@viewMySuggestions": {
+        "type": "text",
+        "description": "viewMySuggestions",
+        "source_text": "View My Suggestions"
+    },
+    "viewThisWeekQuestions": "Lihat pertanyaan minggu ini",
+    "@viewThisWeekQuestions": {
+        "type": "text",
+        "description": "viewThisWeekQuestions",
+        "source_text": "View this week's questions"
+    },
+    "week": "Minggu",
+    "@week": {
+        "type": "text",
+        "description": "week",
+        "source_text": "Week"
+    },
+    "weekFri": "Jum",
+    "@weekFri": {
+        "type": "text",
+        "description": "weekFri",
+        "source_text": "Fri"
+    },
+    "weekMon": "Sen",
+    "@weekMon": {
+        "type": "text",
+        "description": "weekMon",
+        "source_text": "Mon"
+    },
+    "weekSat": "Sab",
+    "@weekSat": {
+        "type": "text",
+        "description": "weekSat",
+        "source_text": "Sat"
+    },
+    "weekSun": "Min",
+    "@weekSun": {
+        "type": "text",
+        "description": "weekSun",
+        "source_text": "Sun"
+    },
+    "weekThu": "Kam",
+    "@weekThu": {
+        "type": "text",
+        "description": "weekThu",
+        "source_text": "Thu"
+    },
+    "weekTue": "Sel",
+    "@weekTue": {
+        "type": "text",
+        "description": "weekTue",
+        "source_text": "Tue"
+    },
+    "weekWed": "Rab",
+    "@weekWed": {
+        "type": "text",
+        "description": "weekWed",
+        "source_text": "Wed"
+    },
+    "weight": "Berat",
+    "@weight": {
+        "type": "text",
+        "description": "weight",
+        "source_text": "Weight"
+    },
+    "welcomeBack": "Selamat datang kembali.",
+    "@welcomeBack": {
+        "type": "text",
+        "description": "welcomeBack",
+        "source_text": "Welcome back."
+    },
+    "welcomeTribe": "Selamat datang di suku Anda!",
+    "@welcomeTribe": {
+        "type": "text",
+        "description": "welcomeTribe",
+        "source_text": "Welcome to your tribe!"
+    },
+    "welcomeTribeSubtitle": "Pertama, mari kita buat akun Anda aman.",
+    "@welcomeTribeSubtitle": {
+        "type": "text",
+        "description": "welcomeTribeSubtitle",
+        "source_text": "First, let's make your account secure."
+    },
+    "whatsOnYourMind": "Apa yang sedang kamu pikirkan?",
+    "@whatsOnYourMind": {
+        "type": "text",
+        "description": "whatsOnYourMind",
+        "source_text": "What's on your mind?"
+    },
+    "workIssues": "Masalah kerja",
+    "@workIssues": {
+        "type": "text",
+        "description": "workIssues",
+        "source_text": "Work Issues"
+    },
+    "year": "Tahun",
+    "@year": {
+        "type": "text",
+        "description": "year",
+        "source_text": "Year"
+    },
+    "yes": "Ya",
+    "@yes": {
+        "type": "text",
+        "description": "yes",
+        "source_text": "Yes"
+    },
+    "youngAdultGroup": "Dewasa Muda",
+    "@youngAdultGroup": {
+        "type": "text",
+        "description": "youngAdultGroup",
+        "source_text": "Young Adult"
+    },
+    "youngAdultGroupRange": "17-30 tahun",
+    "@youngAdultGroupRange": {
+        "type": "text",
+        "description": "youngAdultGroupRange",
+        "source_text": "17-30 yo"
+    }
+}

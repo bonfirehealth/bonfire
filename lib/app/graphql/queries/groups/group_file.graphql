@@ -1,0 +1,32 @@
+query GetGroupFile($groupFileID: ID!) {
+  getGroupFile(id: $groupFileID) {
+    ... on GroupFile {
+      id
+      createdAt
+      updatedAt
+      isHidden
+      key
+      name
+      url
+      userID
+      user {
+        ... on User {
+          id
+          username
+          photoBase64
+        }
+      }
+      groupID
+      group {
+        ... on Group {
+          id
+          description
+          name
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

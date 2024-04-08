@@ -1,0 +1,19 @@
+query ListAllPreferences($limit: Int) {
+  listPreferences(limit: $limit) {
+    items {
+      ... on Preference {
+        id
+        createdAt
+        updatedAt
+        description
+        icon
+        identifier
+        name
+        owner
+        _deleted
+        _lastChangedAt
+        _version
+      }
+    }
+  }
+}

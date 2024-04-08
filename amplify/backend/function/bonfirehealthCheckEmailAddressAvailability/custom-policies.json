@@ -1,0 +1,26 @@
+[
+  {
+    "Action": [
+      "cognito-idp:adminGetUser"
+    ],
+    "Resource": [
+      {
+        "Fn::Sub": [
+          "arn:aws:cognito-idp:${region}:${account}:userpool/${userpool}",
+          {
+            "region": {
+              "Ref": "AWS::Region"
+            },
+            "account": {
+              "Ref": "AWS::AccountId"
+            },
+            "userpool": {
+              "Ref": "authbonfirehealthUserPoolId"
+            }
+          }
+        ]
+      }
+    ],
+    "Effect": "Allow"
+  }
+]

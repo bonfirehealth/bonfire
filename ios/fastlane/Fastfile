@@ -1,0 +1,77 @@
+# update_fastlane
+
+fastlane_require 'dotenv'
+
+default_platform(:ios)
+
+before_all do
+  Dotenv.overload '.env'
+end
+
+platform :ios do
+  desc "Generate new Checkup Staging build for TestFlight"
+  lane :staging do
+    app_store_connect_api_key(
+      key_id: "#{ENV['API_STORE_CONNECT_API_KEY_ID']}",
+      issuer_id: "#{ENV['API_STORE_CONNECT_API_ISSUER_ID']}",
+      key_filepath: "#{ENV['API_STORE_CONNECT_API_KEY_FILEPATH']}",
+      duration: 1200,
+      in_house: false
+    )
+    get_push_certificate(
+      development: true,
+      username: "#{ENV['FASTLANE_USER']}",
+      app_identifier: "#{ENV['APP_IDENTIFIER_STAGING']}",
+    )
+    build_app(workspace: "Runner.xcworkspace", scheme: "staging")
+    upload_symbols_to_crashlytics(dsym_path: "#{ENV['CRASHLYTICS_SYMBOLS_FILEPATH']}")
+    desc "Deploy new Checkup Staging build to TestFlight"
+    upload_to_testflight(
+      team_id: "#{ENV['TEAM_ID']}",
+      skip_waiting_for_build_processing: true,
+      username: "#{ENV['FASTLANE_USER']}",
+      app_identifier: "#{ENV['APP_IDENTIFIER_STAGING']}",
+    )
+    clean_build_artifacts
+  end
+
+  lane :production do |options| 
+    desc "Generate new Checkup Production build for TestFlight and Apple App Store"
+    app_store_connect_api_key(
+      key_id: "#{ENV['API_STORE_CONNECT_API_KEY_ID']}",
+      issuer_id: "#{ENV['API_STORE_CONNECT_API_ISSUER_ID']}",
+      key_filepath: "#{ENV['API_STORE_CONNECT_API_KEY_FILEPATH']}",
+      duration: 1200,
+      in_house: false
+    )
+    get_push_certificate(
+      development: false,
+      username: "#{ENV['FASTLANE_USER']}",
+      app_identifier: "#{ENV['APP_IDENTIFIER_PRODUCTION']}",
+    )
+    build_app(workspace: "Runner.xcworkspace", scheme: "production")
+    upload_symbols_to_crashlytics(dsym_path: "#{ENV['CRASHLYTICS_SYMBOLS_FILEPATH']}")
+    desc "Deploy new Checkup Production build to TestFlight"
+    upload_to_testflight(
+      team_id: "#{ENV['TEAM_ID']}",
+      skip_waiting_for_build_processing: true,
+      username: "#{ENV['FASTLANE_USER']}",
+      app_identifier: "#{ENV['APP_IDENTIFIER_PRODUCTION']}",
+    )
+    desc "Deploy new Checkup Production build to Apple App Store"
+    upload_to_app_store(
+      build_number: options[:build_number],
+      precheck_include_in_app_purchases: false,
+      skip_binary_upload: true,
+      skip_screenshots: true,
+      skip_metadata: true,
+      force: true,
+    )
+    set_changelog(
+      app_identifier: "#{ENV['APP_IDENTIFIER_PRODUCTION']}", 
+      version: options[:version_name], 
+      changelog: "#{ENV['CHANGELOG_TEXT']}",
+    )
+    clean_build_artifacts
+  end
+end

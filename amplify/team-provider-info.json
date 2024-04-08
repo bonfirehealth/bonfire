@@ -1,0 +1,351 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bonfirehealth-dev-95213-authRole",
+      "UnauthRoleArn": "arn:aws:iam::160177701951:role/amplify-bonfirehealth-dev-95213-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::160177701951:role/amplify-bonfirehealth-dev-95213-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+      "UnauthRoleName": "amplify-bonfirehealth-dev-95213-unauthRole",
+      "StackName": "amplify-bonfirehealth-dev-95213",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:160177701951:stack/amplify-bonfirehealth-dev-95213/9eb82360-117f-11ed-adf5-064b523d0e0e",
+      "AmplifyAppId": "d22vba9ek59av5"
+    },
+    "categories": {
+      "auth": {
+        "bonfirehealth": {}
+      },
+      "function": {
+        "bonfirehealthAggregateAssessmentsByTimePeriod": {
+          "deploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+          "s3Key": "amplify-builds/bonfirehealthAggregateAssessmentsByTimePeriod-4557315a6652484c7452-build.zip"
+        },
+        "bonfirehealthAggregateOrganisationAssessmentsByTimePeriod": {
+          "deploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+          "s3Key": "amplify-builds/bonfirehealthAggregateOrganisationAssessmentsByTimePeriod-766c327659396b4b426f-build.zip"
+        },
+        "bonfirehealthCheckEmailAddressAvailability": {
+          "deploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+          "s3Key": "amplify-builds/bonfirehealthCheckEmailAddressAvailability-316346533170337a7a70-build.zip"
+        },
+        "bonfirehealthCheckOrganisationByCode": {
+          "deploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+          "s3Key": "amplify-builds/bonfirehealthCheckOrganisationByCode-4c6534304c395967565a-build.zip"
+        },
+        "bonfirehealthConfirmSignUp": {
+          "deploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+          "s3Key": "amplify-builds/bonfirehealthConfirmSignUp-6a493655656574715946-build.zip"
+        },
+        "bonfirehealthGenerateRecoveryCodes": {
+          "deploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+          "s3Key": "amplify-builds/bonfirehealthGenerateRecoveryCodes-2b334c4d345531483069-build.zip"
+        },
+        "bonfirehealthListenForAggregateAssessmentsByTimePeriod": {
+          "deploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+          "s3Key": "amplify-builds/bonfirehealthListenForAggregateAssessmentsByTimePeriod-6a4f4e67536149523439-build.zip"
+        },
+        "bonfirehealthRecoverAccount": {
+          "deploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+          "s3Key": "amplify-builds/bonfirehealthRecoverAccount-4b6c71416956504e4159-build.zip"
+        },
+        "bonfirehealthResetPassword": {
+          "deploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+          "s3Key": "amplify-builds/bonfirehealthResetPassword-4c576a59476658656379-build.zip"
+        },
+        "bonfirehealthSendSecretCredentialsEmail": {
+          "deploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+          "s3Key": "amplify-builds/bonfirehealthSendSecretCredentialsEmail-31617869766a4968517a-build.zip"
+        },
+        "bonfirehealthWeeklyReport": {
+          "deploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+          "s3Key": "amplify-builds/bonfirehealthWeeklyReport-4a3678503956436b3174-build.zip"
+        },
+        "bonfireFamilyMemberPasswordManager": {
+          "deploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+          "s3Key": "amplify-builds/bonfireFamilyMemberPasswordManager-32484d334b6f4568374b-build.zip",
+          "iv": "b16a2e8c5d93f0a7",
+          "encryptionKey": "bonfire_1689017700000000_checkup"
+        },
+        "bonfireTelegramBot": {
+          "deploymentBucketName": "amplify-bonfirehealth-dev-95213-deployment",
+          "s3Key": "amplify-builds/bonfireTelegramBot-624870695657526b6637-build.zip",
+          "apiToken": "6186524070:AAGYNqo09fVmGtDfURnagbtZHSguCeXBhe0"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d22vba9ek59av5",
+          "type": "cicd"
+        }
+      },
+      "storage": {
+        "bonfirehealth": {}
+      },
+      "analytics": {
+        "bonfirehealth": {}
+      },
+      "api": {
+        "bonfirehealth": {}
+      }
+    }
+  },
+  "stg": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bonfirehealth-stg-32119-authRole",
+      "UnauthRoleArn": "arn:aws:iam::160177701951:role/amplify-bonfirehealth-stg-32119-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::160177701951:role/amplify-bonfirehealth-stg-32119-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+      "UnauthRoleName": "amplify-bonfirehealth-stg-32119-unauthRole",
+      "StackName": "amplify-bonfirehealth-stg-32119",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:160177701951:stack/amplify-bonfirehealth-stg-32119/a6670a60-2749-11ed-99c1-06d314daeae8",
+      "AmplifyAppId": "d22vba9ek59av5"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d22vba9ek59av5",
+          "type": "cicd"
+        }
+      },
+      "auth": {
+        "bonfirehealth": {}
+      },
+      "function": {
+        "bonfirehealthAggregateAssessmentsByTimePeriod": {
+          "deploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+          "s3Key": "amplify-builds/bonfirehealthAggregateAssessmentsByTimePeriod-4557315a6652484c7452-build.zip"
+        },
+        "bonfirehealthAggregateOrganisationAssessmentsByTimePeriod": {
+          "deploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+          "s3Key": "amplify-builds/bonfirehealthAggregateOrganisationAssessmentsByTimePeriod-4558446c7a6f624c4550-build.zip"
+        },
+        "bonfirehealthCheckEmailAddressAvailability": {
+          "deploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+          "s3Key": "amplify-builds/bonfirehealthCheckEmailAddressAvailability-316346533170337a7a70-build.zip"
+        },
+        "bonfirehealthCheckOrganisationByCode": {
+          "deploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+          "s3Key": "amplify-builds/bonfirehealthCheckOrganisationByCode-4c6534304c395967565a-build.zip"
+        },
+        "bonfirehealthConfirmSignUp": {
+          "deploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+          "s3Key": "amplify-builds/bonfirehealthConfirmSignUp-6a493655656574715946-build.zip"
+        },
+        "bonfirehealthGenerateRecoveryCodes": {
+          "deploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+          "s3Key": "amplify-builds/bonfirehealthGenerateRecoveryCodes-2b334c4d345531483069-build.zip"
+        },
+        "bonfirehealthListenForAggregateAssessmentsByTimePeriod": {
+          "deploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+          "s3Key": "amplify-builds/bonfirehealthListenForAggregateAssessmentsByTimePeriod-6a4f4e67536149523439-build.zip"
+        },
+        "bonfirehealthRecoverAccount": {
+          "deploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+          "s3Key": "amplify-builds/bonfirehealthRecoverAccount-4b6c71416956504e4159-build.zip"
+        },
+        "bonfirehealthResetPassword": {
+          "deploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+          "s3Key": "amplify-builds/bonfirehealthResetPassword-4c576a59476658656379-build.zip"
+        },
+        "bonfirehealthSendSecretCredentialsEmail": {
+          "deploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+          "s3Key": "amplify-builds/bonfirehealthSendSecretCredentialsEmail-31617869766a4968517a-build.zip"
+        },
+        "bonfirehealthWeeklyReport": {
+          "deploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+          "s3Key": "amplify-builds/bonfirehealthWeeklyReport-78413753463751757145-build.zip"
+        },
+        "bonfireFamilyMemberPasswordManager": {
+          "encryptionKey": "bonfire_1689017700000000_checkup",
+          "iv": "b16a2e8c5d93f0a7",
+          "deploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+          "s3Key": "amplify-builds/bonfireFamilyMemberPasswordManager-625a47536b762b344855-build.zip"
+        },
+        "bonfireTelegramBot": {
+          "apiToken": "6186524070:AAGYNqo09fVmGtDfURnagbtZHSguCeXBhe0",
+          "deploymentBucketName": "amplify-bonfirehealth-stg-32119-deployment",
+          "s3Key": "amplify-builds/bonfireTelegramBot-77746235475244304b69-build.zip"
+        }
+      },
+      "storage": {
+        "bonfirehealth": {}
+      },
+      "analytics": {
+        "bonfirehealth": {}
+      },
+      "api": {
+        "bonfirehealth": {}
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bonfirehealth-prod-63650-authRole",
+      "UnauthRoleArn": "arn:aws:iam::160177701951:role/amplify-bonfirehealth-prod-63650-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::160177701951:role/amplify-bonfirehealth-prod-63650-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-bonfirehealth-prod-63650-deployment",
+      "UnauthRoleName": "amplify-bonfirehealth-prod-63650-unauthRole",
+      "StackName": "amplify-bonfirehealth-prod-63650",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:160177701951:stack/amplify-bonfirehealth-prod-63650/f70c3a60-2764-11ed-997b-06e250d17922",
+      "AmplifyAppId": "d22vba9ek59av5"
+    },
+    "categories": {
+      "auth": {
+        "bonfirehealth": {}
+      },
+      "function": {
+        "bonfirehealthAggregateAssessmentsByTimePeriod": {
+          "deploymentBucketName": "amplify-bonfirehealth-prod-63650-deployment",
+          "s3Key": "amplify-builds/bonfirehealthAggregateAssessmentsByTimePeriod-37436d6c6138306b5a55-build.zip"
+        },
+        "bonfirehealthAggregateOrganisationAssessmentsByTimePeriod": {
+          "deploymentBucketName": "amplify-bonfirehealth-prod-63650-deployment",
+          "s3Key": "amplify-builds/bonfirehealthAggregateOrganisationAssessmentsByTimePeriod-674d68717663496d526c-build.zip"
+        },
+        "bonfirehealthCheckEmailAddressAvailability": {
+          "deploymentBucketName": "amplify-bonfirehealth-prod-63650-deployment",
+          "s3Key": "amplify-builds/bonfirehealthCheckEmailAddressAvailability-4c7579593153786a7062-build.zip"
+        },
+        "bonfirehealthCheckOrganisationByCode": {
+          "deploymentBucketName": "amplify-bonfirehealth-prod-63650-deployment",
+          "s3Key": "amplify-builds/bonfirehealthCheckOrganisationByCode-31334a3572495846756e-build.zip"
+        },
+        "bonfirehealthConfirmSignUp": {
+          "deploymentBucketName": "amplify-bonfirehealth-prod-63650-deployment",
+          "s3Key": "amplify-builds/bonfirehealthConfirmSignUp-384f4758656441517762-build.zip"
+        },
+        "bonfirehealthGenerateRecoveryCodes": {
+          "deploymentBucketName": "amplify-bonfirehealth-prod-63650-deployment",
+          "s3Key": "amplify-builds/bonfirehealthGenerateRecoveryCodes-35657649784332766c6b-build.zip"
+        },
+        "bonfirehealthListenForAggregateAssessmentsByTimePeriod": {
+          "deploymentBucketName": "amplify-bonfirehealth-prod-63650-deployment",
+          "s3Key": "amplify-builds/bonfirehealthListenForAggregateAssessmentsByTimePeriod-49583763354b58523568-build.zip"
+        },
+        "bonfirehealthRecoverAccount": {
+          "deploymentBucketName": "amplify-bonfirehealth-prod-63650-deployment",
+          "s3Key": "amplify-builds/bonfirehealthRecoverAccount-67716a52515654714951-build.zip"
+        },
+        "bonfirehealthResetPassword": {
+          "deploymentBucketName": "amplify-bonfirehealth-prod-63650-deployment",
+          "s3Key": "amplify-builds/bonfirehealthResetPassword-5042322f4252762b6a78-build.zip"
+        },
+        "bonfirehealthSendSecretCredentialsEmail": {
+          "deploymentBucketName": "amplify-bonfirehealth-prod-63650-deployment",
+          "s3Key": "amplify-builds/bonfirehealthSendSecretCredentialsEmail-487450687a7178636e2b-build.zip"
+        },
+        "bonfireFamilyMemberPasswordManager": {
+          "iv": "b16a2e8c5d93f0a7",
+          "encryptionKey": "bonfire_1689017700000000_checkup"
+        },
+        "bonfireTelegramBot": {
+          "apiToken": "6186524070:AAGYNqo09fVmGtDfURnagbtZHSguCeXBhe0"
+        },
+        "bonfirehealthWeeklyReport": {},
+        "bonfirehealth": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d22vba9ek59av5",
+          "type": "cicd"
+        }
+      },
+      "storage": {
+        "bonfirehealth": {}
+      }
+    }
+  },
+  "produ": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-bonfirehealth-produ-152205-authRole",
+      "UnauthRoleArn": "arn:aws:iam::160177701951:role/amplify-bonfirehealth-produ-152205-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::160177701951:role/amplify-bonfirehealth-produ-152205-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+      "UnauthRoleName": "amplify-bonfirehealth-produ-152205-unauthRole",
+      "StackName": "amplify-bonfirehealth-produ-152205",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:160177701951:stack/amplify-bonfirehealth-produ-152205/19acb7c0-56d0-11ee-8828-02db3a2539a2",
+      "AmplifyAppId": "d22vba9ek59av5"
+    },
+    "categories": {
+      "auth": {
+        "bonfirehealth": {}
+      },
+      "function": {
+        "bonfireFamilyMemberPasswordManager": {
+          "iv": "b16a2e8c5d93f0a7",
+          "encryptionKey": "bonfire_1689017700000000_checkup",
+          "deploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+          "s3Key": "amplify-builds/bonfireFamilyMemberPasswordManager-625a47536b762b344855-build.zip"
+        },
+        "bonfireTelegramBot": {
+          "apiToken": "6186524070:AAGYNqo09fVmGtDfURnagbtZHSguCeXBhe0",
+          "deploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+          "s3Key": "amplify-builds/bonfireTelegramBot-77746235475244304b69-build.zip"
+        },
+        "bonfirehealthAggregateAssessmentsByTimePeriod": {
+          "deploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+          "s3Key": "amplify-builds/bonfirehealthAggregateAssessmentsByTimePeriod-6b314b58755038697179-build.zip"
+        },
+        "bonfirehealthAggregateOrganisationAssessmentsByTimePeriod": {
+          "deploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+          "s3Key": "amplify-builds/bonfirehealthAggregateOrganisationAssessmentsByTimePeriod-4558446c7a6f624c4550-build.zip"
+        },
+        "bonfirehealthCheckEmailAddressAvailability": {
+          "deploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+          "s3Key": "amplify-builds/bonfirehealthCheckEmailAddressAvailability-39566b4d664b35663834-build.zip"
+        },
+        "bonfirehealthCheckOrganisationByCode": {
+          "deploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+          "s3Key": "amplify-builds/bonfirehealthCheckOrganisationByCode-3332456e486f37524454-build.zip"
+        },
+        "bonfirehealthConfirmSignUp": {
+          "deploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+          "s3Key": "amplify-builds/bonfirehealthConfirmSignUp-58773550344e54644361-build.zip"
+        },
+        "bonfirehealthGenerateRecoveryCodes": {
+          "deploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+          "s3Key": "amplify-builds/bonfirehealthGenerateRecoveryCodes-5152432b613354625457-build.zip"
+        },
+        "bonfirehealthListenForAggregateAssessmentsByTimePeriod": {
+          "deploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+          "s3Key": "amplify-builds/bonfirehealthListenForAggregateAssessmentsByTimePeriod-6e4d4278573861493632-build.zip"
+        },
+        "bonfirehealthRecoverAccount": {
+          "deploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+          "s3Key": "amplify-builds/bonfirehealthRecoverAccount-554230416a3469563453-build.zip"
+        },
+        "bonfirehealthResetPassword": {
+          "deploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+          "s3Key": "amplify-builds/bonfirehealthResetPassword-4e3637674545546f4376-build.zip"
+        },
+        "bonfirehealthSendSecretCredentialsEmail": {
+          "deploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+          "s3Key": "amplify-builds/bonfirehealthSendSecretCredentialsEmail-31617869766a4968517a-build.zip"
+        },
+        "bonfirehealthWeeklyReport": {
+          "deploymentBucketName": "amplify-bonfirehealth-produ-152205-deployment",
+          "s3Key": "amplify-builds/bonfirehealthWeeklyReport-78413753463751757145-build.zip"
+        },
+        "bonfirehealth": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d22vba9ek59av5",
+          "type": "cicd"
+        }
+      },
+      "analytics": {
+        "bonfirehealth": {}
+      },
+      "api": {
+        "bonfirehealth": {}
+      },
+      "storage": {
+        "bonfirehealth": {}
+      }
+    }
+  }
+}

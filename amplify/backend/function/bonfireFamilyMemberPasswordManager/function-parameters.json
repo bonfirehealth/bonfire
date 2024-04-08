@@ -1,0 +1,14 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "iv",
+      "environmentVariableName": "IV"
+    },
+    {
+      "cloudFormationParameterName": "encryptionKey",
+      "environmentVariableName": "ENCRYPTION_KEY"
+    }
+  ],
+  "secretNames": []
+}

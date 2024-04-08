@@ -1,0 +1,28 @@
+query ListAllProfilePreferences($profileID: ID) {
+  listProfilePreferences(filter: {profileID: {eq: $profileID}}) {
+    items {
+      ... on ProfilePreference {
+        id
+        createdAt
+        updatedAt
+        preferenceID
+        profileID
+        owner
+        preference {
+          ... on Preference {
+            id
+            isToDelete
+          }
+        }
+        profile {
+          ... on Profile {
+            id
+          }
+        }
+        _deleted
+        _lastChangedAt
+        _version
+      }
+    }
+  }
+}

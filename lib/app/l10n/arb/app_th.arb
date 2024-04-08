@@ -1,0 +1,2639 @@
+{
+    "@@x-loco-version": "1.0.28 20231019-1",
+    "@@locale": "th",
+    "@@last_modified": "2023-10-27T15:44:01+0545",
+    "@@author": "Bonfire Health",
+    "age": "อายุ",
+    "@age": {
+        "type": "text",
+        "description": "age",
+        "source_text": "Age"
+    },
+    "allowNotifications": "อนุญาตให้แจ้งเตือน",
+    "@allowNotifications": {
+        "type": "text",
+        "description": "allowNotifications",
+        "source_text": "Allow Notifications"
+    },
+    "alreadyHaveAccount": "มีบัญชีอยู่แล้ว? เข้าสู่ระบบ",
+    "@alreadyHaveAccount": {
+        "type": "text",
+        "description": "alreadyHaveAccount",
+        "source_text": "Already have an account? Log in."
+    },
+    "anonymousAccountCreated": "สร้างบัญชีผู้ใช้แบบไม่ระบุตัวตนสำเร็จแล้ว!",
+    "@anonymousAccountCreated": {
+        "type": "text",
+        "description": "anonymousAccountCreated",
+        "source_text": "Anonymous account successfully created!"
+    },
+    "askPeerForSupport": "ขอความช่วยเหลือจากเพื่อน",
+    "@askPeerForSupport": {
+        "type": "text",
+        "description": "askPeerForSupport",
+        "source_text": "Ask a peer for support"
+    },
+    "assessmentActionSubtitle": "ฉันสามารถทำอะไรต่อไปได้?",
+    "@assessmentActionSubtitle": {
+        "type": "text",
+        "description": "assessmentActionSubtitle",
+        "source_text": "What can I do next?"
+    },
+    "back": "ย้อนกลับ",
+    "@back": {
+        "type": "text",
+        "description": "back",
+        "source_text": "Back"
+    },
+    "bloodOxygenLevel": "ระดับออกซิเจนในเลือด",
+    "@bloodOxygenLevel": {
+        "type": "text",
+        "description": "bloodOxygenLevel",
+        "source_text": "Blood Oxygen Level"
+    },
+    "bloodOxygenLevelDescription": "ระดับออกซิเจนในเลือดคือปริมาณออกซิเจนที่ไหลเวียนอยู่ในเลือด บุคคลสามารถวัดระดับออกซิเจนในเลือดโดยใช้เครื่องวัดออกซิเจนในเลือดและชีพจร หากค่าในเครื่องวัดออกซิเจนในเลือดและชีพจรต่ำกว่า 95% แพทย์จะถือว่ามีระดับออกซิเจนในเลือดต่ำ",
+    "@bloodOxygenLevelDescription": {
+        "type": "text",
+        "description": "bloodOxygenLevelDescription",
+        "source_text": "Blood Oxygen Level is the amount of oxygen circulating in their blood. A person can measure their blood oxygen levels using a pulse oximeter. On a pulse oximeter, doctors consider levels under 95% to be low. "
+    },
+    "bloodOxygenLevelNormalRangeValues": "95 %SpO2 ขึ้นไป",
+    "@bloodOxygenLevelNormalRangeValues": {
+        "type": "text",
+        "description": "bloodOxygenLevelNormalRangeValues",
+        "source_text": "95 %SpO2 and above"
+    },
+    "bloodOxygenLevelSymbol": "%SpO2",
+    "@bloodOxygenLevelSymbol": {
+        "type": "text",
+        "description": "bloodOxygenLevelSymbol",
+        "source_text": "%SpO2"
+    },
+    "bloodPressure": "ความดันโลหิต",
+    "@bloodPressure": {
+        "type": "text",
+        "description": "bloodPressure",
+        "source_text": "Blood Pressure"
+    },
+    "bloodPressureDescription": "การวัดความดันโลหิตจะใช้ตัวเลขสองตัว: ตัวเลขแรกที่เรียกว่าความดันโลหิตซิสโตลิกจะวัดความดันในหลอดเลือดแดงของคุณเมื่อหัวใจของคุณเต้น ตัวเลขที่สองที่เรียกว่าความดันโลหิตไดแอสโตลิกจะวัดความดันในหลอดเลือดแดงของคุณเมื่อหัวใจของคุณหยุดพักระหว่างการเต้น",
+    "@bloodPressureDescription": {
+        "type": "text",
+        "description": "bloodPressureDescription",
+        "source_text": "Blood pressure is measured using two numbers: The first number, called systolic blood pressure, measures the pressure in your arteries when your heart beats. The second number, called diastolic blood pressure, measures the pressure in your arteries when your heart rests between beats."
+    },
+    "bloodPressureNormalRangeValues": "120/80 มม.ปรอทและต่ำกว่า",
+    "@bloodPressureNormalRangeValues": {
+        "type": "text",
+        "description": "bloodPressureNormalRangeValues",
+        "source_text": "120/80 mmHg and below"
+    },
+    "bloodPressureSymbol": "มม.ปรอท",
+    "@bloodPressureSymbol": {
+        "type": "text",
+        "description": "bloodPressureSymbol",
+        "source_text": "mmHg"
+    },
+    "both": "ทั้งสอง",
+    "@both": {
+        "type": "text",
+        "description": "both",
+        "source_text": "Both"
+    },
+    "bpm": "bpm",
+    "@bpm": {
+        "type": "text",
+        "description": "bpm",
+        "source_text": "bpm"
+    },
+    "bySigning1": "การลงชื่อเข้าใช้แสดงว่าคุณยอมรับแอปของเรา",
+    "@bySigning1": {
+        "type": "text",
+        "description": "bySigning1",
+        "source_text": "By signing in, you agree to our app's"
+    },
+    "bySigning2": "ข้อกำหนดในการให้บริการ",
+    "@bySigning2": {
+        "type": "text",
+        "description": "bySigning2",
+        "source_text": "terms of service"
+    },
+    "cameraPermissionDeniedMessage": "โปรดอนุญาตให้ใช้กล้องในการตั้งค่าเบราว์เซอร์ของคุณ",
+    "@cameraPermissionDeniedMessage": {
+        "type": "text",
+        "description": "cameraPermissionDeniedMessage",
+        "source_text": "Please enable camera permission in your browser settings."
+    },
+    "cameraPermissionDeniedTitle": "ปฏิเสธการอนุญาตให้ใช้กล้อง",
+    "@cameraPermissionDeniedTitle": {
+        "type": "text",
+        "description": "cameraPermissionDeniedTitle",
+        "source_text": "Camera Permission Denied"
+    },
+    "cancel": "ยกเลิก",
+    "@cancel": {
+        "type": "text",
+        "description": "cancel",
+        "source_text": "Cancel"
+    },
+    "childGroup": "เด็ก",
+    "@childGroup": {
+        "type": "text",
+        "description": "childGroup",
+        "source_text": "Child"
+    },
+    "childGroupRange": "0-16 ปี",
+    "@childGroupRange": {
+        "type": "text",
+        "description": "childGroupRange",
+        "source_text": "0-16 yo"
+    },
+    "credentialsCopiedMessage": "คุณสามารถวางข้อมูลประจำตัวไว้ที่ใดก็ได้ในโทรศัพท์คุณ",
+    "@credentialsCopiedMessage": {
+        "type": "text",
+        "description": "credentialsCopiedMessage",
+        "source_text": "You can paste the credentials to anywhere in your phone."
+    },
+    "credentialsCopiedTitle": "คัดลอกข้อมูลประจำตัวแล้ว",
+    "@credentialsCopiedTitle": {
+        "type": "text",
+        "description": "credentialsCopiedTitle",
+        "source_text": "Credentials Copied"
+    },
+    "credentialsNotValidMessage": "ข้อมูลประจำตัวของคุณไม่ถูกต้อง",
+    "@credentialsNotValidMessage": {
+        "type": "text",
+        "description": "credentialsNotValidMessage",
+        "source_text": "Your credentials are not valid."
+    },
+    "credentialsNotValidTitle": "ข้อมูลประจำตัวไม่ถูกต้อง",
+    "@credentialsNotValidTitle": {
+        "type": "text",
+        "description": "credentialsNotValidTitle",
+        "source_text": "Invalid Credentials"
+    },
+    "credentialsValidMessage": "ข้อมูลประจำตัวของคุณถูกต้อง",
+    "@credentialsValidMessage": {
+        "type": "text",
+        "description": "credentialsValidMessage",
+        "source_text": "Your credentials are valid."
+    },
+    "credentialsValidTitle": "ข้อมูลประจำตัวถูกต้อง",
+    "@credentialsValidTitle": {
+        "type": "text",
+        "description": "credentialsValidTitle",
+        "source_text": "Valid Credentials"
+    },
+    "dashboard": "แดชบอร์ด",
+    "@dashboard": {
+        "type": "text",
+        "description": "dashboard",
+        "source_text": "Dashboard"
+    },
+    "day": "วัน",
+    "@day": {
+        "type": "text",
+        "description": "day",
+        "source_text": "Day"
+    },
+    "delete": "ลบ",
+    "@delete": {
+        "type": "text",
+        "description": "delete",
+        "source_text": "Delete"
+    },
+    "description": "คำอธิบาย",
+    "@description": {
+        "type": "text",
+        "description": "description",
+        "source_text": "Description"
+    },
+    "diastolicBloodPressure": "ความดันโลหิตไดแอสโตลิก",
+    "@diastolicBloodPressure": {
+        "type": "text",
+        "description": "diastolicBloodPressure",
+        "source_text": "Diastolic Blood Pressure"
+    },
+    "diastolicBloodPressureSymbol": "DP",
+    "@diastolicBloodPressureSymbol": {
+        "type": "text",
+        "description": "diastolicBloodPressureSymbol",
+        "source_text": "DP"
+    },
+    "done": "เสร็จ",
+    "@done": {
+        "type": "text",
+        "description": "done",
+        "source_text": "Done"
+    },
+    "error": "ผิดพลาด",
+    "@error": {
+        "type": "text",
+        "description": "error",
+        "source_text": "Error"
+    },
+    "facebookAd1": "",
+    "@facebookAd1": {
+        "type": "text",
+        "description": "facebookAd1",
+        "source_text": "Get a free health checkup while doing a 10 seconds live video stream? Sure!"
+    },
+    "facebookAd2": "",
+    "@facebookAd2": {
+        "type": "text",
+        "description": "facebookAd2",
+        "source_text": "Take control of your health in 2023. Get a free health checkup in 10 seconds using your phone!"
+    },
+    "facebookAd3": "",
+    "@facebookAd3": {
+        "type": "text",
+        "description": "facebookAd3",
+        "source_text": "Feeling stressed? Check your stress levels with just your phone's camera in 10 seconds."
+    },
+    "facebookAd4": "",
+    "@facebookAd4": {
+        "type": "text",
+        "description": "facebookAd4",
+        "source_text": "No time for a health checkup? "
+    },
+    "facebookAd5": "",
+    "@facebookAd5": {
+        "type": "text",
+        "description": "facebookAd5",
+        "source_text": "Be a healthier you in 2023"
+    },
+    "facebookAd6": "",
+    "@facebookAd6": {
+        "type": "text",
+        "description": "facebookAd6",
+        "source_text": "Check your stress level in 10s"
+    },
+    "facebookAd7": "",
+    "@facebookAd7": {
+        "type": "text",
+        "description": "facebookAd7",
+        "source_text": "No fitness tracker needed"
+    },
+    "facebookAd8": "",
+    "@facebookAd8": {
+        "type": "text",
+        "description": "facebookAd8",
+        "source_text": "Know your health, be better"
+    },
+    "facebookAd9": "",
+    "@facebookAd9": {
+        "type": "text",
+        "description": "facebookAd9",
+        "source_text": "Don't worry, just checkup"
+    },
+    "fatigueLevel": "ระดับความเหนื่อยล้า",
+    "@fatigueLevel": {
+        "type": "text",
+        "description": "fatigueLevel",
+        "source_text": "Fatigue Level"
+    },
+    "female": "หญิง",
+    "@female": {
+        "type": "text",
+        "description": "female",
+        "source_text": "Female"
+    },
+    "finalizingYourVitals": "วัดสัญญาณชีพของคุณจวนเสร็จแล้ว...",
+    "@finalizingYourVitals": {
+        "type": "text",
+        "description": "finalizingYourVitals",
+        "source_text": "Finalizing your vitals..."
+    },
+    "gender": "เพศ",
+    "@gender": {
+        "type": "text",
+        "description": "gender",
+        "source_text": "Gender"
+    },
+    "generateCredentialsWarningMessage1": "ส่งข้อมูลลับของคุณไปยังอีเมลส่วนตัวของคุณเพื่อที่คุณจะได้ไม่สูญเสียข้อมูลสุขภาพที่มีค่าของคุณในอนาคต",
+    "@generateCredentialsWarningMessage1": {
+        "type": "text",
+        "description": "generateCredentialsWarningMessage1",
+        "source_text": "Send your secret credentials to your personal email so you don't lose your valuable health data in the future."
+    },
+    "generateCredentialsWarningMessage2": "หากคุณลืมรหัสผ่านปัจจุบัน คุณสามารถใช้รหัสกู้คืนเพื่อเข้าถึงบัญชีของคุณอีกครั้งได้ที่ https://app.bonfire.health/#/recover",
+    "@generateCredentialsWarningMessage2": {
+        "type": "text",
+        "description": "generateCredentialsWarningMessage2",
+        "source_text": "If you have forgotten your current password, you can use your recovery codes to regain access to your account at https://app.bonfire.health/#/recover"
+    },
+    "getHelpNow": "ขอความช่วยเหลือทันที",
+    "@getHelpNow": {
+        "type": "text",
+        "description": "getHelpNow",
+        "source_text": "Get help now"
+    },
+    "groups": "กลุ่ม",
+    "@groups": {
+        "type": "text",
+        "description": "groups",
+        "source_text": "Groups"
+    },
+    "heartRate": "อัตราการเต้นของหัวใจ",
+    "@heartRate": {
+        "type": "text",
+        "description": "heartRate",
+        "source_text": "Heart Rate"
+    },
+    "heartRateDescription": "อัตราการเต้นของหัวใจคือความเร็วของการเต้นของหัวใจที่วัดจากจำนวนการหดตัวของหัวใจต่อนาที",
+    "@heartRateDescription": {
+        "type": "text",
+        "description": "heartRateDescription",
+        "source_text": "Heart Rate is the speed of the heartbeat measured by the number of contractions of the heart per minute."
+    },
+    "heartRateNormalRangeValues": "60 ถึง 100 BPM",
+    "@heartRateNormalRangeValues": {
+        "type": "text",
+        "description": "heartRateNormalRangeValues",
+        "source_text": "60 to 100 BPM"
+    },
+    "heartRateReading": "การอ่านอัตราการเต้นของหัวใจ",
+    "@heartRateReading": {
+        "type": "text",
+        "description": "heartRateReading",
+        "source_text": "Heart Rate Reading"
+    },
+    "heartRateReadingSource": "แหล่งที่มาของการอ่านอัตราการเต้นของหัวใจ",
+    "@heartRateReadingSource": {
+        "type": "text",
+        "description": "heartRateReadingSource",
+        "source_text": "Source of Heart Rate Reading"
+    },
+    "heartRateSymbol": "BPM",
+    "@heartRateSymbol": {
+        "type": "text",
+        "description": "heartRateSymbol",
+        "source_text": "BPM"
+    },
+    "heartRateVariability": "ความแปรปรวนของอัตราการเต้นของหัวใจ",
+    "@heartRateVariability": {
+        "type": "text",
+        "description": "heartRateVariability",
+        "source_text": "Heart Rate Variability"
+    },
+    "heartRateVariabilityDescription": "ความแปรปรวนของอัตราการเต้นของหัวใจเป็นการวัดความแปรปรวนในเวลาระหว่างการเต้นของหัวใจแต่ละครั้ง เป็นตัวบ่งชี้ความเครียด hrv ยิ่งสูงยิ่งดี",
+    "@heartRateVariabilityDescription": {
+        "type": "text",
+        "description": "heartRateVariabilityDescription",
+        "source_text": "Heart Rate Variability is simply a measure of the variation in time between each heartbeat. It is an indicator of stress, higher hrv is better."
+    },
+    "heartRateVariabilityNormalRangeValues": "20 ถึง 200 HRV",
+    "@heartRateVariabilityNormalRangeValues": {
+        "type": "text",
+        "description": "heartRateVariabilityNormalRangeValues",
+        "source_text": "20 to 200 HRV"
+    },
+    "heartRateVariabilitySymbol": "HRV",
+    "@heartRateVariabilitySymbol": {
+        "type": "text",
+        "description": "heartRateVariabilitySymbol",
+        "source_text": "HRV"
+    },
+    "height": "ความสูง",
+    "@height": {
+        "type": "text",
+        "description": "height",
+        "source_text": "Height"
+    },
+    "helloAlissa": "ทักทาย Alissa ผู้ช่วยตรวจสุขภาพของคุณ",
+    "@helloAlissa": {
+        "type": "text",
+        "description": "helloAlissa",
+        "source_text": "Say hello to Alissa, your health checkup assistant."
+    },
+    "helloAlissaSubtitle": "รับการแจ้งเตือนด้านสุขภาพที่สำคัญและค้นพบสิ่งใหม่ ๆ เกี่ยวกับสุขภาพจิตและสุขภาพกายของคุณ",
+    "@helloAlissaSubtitle": {
+        "type": "text",
+        "description": "helloAlissaSubtitle",
+        "source_text": "Get important health alerts and discover new things about your mental and physical health."
+    },
+    "helpPeerNow": "ช่วยเพื่อนตอนนี้เลย",
+    "@helpPeerNow": {
+        "type": "text",
+        "description": "helpPeerNow",
+        "source_text": "Help a peer now"
+    },
+    "high": "สูง",
+    "@high": {
+        "type": "text",
+        "description": "high",
+        "source_text": "High"
+    },
+    "hrv": "hrv",
+    "@hrv": {
+        "type": "text",
+        "description": "hrv",
+        "source_text": "hrv"
+    },
+    "insights": "ข้อมูลเชิงลึก",
+    "@insights": {
+        "type": "text",
+        "description": "insights",
+        "source_text": "Insights"
+    },
+    "invalidEmailAddressMessage": "ที่อยู่อีเมลไม่ถูกต้อง โปรดลองใหม่อีกครั้ง",
+    "@invalidEmailAddressMessage": {
+        "type": "text",
+        "description": "invalidEmailAddressMessage",
+        "source_text": "Email address is invalid. Please try again."
+    },
+    "invalidEmailAddressTitle": "ที่อยู่อีเมลไม่ถูกต้อง",
+    "@invalidEmailAddressTitle": {
+        "type": "text",
+        "description": "invalidEmailAddressTitle",
+        "source_text": "Invalid Email Address"
+    },
+    "invoices": "ใบแจ้งหนี้",
+    "@invoices": {
+        "type": "text",
+        "description": "invoices",
+        "source_text": "Invoices"
+    },
+    "join": "เข้าร่วม",
+    "@join": {
+        "type": "text",
+        "description": "join",
+        "source_text": "Join"
+    },
+    "joined": "เข้าร่วมแล้ว",
+    "@joined": {
+        "type": "text",
+        "description": "joined",
+        "source_text": "Joined"
+    },
+    "journeys": "การเดินทาง",
+    "@journeys": {
+        "type": "text",
+        "description": "journeys",
+        "source_text": "Journeys"
+    },
+    "landingMessage": "ขณะนี้แอปพร้อมใช้งานเฉพาะบนเว็บเบราว์เซอร์ในมือถือโดยใช้อุปกรณ์มือถือของคุณเท่านั้น โปรดใช้อุปกรณ์มือถือของคุณเพื่อเข้าถึงแอป",
+    "@landingMessage": {
+        "type": "text",
+        "description": "landingMessage",
+        "source_text": "The app is currently available only on mobile web browser using your mobile device. Please kindly use your mobile device to access the app."
+    },
+    "landingTitle": "ยินดีต้อนรับสู่ Checkup",
+    "@landingTitle": {
+        "type": "text",
+        "description": "landingTitle",
+        "source_text": "Welcome to Checkup"
+    },
+    "lastUpdatedAt": "อัปเดตล่าสุดเมื่อ",
+    "@lastUpdatedAt": {
+        "type": "text",
+        "description": "lastUpdatedAt",
+        "source_text": "Last updated at"
+    },
+    "login": "เข้าสู่ระบบ",
+    "@login": {
+        "type": "text",
+        "description": "login",
+        "source_text": "Login"
+    },
+    "low": "ต่ำ",
+    "@low": {
+        "type": "text",
+        "description": "low",
+        "source_text": "Low"
+    },
+    "male": "ชาย",
+    "@male": {
+        "type": "text",
+        "description": "male",
+        "source_text": "Male"
+    },
+    "member": "สมาชิก",
+    "@member": {
+        "type": "text",
+        "description": "member",
+        "source_text": "Member"
+    },
+    "middleAgedAdultGroup": "ผู้ใหญ่วัยกลางคน",
+    "@middleAgedAdultGroup": {
+        "type": "text",
+        "description": "middleAgedAdultGroup",
+        "source_text": "Middle Age Adult"
+    },
+    "middleAgedAdultGroupRange": "31-45 ปี",
+    "@middleAgedAdultGroupRange": {
+        "type": "text",
+        "description": "middleAgedAdultGroupRange",
+        "source_text": "31-45 yo"
+    },
+    "month": "เดือน",
+    "@month": {
+        "type": "text",
+        "description": "month",
+        "source_text": "Month"
+    },
+    "monthApr": "เมษา",
+    "@monthApr": {
+        "type": "text",
+        "description": "monthApr",
+        "source_text": "Apr"
+    },
+    "monthAug": "สิงหา",
+    "@monthAug": {
+        "type": "text",
+        "description": "monthAug",
+        "source_text": "Aug"
+    },
+    "monthDec": "ธันวา",
+    "@monthDec": {
+        "type": "text",
+        "description": "monthDec",
+        "source_text": "Dec"
+    },
+    "monthFeb": "กุมภา",
+    "@monthFeb": {
+        "type": "text",
+        "description": "monthFeb",
+        "source_text": "Feb"
+    },
+    "monthJan": "มกรา",
+    "@monthJan": {
+        "type": "text",
+        "description": "monthJan",
+        "source_text": "Jan"
+    },
+    "monthJul": "กรกฎา",
+    "@monthJul": {
+        "type": "text",
+        "description": "monthJul",
+        "source_text": "Jul"
+    },
+    "monthJun": "มิถุนา",
+    "@monthJun": {
+        "type": "text",
+        "description": "monthJun",
+        "source_text": "Jun"
+    },
+    "monthMar": "มีนา",
+    "@monthMar": {
+        "type": "text",
+        "description": "monthMar",
+        "source_text": "Mar"
+    },
+    "monthMay": "พฤษภา",
+    "@monthMay": {
+        "type": "text",
+        "description": "monthMay",
+        "source_text": "May"
+    },
+    "monthNov": "พฤศจิกา",
+    "@monthNov": {
+        "type": "text",
+        "description": "monthNov",
+        "source_text": "Nov"
+    },
+    "monthOct": "ตุลา",
+    "@monthOct": {
+        "type": "text",
+        "description": "monthOct",
+        "source_text": "Oct"
+    },
+    "monthSep": "กันยา",
+    "@monthSep": {
+        "type": "text",
+        "description": "monthSep",
+        "source_text": "Sep"
+    },
+    "myLatestSuggestions": "คำแนะนำล่าสุดของฉัน",
+    "@myLatestSuggestions": {
+        "type": "text",
+        "description": "myLatestSuggestions",
+        "source_text": "My Latest Suggestions"
+    },
+    "myLatestVitalReadings": "การอ่านสัญญาณชีพล่าสุดของฉัน",
+    "@myLatestVitalReadings": {
+        "type": "text",
+        "description": "myLatestVitalReadings",
+        "source_text": "My Latest Vital Readings"
+    },
+    "newPassword": "รหัสผ่านใหม่",
+    "@newPassword": {
+        "type": "text",
+        "description": "newPassword",
+        "source_text": "New password"
+    },
+    "newPasswordConfirm": "ยืนยันรหัสผ่านใหม่",
+    "@newPasswordConfirm": {
+        "type": "text",
+        "description": "newPasswordConfirm",
+        "source_text": "Confirm new password"
+    },
+    "noHealthDataMessage": "ไม่มีข้อมูลสุขภาพ เริ่มต้นการคัดกรองครั้งแรกของคุณ",
+    "@noHealthDataMessage": {
+        "type": "text",
+        "description": "noHealthDataMessage",
+        "source_text": "No health data available. Get started with your first screening."
+    },
+    "normal": "ปกติ",
+    "@normal": {
+        "type": "text",
+        "description": "normal",
+        "source_text": "Normal"
+    },
+    "normalRange": "ช่วงปกติ",
+    "@normalRange": {
+        "type": "text",
+        "description": "normalRange",
+        "source_text": "Normal Range"
+    },
+    "normalweight": "น้ำหนักปกติ",
+    "@normalweight": {
+        "type": "text",
+        "description": "normalweight",
+        "source_text": "Normal Weight"
+    },
+    "normalweightRange": "18.5-22.9",
+    "@normalweightRange": {
+        "type": "text",
+        "description": "normalweightRange",
+        "source_text": "18.5-22.9"
+    },
+    "obese": "โรคอ้วน",
+    "@obese": {
+        "type": "text",
+        "description": "obese",
+        "source_text": "Obese"
+    },
+    "obeseRange": ">29.9",
+    "@obeseRange": {
+        "type": "text",
+        "description": "obeseRange",
+        "source_text": ">29.9"
+    },
+    "ok": "ตกลง",
+    "@ok": {
+        "type": "text",
+        "description": "ok",
+        "source_text": "OK"
+    },
+    "oldAgedAdultGroup": "ผู้สูงวัย",
+    "@oldAgedAdultGroup": {
+        "type": "text",
+        "description": "oldAgedAdultGroup",
+        "source_text": "Old Aged Adult"
+    },
+    "oldAgedAdultGroupRange": ">45 ปี",
+    "@oldAgedAdultGroupRange": {
+        "type": "text",
+        "description": "oldAgedAdultGroupRange",
+        "source_text": ">45 yo"
+    },
+    "oneTime": "ครั้งเดียว",
+    "@oneTime": {
+        "type": "text",
+        "description": "oneTime",
+        "source_text": "One-time"
+    },
+    "overweight": "น้ำหนักเกิน",
+    "@overweight": {
+        "type": "text",
+        "description": "overweight",
+        "source_text": "Overweight"
+    },
+    "overweightRange": "23-24.9",
+    "@overweightRange": {
+        "type": "text",
+        "description": "overweightRange",
+        "source_text": "23-24.9"
+    },
+    "oxygenLevel": "ระดับออกซิเจน",
+    "@oxygenLevel": {
+        "type": "text",
+        "description": "oxygenLevel",
+        "source_text": "Oxygen Level"
+    },
+    "oxygenLevelSymbol": "O2",
+    "@oxygenLevelSymbol": {
+        "type": "text",
+        "description": "oxygenLevelSymbol",
+        "source_text": "O2"
+    },
+    "passcodeNotMatched": "รหัสผ่านไม่ตรงกัน โปรดลองอีกครั้ง",
+    "@passcodeNotMatched": {
+        "type": "text",
+        "description": "passcodeNotMatched",
+        "source_text": "The passcode does not match, please try again."
+    },
+    "password": "รหัสผ่าน",
+    "@password": {
+        "type": "text",
+        "description": "password",
+        "source_text": "Password"
+    },
+    "passwordNotMatchedMessage": "รหัสผ่านของคุณไม่ตรงกับรหัสผ่านที่ยืนยัน",
+    "@passwordNotMatchedMessage": {
+        "type": "text",
+        "description": "passwordNotMatchedMessage",
+        "source_text": "Your password does not match with the confirm password."
+    },
+    "passwordNotMatchedTitle": "รหัสผ่านไม่ตรงกัน",
+    "@passwordNotMatchedTitle": {
+        "type": "text",
+        "description": "passwordNotMatchedTitle",
+        "source_text": "Password Not Matched"
+    },
+    "passwordNotMetRequirementMessage": "รหัสผ่านของคุณควรมีอักษรตัวพิมพ์ใหญ่อย่างน้อย 1 ตัว, อักษรตัวพิมพ์เล็ก 1 ตัว, ตัวเลข 1 ตัว และอักขระพิเศษ 1 ตัว รหัสผ่านของคุณควรมีอักขระอย่างน้อย 8 ตัว",
+    "@passwordNotMetRequirementMessage": {
+        "type": "text",
+        "description": "passwordNotMetRequirementMessage",
+        "source_text": "Your password should contains at least 1 uppercase letter, 1 lowercase letter, 1 digit and 1 special character. Your password length should have a minimum of 8 characters."
+    },
+    "passwordNotMetRequirementTitle": "ไม่ตรงตามข้อกำหนดเกี่ยวกับรหัสผ่าน",
+    "@passwordNotMetRequirementTitle": {
+        "type": "text",
+        "description": "passwordNotMetRequirementTitle",
+        "source_text": "Password Requirements Not Met"
+    },
+    "passwordNotValidMessage": "รหัสผ่านของคุณไม่ถูกต้อง",
+    "@passwordNotValidMessage": {
+        "type": "text",
+        "description": "passwordNotValidMessage",
+        "source_text": "Your password is not valid."
+    },
+    "passwordNotValidTitle": "รหัสผ่านไม่ถูกต้อง",
+    "@passwordNotValidTitle": {
+        "type": "text",
+        "description": "passwordNotValidTitle",
+        "source_text": "Invalid Password"
+    },
+    "personalDevelopment": "การพัฒนาตนเอง",
+    "@personalDevelopment": {
+        "type": "text",
+        "description": "personalDevelopment",
+        "source_text": "Personal Development"
+    },
+    "poweredBy": "ขับเคลื่อนโดย",
+    "@poweredBy": {
+        "type": "text",
+        "description": "poweredBy",
+        "source_text": "Powered by"
+    },
+    "poweredByCheckup": "ขับเคลื่อนโดย Checkup",
+    "@poweredByCheckup": {
+        "type": "text",
+        "description": "poweredByCheckup",
+        "source_text": "Powered by Checkup"
+    },
+    "preobese": "เกือบน้ำหนักเกิน",
+    "@preobese": {
+        "type": "text",
+        "description": "preobese",
+        "source_text": "Pre-Obese"
+    },
+    "preobeseRange": "25-29.9",
+    "@preobeseRange": {
+        "type": "text",
+        "description": "preobeseRange",
+        "source_text": "25-29.9"
+    },
+    "previous": "ก่อนหน้านี้",
+    "@previous": {
+        "type": "text",
+        "description": "previous",
+        "source_text": "Previous"
+    },
+    "profile": "โพรไฟล์",
+    "@profile": {
+        "type": "text",
+        "description": "profile",
+        "source_text": "Profile"
+    },
+    "recoverAccount": "กู้คืนบัญชี",
+    "@recoverAccount": {
+        "type": "text",
+        "description": "recoverAccount",
+        "source_text": "Recover account"
+    },
+    "recoverAccountSubtitle": "กู้คืนบัญชีของคุณโดยใช้รหัสกู้คืน",
+    "@recoverAccountSubtitle": {
+        "type": "text",
+        "description": "recoverAccountSubtitle",
+        "source_text": "Recover your account using the recovery code"
+    },
+    "recoverAccountTitle": "กู้คืนบัญชี",
+    "@recoverAccountTitle": {
+        "type": "text",
+        "description": "recoverAccountTitle",
+        "source_text": "Recover account"
+    },
+    "recoveryCode": "รหัสกู้คืน",
+    "@recoveryCode": {
+        "type": "text",
+        "description": "recoveryCode",
+        "source_text": "Recovery code"
+    },
+    "recoveryCodes": "รหัสกู้คืน",
+    "@recoveryCodes": {
+        "type": "text",
+        "description": "recoveryCodes",
+        "source_text": "Recovery Codes"
+    },
+    "recurring": "เกิดขึ้นซ้ำ",
+    "@recurring": {
+        "type": "text",
+        "description": "recurring",
+        "source_text": "Recurring"
+    },
+    "relationships": "ความสัมพันธ์",
+    "@relationships": {
+        "type": "text",
+        "description": "relationships",
+        "source_text": "Relationships"
+    },
+    "resetPassword": "รีเซ็ตรหัสผ่าน",
+    "@resetPassword": {
+        "type": "text",
+        "description": "resetPassword",
+        "source_text": "Reset password"
+    },
+    "resetPasswordFailedMessage": "รีเซ็ตรหัสผ่านบัญชีของคุณไม่สำเร็จ โปรดลองใหม่อีกครั้ง",
+    "@resetPasswordFailedMessage": {
+        "type": "text",
+        "description": "resetPasswordFailedMessage",
+        "source_text": "Your account password did not reset successfully. Please try again."
+    },
+    "resetPasswordFailedTitle": "การรีเซ็ตรหัสผ่านล้มเหลว",
+    "@resetPasswordFailedTitle": {
+        "type": "text",
+        "description": "resetPasswordFailedTitle",
+        "source_text": "Reset Password Failed"
+    },
+    "resetPasswordRedirectMessage": "โปรดรอสักครู่ขณะที่เราเปลี่ยนเส้นทางคุณไปยังหน้าลงชื่อเข้าใช้...",
+    "@resetPasswordRedirectMessage": {
+        "type": "text",
+        "description": "resetPasswordRedirectMessage",
+        "source_text": "Please wait while we redirect you to the sign in page..."
+    },
+    "resetPasswordSubtitle": "กำหนดรหัสผ่านใหม่",
+    "@resetPasswordSubtitle": {
+        "type": "text",
+        "description": "resetPasswordSubtitle",
+        "source_text": "Set new password"
+    },
+    "resetPasswordSuccessMessage": "สำเร็จ",
+    "@resetPasswordSuccessMessage": {
+        "type": "text",
+        "description": "resetPasswordSuccessMessage",
+        "source_text": "The password has been reset successfully."
+    },
+    "resetPasswordSuccessTitle": "รีเซ็ตรหัสผ่านเรียบร้อยแล้ว",
+    "@resetPasswordSuccessTitle": {
+        "type": "text",
+        "description": "resetPasswordSuccessTitle",
+        "source_text": "Reset Password Success"
+    },
+    "resetPasswordTitle": "รีเซ็ตรหัสผ่าน",
+    "@resetPasswordTitle": {
+        "type": "text",
+        "description": "resetPasswordTitle",
+        "source_text": "Reset password"
+    },
+    "respiratoryRate": "อัตราการหายใจ",
+    "@respiratoryRate": {
+        "type": "text",
+        "description": "respiratoryRate",
+        "source_text": "Respiratory Rate"
+    },
+    "respiratoryRateDescription": "อัตราการหายใจคือจำนวนครั้งของการหายใจต่อนาที อัตรานี้มักวัดเมื่อบุคคลอยู่ในช่วงพัก และเกี่ยวข้องกับการนับจำนวนลมหายใจเป็นเวลาหนึ่งนาที โดยใช้การนับจำนวนครั้งที่หน้าอกกระเพื่อมขึ้น",
+    "@respiratoryRateDescription": {
+        "type": "text",
+        "description": "respiratoryRateDescription",
+        "source_text": "The respiration rate is the number of breaths a person takes per minute. The rate is usually measured when a person is at rest and simply involves counting the number of breaths for one minute by counting how many times the chest rises."
+    },
+    "respiratoryRateNormalRangeValues": "12 ถึง 16 RR",
+    "@respiratoryRateNormalRangeValues": {
+        "type": "text",
+        "description": "respiratoryRateNormalRangeValues",
+        "source_text": "12 to 16 RR"
+    },
+    "respiratoryRateSymbol": "RR",
+    "@respiratoryRateSymbol": {
+        "type": "text",
+        "description": "respiratoryRateSymbol",
+        "source_text": "RR"
+    },
+    "resumeQuestion": "เริ่มใหม่?",
+    "@resumeQuestion": {
+        "type": "text",
+        "description": "resumeQuestion",
+        "source_text": "Resume?"
+    },
+    "save": "บันทึก",
+    "@save": {
+        "type": "text",
+        "description": "save",
+        "source_text": "Save"
+    },
+    "saveCredentials": "บันทึกข้อมูลประจำตัว",
+    "@saveCredentials": {
+        "type": "text",
+        "description": "saveCredentials",
+        "source_text": "Save Credentials"
+    },
+    "savedCollection": "คอลเลกชันที่บันทึกไว้",
+    "@savedCollection": {
+        "type": "text",
+        "description": "savedCollection",
+        "source_text": "Saved Collection"
+    },
+    "savedHealthSuggestions": "คำแนะนำด้านสุขภาพ",
+    "@savedHealthSuggestions": {
+        "type": "text",
+        "description": "savedHealthSuggestions",
+        "source_text": "Health Suggestions"
+    },
+    "savedQuestions": "คำถาม",
+    "@savedQuestions": {
+        "type": "text",
+        "description": "savedQuestions",
+        "source_text": "Questions"
+    },
+    "screening": "คัดกรอง",
+    "@screening": {
+        "type": "text",
+        "description": "screening",
+        "source_text": "Screening"
+    },
+    "screeningCheckingVideoQualityMessage": "ตรวจสอบให้แน่ใจว่าคุณภาพวิดีโอของคุณเหมาะสำหรับ Instagram หรือ TikTok...",
+    "@screeningCheckingVideoQualityMessage": {
+        "type": "text",
+        "description": "screeningCheckingVideoQualityMessage",
+        "source_text": "Making sure your video quality is Instagram or TikTok-worthy..."
+    },
+    "screeningPredictingMessage": "วิเคราะห์เสร็จแล้ว! คุณสามารถผ่อนคลายได้ในขณะที่เราวัดสัญญาณชีพของคุณ...",
+    "@screeningPredictingMessage": {
+        "type": "text",
+        "description": "screeningPredictingMessage",
+        "source_text": "Analysis complete! You can relax while we measure your vitals..."
+    },
+    "screeningRecordingMessage": "กำลังวิเคราะห์... โปรดอย่าขยับศีรษะ และกรุณาจัดใบหน้าให้อยู่ในกรอบ...",
+    "@screeningRecordingMessage": {
+        "type": "text",
+        "description": "screeningRecordingMessage",
+        "source_text": "Analyzing... Please keep your head still and face in the box..."
+    },
+    "screeningSubtitle": "กดเพื่อสแกนใบหน้าของคุณและตรวจสอบสัญญาณชีพ",
+    "@screeningSubtitle": {
+        "type": "text",
+        "description": "screeningSubtitle",
+        "source_text": "Press to scan your face and check your vitals"
+    },
+    "screeningTitle": "วันนี้คุณเป็นอย่างไรบ้าง?",
+    "@screeningTitle": {
+        "type": "text",
+        "description": "screeningTitle",
+        "source_text": "How are you feeling today?"
+    },
+    "secretCredentialsSentMessage": "ข้อมูลประจำตัวลับของคุณเพิ่งถูกส่งไปยังที่อยู่อีเมลส่วนตัวของคุณ",
+    "@secretCredentialsSentMessage": {
+        "type": "text",
+        "description": "secretCredentialsSentMessage",
+        "source_text": "Your secret credentials has just sent to your personal email address."
+    },
+    "secretCredentialsSentTitle": "ส่งข้อมูลประจำตัวลับแล้ว",
+    "@secretCredentialsSentTitle": {
+        "type": "text",
+        "description": "secretCredentialsSentTitle",
+        "source_text": "Secret Credentials Sent"
+    },
+    "send": "ส่ง",
+    "@send": {
+        "type": "text",
+        "description": "send",
+        "source_text": "Send"
+    },
+    "setAnswer": "{answer} คำตอบ",
+    "@setAnswer": {
+        "type": "text",
+        "description": "setAnswer",
+        "source_text": "{answer} answer",
+        "placeholders": {
+            "answer": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setAnswers": "{answers} คำตอบ",
+    "@setAnswers": {
+        "type": "text",
+        "description": "setAnswers",
+        "source_text": "{answers} answers",
+        "placeholders": {
+            "answers": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setByUsername": "โดย {username}",
+    "@setByUsername": {
+        "type": "text",
+        "description": "setByUsername",
+        "source_text": "by {username}",
+        "placeholders": {
+            "username": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setDaysAgo": "{days} ที่ผ่านมา",
+    "@setDaysAgo": {
+        "type": "text",
+        "description": "setDaysAgo",
+        "source_text": "{days}d ago",
+        "placeholders": {
+            "days": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setFemales": "หญิง {numberOfFemales} คน",
+    "@setFemales": {
+        "type": "text",
+        "description": "setFemales",
+        "source_text": "{numberOfFemales} Females",
+        "placeholders": {
+            "numberOfFemales": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setHoursAgo": "{hours} ชม.ที่ผ่านมา",
+    "@setHoursAgo": {
+        "type": "text",
+        "description": "setHoursAgo",
+        "source_text": "{hours}h ago",
+        "placeholders": {
+            "hours": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setLastDays": "{numberOfDays} วันที่ผ่านมา",
+    "@setLastDays": {
+        "type": "text",
+        "description": "setLastDays",
+        "source_text": "Last {numberOfDays} days",
+        "placeholders": {
+            "numberOfDays": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMales": "ชาย {numberOfMales} คน",
+    "@setMales": {
+        "type": "text",
+        "description": "setMales",
+        "source_text": "{numberOfMales} Males",
+        "placeholders": {
+            "numberOfMales": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinsLeft": "เหลืออีก {minutes} นาที",
+    "@setMinsLeft": {
+        "type": "text",
+        "description": "setMinsLeft",
+        "source_text": "{minutes} mins left",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinutesAgo": "{minutes} นาทีที่ผ่านมา",
+    "@setMinutesAgo": {
+        "type": "text",
+        "description": "setMinutesAgo",
+        "source_text": "{minutes}m ago",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSecondsAgo": "{seconds} วินาทีที่ผ่านมา",
+    "@setSecondsAgo": {
+        "type": "text",
+        "description": "setSecondsAgo",
+        "source_text": "{seconds}s ago",
+        "placeholders": {
+            "seconds": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setStressLevel": "ระดับความเครียดของคุณดูเหมือนจะ {stressLevel}",
+    "@setStressLevel": {
+        "type": "text",
+        "description": "setStressLevel",
+        "source_text": "Your stress level seems {stressLevel}.",
+        "placeholders": {
+            "stressLevel": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setTakeMinsSelfCare2": "{minutes} นาที",
+    "@setTakeMinsSelfCare2": {
+        "type": "text",
+        "description": "setTakeMinsSelfCare2",
+        "source_text": "{minutes} mins ",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setupCredentialsMessage": "โปรดรอสักครู่ในขณะที่เราตั้งค่าบัญชีผู้ใช้แบบไม่ระบุชื่อสำหรับ Checkup ของคุณ...",
+    "@setupCredentialsMessage": {
+        "type": "text",
+        "description": "setupCredentialsMessage",
+        "source_text": "Please wait while we setting up your Checkup anonymous account..."
+    },
+    "setUsersAggregatedVitals": "สัญญาณชีพโดยรวมของผู้ใช้ {numberOfUsers} คน",
+    "@setUsersAggregatedVitals": {
+        "type": "text",
+        "description": "setUsersAggregatedVitals",
+        "source_text": "{numberOfUsers} users' aggregated vitals",
+        "placeholders": {
+            "numberOfUsers": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVote": "{vote} โหวต",
+    "@setVote": {
+        "type": "text",
+        "description": "setVote",
+        "source_text": "{vote} vote",
+        "placeholders": {
+            "vote": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVotes": "{votes} โหวต",
+    "@setVotes": {
+        "type": "text",
+        "description": "setVotes",
+        "source_text": "{votes} votes",
+        "placeholders": {
+            "votes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setWeeksAgo": "{weeks} สัปดาห์ที่ผ่านมา",
+    "@setWeeksAgo": {
+        "type": "text",
+        "description": "setWeeksAgo",
+        "source_text": "{weeks}w ago",
+        "placeholders": {
+            "weeks": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setYearsAgo": "{years} ปีที่ผ่านมา",
+    "@setYearsAgo": {
+        "type": "text",
+        "description": "setYearsAgo",
+        "source_text": "{years}y ago",
+        "placeholders": {
+            "years": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "signIn": "ลงชื่อเข้าใช้",
+    "@signIn": {
+        "type": "text",
+        "description": "signIn",
+        "source_text": "Sign In"
+    },
+    "signInSubtitle": "ลงชื่อเข้าใช้บัญชีแบบไม่ระบุตัวตนของคุณ",
+    "@signInSubtitle": {
+        "type": "text",
+        "description": "signInSubtitle",
+        "source_text": "Sign in to your anonymous account"
+    },
+    "signInTitle": "ลงชื่อเข้าใช้",
+    "@signInTitle": {
+        "type": "text",
+        "description": "signInTitle",
+        "source_text": "Sign In"
+    },
+    "skip": "ข้าม",
+    "@skip": {
+        "type": "text",
+        "description": "skip",
+        "source_text": "Skip"
+    },
+    "skipGeneratedCredentialsDescription": "คุณแน่ใจหรือไม่ว่าจะข้ามการส่งข้อมูลประจำตัวลับไปยังอีเมลส่วนตัวของคุณ? โปรดทราบว่าการทำเช่นนี้ไม่สามารถย้อนกลับ และไม่สามารถกู้คืนได้ในอนาคต",
+    "@skipGeneratedCredentialsDescription": {
+        "type": "text",
+        "description": "skipGeneratedCredentialsDescription",
+        "source_text": "Are you sure to skip sending the secret credentials to your personal email? Please note that this is irreversible and cannot be recovered in the future."
+    },
+    "skipGeneratedCredentialsTitle": "ข้ามคำเตือน",
+    "@skipGeneratedCredentialsTitle": {
+        "type": "text",
+        "description": "skipGeneratedCredentialsTitle",
+        "source_text": "Skip Warning"
+    },
+    "stressIndex": "ดัชนีความพร้อม",
+    "@stressIndex": {
+        "type": "text",
+        "description": "stressIndex",
+        "source_text": "Stress Index"
+    },
+    "stressIndexDescription": "",
+    "@stressIndexDescription": {
+        "type": "text",
+        "description": "stressIndexDescription",
+        "source_text": "Baevsky's Stress Index is a geometric measure of HRV reflecting cardiovascular system stress. Stress index between 0 and 3 means low stress level. Stress index between 4 and 5 means normal stress level. Stress index between 7 and 10 means high stress level."
+    },
+    "stressIndexNormalRangeValues": "-1 ถึง 1 SI",
+    "@stressIndexNormalRangeValues": {
+        "type": "text",
+        "description": "stressIndexNormalRangeValues",
+        "source_text": "4 to 6 SI"
+    },
+    "stressIndexSymbol": "SI",
+    "@stressIndexSymbol": {
+        "type": "text",
+        "description": "stressIndexSymbol",
+        "source_text": "SI"
+    },
+    "stressLevel": "ดัชนีความพร้อม",
+    "@stressLevel": {
+        "type": "text",
+        "description": "stressLevel",
+        "source_text": "Stress Level"
+    },
+    "submit": "ส่ง",
+    "@submit": {
+        "type": "text",
+        "description": "submit",
+        "source_text": "Submit"
+    },
+    "suggest": "แนะนำ",
+    "@suggest": {
+        "type": "text",
+        "description": "suggest",
+        "source_text": "Suggest"
+    },
+    "suggestion": "ข้อเสนอแนะ",
+    "@suggestion": {
+        "type": "text",
+        "description": "suggestion",
+        "source_text": "Suggestion"
+    },
+    "suggestionsSubtitle": "",
+    "@suggestionsSubtitle": {
+        "type": "text",
+        "description": "suggestionsSubtitle",
+        "source_text": "Here’s one small thing you can try doing"
+    },
+    "supportGroups": "กลุ่มสนับสนุน",
+    "@supportGroups": {
+        "type": "text",
+        "description": "supportGroups",
+        "source_text": "Support Groups"
+    },
+    "systolicBloodPressure": "ความดันโลหิตซิสโตลิก",
+    "@systolicBloodPressure": {
+        "type": "text",
+        "description": "systolicBloodPressure",
+        "source_text": "Systolic Blood Pressure"
+    },
+    "systolicBloodPressureSymbol": "SP",
+    "@systolicBloodPressureSymbol": {
+        "type": "text",
+        "description": "systolicBloodPressureSymbol",
+        "source_text": "SP"
+    },
+    "termsOfService": "ข้อกำหนดในการให้บริการ",
+    "@termsOfService": {
+        "type": "text",
+        "description": "termsOfService",
+        "source_text": "Terms of service"
+    },
+    "thankYou": "ขอบคุณ",
+    "@thankYou": {
+        "type": "text",
+        "description": "thankYou",
+        "source_text": "Thank you"
+    },
+    "title": "ชื่อเรื่อง",
+    "@title": {
+        "type": "text",
+        "description": "title",
+        "source_text": "Title"
+    },
+    "topAnswer": "คำตอบยอดนิยม",
+    "@topAnswer": {
+        "type": "text",
+        "description": "topAnswer",
+        "source_text": "Top Answer"
+    },
+    "topComment": "ความคิดเห็นยอดนิยม",
+    "@topComment": {
+        "type": "text",
+        "description": "topComment",
+        "source_text": "Top Comment"
+    },
+    "topQuestionOfTheWeekTitle": "คำถามกลุ่มสนับสนุนยอดนิยมประจำสัปดาห์",
+    "@topQuestionOfTheWeekTitle": {
+        "type": "text",
+        "description": "topQuestionOfTheWeekTitle",
+        "source_text": "Top Support Group Question of The Week"
+    },
+    "totalActiveUsersByAgeGroup": "ยอดผู้ใช้ที่ใช้งานอยู่ทั้งหมดตามกลุ่มอายุ",
+    "@totalActiveUsersByAgeGroup": {
+        "type": "text",
+        "description": "totalActiveUsersByAgeGroup",
+        "source_text": "Total Active Users by Age Group"
+    },
+    "totalActiveUsersByBodyMassIndex": "ยอดผู้ใช้ที่ใช้งานอยู่ทั้งหมดตามดัชนีมวลกาย",
+    "@totalActiveUsersByBodyMassIndex": {
+        "type": "text",
+        "description": "totalActiveUsersByBodyMassIndex",
+        "source_text": "Total Active Users by Body Mass Index"
+    },
+    "totalActiveUsersByGender": "ยอดผู้ใช้ที่ใช้งานอยู่ทั้งหมดตามเพศ",
+    "@totalActiveUsersByGender": {
+        "type": "text",
+        "description": "totalActiveUsersByGender",
+        "source_text": "Total Active Users by Gender"
+    },
+    "totalNumberOfActiveUsers": "ผู้ใช้ที่ใช้งานอยู่",
+    "@totalNumberOfActiveUsers": {
+        "type": "text",
+        "description": "totalNumberOfActiveUsers",
+        "source_text": "Active Users"
+    },
+    "totalNumberOfCompletedScreenings": "การคัดกรอง (เสร็จสิ้นแล้ว)",
+    "@totalNumberOfCompletedScreenings": {
+        "type": "text",
+        "description": "totalNumberOfCompletedScreenings",
+        "source_text": "Screenings (Completed)"
+    },
+    "totalNumberOfEAPSuggestionsClicked": "EAP ที่คลิกแล้ว",
+    "@totalNumberOfEAPSuggestionsClicked": {
+        "type": "text",
+        "description": "totalNumberOfEAPSuggestionsClicked",
+        "source_text": "EAP Clicked"
+    },
+    "totalNumberOfIncompletedScreenings": "การคัดกรอง (ยังไม่เสร็จ)",
+    "@totalNumberOfIncompletedScreenings": {
+        "type": "text",
+        "description": "totalNumberOfIncompletedScreenings",
+        "source_text": "Screenings (Incompleted)"
+    },
+    "totalNumberOfSuggestionsClicked": "การคัดแยกผู้ป่วยที่คลิกแล้ว",
+    "@totalNumberOfSuggestionsClicked": {
+        "type": "text",
+        "description": "totalNumberOfSuggestionsClicked",
+        "source_text": "Triage Clicked"
+    },
+    "totalNumberOfSuggestionsViewed": "การคัดแยกผู้ป่วยที่ดูแล้ว",
+    "@totalNumberOfSuggestionsViewed": {
+        "type": "text",
+        "description": "totalNumberOfSuggestionsViewed",
+        "source_text": "Triage Viewed"
+    },
+    "totalNumberOfUsers": "ผู้ใช้ทั้งหมด",
+    "@totalNumberOfUsers": {
+        "type": "text",
+        "description": "totalNumberOfUsers",
+        "source_text": "Total Users"
+    },
+    "totalUsersByAgeGroup": "ผู้ใช้ตามกลุ่มอายุ",
+    "@totalUsersByAgeGroup": {
+        "type": "text",
+        "description": "totalUsersByAgeGroup",
+        "source_text": "Users by Age Group"
+    },
+    "totalUsersByBodyMassIndex": "ผู้ใช้ตาม BMI",
+    "@totalUsersByBodyMassIndex": {
+        "type": "text",
+        "description": "totalUsersByBodyMassIndex",
+        "source_text": "Users by BMI"
+    },
+    "totalUsersByGender": "ผู้ใช้ตามเพศ",
+    "@totalUsersByGender": {
+        "type": "text",
+        "description": "totalUsersByGender",
+        "source_text": "Users by Gender"
+    },
+    "underweight": "น้ำหนักต่ำกว่าเกณฑ์",
+    "@underweight": {
+        "type": "text",
+        "description": "underweight",
+        "source_text": "Underweight"
+    },
+    "underweightRange": "<18.5",
+    "@underweightRange": {
+        "type": "text",
+        "description": "underweightRange",
+        "source_text": "<18.5"
+    },
+    "unknown": "ไม่ทราบ",
+    "@unknown": {
+        "type": "text",
+        "description": "unknown",
+        "source_text": "Unknown"
+    },
+    "username": "ชื่อผู้ใช้",
+    "@username": {
+        "type": "text",
+        "description": "username",
+        "source_text": "username"
+    },
+    "users": "ผู้ใช้",
+    "@users": {
+        "type": "text",
+        "description": "users",
+        "source_text": "Users"
+    },
+    "useSupportedBrowserMessage": "เบราว์เซอร์นี้เข้ากันไม่ได้ โปรดใช้เบราว์เซอร์ Chrome (Android เท่านั้น) หรือ Safari (iOS เท่านั้น) เวอร์ชันล่าสุดเพื่อเข้าถึงฟีเจอร์นี้",
+    "@useSupportedBrowserMessage": {
+        "type": "text",
+        "description": "useSupportedBrowserMessage",
+        "source_text": "This browser is not compatible. Please kindly use the latest version of Chrome (Android only) or Safari (iOS only) browser to access this feature."
+    },
+    "useSupportedBrowserTitle": "ใช้เบราว์เซอร์ที่รองรับ",
+    "@useSupportedBrowserTitle": {
+        "type": "text",
+        "description": "useSupportedBrowserTitle",
+        "source_text": "Use Supported Browser"
+    },
+    "viewMySuggestions": "ดูข้อเสนอแนะของฉัน",
+    "@viewMySuggestions": {
+        "type": "text",
+        "description": "viewMySuggestions",
+        "source_text": "View My Suggestions"
+    },
+    "week": "สัปดาห์",
+    "@week": {
+        "type": "text",
+        "description": "week",
+        "source_text": "Week"
+    },
+    "weekFri": "ศุกร์",
+    "@weekFri": {
+        "type": "text",
+        "description": "weekFri",
+        "source_text": "Fri"
+    },
+    "weekMon": "จันทร์",
+    "@weekMon": {
+        "type": "text",
+        "description": "weekMon",
+        "source_text": "Mon"
+    },
+    "weekSat": "เสาร์",
+    "@weekSat": {
+        "type": "text",
+        "description": "weekSat",
+        "source_text": "Sat"
+    },
+    "weekSun": "อาทิตย์",
+    "@weekSun": {
+        "type": "text",
+        "description": "weekSun",
+        "source_text": "Sun"
+    },
+    "weekThu": "พฤหัส",
+    "@weekThu": {
+        "type": "text",
+        "description": "weekThu",
+        "source_text": "Thu"
+    },
+    "weekTue": "อังคาร",
+    "@weekTue": {
+        "type": "text",
+        "description": "weekTue",
+        "source_text": "Tue"
+    },
+    "weekWed": "พุธ",
+    "@weekWed": {
+        "type": "text",
+        "description": "weekWed",
+        "source_text": "Wed"
+    },
+    "weight": "น้ำหนัก",
+    "@weight": {
+        "type": "text",
+        "description": "weight",
+        "source_text": "Weight"
+    },
+    "year": "ปี",
+    "@year": {
+        "type": "text",
+        "description": "year",
+        "source_text": "Year"
+    },
+    "yes": "ใช่",
+    "@yes": {
+        "type": "text",
+        "description": "yes",
+        "source_text": "Yes"
+    },
+    "youngAdultGroup": "ผู้ใหญ่วัยหนุ่มสาว",
+    "@youngAdultGroup": {
+        "type": "text",
+        "description": "youngAdultGroup",
+        "source_text": "Young Adult"
+    },
+    "youngAdultGroupRange": "17 -30 ปี",
+    "@youngAdultGroupRange": {
+        "type": "text",
+        "description": "youngAdultGroupRange",
+        "source_text": "17-30 yo"
+    },
+    "addAComment": "เพิ่มข้อคิดเห็น",
+    "@addAComment": {
+        "type": "text",
+        "description": "addAComment",
+        "source_text": "Add a comment"
+    },
+    "addAnAnswer": "เพิ่มคำตอบ",
+    "@addAnAnswer": {
+        "type": "text",
+        "description": "addAnAnswer",
+        "source_text": "Add an answer"
+    },
+    "allTime": "ทุกเวลา",
+    "@allTime": {
+        "type": "text",
+        "description": "allTime",
+        "source_text": "All Time"
+    },
+    "anger": "",
+    "@anger": {
+        "type": "text",
+        "description": "anger",
+        "source_text": "Anger"
+    },
+    "askInThisSupportGroup": "สอบถามในกลุ่มสนับสนุนนี้",
+    "@askInThisSupportGroup": {
+        "type": "text",
+        "description": "askInThisSupportGroup",
+        "source_text": "Ask in this support group"
+    },
+    "askQuestion": "ถามคำถาม",
+    "@askQuestion": {
+        "type": "text",
+        "description": "askQuestion",
+        "source_text": "Ask Question"
+    },
+    "askQuestionSubtitle1": "ลองเริ่มตอบคำถามของคุณด้วย",
+    "@askQuestionSubtitle1": {
+        "type": "text",
+        "description": "askQuestionSubtitle1",
+        "source_text": "Consider starting your question with "
+    },
+    "askQuestionSubtitle2": "จะ, อะไร, ทำไม, เมื่อไหร่, ใคร หรืออย่างไร",
+    "@askQuestionSubtitle2": {
+        "type": "text",
+        "description": "askQuestionSubtitle2",
+        "source_text": "will, what, why, when, who or how"
+    },
+    "assessments": "การประเมินผล",
+    "@assessments": {
+        "type": "text",
+        "description": "assessments",
+        "source_text": "Assessments"
+    },
+    "attendingToYou": "ฉันจะคอยดูแลคุณ...",
+    "@attendingToYou": {
+        "type": "text",
+        "description": "attendingToYou",
+        "source_text": "I'm attending to you..."
+    },
+    "biometricNotAuthenticated": "",
+    "@biometricNotAuthenticated": {
+        "type": "text",
+        "description": "biometricNotAuthenticated",
+        "source_text": "Your biometric credential is not authenticated, please try again."
+    },
+    "choosePreferences": "",
+    "@choosePreferences": {
+        "type": "text",
+        "description": "choosePreferences",
+        "source_text": "What do you wish to manage?"
+    },
+    "choosePreferencesConfidential": "",
+    "@choosePreferencesConfidential": {
+        "type": "text",
+        "description": "choosePreferencesConfidential",
+        "source_text": "Your preferences are strictly confidential."
+    },
+    "choosePreferencesSubtitle": "",
+    "@choosePreferencesSubtitle": {
+        "type": "text",
+        "description": "choosePreferencesSubtitle",
+        "source_text": "You can choose more than one and change preferences anytime."
+    },
+    "completeProfileSubtitle": "",
+    "@completeProfileSubtitle": {
+        "type": "text",
+        "description": "completeProfileSubtitle",
+        "source_text": "Complete your profile to personalise your user experience."
+    },
+    "completeProfileTitle": "คุณต้องการจัดการอะไร?",
+    "@completeProfileTitle": {
+        "type": "text",
+        "description": "completeProfileTitle",
+        "source_text": "Complete Profile"
+    },
+    "confirmReportGroupSubtitle": "",
+    "@confirmReportGroupSubtitle": {
+        "type": "text",
+        "description": "confirmReportGroupSubtitle",
+        "source_text": "Thank you for reporting. Your submission is sent to your organisation administrator for review."
+    },
+    "confirmReportGroupTitle": "",
+    "@confirmReportGroupTitle": {
+        "type": "text",
+        "description": "confirmReportGroupTitle",
+        "source_text": "Report Group Confirmation"
+    },
+    "confirmReportUserSubtitle": "",
+    "@confirmReportUserSubtitle": {
+        "type": "text",
+        "description": "confirmReportUserSubtitle",
+        "source_text": "Thank you for reporting. Your submission is sent to your organisation administrator for review."
+    },
+    "confirmReportUserTitle": "",
+    "@confirmReportUserTitle": {
+        "type": "text",
+        "description": "confirmReportUserTitle",
+        "source_text": "Report User Confirmation"
+    },
+    "confirmSuggestGroupSubtitle": "",
+    "@confirmSuggestGroupSubtitle": {
+        "type": "text",
+        "description": "confirmSuggestGroupSubtitle",
+        "source_text": "Thank you for suggesting new group. The new group requires at least 10 votes to be created and opened."
+    },
+    "confirmSuggestGroupTitle": "",
+    "@confirmSuggestGroupTitle": {
+        "type": "text",
+        "description": "confirmSuggestGroupTitle",
+        "source_text": "Suggest Group Confirmation"
+    },
+    "continueWithPasscode": "ดำเนินการต่อด้วยรหัสผ่านเท่านั้น",
+    "@continueWithPasscode": {
+        "type": "text",
+        "description": "continueWithPasscode",
+        "source_text": "Continue with passcode only"
+    },
+    "createPasscode": "สร้างรหัสผ่าน",
+    "@createPasscode": {
+        "type": "text",
+        "description": "createPasscode",
+        "source_text": "Create Passcode"
+    },
+    "earnCredits": "",
+    "@earnCredits": {
+        "type": "text",
+        "description": "earnCredits",
+        "source_text": "Earn Credits"
+    },
+    "earnCreditsSubtitle": "",
+    "@earnCreditsSubtitle": {
+        "type": "text",
+        "description": "earnCreditsSubtitle",
+        "source_text": "Complete any of these 1-min activities to gain Credits. Credits earn you vouchers."
+    },
+    "emailAddress": "ที่อยู่อีเมล",
+    "@emailAddress": {
+        "type": "text",
+        "description": "emailAddress",
+        "source_text": "Email Address"
+    },
+    "emailAddressNotAvailableMessage": "ที่อยู่อีเมลที่คุณเลือกไม่พร้อมใช้งาน โปรดเลือกที่อยู่อีเมลอื่น",
+    "@emailAddressNotAvailableMessage": {
+        "type": "text",
+        "description": "emailAddressNotAvailableMessage",
+        "source_text": "The email address you have chosen is not available. Please select another email address."
+    },
+    "emailAddressNotAvailableTitle": "ที่อยู่อีเมลไม่พร้อมใช้งาน",
+    "@emailAddressNotAvailableTitle": {
+        "type": "text",
+        "description": "emailAddressNotAvailableTitle",
+        "source_text": "Email Address Not Available"
+    },
+    "engageAlissaConfidential1": "ข้อมูลสุขภาพทั้งหมดของคุณจะยังคงอยู่",
+    "@engageAlissaConfidential1": {
+        "type": "text",
+        "description": "engageAlissaConfidential1",
+        "source_text": "All your health data stays "
+    },
+    "engageAlissaConfidential2": "เป็นส่วนตัวและเป็นความลับ",
+    "@engageAlissaConfidential2": {
+        "type": "text",
+        "description": "engageAlissaConfidential2",
+        "source_text": "private and confidential "
+    },
+    "engageAlissaConfidential3": "บนโทรศัพท์ของคุณเท่านั้น",
+    "@engageAlissaConfidential3": {
+        "type": "text",
+        "description": "engageAlissaConfidential3",
+        "source_text": "on your phone only"
+    },
+    "engageAlissaNow": "",
+    "@engageAlissaNow": {
+        "type": "text",
+        "description": "engageAlissaNow",
+        "source_text": "Engage Alissa Now"
+    },
+    "engageAlissaSubtitle": "",
+    "@engageAlissaSubtitle": {
+        "type": "text",
+        "description": "engageAlissaSubtitle",
+        "source_text": "You can think of Alissa as the Siri or Google Assistant for emotional support. She will alert you when she senses you need help."
+    },
+    "engageAlissaTitle": "มาทำความรู้จักกับ Alissa กัน",
+    "@engageAlissaTitle": {
+        "type": "text",
+        "description": "engageAlissaTitle",
+        "source_text": "Let's get to know Alissa"
+    },
+    "enterOrganisationCode": "ป้อนรหัสองค์กร",
+    "@enterOrganisationCode": {
+        "type": "text",
+        "description": "enterOrganisationCode",
+        "source_text": "Enter organisation code"
+    },
+    "enterPasscode": "ป้อนรหัสผ่าน 6 หลัก",
+    "@enterPasscode": {
+        "type": "text",
+        "description": "enterPasscode",
+        "source_text": "Enter a 6-digit passcode"
+    },
+    "enterPersonalEmailAddress": "ป้อนอีเมลส่วนตัวของคุณที่นี่",
+    "@enterPersonalEmailAddress": {
+        "type": "text",
+        "description": "enterPersonalEmailAddress",
+        "source_text": "Enter your personal email here"
+    },
+    "enterQuestionDescriptionHere": "ป้อนคำอธิบายที่นี่ (ไม่บังคับ)",
+    "@enterQuestionDescriptionHere": {
+        "type": "text",
+        "description": "enterQuestionDescriptionHere",
+        "source_text": "Enter description here (optional)"
+    },
+    "enterQuestionHere": "ป้อนคำถามที่นี่",
+    "@enterQuestionHere": {
+        "type": "text",
+        "description": "enterQuestionHere",
+        "source_text": "Enter question here"
+    },
+    "enterTitleHere": "ป้อนชื่อเรื่องที่นี่",
+    "@enterTitleHere": {
+        "type": "text",
+        "description": "enterTitleHere",
+        "source_text": "Enter title here"
+    },
+    "enterUniqueUsername": "ป้อนชื่อผู้ใช้ที่ไม่ซ้ำกัน",
+    "@enterUniqueUsername": {
+        "type": "text",
+        "description": "enterUniqueUsername",
+        "source_text": "Enter unique username"
+    },
+    "exitAppConfirmationTitle": "คุณแน่ใจหรือไม่ว่าต้องการออกจากแอป?",
+    "@exitAppConfirmationTitle": {
+        "type": "text",
+        "description": "exitAppConfirmationTitle",
+        "source_text": "Are you sure you want to exit the app?"
+    },
+    "filter": "กรอง",
+    "@filter": {
+        "type": "text",
+        "description": "filter",
+        "source_text": "Filter"
+    },
+    "generateAnotherUsername": "สร้างชื่อผู้ใช้อื่น",
+    "@generateAnotherUsername": {
+        "type": "text",
+        "description": "generateAnotherUsername",
+        "source_text": "Generate another username"
+    },
+    "getStarted": "เริ่มต้น",
+    "@getStarted": {
+        "type": "text",
+        "description": "getStarted",
+        "source_text": "Get Started"
+    },
+    "globalConfirmation": "การยืนยัน",
+    "@globalConfirmation": {
+        "type": "text",
+        "description": "globalConfirmation",
+        "source_text": "Confirmation"
+    },
+    "goals": "เป้าหมาย",
+    "@goals": {
+        "type": "text",
+        "description": "goals",
+        "source_text": "Goals"
+    },
+    "goAnonymous": "ไม่เปิดเผยตัวตน",
+    "@goAnonymous": {
+        "type": "text",
+        "description": "goAnonymous",
+        "source_text": "Go anonymous."
+    },
+    "grief": "",
+    "@grief": {
+        "type": "text",
+        "description": "grief",
+        "source_text": "Grief"
+    },
+    "howSelfCareGoalsWorkSubtitle1": "",
+    "@howSelfCareGoalsWorkSubtitle1": {
+        "type": "text",
+        "description": "howSelfCareGoalsWorkSubtitle1",
+        "source_text": "Your app tracks your minutes spent in taking care of your mental health."
+    },
+    "howSelfCareGoalsWorkTitle": "",
+    "@howSelfCareGoalsWorkTitle": {
+        "type": "text",
+        "description": "howSelfCareGoalsWorkTitle",
+        "source_text": "How Self-Care Goals Work"
+    },
+    "howSupportGroupsWorkSubtitle1": "",
+    "@howSupportGroupsWorkSubtitle1": {
+        "type": "text",
+        "description": "howSupportGroupsWorkSubtitle1",
+        "source_text": "Support groups give you a safe space to seek advice quickly from colleagues like you."
+    },
+    "howSupportGroupsWorkSubtitle2": "",
+    "@howSupportGroupsWorkSubtitle2": {
+        "type": "text",
+        "description": "howSupportGroupsWorkSubtitle2",
+        "source_text": "Join existing groups or suggest new ones. New suggested groups require at least 10 votes to be created and opened."
+    },
+    "howSupportGroupsWorkTitle": "กลุ่มสนับสนุนทำงานอย่างไร",
+    "@howSupportGroupsWorkTitle": {
+        "type": "text",
+        "description": "howSupportGroupsWorkTitle",
+        "source_text": "How Support Groups Work"
+    },
+    "loginSubtitle": "ลงชื่อเข้าใช้บัญชีองค์กรของคุณ",
+    "@loginSubtitle": {
+        "type": "text",
+        "description": "loginSubtitle",
+        "source_text": "Login to your organisation account"
+    },
+    "loginTitle": "เข้าสู่ระบบขององค์กร",
+    "@loginTitle": {
+        "type": "text",
+        "description": "loginTitle",
+        "source_text": "Organisation Login"
+    },
+    "logout": "ออกจากระบบ",
+    "@logout": {
+        "type": "text",
+        "description": "logout",
+        "source_text": "Logout"
+    },
+    "myAssessments": "การประเมินของฉัน",
+    "@myAssessments": {
+        "type": "text",
+        "description": "myAssessments",
+        "source_text": "My Assessments"
+    },
+    "myHealthData": "ข้อมูลสุขภาพของฉัน",
+    "@myHealthData": {
+        "type": "text",
+        "description": "myHealthData",
+        "source_text": "My Health Data"
+    },
+    "myHealthDataSubtitle": "ข้อมูลสุขภาพส่วนบุคคลของคุณแสดงระดับความเครียดของคุณตามเวลาที่ผ่านไป",
+    "@myHealthDataSubtitle": {
+        "type": "text",
+        "description": "myHealthDataSubtitle",
+        "source_text": "Your personal health data shows your stress level over time."
+    },
+    "myPreferences": "การตั้งค่าของฉัน",
+    "@myPreferences": {
+        "type": "text",
+        "description": "myPreferences",
+        "source_text": "My Preferences"
+    },
+    "mySavedQuestions": "คำถามที่ฉันบันทึกไว้",
+    "@mySavedQuestions": {
+        "type": "text",
+        "description": "mySavedQuestions",
+        "source_text": "My Saved Questions"
+    },
+    "next": "ถัดไป",
+    "@next": {
+        "type": "text",
+        "description": "next",
+        "source_text": "Next"
+    },
+    "no": "ไม่",
+    "@no": {
+        "type": "text",
+        "description": "no",
+        "source_text": "No"
+    },
+    "noAnswers": "แชร์คำตอบของคุณกับกลุ่ม",
+    "@noAnswers": {
+        "type": "text",
+        "description": "noAnswers",
+        "source_text": "Share your answer to the group"
+    },
+    "noAssessmentsMessage": "ไม่มีการประเมิน",
+    "@noAssessmentsMessage": {
+        "type": "text",
+        "description": "noAssessmentsMessage",
+        "source_text": "No assessments"
+    },
+    "noComments": "แชร์ความคิดเห็นของคุณไปยังกลุ่ม",
+    "@noComments": {
+        "type": "text",
+        "description": "noComments",
+        "source_text": "Share your comment to the group"
+    },
+    "noData": "ไม่มีข้อมูล",
+    "@noData": {
+        "type": "text",
+        "description": "noData",
+        "source_text": "No Data"
+    },
+    "noGroups": "",
+    "@noGroups": {
+        "type": "text",
+        "description": "noGroups",
+        "source_text": "Start a new group to get started"
+    },
+    "noQuestions": "สร้างคำถามใหม่เพื่อเริ่มต้น",
+    "@noQuestions": {
+        "type": "text",
+        "description": "noQuestions",
+        "source_text": "Create a new question to get started"
+    },
+    "oneTimeSubtitle": "",
+    "@oneTimeSubtitle": {
+        "type": "text",
+        "description": "oneTimeSubtitle",
+        "source_text": "Check for sleep apnea risk in a few questions"
+    },
+    "others": "",
+    "@others": {
+        "type": "text",
+        "description": "others",
+        "source_text": "Others"
+    },
+    "parenthood": "",
+    "@parenthood": {
+        "type": "text",
+        "description": "parenthood",
+        "source_text": "Parenthood"
+    },
+    "pauseForNow": "",
+    "@pauseForNow": {
+        "type": "text",
+        "description": "pauseForNow",
+        "source_text": "I'll pause for now"
+    },
+    "pauseSupportAnytime": "",
+    "@pauseSupportAnytime": {
+        "type": "text",
+        "description": "pauseSupportAnytime",
+        "source_text": "You can pause my support at any time"
+    },
+    "pleaseChooseGroup": "",
+    "@pleaseChooseGroup": {
+        "type": "text",
+        "description": "pleaseChooseGroup",
+        "source_text": "Please choose group"
+    },
+    "recurringSubtitle": "",
+    "@recurringSubtitle": {
+        "type": "text",
+        "description": "recurringSubtitle",
+        "source_text": "Check in on your stress level in 5 short questions"
+    },
+    "reenterPasscode": "ป้อนรหัสผ่านของคุณอีกครั้ง",
+    "@reenterPasscode": {
+        "type": "text",
+        "description": "reenterPasscode",
+        "source_text": "Enter your passcode again"
+    },
+    "reportGroup": "",
+    "@reportGroup": {
+        "type": "text",
+        "description": "reportGroup",
+        "source_text": "Report group"
+    },
+    "reportUser": "",
+    "@reportUser": {
+        "type": "text",
+        "description": "reportUser",
+        "source_text": "Report user"
+    },
+    "rewards": "",
+    "@rewards": {
+        "type": "text",
+        "description": "rewards",
+        "source_text": "Rewards"
+    },
+    "screeningBadVideoQualityMessage": "วิดีโอดูมืด ลองหามุมหรือสถานที่สว่างกว่านี้...",
+    "@screeningBadVideoQualityMessage": {
+        "type": "text",
+        "description": "screeningBadVideoQualityMessage",
+        "source_text": "The video looks dark, let's find a brighter angle or place..."
+    },
+    "search": "",
+    "@search": {
+        "type": "text",
+        "description": "search",
+        "source_text": "Search"
+    },
+    "secureWithBiometrics": "",
+    "@secureWithBiometrics": {
+        "type": "text",
+        "description": "secureWithBiometrics",
+        "source_text": "Secure With Biometrics"
+    },
+    "selectPhoto": "เลือกภาพถ่าย",
+    "@selectPhoto": {
+        "type": "text",
+        "description": "selectPhoto",
+        "source_text": "Select Photo"
+    },
+    "setComment": "{comment} ความคิดเห็น",
+    "@setComment": {
+        "type": "text",
+        "description": "setComment",
+        "source_text": "{comment} comment",
+        "placeholders": {
+            "comment": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setComments": "{comments} ความคิดเห็น",
+    "@setComments": {
+        "type": "text",
+        "description": "setComments",
+        "source_text": "{comments} comments",
+        "placeholders": {
+            "comments": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setCreditsEarned": "{earnedCredits} เครดิต",
+    "@setCreditsEarned": {
+        "type": "text",
+        "description": "setCreditsEarned",
+        "source_text": "{earnedCredits} Credits",
+        "placeholders": {
+            "earnedCredits": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setCreditsToEarn": "{earnCredits} เครดิต",
+    "@setCreditsToEarn": {
+        "type": "text",
+        "description": "setCreditsToEarn",
+        "source_text": "{earnCredits} Credits",
+        "placeholders": {
+            "earnCredits": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setFoundMatches": "พบการตรงกัน {numberOfMatches} ครั้ง",
+    "@setFoundMatches": {
+        "type": "text",
+        "description": "setFoundMatches",
+        "source_text": "Found {numberOfMatches} matches",
+        "placeholders": {
+            "numberOfMatches": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setGoAnonymousSubtitle": "เราจะไม่เก็บรวบรวมหรือแชร์ข้อมูลส่วนบุคคลใด ๆ กับใคร ไม่เว้นแม้แต่กับนายจ้างของคุณ {organisationName}",
+    "@setGoAnonymousSubtitle": {
+        "type": "text",
+        "description": "setGoAnonymousSubtitle",
+        "source_text": "We do not collect or share any personal data with anyone. Not even with your employer, {organisationName}",
+        "placeholders": {
+            "organisationName": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setHowSelfCareGoalsWorkSubtitle2": "ใช้เวลามากขึ้นทุกสัปดาห์เพื่อหยุดพักหรือสังเกตอารมณ์ของคุณ คุณคิดว่าคุณสามารถเพลิดเพลินกับการดูแลตนเองเป็นเวลา {minutes} นาทีต่อสัปดาห์ได้หรือไม่",
+    "@setHowSelfCareGoalsWorkSubtitle2": {
+        "type": "text",
+        "description": "setHowSelfCareGoalsWorkSubtitle2",
+        "source_text": "Spend more time every week taking regular breaks or watching your mood. Think you can enjoy {minutes} mins of self-care moments a week?"
+    },
+    "setMember": "สมาชิก {member} คน",
+    "@setMember": {
+        "type": "text",
+        "description": "setMember",
+        "source_text": "{member} member",
+        "placeholders": {
+            "member": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMembers": "สมาชิก {members} คน",
+    "@setMembers": {
+        "type": "text",
+        "description": "setMembers",
+        "source_text": "{members} members",
+        "placeholders": {
+            "members": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinutes": "{minutes} นาที",
+    "@setMinutes": {
+        "type": "text",
+        "description": "setMinutes",
+        "source_text": "{minutes} mins ",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMore": "อีก {numberOf}",
+    "@setMore": {
+        "type": "text",
+        "description": "setMore",
+        "source_text": "{numberOf} more",
+        "placeholders": {
+            "numberOf": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setQuestion": "{question} คำถาม",
+    "@setQuestion": {
+        "type": "text",
+        "description": "setQuestion",
+        "source_text": "{question} question",
+        "placeholders": {
+            "question": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setQuestions": "{questions} คำถาม",
+    "@setQuestions": {
+        "type": "text",
+        "description": "setQuestions",
+        "source_text": "{questions} questions",
+        "placeholders": {
+            "questions": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSave": "บันทึกไว้ {numberOfSaves} ครั้ง",
+    "@setSave": {
+        "type": "text",
+        "description": "setSave",
+        "source_text": "{numberOfSaves} save",
+        "placeholders": {
+            "numberOfSaves": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSaves": "บันทึกไว้ {numberOfSaves} ครั้ง",
+    "@setSaves": {
+        "type": "text",
+        "description": "setSaves",
+        "source_text": "{numberOfSaves} saves",
+        "placeholders": {
+            "numberOfSaves": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSlotsLeft": "ช่องที่เหลือ: {currentAvailableSlots} / {totalSlots}",
+    "@setSlotsLeft": {
+        "type": "text",
+        "description": "setSlotsLeft",
+        "source_text": "Slots left: {currentAvailableSlots} / {totalSlots}"
+    },
+    "settings": "การตั้งค่า",
+    "@settings": {
+        "type": "text",
+        "description": "settings",
+        "source_text": "Settings"
+    },
+    "setVotesRemaining": "ต้องเหลือคะแนนเสียงอีก {numberOfVotes} เสียงจึงจะเปิดได้",
+    "@setVotesRemaining": {
+        "type": "text",
+        "description": "setVotesRemaining",
+        "source_text": "Requires {numberOfVotes} votes left to open"
+    },
+    "suggestNewSupportGroup": "เสนอแนะกลุ่มสนับสนุนใหม่",
+    "@suggestNewSupportGroup": {
+        "type": "text",
+        "description": "suggestNewSupportGroup",
+        "source_text": "Suggest New Support Group"
+    },
+    "suggestNewSupportGroupSubtitle": "",
+    "@suggestNewSupportGroupSubtitle": {
+        "type": "text",
+        "description": "suggestNewSupportGroupSubtitle",
+        "source_text": "A support group would open conversations that matter to you:"
+    },
+    "takeMinsSelfCare1": "หายใจเข้าลึก ๆ เป็นเวลา 5 วินาที...",
+    "@takeMinsSelfCare1": {
+        "type": "text",
+        "description": "takeMinsSelfCare1",
+        "source_text": "Take "
+    },
+    "takeMinsSelfCare3": "",
+    "@takeMinsSelfCare3": {
+        "type": "text",
+        "description": "takeMinsSelfCare3",
+        "source_text": "of self-care moments this week"
+    },
+    "theCreditsSystem": "",
+    "@theCreditsSystem": {
+        "type": "text",
+        "description": "theCreditsSystem",
+        "source_text": "The Credits System"
+    },
+    "theCreditsSystemSubtitle1": "",
+    "@theCreditsSystemSubtitle1": {
+        "type": "text",
+        "description": "theCreditsSystemSubtitle1",
+        "source_text": "When you take care of your mental health or help a colleague, you earn Credits which are exchangeable for rewards like GrabFood vouchers."
+    },
+    "theCreditsSystemSubtitle2": "",
+    "@theCreditsSystemSubtitle2": {
+        "type": "text",
+        "description": "theCreditsSystemSubtitle2",
+        "source_text": "You can view a list of activities here that earn Credits. When you earn enough, we will notify you through the app to redeem your vouchers."
+    },
+    "tooManyPasscodes": "",
+    "@tooManyPasscodes": {
+        "type": "text",
+        "description": "tooManyPasscodes",
+        "source_text": "Too many passcodes to remember?"
+    },
+    "useTouchFaceId": "",
+    "@useTouchFaceId": {
+        "type": "text",
+        "description": "useTouchFaceId",
+        "source_text": "Use Touch/Face ID"
+    },
+    "useTouchFaceIdSubtitle": "",
+    "@useTouchFaceIdSubtitle": {
+        "type": "text",
+        "description": "useTouchFaceIdSubtitle",
+        "source_text": "Log in quickly and securely using Touch or Face ID"
+    },
+    "welcomeBack": "ยินดีต้อนรับกลับมา",
+    "@welcomeBack": {
+        "type": "text",
+        "description": "welcomeBack",
+        "source_text": "Welcome back."
+    },
+    "welcomeTribe": "",
+    "@welcomeTribe": {
+        "type": "text",
+        "description": "welcomeTribe",
+        "source_text": "Welcome to your tribe!"
+    },
+    "welcomeTribeSubtitle": "ก่อนอื่นมาทำให้บัญชีของคุณปลอดภัยกัน",
+    "@welcomeTribeSubtitle": {
+        "type": "text",
+        "description": "welcomeTribeSubtitle",
+        "source_text": "First, let's make your account secure."
+    },
+    "workIssues": "",
+    "@workIssues": {
+        "type": "text",
+        "description": "workIssues",
+        "source_text": "Work Issues"
+    },
+    "stressLevelTitle": "",
+    "@stressLevelTitle": {
+        "type": "text",
+        "description": "stressLevelTitle",
+        "source_text": "Your stress level seems"
+    },
+    "viewThisWeekQuestions": "ดูคำถามของสัปดาห์นี้",
+    "@viewThisWeekQuestions": {
+        "type": "text",
+        "description": "viewThisWeekQuestions",
+        "source_text": "View this week's questions"
+    },
+    "whatsOnYourMind": "คุณคิดอะไรอยู่",
+    "@whatsOnYourMind": {
+        "type": "text",
+        "description": "whatsOnYourMind",
+        "source_text": "What's on your mind?"
+    },
+    "characters": "บุคลิก",
+    "@characters": {
+        "type": "text",
+        "description": "characters",
+        "source_text": "characters"
+    },
+    "shareYourAnswer": "แชร์คำตอบของคุณ",
+    "@shareYourAnswer": {
+        "type": "text",
+        "description": "shareYourAnswer",
+        "source_text": "Share your answer"
+    },
+    "defaultTopQuestionOfTheWeek": "",
+    "@defaultTopQuestionOfTheWeek": {
+        "type": "text",
+        "description": "defaultTopQuestionOfTheWeek",
+        "source_text": "Who in your life (or even an influencer) inspires you to be mentally and physically fit?"
+    },
+    "screeningWarmUpMessage": "หายใจเข้าลึก ๆ เป็นเวลา 5 วินาที...",
+    "@screeningWarmUpMessage": {
+        "type": "text",
+        "description": "screeningWarmUpMessage",
+        "source_text": "Take a deep breath for 5 seconds..."
+    },
+    "screeningStartMessage": "ก่อนที่เราจะเริ่มต้น มาหายใจเข้าลึก ๆ เป็นเวลา 5 วินาที...",
+    "@screeningStartMessage": {
+        "type": "text",
+        "description": "screeningStartMessage",
+        "source_text": "Before we begin, let's take a deep breath for 5 seconds..."
+    },
+    "signOut": "ออกจากระบบ",
+    "@signOut": {
+        "type": "text",
+        "description": "signOut",
+        "source_text": "Sign out"
+    },
+    "temperature": "อุณหภูมิ",
+    "@temperature": {
+        "type": "text",
+        "description": "temperature",
+        "source_text": "Temperature"
+    },
+    "temperatureSymbol": "°C",
+    "@temperatureSymbol": {
+        "type": "text",
+        "description": "temperatureSymbol",
+        "source_text": "°C"
+    },
+    "temperatureNormalRangeValues": "36.1°C ถึง 37.2°C",
+    "@temperatureNormalRangeValues": {
+        "type": "text",
+        "description": "temperatureNormalRangeValues",
+        "source_text": "36.1°C to 37.2°C"
+    },
+    "temperatureDescription": "อุณหภูมิเป็นช่วงอุณหภูมิทั่วไปที่พบในมนุษย์",
+    "@temperatureDescription": {
+        "type": "text",
+        "description": "temperatureDescription",
+        "source_text": "Temperature is the typical temperature range found in humans."
+    },
+    "questionsAndAnswers": "คำถามและคำตอบ",
+    "@questionsAndAnswers": {
+        "type": "text",
+        "description": "questionsAndAnswers",
+        "source_text": "Q&A"
+    },
+    "alissaSays": "Alissa พูด",
+    "@alissaSays": {
+        "type": "text",
+        "description": "alissaSays",
+        "source_text": "Alissa says"
+    },
+    "challenge": "",
+    "@challenge": {
+        "type": "text",
+        "description": "challenge",
+        "source_text": "Challenge"
+    },
+    "askAboutYourHealth": "ถามเกี่ยวกับสุขภาพของคุณ",
+    "@askAboutYourHealth": {
+        "type": "text",
+        "description": "askAboutYourHealth",
+        "source_text": "Ask about your health"
+    },
+    "readinessIndex": "ดัชนีความพร้อม",
+    "@readinessIndex": {
+        "type": "text",
+        "description": "readinessIndex",
+        "source_text": "Readiness Index"
+    },
+    "readinessIndexDescription": "ดัชนีความพร้อมวัดการเปลี่ยนแปลงในการฟื้นตัวและระดับความเครียดของร่างกายคุณ หากดัชนีความพร้อมของคุณอยู่ที่ 80/100 แสดงว่าระบบประสาทของคุณฟื้นตัว 80% (พักผ่อนและย่อยอาหาร) และความเครียด 20% (สู้หรือหนี)",
+    "@readinessIndexDescription": {
+        "type": "text",
+        "description": "readinessIndexDescription",
+        "source_text": "The Readiness Index measures the changes in your body’s recovery and stress states. If your Readiness Index is 80/100, it indicates your nervous system is 80% in recovery (rest and digest) and 20% in stress (fight or flight). A higher Readiness Index is ideal."
+    },
+    "readinessIndexNormalRangeValues": "50 ถึง 100 RI",
+    "@readinessIndexNormalRangeValues": {
+        "type": "text",
+        "description": "readinessIndexNormalRangeValues",
+        "source_text": "50 to 100 RI"
+    },
+    "readinessIndexSymbol": "RI",
+    "@readinessIndexSymbol": {
+        "type": "text",
+        "description": "readinessIndexSymbol",
+        "source_text": "RI"
+    },
+    "chatResponseSystemErrorMessage": "อุ๊ปส์! เกิดข้อผิดพลาด โปรดตรวจสอบการเชื่อมต่อเครือข่ายของคุณหรือติดต่อเราเพื่อขอความช่วยเหลือ",
+    "@chatResponseSystemErrorMessage": {
+        "type": "text",
+        "description": "chatResponseSystemErrorMessage",
+        "source_text": "Oops! An error occurred. Please check your network connection or contact us for assistance."
+    },
+    "chatResponseQuestionEmptyMessage": "คำถามของคุณไม่ควรว่างเปล่า",
+    "@chatResponseQuestionEmptyMessage": {
+        "type": "text",
+        "description": "chatResponseQuestionEmptyMessage",
+        "source_text": "Your question should not be empty."
+    },
+    "chatResponseViolateQuestionMessage": "คำถามของคุณละเมิดนโยบายการใช้งานของเรา โปรดถามคำถามอื่น",
+    "@chatResponseViolateQuestionMessage": {
+        "type": "text",
+        "description": "chatResponseViolateQuestionMessage",
+        "source_text": "Your question violates our usage policies. Please ask a different question."
+    },
+    "enterYourFinNumber": "ป้อนหมายเลข FIN ของคุณ",
+    "@enterYourFinNumber": {
+        "type": "text",
+        "description": "enterYourFinNumber",
+        "source_text": "Enter your FIN number"
+    },
+    "readinessLevel": "",
+    "@readinessLevel": {
+        "type": "text",
+        "description": "readinessLevel",
+        "source_text": "Readiness Level"
+    },
+    "topQuestionOfTheWeekSubtitle": "{topQuestion}",
+    "@topQuestionOfTheWeekSubtitle": {
+        "type": "text",
+        "description": "topQuestionOfTheWeekSubtitle",
+        "source_text": "{topQuestion}",
+        "placeholders": {
+            "topQuestion": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "bloodPressureSystolic": "",
+    "@bloodPressureSystolic": {
+        "type": "text",
+        "description": "bloodPressureSystolic",
+        "source_text": "Blood Pressure (Systolic)"
+    },
+    "suggestionTitle": "นี่เป็นสิ่งเล็ก ๆ น้อย ๆ ที่คุณสามารถลองทำได้",
+    "@suggestionTitle": {
+        "type": "text",
+        "description": "suggestionTitle",
+        "source_text": ""
+    },
+    "Blood Pressure (Systolic)": "ความดันโลหิต (ซิสโตลิก)",
+    "@Blood Pressure (Systolic)": {
+        "type": "text",
+        "source_text": ""
+    },
+    "longPressForHelp": "กดค้างไว้เพื่อโทรหาที่ปรึกษา",
+    "@longPressForHelp": {
+        "type": "text",
+        "description": "longPressForHelp",
+        "source_text": ""
+    },
+    "reflectBottomNavBar": "สะท้อน",
+    "@reflectBottomNavBar": {
+        "type": "text",
+        "description": "reflectBottomNavBar",
+        "source_text": ""
+    },
+    "connectBottomNavBar": "เชื่อมต่อ",
+    "@connectBottomNavBar": {
+        "type": "text",
+        "description": "connectBottomNavBar",
+        "source_text": ""
+    },
+    "meBottomNavBar": "ฉัน",
+    "@meBottomNavBar": {
+        "type": "text",
+        "description": "meBottomNavBar",
+        "source_text": ""
+    },
+    "emptySuggestionsPromptTitle1": "ต้องการรับการสนับสนุนที่ถูกต้องใช่ไหม?",
+    "@emptySuggestionsPromptTitle1": {
+        "type": "text",
+        "description": "emptySuggestionsPromptTitle1",
+        "source_text": ""
+    },
+    "emptySuggestionsPromptTitle2": "คัดกรองตอนนี้เพื่อดูคำแนะนำเฉพาะบุคคลและเคล็ดลับสุขภาพ",
+    "@emptySuggestionsPromptTitle2": {
+        "type": "text",
+        "description": "emptySuggestionsPromptTitle2",
+        "source_text": ""
+    },
+    "emptySuggestionsNavigateToScreenPageButton": "ตรวจสุขภาพของฉัน",
+    "@emptySuggestionsNavigateToScreenPageButton": {
+        "type": "text",
+        "description": "emptySuggestionsNavigateToScreenPageButton",
+        "source_text": ""
+    },
+    "myFamilyPlanTitle": "แผนครอบครัวของฉัน",
+    "@myFamilyPlanTitle": {
+        "type": "text",
+        "description": "myFamilyPlanTitle",
+        "source_text": ""
+    },
+    "myLatestVitalsTitle": "สัญญาณชีพล่าสุดของฉัน",
+    "@myLatestVitalsTitle": {
+        "type": "text",
+        "description": "myLatestVitalsTitle",
+        "source_text": ""
+    },
+    "changeMyBMITitle": "เปลี่ยนค่าดัชนีมวลกายของฉัน",
+    "@changeMyBMITitle": {
+        "type": "text",
+        "description": "changeMyBMITitle",
+        "source_text": ""
+    },
+    "readinessIndex2": "ดัชนีความพร้อม",
+    "@readinessIndex2": {
+        "type": "text",
+        "description": "readinessIndex2",
+        "source_text": ""
+    },
+    "bloodPressure2": "ความดันโลหิต",
+    "@bloodPressure2": {
+        "type": "text",
+        "description": "bloodPressure2",
+        "source_text": ""
+    },
+    "itSupportTitleButton": "ฝ่ายสนับสนุนด้านไอที",
+    "@itSupportTitleButton": {
+        "type": "text",
+        "description": "itSupportTitleButton",
+        "source_text": ""
+    }
+}

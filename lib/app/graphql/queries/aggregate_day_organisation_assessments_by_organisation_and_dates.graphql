@@ -1,0 +1,68 @@
+query ListAllAggregateDayOrganisationAssessmentsByProfileAndDates(
+  $organisationID: ID!
+  $startDate: String
+  $endDate: String
+  $sortDirection: ModelSortDirection
+) {
+  aggregateDayOrganisationAssessmentsByEndDate(
+    filter: {startDate: {gt: $startDate}}
+    endDate: {lt: $endDate}
+    organisationID: $organisationID
+    sortDirection: $sortDirection
+  ) {
+    items {
+      ... on AggregateDayOrganisationAssessment {
+        id
+        createdAt
+        updatedAt
+        startDate
+        endDate
+        latestMood
+        latestStressLevel
+        averageOxygenLevel
+        averageOxygenSaturationLevel
+        averageRespiratoryRate
+        averageStressIndex
+        averageSystolicBloodPressure
+        averageDiastolicBloodPressure
+        averageHeartRate
+        averageHeartRateVariability
+        averageSympatheticNervousSystemIndex
+        averageScore
+        averageOxygenLevelForMale
+        averageOxygenSaturationLevelForMale
+        averageRespiratoryRateForMale
+        averageStressIndexForMale
+        averageSystolicBloodPressureForMale
+        averageDiastolicBloodPressureForMale
+        averageHeartRateForMale
+        averageHeartRateVariabilityForMale
+        averageSympatheticNervousSystemIndexForMale
+        averageScoreForMale
+        averageOxygenLevelForFemale
+        averageOxygenSaturationLevelForFemale
+        averageRespiratoryRateForFemale
+        averageStressIndexForFemale
+        averageSystolicBloodPressureForFemale
+        averageDiastolicBloodPressureForFemale
+        averageHeartRateForFemale
+        averageHeartRateVariabilityForFemale
+        averageSympatheticNervousSystemIndexForFemale
+        averageScoreForFemale
+        organisationID
+        numberOfProfiles
+        numberOfMaleProfiles
+        numberOfFemaleProfiles
+        numberOfProfilesLowRiskStressIndex
+        numberOfProfilesMediumRiskStressIndex
+        numberOfProfilesHighRiskStressIndex
+        numberOfProfilesNormalRiskBloodPressure
+        numberOfProfilesElevatedRiskBloodPressure
+        numberOfProfilesHypertensiveRiskBloodPressure
+        _deleted
+        _lastChangedAt
+        _version
+      }
+    }
+  }
+}

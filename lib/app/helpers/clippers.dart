@@ -1,0 +1,17 @@
+// Flutter imports:
+import 'package:flutter/material.dart';
+
+class MediaSizeClipper extends CustomClipper<Rect> {
+  const MediaSizeClipper(this.mediaSize);
+  final Size mediaSize;
+
+  @override
+  Rect getClip(Size size) {
+    return Rect.fromLTWH(0, 0, mediaSize.width, mediaSize.height);
+  }
+
+  @override
+  bool shouldReclip(CustomClipper<Rect> oldClipper) {
+    return true;
+  }
+}

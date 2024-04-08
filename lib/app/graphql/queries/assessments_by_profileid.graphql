@@ -1,0 +1,37 @@
+query GetAllAssessmentsByProfileID($profileID: ID!) {
+  listAssessments(
+    filter: {
+      profileID: { eq: $profileID }
+      kbArtefactLevel: { eq: "GOOD" }
+    }
+    limit: 1000000
+  ) {
+    items {
+      ... on Assessment {
+        id
+        profileID
+        createdAt
+        updatedAt
+        startDate
+        endDate
+        kbType
+        kbArtefact
+        kbArtefactLevel
+        kbCreateTimestamp
+        kbMeanHrBpm
+        kbMeanRRMs
+        kbPnsIndex
+        kbReadiness
+        kbRmssdMs
+        kbSd1Ms
+        kbSd2Ms
+        kbSdnnMs
+        kbSnsIndex
+        kbStressIndex
+        _deleted
+        _lastChangedAt
+        _version
+      }
+    }
+  }
+}

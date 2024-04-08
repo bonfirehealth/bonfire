@@ -1,0 +1,17 @@
+mutation DeleteGroupType($input: DeleteGroupTypeInput!) {
+  deleteGroupType(input: $input) {
+    ... on GroupType {
+      id
+      createdAt
+      updatedAt
+      description
+      icon
+      identifier
+      name
+      organisationID
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

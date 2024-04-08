@@ -1,0 +1,32 @@
+mutation UpdateAnswerFile($input: UpdateAnswerFileInput!) {
+  updateAnswerFile(input: $input) {
+    ... on AnswerFile {
+      id
+      createdAt
+      updatedAt
+      isHidden
+      key
+      name
+      url
+      userID
+      user {
+        ... on User {
+          id
+          username
+          photoBase64
+        }
+      }
+      answerID
+      answer {
+        ... on Answer {
+          id
+          description
+          name
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

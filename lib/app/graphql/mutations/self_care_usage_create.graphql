@@ -1,0 +1,95 @@
+mutation CreateSelfCareUsage($input: CreateSelfCareUsageInput!) {
+  createSelfCareUsage(input: $input) {
+    ... on SelfCareUsage {
+      id
+      createdAt
+      updatedAt
+      profileID
+      selfCareID
+      owner
+      profile {
+        ... on Profile {
+          id
+        }
+      }
+      selfCare {
+        ... on SelfCare {
+          id
+          createdAt
+          updatedAt
+          description
+          name
+          icon
+          index
+          numberOfAvailableSlots
+          numberOfTotalSlots
+          routePath
+          selfCareActivityId
+          activity {
+            ... on Activity {
+              id
+              createdAt
+              updatedAt
+              description
+              duration
+              name
+              activityActivityTypeId
+              activityType {
+                ... on ActivityType {
+                  id
+                  createdAt
+                  updatedAt
+                  description
+                  name
+                  identifier
+                }
+              }
+              reward {
+                ... on Reward {
+                  id
+                  createdAt
+                  updatedAt
+                  description
+                  name
+                  rewardCredits
+                  maxNumberOfRedemptions
+                  rewardType {
+                    ... on RewardType {
+                      id
+                      createdAt
+                      updatedAt
+                      description
+                      identifier
+                      name
+                    }
+                  }
+                }
+              }
+            }
+          }
+          selfCareSelfCareTypeId
+          selfCareType {
+            ... on SelfCareType {
+              id
+              identifier
+              name
+            }
+          }
+          url
+          profiles {
+            items {
+              ... on SelfCareUsage {
+                id
+                profileID
+                selfCareID
+              }
+            }
+          }
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

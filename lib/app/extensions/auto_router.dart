@@ -1,0 +1,66 @@
+// Flutter imports:
+import 'package:flutter/material.dart';
+
+// Package imports:
+import 'package:auto_route/auto_route.dart';
+
+extension AutoRouterExtension on BuildContext {
+  StackRouter get router => AutoRouter.of(this);
+
+  StackRouter get watchRouter => AutoRouter.of(this, watch: true);
+
+  @optionalTypeArgs
+  Future<T?> pushRoute<T extends Object?>(
+    PageRouteInfo route, {
+    OnNavigationFailure? onFailure,
+  }) =>
+      router.push<T>(route, onFailure: onFailure);
+
+  @optionalTypeArgs
+  Future<T?> replaceRoute<T extends Object?>(
+    PageRouteInfo route, {
+    OnNavigationFailure? onFailure,
+  }) =>
+      router.replace<T>(route, onFailure: onFailure);
+
+  @optionalTypeArgs
+  Future<bool> popRoute<T extends Object?>([T? result]) =>
+      router.pop<T>(result);
+
+  Future<void> navigateTo(
+    PageRouteInfo route, {
+    OnNavigationFailure? onFailure,
+  }) =>
+      RouterScope.of(this).controller.navigate(
+            route,
+            onFailure: onFailure,
+          );
+
+  void navigateBack() => RouterScope.of(this).controller.navigateBack();
+
+  Future<void> navigateNamedTo(
+    String path, {
+    bool includePrefixMatches = false,
+    OnNavigationFailure? onFailure,
+  }) =>
+      RouterScope.of(this).controller.navigateNamed(
+            path,
+            includePrefixMatches: includePrefixMatches,
+            onFailure: onFailure,
+          );
+
+  TabsRouter get tabsRouter => AutoTabsRouter.of(this);
+
+  TabsRouter get watchTabsRouter => AutoTabsRouter.of(this, watch: true);
+
+  // returns the top most rendered route
+  RouteData get topRoute => watchRouter.topRoute;
+
+  // returns the top most match rendered or pending
+  RouteMatch<dynamic> get topRouteMatch => watchRouter.topMatch;
+
+  T? innerRouterOf<T extends RoutingController>(String routeKey) =>
+      RouterScope.of(this).controller.innerRouterOf<T>(routeKey);
+
+  RouteData get routeData => RouteData.of(this);
+}

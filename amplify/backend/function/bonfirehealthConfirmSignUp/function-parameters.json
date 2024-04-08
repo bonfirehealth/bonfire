@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "auth": {
+      "bonfirehealth": [
+        "create",
+        "read",
+        "update"
+      ]
+    },
+    "api": {
+      "bonfirehealth": [
+        "Mutation"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

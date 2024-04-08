@@ -1,0 +1,50 @@
+query GetAggregateYearOrganisationAssessment($aggregateID: ID!) {
+  getAggregateYearOrganisationAssessment(id: $aggregateID) {
+    ... on AggregateYearOrganisationAssessment {
+      id
+      createdAt
+      updatedAt
+      startDate
+      endDate
+      latestMood
+      latestStressLevel
+      averageOxygenLevel
+      averageOxygenSaturationLevel
+      averageRespiratoryRate
+      averageStressIndex
+      averageSystolicBloodPressure
+      averageDiastolicBloodPressure
+      averageHeartRate
+      averageHeartRateVariability
+      averageSympatheticNervousSystemIndex
+      averageScore
+      averageOxygenLevelForMale
+      averageOxygenSaturationLevelForMale
+      averageRespiratoryRateForMale
+      averageStressIndexForMale
+      averageSystolicBloodPressureForMale
+      averageDiastolicBloodPressureForMale
+      averageHeartRateForMale
+      averageHeartRateVariabilityForMale
+      averageSympatheticNervousSystemIndexForMale
+      averageScoreForMale
+      averageOxygenLevelForFemale
+      averageOxygenSaturationLevelForFemale
+      averageRespiratoryRateForFemale
+      averageStressIndexForFemale
+      averageSystolicBloodPressureForFemale
+      averageDiastolicBloodPressureForFemale
+      averageHeartRateForFemale
+      averageHeartRateVariabilityForFemale
+      averageSympatheticNervousSystemIndexForFemale
+      averageScoreForFemale
+      organisationID
+      numberOfProfiles
+      numberOfMaleProfiles
+      numberOfFemaleProfiles
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

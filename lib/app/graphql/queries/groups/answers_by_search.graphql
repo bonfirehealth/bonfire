@@ -1,0 +1,157 @@
+query SearchAnswers(
+  $isHidden: Boolean = false
+  $questionID: ID!
+  $userID: ID
+  $name: String
+  $sortDirection: ModelSortDirection = DESC
+) {
+  latestAnswers(
+    questionID: $questionID
+    filter: {isHidden: {eq: $isHidden}, and: {name: {contains: $name}}}
+    sortDirection: $sortDirection
+  ) {
+    items {
+      ... on Answer {
+        id
+        createdAt
+        updatedAt
+        description
+        identifier
+        index
+        isHidden
+        name
+        numberOfClicks
+        numberOfComments
+        numberOfVotes
+        numberOfViews
+        userID
+        user {
+          ... on User {
+            id
+            username
+            photoBase64
+          }
+        }
+        questionID
+        question {
+          ... on Question {
+            id
+            description
+            name
+          }
+        }
+        comments {
+          items {
+            ... on Comment {
+              id
+              createdAt
+              updatedAt
+              description
+              identifier
+              index
+              isHidden
+              name
+              numberOfClicks
+              numberOfVotes
+              numberOfViews
+              userID
+              answerID
+              files {
+                items {
+                  ... on CommentFile {
+                    id
+                    createdAt
+                    updatedAt
+                    isHidden
+                    key
+                    name
+                    url
+                    userID
+                    commentID
+                    _deleted
+                    _lastChangedAt
+                    _version
+                  }
+                }
+              }
+              votes(filter: {userID: {eq: $userID}, isHidden: {eq: false}}) {
+                items {
+                  ... on CommentVote {
+                    id
+                    createdAt
+                    updatedAt
+                    isHidden
+                    userID
+                    user {
+                      ... on User {
+                        id
+                      }
+                    }
+                    commentID
+                    comment {
+                      ... on Comment {
+                        id
+                      }
+                    }
+                    _deleted
+                    _lastChangedAt
+                    _version
+                  }
+                }
+              }
+              _deleted
+              _lastChangedAt
+              _version
+            }
+          }
+        }
+        files {
+          items {
+            ... on AnswerFile {
+              id
+              createdAt
+              updatedAt
+              isHidden
+              key
+              name
+              url
+              userID
+              answerID
+              _deleted
+              _lastChangedAt
+              _version
+            }
+          }
+        }
+        votes(filter: {userID: {eq: $userID}, isHidden: {eq: false}}) {
+          items {
+            ... on AnswerVote {
+              id
+              createdAt
+              updatedAt
+              isHidden
+              userID
+              user {
+                ... on User {
+                  id
+                }
+              }
+              answerID
+              answer {
+                ... on Answer {
+                  id
+                }
+              }
+              _deleted
+              _lastChangedAt
+              _version
+            }
+          }
+        }
+        _deleted
+        _lastChangedAt
+        _version
+      }
+    }
+  }
+}

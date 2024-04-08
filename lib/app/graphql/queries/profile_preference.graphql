@@ -1,0 +1,26 @@
+query GetProfilePreference($profilePreferenceID: ID!) {
+  getProfilePreference(id: $profilePreferenceID) {
+    ... on ProfilePreference {
+      id
+      createdAt
+      updatedAt
+      preferenceID
+      profileID
+      owner
+      preference {
+        ... on Preference {
+          id
+          isToDelete
+        }
+      }
+      profile {
+        ... on Profile {
+          id
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

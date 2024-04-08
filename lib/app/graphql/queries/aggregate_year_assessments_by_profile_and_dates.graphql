@@ -1,0 +1,40 @@
+query ListAllAggregateYearAssessmentsByProfileAndDates(
+  $profileID: ID!
+  $startDate: String
+  $endDate: String
+  $sortDirection: ModelSortDirection
+) {
+  aggregateYearAssessmentsByEndDate(
+    filter: {startDate: {gt: $startDate}}
+    endDate: {lt: $endDate}
+    profileID: $profileID
+    sortDirection: $sortDirection
+  ) {
+    items {
+      ... on AggregateYearAssessment {
+        id
+        createdAt
+        updatedAt
+        startDate
+        endDate
+        latestMood
+        latestStressLevel
+        averageOxygenLevel
+        averageOxygenSaturationLevel
+        averageRespiratoryRate
+        averageStressIndex
+        averageSystolicBloodPressure
+        averageDiastolicBloodPressure
+        averageHeartRate
+        averageHeartRateVariability
+        averageSympatheticNervousSystemIndex
+        averageScore
+        profileID
+        numberOfAssessments
+        _deleted
+        _lastChangedAt
+        _version
+      }
+    }
+  }
+}

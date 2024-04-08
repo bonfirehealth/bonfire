@@ -1,0 +1,90 @@
+query ListAllComments(
+  $isHidden: Boolean = false
+  $answerID: ID!
+  $userID: ID
+  $sortDirection: ModelSortDirection = DESC
+) {
+  latestComments(
+    answerID: $answerID
+    filter: {isHidden: {eq: $isHidden}}
+    sortDirection: $sortDirection
+  ) {
+    items {
+      ... on Comment {
+        id
+        createdAt
+        updatedAt
+        description
+        identifier
+        index
+        isHidden
+        name
+        numberOfClicks
+        numberOfVotes
+        numberOfViews
+        userID
+        user {
+          ... on User {
+            id
+            username
+            photoBase64
+          }
+        }
+        answerID
+        answer {
+          ... on Answer {
+            id
+            description
+            name
+          }
+        }
+        files {
+          items {
+            ... on CommentFile {
+              id
+              createdAt
+              updatedAt
+              isHidden
+              key
+              name
+              url
+              userID
+              commentID
+              _deleted
+              _lastChangedAt
+              _version
+            }
+          }
+        }
+        votes(filter: {userID: {eq: $userID}, isHidden: {eq: false}}) {
+          items {
+            ... on CommentVote {
+              id
+              createdAt
+              updatedAt
+              isHidden
+              userID
+              user {
+                ... on User {
+                  id
+                }
+              }
+              commentID
+              comment {
+                ... on Comment {
+                  id
+                }
+              }
+              _deleted
+              _lastChangedAt
+              _version
+            }
+          }
+        }
+        _deleted
+        _lastChangedAt
+        _version
+      }
+    }
+  }
+}

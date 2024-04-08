@@ -1,0 +1,62 @@
+query GetProfileActivity($profileActivityID: ID!) {
+  getProfileActivity(id: $profileActivityID) {
+    ... on ProfileActivity {
+      id
+      createdAt
+      updatedAt
+      profileID
+      activityID
+      owner
+      profile {
+        ... on Profile {
+          id
+        }
+      }
+      activity {
+        ... on Activity {
+          id
+          createdAt
+          updatedAt
+          description
+          duration
+          name
+          activityActivityTypeId
+          activityType {
+            ... on ActivityType {
+              id
+              createdAt
+              updatedAt
+              description
+              name
+              identifier
+            }
+          }
+          reward {
+            ... on Reward {
+              id
+              createdAt
+              updatedAt
+              description
+              name
+              rewardCredits
+              maxNumberOfRedemptions
+              rewardType {
+                ... on RewardType {
+                  id
+                  createdAt
+                  updatedAt
+                  description
+                  identifier
+                  name
+                }
+              }
+            }
+          }
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

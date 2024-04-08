@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Flutter -->
+    <string name="app_id">com.bonfire.health.app.dev</string>
+    <string name="app_name">Checkup Dev</string>
+
+    <!-- AppWrite -->
+    <string name="appwrite_auth_callback">appwrite-callback-bonfirehealth-development</string>
+
+    <!-- Branch -->
+    <string name="branch_key">key_test_xxx</string>
+    <string name="branch_test_mode">true</string>
+    <string name="branch_main_url">bonfirehealth.test-app.link</string>
+    <string name="branch_alternate_url">bonfirehealth-alternate.test-app.link</string>
+</resources>

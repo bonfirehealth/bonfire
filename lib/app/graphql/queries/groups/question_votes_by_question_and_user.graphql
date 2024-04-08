@@ -1,0 +1,33 @@
+query ListAllQuestionVotesByQuestionAndUser($questionID: ID, $userID: ID) {
+  listQuestionVotes(
+    filter: {questionID: {eq: $questionID}, userID: {eq: $userID}}
+  ) {
+    items {
+      ... on QuestionVote {
+        id
+        createdAt
+        updatedAt
+        isHidden
+        userID
+        user {
+          ... on User {
+            id
+            username
+            photoBase64
+          }
+        }
+        questionID
+        question {
+          ... on Question {
+            id
+            description
+            name
+          }
+        }
+        _deleted
+        _lastChangedAt
+        _version
+      }
+    }
+  }
+}

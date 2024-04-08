@@ -1,0 +1,17 @@
+mutation UpdateGroupType($input: UpdateGroupTypeInput!) {
+  updateGroupType(input: $input) {
+    ... on GroupType {
+      id
+      createdAt
+      updatedAt
+      description
+      icon
+      identifier
+      name
+      organisationID
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

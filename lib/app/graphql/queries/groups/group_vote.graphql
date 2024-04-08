@@ -1,0 +1,29 @@
+query GetGroupVote($groupVoteID: ID!) {
+  getGroupVote(id: $groupVoteID) {
+    ... on GroupVote {
+      id
+      createdAt
+      updatedAt
+      isHidden
+      userID
+      user {
+        ... on User {
+          id
+          username
+          photoBase64
+        }
+      }
+      groupID
+      group {
+        ... on Group {
+          id
+          description
+          name
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

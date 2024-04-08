@@ -1,0 +1,2572 @@
+{
+    "@@x-loco-version": "1.0.28 20230907-1",
+    "@@locale": "ta",
+    "@@last_modified": "2023-09-15T11:55:44+0545",
+    "@@author": "Bonfire Health",
+    "addAComment": "ஒரு கருத்தைச் சேர்",
+    "@addAComment": {
+        "type": "text",
+        "description": "addAComment",
+        "source_text": "Add a comment"
+    },
+    "addAnAnswer": "ஒரு பதிலைச் சேர்",
+    "@addAnAnswer": {
+        "type": "text",
+        "description": "addAnAnswer",
+        "source_text": "Add an answer"
+    },
+    "age": "வயது",
+    "@age": {
+        "type": "text",
+        "description": "age",
+        "source_text": "Age"
+    },
+    "alissaSays": "அலிசா கூறுவது",
+    "@alissaSays": {
+        "type": "text",
+        "description": "alissaSays",
+        "source_text": "Alissa says"
+    },
+    "allTime": "எல்லா நேரமும்",
+    "@allTime": {
+        "type": "text",
+        "description": "allTime",
+        "source_text": "All Time"
+    },
+    "allowNotifications": "அறிவுறுத்தல்களை அனுமதி",
+    "@allowNotifications": {
+        "type": "text",
+        "description": "allowNotifications",
+        "source_text": "Allow Notifications"
+    },
+    "alreadyHaveAccount": "ஏற்கனவே கணக்கு உள்ளதா? உள் நுழையவும்.",
+    "@alreadyHaveAccount": {
+        "type": "text",
+        "description": "alreadyHaveAccount",
+        "source_text": "Already have an account? Log in."
+    },
+    "anger": "Anger",
+    "@anger": {
+        "type": "text",
+        "description": "anger",
+        "source_text": "Anger"
+    },
+    "anonymousAccountCreated": "அநாமதேயக் கணக்கு வெற்றிகரமாக உருவாக்கப்பட்டது!",
+    "@anonymousAccountCreated": {
+        "type": "text",
+        "description": "anonymousAccountCreated",
+        "source_text": "Anonymous account successfully created!"
+    },
+    "askAboutYourHealth": "உங்கள் உடல்நலத்தைப் பற்றிக் கேட்கவும்",
+    "@askAboutYourHealth": {
+        "type": "text",
+        "description": "askAboutYourHealth",
+        "source_text": "Ask about your health"
+    },
+    "askInThisSupportGroup": "இந்த ஆதரவுக் குழுவில் கேளுங்கள்",
+    "@askInThisSupportGroup": {
+        "type": "text",
+        "description": "askInThisSupportGroup",
+        "source_text": "Ask in this support group"
+    },
+    "askPeerForSupport": "ஒரு சகாவிடம் ஆதரவு கேளுங்கள்",
+    "@askPeerForSupport": {
+        "type": "text",
+        "description": "askPeerForSupport",
+        "source_text": "Ask a peer for support"
+    },
+    "askQuestion": "கேள்வியைக் கேளுங்கள்",
+    "@askQuestion": {
+        "type": "text",
+        "description": "askQuestion",
+        "source_text": "Ask Question"
+    },
+    "askQuestionSubtitle1": "உங்கள் கேள்வியை பின்வருவதில் ஏதேனும் ஒன்றைப் பயன்படுத்தித் தொடங்கவும்",
+    "@askQuestionSubtitle1": {
+        "type": "text",
+        "description": "askQuestionSubtitle1",
+        "source_text": "Consider starting your question with "
+    },
+    "askQuestionSubtitle2": "ஏன், எதற்கு, எப்போது, யார், எங்கே, அல்லது எப்படி",
+    "@askQuestionSubtitle2": {
+        "type": "text",
+        "description": "askQuestionSubtitle2",
+        "source_text": "will, what, why, when, who or how"
+    },
+    "assessmentActionSubtitle": "அடுத்து நான் என்ன செய்ய வேண்டும்?",
+    "@assessmentActionSubtitle": {
+        "type": "text",
+        "description": "assessmentActionSubtitle",
+        "source_text": "What can I do next?"
+    },
+    "assessments": "மதிப்பீடுகள்",
+    "@assessments": {
+        "type": "text",
+        "description": "assessments",
+        "source_text": "Assessments"
+    },
+    "attendingToYou": "நான் உங்களை கவனிக்கிறேன்...",
+    "@attendingToYou": {
+        "type": "text",
+        "description": "attendingToYou",
+        "source_text": "I'm attending to you..."
+    },
+    "back": "பின் செல்ல",
+    "@back": {
+        "type": "text",
+        "description": "back",
+        "source_text": "Back"
+    },
+    "biometricNotAuthenticated": "Your biometric credential is not authenticated, please try again.",
+    "@biometricNotAuthenticated": {
+        "type": "text",
+        "description": "biometricNotAuthenticated",
+        "source_text": "Your biometric credential is not authenticated, please try again."
+    },
+    "bloodOxygenLevel": "இரத்த ஆக்சிஜன் அளவு",
+    "@bloodOxygenLevel": {
+        "type": "text",
+        "description": "bloodOxygenLevel",
+        "source_text": "Blood Oxygen Level"
+    },
+    "bloodOxygenLevelDescription": "இரத்த ஆக்சிஜன் அளவு என்பது குருதியோட்டத்தில் இருக்கும் ஆக்சிஜன் அளவைக் குறிக்கிறது. ஒரு நபர் பல்ஸ் ஆக்சிமீட்டர் என்ற கருவியைப் பயன்படுத்தி தங்களின் இரத்த ஆக்சிஜன் அளவை அளவிடலாம். பல்ஸ் ஆக்சிமீட்டரில், 95% க்கும் இருப்பதை மருத்துவர்கள் குறைவான அளவு என்று கருதுகிறார்கள்.",
+    "@bloodOxygenLevelDescription": {
+        "type": "text",
+        "description": "bloodOxygenLevelDescription",
+        "source_text": "Blood Oxygen Level is the amount of oxygen circulating in their blood. A person can measure their blood oxygen levels using a pulse oximeter. On a pulse oximeter, doctors consider levels under 95% to be low. "
+    },
+    "bloodOxygenLevelNormalRangeValues": "95 %SpO2 மற்றும் அதற்கு மேல்",
+    "@bloodOxygenLevelNormalRangeValues": {
+        "type": "text",
+        "description": "bloodOxygenLevelNormalRangeValues",
+        "source_text": "95 %SpO2 and above"
+    },
+    "bloodOxygenLevelSymbol": "%SpO2",
+    "@bloodOxygenLevelSymbol": {
+        "type": "text",
+        "description": "bloodOxygenLevelSymbol",
+        "source_text": "%SpO2"
+    },
+    "bloodPressure": "இரத்த அழுத்தம்",
+    "@bloodPressure": {
+        "type": "text",
+        "description": "bloodPressure",
+        "source_text": "Blood Pressure"
+    },
+    "bloodPressureDescription": "இரத்த அழுத்தம் இரண்டு எண்களைப் பயன்படுத்தி அளவிடப்படுகிறது. சிஸ்டாலிக் இரத்த அழுத்தம் என்று கூறப்படும் முதல் எண், உங்கள் இதயம் துடிக்கும் போதும் தமனிகளில் ஏற்படும் அழுத்தத்தை அளவிடுகிறது. டயஸ்டாலிக் இரத்த அழுத்தம் என்று கூறப்படும் இரண்டாவது எண், உங்கள் இதயத் துடிப்புக்கு இடையில் ஓய்வெடுக்கும் இடைவெளியில் தமனிகளில் ஏற்படும் அழுத்தத்தை அளவிடுகிறது. ",
+    "@bloodPressureDescription": {
+        "type": "text",
+        "description": "bloodPressureDescription",
+        "source_text": "Blood pressure is measured using two numbers: The first number, called systolic blood pressure, measures the pressure in your arteries when your heart beats. The second number, called diastolic blood pressure, measures the pressure in your arteries when your heart rests between beats."
+    },
+    "bloodPressureNormalRangeValues": "120/80 mmHg மற்றும் க்ருஐவு",
+    "@bloodPressureNormalRangeValues": {
+        "type": "text",
+        "description": "bloodPressureNormalRangeValues",
+        "source_text": "120/80 mmHg and below"
+    },
+    "bloodPressureSymbol": "mmHg",
+    "@bloodPressureSymbol": {
+        "type": "text",
+        "description": "bloodPressureSymbol",
+        "source_text": "mmHg"
+    },
+    "bloodPressureSystolic": "இரத்த அழுத்தம் (சிஸ்டாலிக்)",
+    "@bloodPressureSystolic": {
+        "type": "text",
+        "description": "bloodPressureSystolic",
+        "source_text": "Blood Pressure (Systolic)"
+    },
+    "both": "இரண்டும்",
+    "@both": {
+        "type": "text",
+        "description": "both",
+        "source_text": "Both"
+    },
+    "bpm": "bpm",
+    "@bpm": {
+        "type": "text",
+        "description": "bpm",
+        "source_text": "bpm"
+    },
+    "bySigning1": "உள்நுழைவதன் மூலம், நீங்கள் செயலியின்",
+    "@bySigning1": {
+        "type": "text",
+        "description": "bySigning1",
+        "source_text": "By signing in, you agree to our app's"
+    },
+    "bySigning2": "சேவை விதிமுறைகளை ஏற்றுக்கொள்கிறீர்கள்",
+    "@bySigning2": {
+        "type": "text",
+        "description": "bySigning2",
+        "source_text": "terms of service"
+    },
+    "cameraPermissionDeniedMessage": "உங்கள் உலாவி அமைப்புகளில் கேமரா அனுமதியை இயக்கவும்.",
+    "@cameraPermissionDeniedMessage": {
+        "type": "text",
+        "description": "cameraPermissionDeniedMessage",
+        "source_text": "Please enable camera permission in your browser settings."
+    },
+    "cameraPermissionDeniedTitle": "கேமரா அனுமதி மறுக்கப்பட்டது",
+    "@cameraPermissionDeniedTitle": {
+        "type": "text",
+        "description": "cameraPermissionDeniedTitle",
+        "source_text": "Camera Permission Denied"
+    },
+    "cancel": "ரத்து செய்",
+    "@cancel": {
+        "type": "text",
+        "description": "cancel",
+        "source_text": "Cancel"
+    },
+    "challenge": "Challenge",
+    "@challenge": {
+        "type": "text",
+        "description": "challenge",
+        "source_text": "Challenge"
+    },
+    "characters": "எழுத்துக்கள்",
+    "@characters": {
+        "type": "text",
+        "description": "characters",
+        "source_text": "characters"
+    },
+    "chatResponseQuestionEmptyMessage": "உங்கள் கேள்வி காலியாக இருக்கக் கூடாது.",
+    "@chatResponseQuestionEmptyMessage": {
+        "type": "text",
+        "description": "chatResponseQuestionEmptyMessage",
+        "source_text": "Your question should not be empty."
+    },
+    "chatResponseSystemErrorMessage": "அச்சச்சோ! பிழை ஏற்பட்டுள்ளது. உங்கள் நெட்வொர்க் இணைப்பைச் சரிபார்க்கவும் அல்லது உதவிக்கு எங்களைத் தொடர்பு கொள்ளவும்.",
+    "@chatResponseSystemErrorMessage": {
+        "type": "text",
+        "description": "chatResponseSystemErrorMessage",
+        "source_text": "Oops! An error occurred. Please check your network connection or contact us for assistance."
+    },
+    "chatResponseViolateQuestionMessage": "உங்கள் கேள்வி எங்களுடைய பயன்பாட்டுக் கொள்கைகளை மீறுகிறது. தயவு செய்து வேறொரு கேள்வியைக் கேட்கவும்.",
+    "@chatResponseViolateQuestionMessage": {
+        "type": "text",
+        "description": "chatResponseViolateQuestionMessage",
+        "source_text": "Your question violates our usage policies. Please ask a different question."
+    },
+    "childGroup": "சிறு வயதினர்",
+    "@childGroup": {
+        "type": "text",
+        "description": "childGroup",
+        "source_text": "Child"
+    },
+    "childGroupRange": "0-16 வயது",
+    "@childGroupRange": {
+        "type": "text",
+        "description": "childGroupRange",
+        "source_text": "0-16 yo"
+    },
+    "choosePreferences": "What do you wish to manage?",
+    "@choosePreferences": {
+        "type": "text",
+        "description": "choosePreferences",
+        "source_text": "What do you wish to manage?"
+    },
+    "choosePreferencesConfidential": "Your preferences are strictly confidential.",
+    "@choosePreferencesConfidential": {
+        "type": "text",
+        "description": "choosePreferencesConfidential",
+        "source_text": "Your preferences are strictly confidential."
+    },
+    "choosePreferencesSubtitle": "You can choose more than one and change preferences anytime.",
+    "@choosePreferencesSubtitle": {
+        "type": "text",
+        "description": "choosePreferencesSubtitle",
+        "source_text": "You can choose more than one and change preferences anytime."
+    },
+    "completeProfileSubtitle": "Complete your profile to personalise your user experience.",
+    "@completeProfileSubtitle": {
+        "type": "text",
+        "description": "completeProfileSubtitle",
+        "source_text": "Complete your profile to personalise your user experience."
+    },
+    "completeProfileTitle": "முழு சுயவிவரம்",
+    "@completeProfileTitle": {
+        "type": "text",
+        "description": "completeProfileTitle",
+        "source_text": "Complete Profile"
+    },
+    "confirmReportGroupSubtitle": "Thank you for reporting. Your submission is sent to your organisation administrator for review.",
+    "@confirmReportGroupSubtitle": {
+        "type": "text",
+        "description": "confirmReportGroupSubtitle",
+        "source_text": "Thank you for reporting. Your submission is sent to your organisation administrator for review."
+    },
+    "confirmReportGroupTitle": "Report Group Confirmation",
+    "@confirmReportGroupTitle": {
+        "type": "text",
+        "description": "confirmReportGroupTitle",
+        "source_text": "Report Group Confirmation"
+    },
+    "confirmReportUserSubtitle": "Thank you for reporting. Your submission is sent to your organisation administrator for review.",
+    "@confirmReportUserSubtitle": {
+        "type": "text",
+        "description": "confirmReportUserSubtitle",
+        "source_text": "Thank you for reporting. Your submission is sent to your organisation administrator for review."
+    },
+    "confirmReportUserTitle": "Report User Confirmation",
+    "@confirmReportUserTitle": {
+        "type": "text",
+        "description": "confirmReportUserTitle",
+        "source_text": "Report User Confirmation"
+    },
+    "confirmSuggestGroupSubtitle": "Thank you for suggesting new group. The new group requires at least 10 votes to be created and opened.",
+    "@confirmSuggestGroupSubtitle": {
+        "type": "text",
+        "description": "confirmSuggestGroupSubtitle",
+        "source_text": "Thank you for suggesting new group. The new group requires at least 10 votes to be created and opened."
+    },
+    "confirmSuggestGroupTitle": "Suggest Group Confirmation",
+    "@confirmSuggestGroupTitle": {
+        "type": "text",
+        "description": "confirmSuggestGroupTitle",
+        "source_text": "Suggest Group Confirmation"
+    },
+    "continueWithPasscode": "கடவுக்குறியீட்டுடன் மட்டும் தொடரவும்",
+    "@continueWithPasscode": {
+        "type": "text",
+        "description": "continueWithPasscode",
+        "source_text": "Continue with passcode only"
+    },
+    "createPasscode": "கடவுக்குறியீட்டை உருவாக்கவும்",
+    "@createPasscode": {
+        "type": "text",
+        "description": "createPasscode",
+        "source_text": "Create Passcode"
+    },
+    "credentialsCopiedMessage": "உங்கள் ஃபோனில் எங்கு வேண்டுமானாலும் சான்றுகளை ஒட்டலாம்.",
+    "@credentialsCopiedMessage": {
+        "type": "text",
+        "description": "credentialsCopiedMessage",
+        "source_text": "You can paste the credentials to anywhere in your phone."
+    },
+    "credentialsCopiedTitle": "ஆதாரச்சான்றுகள் நகலெடுக்கப்பட்டன",
+    "@credentialsCopiedTitle": {
+        "type": "text",
+        "description": "credentialsCopiedTitle",
+        "source_text": "Credentials Copied"
+    },
+    "credentialsNotValidMessage": "ஆதாரச்சான்றுகள் செல்லுபடியாகவில்லை.",
+    "@credentialsNotValidMessage": {
+        "type": "text",
+        "description": "credentialsNotValidMessage",
+        "source_text": "Your credentials are not valid."
+    },
+    "credentialsNotValidTitle": "தவறான ஆதாரச்சான்றுகள்",
+    "@credentialsNotValidTitle": {
+        "type": "text",
+        "description": "credentialsNotValidTitle",
+        "source_text": "Invalid Credentials"
+    },
+    "credentialsValidMessage": "உங்கள் ஆதாரச்சான்றுகள் செல்லுபடியாகின்றன.",
+    "@credentialsValidMessage": {
+        "type": "text",
+        "description": "credentialsValidMessage",
+        "source_text": "Your credentials are valid."
+    },
+    "credentialsValidTitle": "சரியான ஆதாரச்சான்றுகள்.",
+    "@credentialsValidTitle": {
+        "type": "text",
+        "description": "credentialsValidTitle",
+        "source_text": "Valid Credentials"
+    },
+    "dashboard": "டாஷ்போர்டு",
+    "@dashboard": {
+        "type": "text",
+        "description": "dashboard",
+        "source_text": "Dashboard"
+    },
+    "day": "நாள்",
+    "@day": {
+        "type": "text",
+        "description": "day",
+        "source_text": "Day"
+    },
+    "defaultTopQuestionOfTheWeek": "Who in your life (or even an influencer) inspires you to be mentally and physically fit?",
+    "@defaultTopQuestionOfTheWeek": {
+        "type": "text",
+        "description": "defaultTopQuestionOfTheWeek",
+        "source_text": "Who in your life (or even an influencer) inspires you to be mentally and physically fit?"
+    },
+    "delete": "நீக்கு",
+    "@delete": {
+        "type": "text",
+        "description": "delete",
+        "source_text": "Delete"
+    },
+    "description": "விளக்கம்",
+    "@description": {
+        "type": "text",
+        "description": "description",
+        "source_text": "Description"
+    },
+    "diastolicBloodPressure": "டயஸ்டோலிக் இரத்த அழுத்தம்",
+    "@diastolicBloodPressure": {
+        "type": "text",
+        "description": "diastolicBloodPressure",
+        "source_text": "Diastolic Blood Pressure"
+    },
+    "diastolicBloodPressureSymbol": "DP",
+    "@diastolicBloodPressureSymbol": {
+        "type": "text",
+        "description": "diastolicBloodPressureSymbol",
+        "source_text": "DP"
+    },
+    "done": "முடிந்தது",
+    "@done": {
+        "type": "text",
+        "description": "done",
+        "source_text": "Done"
+    },
+    "earnCredits": "Earn Credits",
+    "@earnCredits": {
+        "type": "text",
+        "description": "earnCredits",
+        "source_text": "Earn Credits"
+    },
+    "earnCreditsSubtitle": "Complete any of these 1-min activities to gain Credits. Credits earn you vouchers.",
+    "@earnCreditsSubtitle": {
+        "type": "text",
+        "description": "earnCreditsSubtitle",
+        "source_text": "Complete any of these 1-min activities to gain Credits. Credits earn you vouchers."
+    },
+    "emailAddress": "மின்னஞ்சல் முகவரி",
+    "@emailAddress": {
+        "type": "text",
+        "description": "emailAddress",
+        "source_text": "Email Address"
+    },
+    "emailAddressNotAvailableMessage": "நீங்கள் தேர்வு செய்த மின்னஞ்சல் முகவரி கிடைக்கவில்லை. வேறொரு மின்னஞ்சல் முகவரியை தேர்வு செய்யவும்.",
+    "@emailAddressNotAvailableMessage": {
+        "type": "text",
+        "description": "emailAddressNotAvailableMessage",
+        "source_text": "The email address you have chosen is not available. Please select another email address."
+    },
+    "emailAddressNotAvailableTitle": "மின்னஞ்சல் முகவரி கிடைக்கவில்லை",
+    "@emailAddressNotAvailableTitle": {
+        "type": "text",
+        "description": "emailAddressNotAvailableTitle",
+        "source_text": "Email Address Not Available"
+    },
+    "engageAlissaConfidential1": "உங்களின் அனைத்து உடல்நலத் தரவுகளும்",
+    "@engageAlissaConfidential1": {
+        "type": "text",
+        "description": "engageAlissaConfidential1",
+        "source_text": "All your health data stays "
+    },
+    "engageAlissaConfidential2": "தனிப்பட்ட முறையிலும், ரகசியமாகவும்",
+    "@engageAlissaConfidential2": {
+        "type": "text",
+        "description": "engageAlissaConfidential2",
+        "source_text": "private and confidential "
+    },
+    "engageAlissaConfidential3": "உங்கள் ஃபோனிலேயே இருக்கும்",
+    "@engageAlissaConfidential3": {
+        "type": "text",
+        "description": "engageAlissaConfidential3",
+        "source_text": "on your phone only"
+    },
+    "engageAlissaNow": "Engage Alissa Now",
+    "@engageAlissaNow": {
+        "type": "text",
+        "description": "engageAlissaNow",
+        "source_text": "Engage Alissa Now"
+    },
+    "engageAlissaSubtitle": "You can think of Alissa as the Siri or Google Assistant for emotional support. She will alert you when she senses you need help.",
+    "@engageAlissaSubtitle": {
+        "type": "text",
+        "description": "engageAlissaSubtitle",
+        "source_text": "You can think of Alissa as the Siri or Google Assistant for emotional support. She will alert you when she senses you need help."
+    },
+    "engageAlissaTitle": "அலிசாவைப் பற்றி தெரிந்து கொள்ளுங்கள்",
+    "@engageAlissaTitle": {
+        "type": "text",
+        "description": "engageAlissaTitle",
+        "source_text": "Let's get to know Alissa"
+    },
+    "enterOrganisationCode": "நிறுவனத்தின் குறியீட்டை உள்ளிடவும்",
+    "@enterOrganisationCode": {
+        "type": "text",
+        "description": "enterOrganisationCode",
+        "source_text": "Enter organisation code"
+    },
+    "enterPasscode": "6-இலக்க கடவுக்குறியீட்டை உள்ளிடவும்",
+    "@enterPasscode": {
+        "type": "text",
+        "description": "enterPasscode",
+        "source_text": "Enter a 6-digit passcode"
+    },
+    "enterPersonalEmailAddress": "உங்கள் பெர்சனல் மின்னஞ்சலை இங்கே உள்ளிடவும்",
+    "@enterPersonalEmailAddress": {
+        "type": "text",
+        "description": "enterPersonalEmailAddress",
+        "source_text": "Enter your personal email here"
+    },
+    "enterQuestionDescriptionHere": "விளக்கத்தை இங்கே உள்ளிடவும் (விருப்பத்திற்குரியது)",
+    "@enterQuestionDescriptionHere": {
+        "type": "text",
+        "description": "enterQuestionDescriptionHere",
+        "source_text": "Enter description here (optional)"
+    },
+    "enterQuestionHere": "கேள்வியை இங்கே உள்ளிடவும்",
+    "@enterQuestionHere": {
+        "type": "text",
+        "description": "enterQuestionHere",
+        "source_text": "Enter question here"
+    },
+    "enterTitleHere": "தலைப்பை இங்கே உள்ளிடவும்",
+    "@enterTitleHere": {
+        "type": "text",
+        "description": "enterTitleHere",
+        "source_text": "Enter title here"
+    },
+    "enterUniqueUsername": "தனித்துவமான பயனர் பெயரை உள்ளிடவும்",
+    "@enterUniqueUsername": {
+        "type": "text",
+        "description": "enterUniqueUsername",
+        "source_text": "Enter unique username"
+    },
+    "enterYourFinNumber": "உங்கள் FIN எண்ணை உள்ளிடவும்",
+    "@enterYourFinNumber": {
+        "type": "text",
+        "description": "enterYourFinNumber",
+        "source_text": "Enter your FIN number"
+    },
+    "error": "பிழை",
+    "@error": {
+        "type": "text",
+        "description": "error",
+        "source_text": "Error"
+    },
+    "exitAppConfirmationTitle": "நீங்கள் நிச்சயமாக செயலியில் இருந்து வெளியேற விரும்புகிறீர்களா?",
+    "@exitAppConfirmationTitle": {
+        "type": "text",
+        "description": "exitAppConfirmationTitle",
+        "source_text": "Are you sure you want to exit the app?"
+    },
+    "facebookAd1": "Get a free health checkup while doing a 10 seconds live video stream? Sure!",
+    "@facebookAd1": {
+        "type": "text",
+        "description": "facebookAd1",
+        "source_text": "Get a free health checkup while doing a 10 seconds live video stream? Sure!"
+    },
+    "facebookAd2": "Take control of your health in 2023. Get a free health checkup in 10 seconds using your phone!",
+    "@facebookAd2": {
+        "type": "text",
+        "description": "facebookAd2",
+        "source_text": "Take control of your health in 2023. Get a free health checkup in 10 seconds using your phone!"
+    },
+    "facebookAd3": "Feeling stressed? Check your stress levels with just your phone's camera in 10 seconds.",
+    "@facebookAd3": {
+        "type": "text",
+        "description": "facebookAd3",
+        "source_text": "Feeling stressed? Check your stress levels with just your phone's camera in 10 seconds."
+    },
+    "facebookAd4": "No time for a health checkup? ",
+    "@facebookAd4": {
+        "type": "text",
+        "description": "facebookAd4",
+        "source_text": "No time for a health checkup? "
+    },
+    "facebookAd5": "Be a healthier you in 2023",
+    "@facebookAd5": {
+        "type": "text",
+        "description": "facebookAd5",
+        "source_text": "Be a healthier you in 2023"
+    },
+    "facebookAd6": "Check your stress level in 10s",
+    "@facebookAd6": {
+        "type": "text",
+        "description": "facebookAd6",
+        "source_text": "Check your stress level in 10s"
+    },
+    "facebookAd7": "No fitness tracker needed",
+    "@facebookAd7": {
+        "type": "text",
+        "description": "facebookAd7",
+        "source_text": "No fitness tracker needed"
+    },
+    "facebookAd8": "Know your health, be better",
+    "@facebookAd8": {
+        "type": "text",
+        "description": "facebookAd8",
+        "source_text": "Know your health, be better"
+    },
+    "facebookAd9": "Don't worry, just checkup",
+    "@facebookAd9": {
+        "type": "text",
+        "description": "facebookAd9",
+        "source_text": "Don't worry, just checkup"
+    },
+    "fatigueLevel": "சோர்வு அளவு",
+    "@fatigueLevel": {
+        "type": "text",
+        "description": "fatigueLevel",
+        "source_text": "Fatigue Level"
+    },
+    "female": "பெண்",
+    "@female": {
+        "type": "text",
+        "description": "female",
+        "source_text": "Female"
+    },
+    "filter": "வடிப்பான்",
+    "@filter": {
+        "type": "text",
+        "description": "filter",
+        "source_text": "Filter"
+    },
+    "finalizingYourVitals": "உங்கள் வைட்டல் முடிவுகள்...",
+    "@finalizingYourVitals": {
+        "type": "text",
+        "description": "finalizingYourVitals",
+        "source_text": "Finalizing your vitals..."
+    },
+    "gender": "பாலினம்",
+    "@gender": {
+        "type": "text",
+        "description": "gender",
+        "source_text": "Gender"
+    },
+    "generateAnotherUsername": "இன்னொரு பயனர் பெயரை உருவாக்கவும்",
+    "@generateAnotherUsername": {
+        "type": "text",
+        "description": "generateAnotherUsername",
+        "source_text": "Generate another username"
+    },
+    "generateCredentialsWarningMessage1": "உங்கள் ரகசிய சான்றுகளை உங்களுடைய தனிப்பட்ட மின்னஞ்சலுக்கு அனுப்பவும். இதனால், எதிர்காலத்தில் நீங்கள் மிகவும் இன்றியமையாத உங்கள் உடல்நலம் சார்ந்த தரவுகளை இழப்பதைத் தவிர்க்கலாம்.",
+    "@generateCredentialsWarningMessage1": {
+        "type": "text",
+        "description": "generateCredentialsWarningMessage1",
+        "source_text": "Send your secret credentials to your personal email so you don't lose your valuable health data in the future."
+    },
+    "generateCredentialsWarningMessage2": "உங்களுடைய தற்போதைய கடவுச்சொல்லை மறந்துவிட்டால், https://app.bonfire.health/#/recover இல் மீட்பு கோடுகளில் ஏதேனும் ஒன்றைப் பயன்படுத்தி, உங்கள் கணக்கை மீட்டெடுத்து அணுகலைப் பெறலாம்.",
+    "@generateCredentialsWarningMessage2": {
+        "type": "text",
+        "description": "generateCredentialsWarningMessage2",
+        "source_text": "If you have forgotten your current password, you can use your recovery codes to regain access to your account at https://app.bonfire.health/#/recover"
+    },
+    "getHelpNow": "இப்போதே உதவியைப் பெறுங்கள்",
+    "@getHelpNow": {
+        "type": "text",
+        "description": "getHelpNow",
+        "source_text": "Get help now"
+    },
+    "getStarted": "தொடங்கவும்",
+    "@getStarted": {
+        "type": "text",
+        "description": "getStarted",
+        "source_text": "Get Started"
+    },
+    "globalConfirmation": "உறுதிப்படுத்தல்",
+    "@globalConfirmation": {
+        "type": "text",
+        "description": "globalConfirmation",
+        "source_text": "Confirmation"
+    },
+    "goAnonymous": "அநாமதேயமாக செல்லவும்.",
+    "@goAnonymous": {
+        "type": "text",
+        "description": "goAnonymous",
+        "source_text": "Go anonymous."
+    },
+    "goals": "குறிக்கோள்கள்",
+    "@goals": {
+        "type": "text",
+        "description": "goals",
+        "source_text": "Goals"
+    },
+    "grief": "Grief",
+    "@grief": {
+        "type": "text",
+        "description": "grief",
+        "source_text": "Grief"
+    },
+    "groups": "குழுக்கள்",
+    "@groups": {
+        "type": "text",
+        "description": "groups",
+        "source_text": "Groups"
+    },
+    "heartRate": "இதயத் துடிப்பு",
+    "@heartRate": {
+        "type": "text",
+        "description": "heartRate",
+        "source_text": "Heart Rate"
+    },
+    "heartRateDescription": "இதயத் துடிப்பு (heart rate) என்பது ஒரு நிமிடத்திற்கு இதயம் சுருங்கி விரியும் எண்ணிக்கையால் அளக்கப்படும் இதயத் துடிப்பின் வேகம் ஆகும்.\n",
+    "@heartRateDescription": {
+        "type": "text",
+        "description": "heartRateDescription",
+        "source_text": "Heart Rate is the speed of the heartbeat measured by the number of contractions of the heart per minute."
+    },
+    "heartRateNormalRangeValues": "60 முதல் 100 வரை BPM",
+    "@heartRateNormalRangeValues": {
+        "type": "text",
+        "description": "heartRateNormalRangeValues",
+        "source_text": "60 to 100 BPM"
+    },
+    "heartRateReading": "இதயத் துடிப்பை அளவீடு செய்தல்",
+    "@heartRateReading": {
+        "type": "text",
+        "description": "heartRateReading",
+        "source_text": "Heart Rate Reading"
+    },
+    "heartRateReadingSource": "இதயத் துடிப்பு அளவிடத்தில் ஆதாரம்",
+    "@heartRateReadingSource": {
+        "type": "text",
+        "description": "heartRateReadingSource",
+        "source_text": "Source of Heart Rate Reading"
+    },
+    "heartRateSymbol": "BPM",
+    "@heartRateSymbol": {
+        "type": "text",
+        "description": "heartRateSymbol",
+        "source_text": "BPM"
+    },
+    "heartRateVariability": "இதயத் துடிப்பு மாறுபாடு",
+    "@heartRateVariability": {
+        "type": "text",
+        "description": "heartRateVariability",
+        "source_text": "Heart Rate Variability"
+    },
+    "heartRateVariabilityDescription": "இதயத் துடிப்பு மாறுபாடு என்பது இதயம் ஒவ்வொரு முறை சுருங்கி விரியும் நேரத்துக்கு இடையே உள்ள நேரத்தின் மாறுபாட்டின் அளவீடைக் குறிக்கிறது. இது மன அழுத்தத்தைக் குறிக்கிறது. அதே போல, ஹெச்ஆர்வி அதிகம் இருப்பது நல்லது.",
+    "@heartRateVariabilityDescription": {
+        "type": "text",
+        "description": "heartRateVariabilityDescription",
+        "source_text": "Heart Rate Variability is simply a measure of the variation in time between each heartbeat. It is an indicator of stress, higher hrv is better."
+    },
+    "heartRateVariabilityNormalRangeValues": "20 முதல் 200 ஹெச்ஆர்வி",
+    "@heartRateVariabilityNormalRangeValues": {
+        "type": "text",
+        "description": "heartRateVariabilityNormalRangeValues",
+        "source_text": "20 to 200 HRV"
+    },
+    "heartRateVariabilitySymbol": "ஹெச்ஆர்வி",
+    "@heartRateVariabilitySymbol": {
+        "type": "text",
+        "description": "heartRateVariabilitySymbol",
+        "source_text": "HRV"
+    },
+    "height": "உயரம்",
+    "@height": {
+        "type": "text",
+        "description": "height",
+        "source_text": "Height"
+    },
+    "helloAlissa": "உங்கள் உடல்நல பரிசோதனை உதவியாளரான, அலிசாவுக்கு வணக்கம் சொல்லுங்கள்",
+    "@helloAlissa": {
+        "type": "text",
+        "description": "helloAlissa",
+        "source_text": "Say hello to Alissa, your health checkup assistant."
+    },
+    "helloAlissaSubtitle": "முக்கியமான உடல்நலம் சார்ந்த விழிப்பூட்டல்களைப் பெறுங்கள். மேலும், உங்கள் உடல் மற்றும் மன நலம் சார்ந்த புதிய விஷயங்களைத் தெரிந்து கொள்ளுங்கள்.",
+    "@helloAlissaSubtitle": {
+        "type": "text",
+        "description": "helloAlissaSubtitle",
+        "source_text": "Get important health alerts and discover new things about your mental and physical health."
+    },
+    "helpPeerNow": "ஒரு சகாவுக்கு உதவி செய்",
+    "@helpPeerNow": {
+        "type": "text",
+        "description": "helpPeerNow",
+        "source_text": "Help a peer now"
+    },
+    "high": "உயர்",
+    "@high": {
+        "type": "text",
+        "description": "high",
+        "source_text": "High"
+    },
+    "howSelfCareGoalsWorkSubtitle1": "Your app tracks your minutes spent in taking care of your mental health.",
+    "@howSelfCareGoalsWorkSubtitle1": {
+        "type": "text",
+        "description": "howSelfCareGoalsWorkSubtitle1",
+        "source_text": "Your app tracks your minutes spent in taking care of your mental health."
+    },
+    "howSelfCareGoalsWorkTitle": "How Self-Care Goals Work",
+    "@howSelfCareGoalsWorkTitle": {
+        "type": "text",
+        "description": "howSelfCareGoalsWorkTitle",
+        "source_text": "How Self-Care Goals Work"
+    },
+    "howSupportGroupsWorkSubtitle1": "Support groups give you a safe space to seek advice quickly from colleagues like you.",
+    "@howSupportGroupsWorkSubtitle1": {
+        "type": "text",
+        "description": "howSupportGroupsWorkSubtitle1",
+        "source_text": "Support groups give you a safe space to seek advice quickly from colleagues like you."
+    },
+    "howSupportGroupsWorkSubtitle2": "Join existing groups or suggest new ones. New suggested groups require at least 10 votes to be created and opened.",
+    "@howSupportGroupsWorkSubtitle2": {
+        "type": "text",
+        "description": "howSupportGroupsWorkSubtitle2",
+        "source_text": "Join existing groups or suggest new ones. New suggested groups require at least 10 votes to be created and opened."
+    },
+    "howSupportGroupsWorkTitle": "ஆதரவு குழுக்கள் எவ்வாறு இயங்கும்",
+    "@howSupportGroupsWorkTitle": {
+        "type": "text",
+        "description": "howSupportGroupsWorkTitle",
+        "source_text": "How Support Groups Work"
+    },
+    "hrv": "ஹெச்ஆர்வி",
+    "@hrv": {
+        "type": "text",
+        "description": "hrv",
+        "source_text": "hrv"
+    },
+    "insights": "நுண்ணறிவு",
+    "@insights": {
+        "type": "text",
+        "description": "insights",
+        "source_text": "Insights"
+    },
+    "invalidEmailAddressMessage": "மின்னஞ்சல் முகவரி தவறானது. மீண்டும் முயற்சிக்கவும்.",
+    "@invalidEmailAddressMessage": {
+        "type": "text",
+        "description": "invalidEmailAddressMessage",
+        "source_text": "Email address is invalid. Please try again."
+    },
+    "invalidEmailAddressTitle": "தவறான மின்னஞ்சல் முகவரி.",
+    "@invalidEmailAddressTitle": {
+        "type": "text",
+        "description": "invalidEmailAddressTitle",
+        "source_text": "Invalid Email Address"
+    },
+    "invoices": "இன்வாய்ஸ்கள்",
+    "@invoices": {
+        "type": "text",
+        "description": "invoices",
+        "source_text": "Invoices"
+    },
+    "join": "இணைய",
+    "@join": {
+        "type": "text",
+        "description": "join",
+        "source_text": "Join"
+    },
+    "joined": "இணைந்துவிட்டார்",
+    "@joined": {
+        "type": "text",
+        "description": "joined",
+        "source_text": "Joined"
+    },
+    "journeys": "பயணங்கள்",
+    "@journeys": {
+        "type": "text",
+        "description": "journeys",
+        "source_text": "Journeys"
+    },
+    "landingMessage": "இந்த செயலி உங்கள் மொபைல் சாதனத்தைப் பயன்படுத்தும் மொபைல் இணைய உலாவியில் மட்டுமே தற்போது கிடைக்கிறது. செயலியை அணுக தயவுசெய்து உங்கள் மொபைல் சாதனத்தைப் பயன்படுத்தவும்.",
+    "@landingMessage": {
+        "type": "text",
+        "description": "landingMessage",
+        "source_text": "The app is currently available only on mobile web browser using your mobile device. Please kindly use your mobile device to access the app."
+    },
+    "landingTitle": "செக்அப்பிற்கு வரவேற்கிறோம்",
+    "@landingTitle": {
+        "type": "text",
+        "description": "landingTitle",
+        "source_text": "Welcome to Checkup"
+    },
+    "lastUpdatedAt": "கடைசியாக புதுப்பித்தது",
+    "@lastUpdatedAt": {
+        "type": "text",
+        "description": "lastUpdatedAt",
+        "source_text": "Last updated at"
+    },
+    "login": "உள்நுழையவும்",
+    "@login": {
+        "type": "text",
+        "description": "login",
+        "source_text": "Login"
+    },
+    "loginSubtitle": "உங்கள் நிறுவனக் கணக்கில் உள் நுழையவும்",
+    "@loginSubtitle": {
+        "type": "text",
+        "description": "loginSubtitle",
+        "source_text": "Login to your organisation account"
+    },
+    "loginTitle": "நிறுவன உள்நுழைதல்",
+    "@loginTitle": {
+        "type": "text",
+        "description": "loginTitle",
+        "source_text": "Organisation Login"
+    },
+    "logout": "வெளியேறுதல்",
+    "@logout": {
+        "type": "text",
+        "description": "logout",
+        "source_text": "Logout"
+    },
+    "low": "குறைவு",
+    "@low": {
+        "type": "text",
+        "description": "low",
+        "source_text": "Low"
+    },
+    "male": "ஆண்",
+    "@male": {
+        "type": "text",
+        "description": "male",
+        "source_text": "Male"
+    },
+    "member": "உறுப்பினர்",
+    "@member": {
+        "type": "text",
+        "description": "member",
+        "source_text": "Member"
+    },
+    "middleAgedAdultGroup": "நடுத்தர வயது பெரியவர்",
+    "@middleAgedAdultGroup": {
+        "type": "text",
+        "description": "middleAgedAdultGroup",
+        "source_text": "Middle Age Adult"
+    },
+    "middleAgedAdultGroupRange": "31-45 வயது",
+    "@middleAgedAdultGroupRange": {
+        "type": "text",
+        "description": "middleAgedAdultGroupRange",
+        "source_text": "31-45 yo"
+    },
+    "month": "மாதம்",
+    "@month": {
+        "type": "text",
+        "description": "month",
+        "source_text": "Month"
+    },
+    "monthApr": "ஏப்",
+    "@monthApr": {
+        "type": "text",
+        "description": "monthApr",
+        "source_text": "Apr"
+    },
+    "monthAug": "ஆக",
+    "@monthAug": {
+        "type": "text",
+        "description": "monthAug",
+        "source_text": "Aug"
+    },
+    "monthDec": "டிச",
+    "@monthDec": {
+        "type": "text",
+        "description": "monthDec",
+        "source_text": "Dec"
+    },
+    "monthFeb": "பிப்",
+    "@monthFeb": {
+        "type": "text",
+        "description": "monthFeb",
+        "source_text": "Feb"
+    },
+    "monthJan": "ஜன",
+    "@monthJan": {
+        "type": "text",
+        "description": "monthJan",
+        "source_text": "Jan"
+    },
+    "monthJul": "ஜூலை",
+    "@monthJul": {
+        "type": "text",
+        "description": "monthJul",
+        "source_text": "Jul"
+    },
+    "monthJun": "ஜூன்",
+    "@monthJun": {
+        "type": "text",
+        "description": "monthJun",
+        "source_text": "Jun"
+    },
+    "monthMar": "மார்",
+    "@monthMar": {
+        "type": "text",
+        "description": "monthMar",
+        "source_text": "Mar"
+    },
+    "monthMay": "மே",
+    "@monthMay": {
+        "type": "text",
+        "description": "monthMay",
+        "source_text": "May"
+    },
+    "monthNov": "நவ",
+    "@monthNov": {
+        "type": "text",
+        "description": "monthNov",
+        "source_text": "Nov"
+    },
+    "monthOct": "அக்",
+    "@monthOct": {
+        "type": "text",
+        "description": "monthOct",
+        "source_text": "Oct"
+    },
+    "monthSep": "செப்",
+    "@monthSep": {
+        "type": "text",
+        "description": "monthSep",
+        "source_text": "Sep"
+    },
+    "myAssessments": "என் மதிப்பீடுகள்",
+    "@myAssessments": {
+        "type": "text",
+        "description": "myAssessments",
+        "source_text": "My Assessments"
+    },
+    "myHealthData": "என் உடல்நல தரவு",
+    "@myHealthData": {
+        "type": "text",
+        "description": "myHealthData",
+        "source_text": "My Health Data"
+    },
+    "myHealthDataSubtitle": "உங்களுடைய தனிப்பட்ட உடல்நல தரவு, காலப்போக்கில் உங்கள் மன அழுத்த அளவைக் காண்பிக்கிறது.",
+    "@myHealthDataSubtitle": {
+        "type": "text",
+        "description": "myHealthDataSubtitle",
+        "source_text": "Your personal health data shows your stress level over time."
+    },
+    "myLatestSuggestions": "என்னுடைய சமீபத்திய பரிந்துரைகள்",
+    "@myLatestSuggestions": {
+        "type": "text",
+        "description": "myLatestSuggestions",
+        "source_text": "My Latest Suggestions"
+    },
+    "myLatestVitalReadings": "என்னுடைய சமீபத்திய உயிர்நிலை அளவீடுகள் ",
+    "@myLatestVitalReadings": {
+        "type": "text",
+        "description": "myLatestVitalReadings",
+        "source_text": "My Latest Vital Readings"
+    },
+    "myPreferences": "என் விருப்பத்தேர்வுகள்",
+    "@myPreferences": {
+        "type": "text",
+        "description": "myPreferences",
+        "source_text": "My Preferences"
+    },
+    "mySavedQuestions": "என் சேமித்த கேள்விகள்",
+    "@mySavedQuestions": {
+        "type": "text",
+        "description": "mySavedQuestions",
+        "source_text": "My Saved Questions"
+    },
+    "newPassword": "புதிய கடவுச்சொல்",
+    "@newPassword": {
+        "type": "text",
+        "description": "newPassword",
+        "source_text": "New password"
+    },
+    "newPasswordConfirm": "புதிய கடவுச்சொல்லை உறுதி செய்யவும்",
+    "@newPasswordConfirm": {
+        "type": "text",
+        "description": "newPasswordConfirm",
+        "source_text": "Confirm new password"
+    },
+    "next": "அடுத்து",
+    "@next": {
+        "type": "text",
+        "description": "next",
+        "source_text": "Next"
+    },
+    "no": "இல்லை",
+    "@no": {
+        "type": "text",
+        "description": "no",
+        "source_text": "No"
+    },
+    "noAnswers": "குழுவில் உங்கள் பதிலைப் பகிருங்கள்",
+    "@noAnswers": {
+        "type": "text",
+        "description": "noAnswers",
+        "source_text": "Share your answer to the group"
+    },
+    "noAssessmentsMessage": "எந்த மதிப்பீடுகளும் இல்லை",
+    "@noAssessmentsMessage": {
+        "type": "text",
+        "description": "noAssessmentsMessage",
+        "source_text": "No assessments"
+    },
+    "noComments": "குழுவில் உங்கள் கருத்தைப் பகிருங்கள்",
+    "@noComments": {
+        "type": "text",
+        "description": "noComments",
+        "source_text": "Share your comment to the group"
+    },
+    "noData": "தரவு எதுவும் இல்லை",
+    "@noData": {
+        "type": "text",
+        "description": "noData",
+        "source_text": "No Data"
+    },
+    "noGroups": "Start a new group to get started",
+    "@noGroups": {
+        "type": "text",
+        "description": "noGroups",
+        "source_text": "Start a new group to get started"
+    },
+    "noHealthDataMessage": "எந்த உடல்நலத் தரவும் கிடைக்கவில்லை. உங்கள் முதல் பரிசோதனையுடன் தொடங்கவும்.",
+    "@noHealthDataMessage": {
+        "type": "text",
+        "description": "noHealthDataMessage",
+        "source_text": "No health data available. Get started with your first screening."
+    },
+    "noQuestions": "தொடங்க, ஒரு புதிய கேள்வியை உருவாக்கவும்",
+    "@noQuestions": {
+        "type": "text",
+        "description": "noQuestions",
+        "source_text": "Create a new question to get started"
+    },
+    "normal": "இயல்பு",
+    "@normal": {
+        "type": "text",
+        "description": "normal",
+        "source_text": "Normal"
+    },
+    "normalRange": "இயல்பான வரம்பு",
+    "@normalRange": {
+        "type": "text",
+        "description": "normalRange",
+        "source_text": "Normal Range"
+    },
+    "normalweight": "இயல்பான எடை",
+    "@normalweight": {
+        "type": "text",
+        "description": "normalweight",
+        "source_text": "Normal Weight"
+    },
+    "normalweightRange": "18.5-22.9",
+    "@normalweightRange": {
+        "type": "text",
+        "description": "normalweightRange",
+        "source_text": "18.5-22.9"
+    },
+    "obese": "பருமன்",
+    "@obese": {
+        "type": "text",
+        "description": "obese",
+        "source_text": "Obese"
+    },
+    "obeseRange": ">29.9",
+    "@obeseRange": {
+        "type": "text",
+        "description": "obeseRange",
+        "source_text": ">29.9"
+    },
+    "ok": "சரி",
+    "@ok": {
+        "type": "text",
+        "description": "ok",
+        "source_text": "OK"
+    },
+    "oldAgedAdultGroup": "வயது முதிர்ந்த பெரியவர்",
+    "@oldAgedAdultGroup": {
+        "type": "text",
+        "description": "oldAgedAdultGroup",
+        "source_text": "Old Aged Adult"
+    },
+    "oldAgedAdultGroupRange": ">45 வயது",
+    "@oldAgedAdultGroupRange": {
+        "type": "text",
+        "description": "oldAgedAdultGroupRange",
+        "source_text": ">45 yo"
+    },
+    "oneTime": "ஒரு-முறை",
+    "@oneTime": {
+        "type": "text",
+        "description": "oneTime",
+        "source_text": "One-time"
+    },
+    "oneTimeSubtitle": "Check for sleep apnea risk in a few questions",
+    "@oneTimeSubtitle": {
+        "type": "text",
+        "description": "oneTimeSubtitle",
+        "source_text": "Check for sleep apnea risk in a few questions"
+    },
+    "others": "Others",
+    "@others": {
+        "type": "text",
+        "description": "others",
+        "source_text": "Others"
+    },
+    "overweight": "அதிக எடை",
+    "@overweight": {
+        "type": "text",
+        "description": "overweight",
+        "source_text": "Overweight"
+    },
+    "overweightRange": "23-24.9",
+    "@overweightRange": {
+        "type": "text",
+        "description": "overweightRange",
+        "source_text": "23-24.9"
+    },
+    "oxygenLevel": "ஆக்சிஜன் அளவு",
+    "@oxygenLevel": {
+        "type": "text",
+        "description": "oxygenLevel",
+        "source_text": "Oxygen Level"
+    },
+    "oxygenLevelSymbol": "O2",
+    "@oxygenLevelSymbol": {
+        "type": "text",
+        "description": "oxygenLevelSymbol",
+        "source_text": "O2"
+    },
+    "parenthood": "Parenthood",
+    "@parenthood": {
+        "type": "text",
+        "description": "parenthood",
+        "source_text": "Parenthood"
+    },
+    "passcodeNotMatched": "கடவுக்குறீயிடு பொருந்தவில்லை, மீண்டும் முயற்சிக்கவும்.",
+    "@passcodeNotMatched": {
+        "type": "text",
+        "description": "passcodeNotMatched",
+        "source_text": "The passcode does not match, please try again."
+    },
+    "password": "கடவுச்சொல்",
+    "@password": {
+        "type": "text",
+        "description": "password",
+        "source_text": "Password"
+    },
+    "passwordNotMatchedMessage": "உங்கள் கடவுச்சொல் உறுதிப்படுத்தும் கடவுச்சொல்லுடன் பொருந்தவில்லை.",
+    "@passwordNotMatchedMessage": {
+        "type": "text",
+        "description": "passwordNotMatchedMessage",
+        "source_text": "Your password does not match with the confirm password."
+    },
+    "passwordNotMatchedTitle": "கடவுச்சொல் பொருந்தவில்லை.",
+    "@passwordNotMatchedTitle": {
+        "type": "text",
+        "description": "passwordNotMatchedTitle",
+        "source_text": "Password Not Matched"
+    },
+    "passwordNotMetRequirementMessage": "உங்கள் கடவுச்சொல்லில் குறைந்தபட்சம் 1 பெரிய எழுத்து, 1 சிறிய எழுத்து, 1 எண் மற்றும் 1 சிறப்பு எழுத்து இருக்க வேண்டும். உங்கள் கடவுச்சொல்லில் குறைந்தது 8 எழுத்துக்கள் இருக்க வேண்டும்.",
+    "@passwordNotMetRequirementMessage": {
+        "type": "text",
+        "description": "passwordNotMetRequirementMessage",
+        "source_text": "Your password should contains at least 1 uppercase letter, 1 lowercase letter, 1 digit and 1 special character. Your password length should have a minimum of 8 characters."
+    },
+    "passwordNotMetRequirementTitle": "கடவுச்சொல்லின் தேவை பூர்த்தியாகவில்லை",
+    "@passwordNotMetRequirementTitle": {
+        "type": "text",
+        "description": "passwordNotMetRequirementTitle",
+        "source_text": "Password Requirements Not Met"
+    },
+    "passwordNotValidMessage": "உங்கள் கடவுச்சொல் செல்லுபடியாகவில்லை.",
+    "@passwordNotValidMessage": {
+        "type": "text",
+        "description": "passwordNotValidMessage",
+        "source_text": "Your password is not valid."
+    },
+    "passwordNotValidTitle": "செல்லுபடியாகாத கடவுச்சொல்",
+    "@passwordNotValidTitle": {
+        "type": "text",
+        "description": "passwordNotValidTitle",
+        "source_text": "Invalid Password"
+    },
+    "pauseForNow": "I'll pause for now",
+    "@pauseForNow": {
+        "type": "text",
+        "description": "pauseForNow",
+        "source_text": "I'll pause for now"
+    },
+    "pauseSupportAnytime": "You can pause my support at any time",
+    "@pauseSupportAnytime": {
+        "type": "text",
+        "description": "pauseSupportAnytime",
+        "source_text": "You can pause my support at any time"
+    },
+    "personalDevelopment": "தனிப்பட்ட மேம்பாடு",
+    "@personalDevelopment": {
+        "type": "text",
+        "description": "personalDevelopment",
+        "source_text": "Personal Development"
+    },
+    "pleaseChooseGroup": "Please choose group",
+    "@pleaseChooseGroup": {
+        "type": "text",
+        "description": "pleaseChooseGroup",
+        "source_text": "Please choose group"
+    },
+    "poweredBy": "இயங்குவது",
+    "@poweredBy": {
+        "type": "text",
+        "description": "poweredBy",
+        "source_text": "Powered by"
+    },
+    "poweredByCheckup": "செக்கப் மூலம் இயங்கப்படுகிறது",
+    "@poweredByCheckup": {
+        "type": "text",
+        "description": "poweredByCheckup",
+        "source_text": "Powered by Checkup"
+    },
+    "preobese": "உடல் பருமனுக்கு முன் நிலை",
+    "@preobese": {
+        "type": "text",
+        "description": "preobese",
+        "source_text": "Pre-Obese"
+    },
+    "preobeseRange": "25-29.9",
+    "@preobeseRange": {
+        "type": "text",
+        "description": "preobeseRange",
+        "source_text": "25-29.9"
+    },
+    "previous": "முந்தைய",
+    "@previous": {
+        "type": "text",
+        "description": "previous",
+        "source_text": "Previous"
+    },
+    "profile": "சுயவிவரம்",
+    "@profile": {
+        "type": "text",
+        "description": "profile",
+        "source_text": "Profile"
+    },
+    "questionsAndAnswers": "கே&பதில்",
+    "@questionsAndAnswers": {
+        "type": "text",
+        "description": "questionsAndAnswers",
+        "source_text": "Q&A"
+    },
+    "readinessIndex": "தயார்நிலை குறியீடு",
+    "@readinessIndex": {
+        "type": "text",
+        "description": "readinessIndex",
+        "source_text": "Readiness Index"
+    },
+    "readinessIndexDescription": "தயார்நிலைக் குறியீடு என்பது உங்கள் உடலின் மீட்பு மற்றும் மன அழுத்த நிலைகளில் உண்டாகும் மாற்றங்களை அளவிடுகிறது. உங்கள் தயார்நிலைக் குறியீடு 80/100 ஆக இருந்தால், உங்கள் நரம்பு மண்டலத்தின் மீட்பு அளவீடு 80%  ஆகும் (ஓய்வு மற்றும் செரிமானம்) மற்றும் 20% மன அழுத்தத்தில் (எதிர்த்தல் அல்லது விலகிப்போதல்) இருப்பதைக் குறிக்கிறது. அதிக சதவிகித தயார்நிலைக் குறியீடு சிறந்தது.",
+    "@readinessIndexDescription": {
+        "type": "text",
+        "description": "readinessIndexDescription",
+        "source_text": "The Readiness Index measures the changes in your body’s recovery and stress states. If your Readiness Index is 80/100, it indicates your nervous system is 80% in recovery (rest and digest) and 20% in stress (fight or flight). A higher Readiness Index is ideal."
+    },
+    "readinessIndexNormalRangeValues": "50 முதல் 100 வரை RI",
+    "@readinessIndexNormalRangeValues": {
+        "type": "text",
+        "description": "readinessIndexNormalRangeValues",
+        "source_text": "50 to 100 RI"
+    },
+    "readinessIndexSymbol": "RI",
+    "@readinessIndexSymbol": {
+        "type": "text",
+        "description": "readinessIndexSymbol",
+        "source_text": "RI"
+    },
+    "readinessLevel": "Readiness Level",
+    "@readinessLevel": {
+        "type": "text",
+        "description": "readinessLevel",
+        "source_text": "Readiness Level"
+    },
+    "recoverAccount": "கணக்கை மீட்க",
+    "@recoverAccount": {
+        "type": "text",
+        "description": "recoverAccount",
+        "source_text": "Recover account"
+    },
+    "recoverAccountSubtitle": "மீட்புக் குறியீட்டைப் பயன்படுத்தி உங்கள் கணக்கை மீட்டெடுக்கவும்",
+    "@recoverAccountSubtitle": {
+        "type": "text",
+        "description": "recoverAccountSubtitle",
+        "source_text": "Recover your account using the recovery code"
+    },
+    "recoverAccountTitle": "கணக்கை மீட்க",
+    "@recoverAccountTitle": {
+        "type": "text",
+        "description": "recoverAccountTitle",
+        "source_text": "Recover account"
+    },
+    "recoveryCode": "மீட்புக் குறியீடு",
+    "@recoveryCode": {
+        "type": "text",
+        "description": "recoveryCode",
+        "source_text": "Recovery code"
+    },
+    "recoveryCodes": "மீட்புக் குறியீடுகள்",
+    "@recoveryCodes": {
+        "type": "text",
+        "description": "recoveryCodes",
+        "source_text": "Recovery Codes"
+    },
+    "recurring": "தொடர்ச்சி",
+    "@recurring": {
+        "type": "text",
+        "description": "recurring",
+        "source_text": "Recurring"
+    },
+    "recurringSubtitle": "Check in on your stress level in 5 short questions",
+    "@recurringSubtitle": {
+        "type": "text",
+        "description": "recurringSubtitle",
+        "source_text": "Check in on your stress level in 5 short questions"
+    },
+    "reenterPasscode": "உங்கள் பாஸ்கோடை மீண்டும் உள்ளிடவும்",
+    "@reenterPasscode": {
+        "type": "text",
+        "description": "reenterPasscode",
+        "source_text": "Enter your passcode again"
+    },
+    "relationships": "உறவுகள்",
+    "@relationships": {
+        "type": "text",
+        "description": "relationships",
+        "source_text": "Relationships"
+    },
+    "reportGroup": "Report group",
+    "@reportGroup": {
+        "type": "text",
+        "description": "reportGroup",
+        "source_text": "Report group"
+    },
+    "reportUser": "Report user",
+    "@reportUser": {
+        "type": "text",
+        "description": "reportUser",
+        "source_text": "Report user"
+    },
+    "resetPassword": "கடவுச்சொலை மீட்டமை",
+    "@resetPassword": {
+        "type": "text",
+        "description": "resetPassword",
+        "source_text": "Reset password"
+    },
+    "resetPasswordFailedMessage": "உங்கள் கணக்கின் கடவுச்சொலை வெற்றிகரமாக மீட்டமைக்க முடியவில்லை. மீண்டும் முயற்சி செய்யவும்.",
+    "@resetPasswordFailedMessage": {
+        "type": "text",
+        "description": "resetPasswordFailedMessage",
+        "source_text": "Your account password did not reset successfully. Please try again."
+    },
+    "resetPasswordFailedTitle": "கடவுச்சொலை மீட்டமைப்பது தோல்வியடைந்தது",
+    "@resetPasswordFailedTitle": {
+        "type": "text",
+        "description": "resetPasswordFailedTitle",
+        "source_text": "Reset Password Failed"
+    },
+    "resetPasswordRedirectMessage": "நாங்கள் உங்களை உள்நுழையும் பக்கத்துக்கு வழிசெலுத்துகிறோம், கொஞ்சம் காத்திருக்கவும்...",
+    "@resetPasswordRedirectMessage": {
+        "type": "text",
+        "description": "resetPasswordRedirectMessage",
+        "source_text": "Please wait while we redirect you to the sign in page..."
+    },
+    "resetPasswordSubtitle": "புதிய கடவுச்சொல்லை அமைக்கவும்",
+    "@resetPasswordSubtitle": {
+        "type": "text",
+        "description": "resetPasswordSubtitle",
+        "source_text": "Set new password"
+    },
+    "resetPasswordSuccessMessage": "வெற்றி",
+    "@resetPasswordSuccessMessage": {
+        "type": "text",
+        "description": "resetPasswordSuccessMessage",
+        "source_text": "The password has been reset successfully."
+    },
+    "resetPasswordSuccessTitle": "கடவுச்சொலை வெற்றிகரமாக மீட்டமைக்கப்பட்டது",
+    "@resetPasswordSuccessTitle": {
+        "type": "text",
+        "description": "resetPasswordSuccessTitle",
+        "source_text": "Reset Password Success"
+    },
+    "resetPasswordTitle": "கடவுச்சொலை மீட்டமை",
+    "@resetPasswordTitle": {
+        "type": "text",
+        "description": "resetPasswordTitle",
+        "source_text": "Reset password"
+    },
+    "respiratoryRate": "சுவாசிக்கும் விகிதம்",
+    "@respiratoryRate": {
+        "type": "text",
+        "description": "respiratoryRate",
+        "source_text": "Respiratory Rate"
+    },
+    "respiratoryRateDescription": "சுவாசிக்கும் விதிகம் என்பது ஒரு நபர் ஒரு நிமிடத்தில் எத்தனை முறை சுவாசிக்கிறார் என்பதைக் குறிக்கிறது. பொதுவாக, ஓய்வெடுக்கும் போது இது அளவிடப்படுகிறது. சுவாசிக்கும் போது ஒரு நிமிடத்திற்கு எத்தனை முறை நெஞ்சுப்பகுதி மேல் எழும்புகிறது என்று எண்ணுவதன் மூலம் சுவாசிக்கும் விகிதத்தை கணக்கிடலாம்.",
+    "@respiratoryRateDescription": {
+        "type": "text",
+        "description": "respiratoryRateDescription",
+        "source_text": "The respiration rate is the number of breaths a person takes per minute. The rate is usually measured when a person is at rest and simply involves counting the number of breaths for one minute by counting how many times the chest rises."
+    },
+    "respiratoryRateNormalRangeValues": "12 முதல்16 வரை RR",
+    "@respiratoryRateNormalRangeValues": {
+        "type": "text",
+        "description": "respiratoryRateNormalRangeValues",
+        "source_text": "12 to 16 RR"
+    },
+    "respiratoryRateSymbol": "RR",
+    "@respiratoryRateSymbol": {
+        "type": "text",
+        "description": "respiratoryRateSymbol",
+        "source_text": "RR"
+    },
+    "resumeQuestion": "தொடரலாமா?",
+    "@resumeQuestion": {
+        "type": "text",
+        "description": "resumeQuestion",
+        "source_text": "Resume?"
+    },
+    "rewards": "Rewards",
+    "@rewards": {
+        "type": "text",
+        "description": "rewards",
+        "source_text": "Rewards"
+    },
+    "save": "சேமி",
+    "@save": {
+        "type": "text",
+        "description": "save",
+        "source_text": "Save"
+    },
+    "saveCredentials": "ஆதாரச்சான்றுகளை சேமிக்கவும்",
+    "@saveCredentials": {
+        "type": "text",
+        "description": "saveCredentials",
+        "source_text": "Save Credentials"
+    },
+    "savedCollection": "சேமித்த தொகுப்பு",
+    "@savedCollection": {
+        "type": "text",
+        "description": "savedCollection",
+        "source_text": "Saved Collection"
+    },
+    "savedHealthSuggestions": "உடல்நலப் பரிந்துரைகள்",
+    "@savedHealthSuggestions": {
+        "type": "text",
+        "description": "savedHealthSuggestions",
+        "source_text": "Health Suggestions"
+    },
+    "savedQuestions": "கேள்விகள்",
+    "@savedQuestions": {
+        "type": "text",
+        "description": "savedQuestions",
+        "source_text": "Questions"
+    },
+    "screening": "பரிசோதனை செய்தல்",
+    "@screening": {
+        "type": "text",
+        "description": "screening",
+        "source_text": "Screening"
+    },
+    "screeningBadVideoQualityMessage": "இந்த வீடியோ இருட்டாகத் தெரிகிறது, வெளிச்சமாக இருக்கும் கோணம் அல்லது இடத்தை கண்டுபிடிக்கலாம்...",
+    "@screeningBadVideoQualityMessage": {
+        "type": "text",
+        "description": "screeningBadVideoQualityMessage",
+        "source_text": "The video looks dark, let's find a brighter angle or place..."
+    },
+    "screeningCheckingVideoQualityMessage": "உங்கள் வீடியோவின் தரம் இன்ஸ்டாகிராம் அல்லது டிக்டாக் தரம் அளவுக்கு இருக்கிறது என்பதை உறுதிப்படுத்திக் கொள்ளுங்கள்...",
+    "@screeningCheckingVideoQualityMessage": {
+        "type": "text",
+        "description": "screeningCheckingVideoQualityMessage",
+        "source_text": "Making sure your video quality is Instagram or TikTok-worthy..."
+    },
+    "screeningPredictingMessage": "பகுப்பாய்வு நிறைவடைந்தது! நாங்கள் உங்கள் வைட்டல் பரிசோதனைகளின் முடிவுகளை அளவிடும் நேரத்தில் கொஞ்சம் ஓய்வெடுக்கவும்...",
+    "@screeningPredictingMessage": {
+        "type": "text",
+        "description": "screeningPredictingMessage",
+        "source_text": "Analysis complete! You can relax while we measure your vitals..."
+    },
+    "screeningRecordingMessage": "ஆய்வு நடக்கிறது... உங்கள் தலை மற்றும் முகத்தை அசைக்காமல் பெட்டியில் வைக்கவும்...",
+    "@screeningRecordingMessage": {
+        "type": "text",
+        "description": "screeningRecordingMessage",
+        "source_text": "Analyzing... Please keep your head still and face in the box..."
+    },
+    "screeningStartMessage": "நாம் தொடங்குவதற்கு முன்பு, 5 வினாடிகள் மூச்சை ஆழமாக இழுத்து விடுங்கள்...",
+    "@screeningStartMessage": {
+        "type": "text",
+        "description": "screeningStartMessage",
+        "source_text": "Before we begin, let's take a deep breath for 5 seconds..."
+    },
+    "screeningSubtitle": "உங்கள் முகத்தை ஸ்கேன் செய்யவும், வைட்டல்களை சரிபார்க்கவும், அழுத்துங்கள்",
+    "@screeningSubtitle": {
+        "type": "text",
+        "description": "screeningSubtitle",
+        "source_text": "Press to scan your face and check your vitals"
+    },
+    "screeningTitle": "இன்று நீங்கள் எப்படி இருக்கிறீர்கள்?",
+    "@screeningTitle": {
+        "type": "text",
+        "description": "screeningTitle",
+        "source_text": "How are you feeling today?"
+    },
+    "screeningWarmUpMessage": "5 வினாடிகளுக்கு ஆழமாக மூச்சை இழுத்து விடுங்கள்...",
+    "@screeningWarmUpMessage": {
+        "type": "text",
+        "description": "screeningWarmUpMessage",
+        "source_text": "Take a deep breath for 5 seconds..."
+    },
+    "search": "Search",
+    "@search": {
+        "type": "text",
+        "description": "search",
+        "source_text": "Search"
+    },
+    "secretCredentialsSentMessage": "உங்களுடைய ரகசிய ஆதாரச்சான்றுகள் உங்களின் தனிப்பட்ட முன்னஞ்சல் முகவரிக்கு அனுப்பியுள்ளோம்.",
+    "@secretCredentialsSentMessage": {
+        "type": "text",
+        "description": "secretCredentialsSentMessage",
+        "source_text": "Your secret credentials has just sent to your personal email address."
+    },
+    "secretCredentialsSentTitle": "ரகசிய ஆதாரச்சான்றுகள் அனுப்பப்பட்டது.",
+    "@secretCredentialsSentTitle": {
+        "type": "text",
+        "description": "secretCredentialsSentTitle",
+        "source_text": "Secret Credentials Sent"
+    },
+    "secureWithBiometrics": "Secure With Biometrics",
+    "@secureWithBiometrics": {
+        "type": "text",
+        "description": "secureWithBiometrics",
+        "source_text": "Secure With Biometrics"
+    },
+    "selectPhoto": "புகைப்படத்தைத் தேர்வு செய்யவும்",
+    "@selectPhoto": {
+        "type": "text",
+        "description": "selectPhoto",
+        "source_text": "Select Photo"
+    },
+    "send": "அனுப்பவும்",
+    "@send": {
+        "type": "text",
+        "description": "send",
+        "source_text": "Send"
+    },
+    "setAnswer": "{answer} பதில்",
+    "@setAnswer": {
+        "type": "text",
+        "description": "setAnswer",
+        "source_text": "{answer} answer",
+        "placeholders": {
+            "answer": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setAnswers": "{answers} பதில்கள்",
+    "@setAnswers": {
+        "type": "text",
+        "description": "setAnswers",
+        "source_text": "{answers} answers",
+        "placeholders": {
+            "answers": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setByUsername": "{username} மூலம்",
+    "@setByUsername": {
+        "type": "text",
+        "description": "setByUsername",
+        "source_text": "by {username}",
+        "placeholders": {
+            "username": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setComment": "{comment} கருத்து",
+    "@setComment": {
+        "type": "text",
+        "description": "setComment",
+        "source_text": "{comment} comment",
+        "placeholders": {
+            "comment": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setComments": "{comments} கருத்துக்கள்",
+    "@setComments": {
+        "type": "text",
+        "description": "setComments",
+        "source_text": "{comments} comments",
+        "placeholders": {
+            "comments": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setCreditsEarned": "{earnedCredits} கிரெடிட்ஸ்",
+    "@setCreditsEarned": {
+        "type": "text",
+        "description": "setCreditsEarned",
+        "source_text": "{earnedCredits} Credits",
+        "placeholders": {
+            "earnedCredits": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setCreditsToEarn": "{earnCredits} கிரெடிட்ஸ்",
+    "@setCreditsToEarn": {
+        "type": "text",
+        "description": "setCreditsToEarn",
+        "source_text": "{earnCredits} Credits",
+        "placeholders": {
+            "earnCredits": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setDaysAgo": "{days}நாள் முன்பு",
+    "@setDaysAgo": {
+        "type": "text",
+        "description": "setDaysAgo",
+        "source_text": "{days}d ago",
+        "placeholders": {
+            "days": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setFemales": "{numberOfFemales} பெண்கள்",
+    "@setFemales": {
+        "type": "text",
+        "description": "setFemales",
+        "source_text": "{numberOfFemales} Females",
+        "placeholders": {
+            "numberOfFemales": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setFoundMatches": "{numberOfMatches} பொருத்தங்கள் உள்ளன",
+    "@setFoundMatches": {
+        "type": "text",
+        "description": "setFoundMatches",
+        "source_text": "Found {numberOfMatches} matches",
+        "placeholders": {
+            "numberOfMatches": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setGoAnonymousSubtitle": "நாங்கள் யாருடனும் தனிப்பட்ட தரவுகளை சேகரிக்கவோ அல்லது பகிரவோ மாட்டோம். நீங்கள் வேலை செய்யும் நிறுவனத் தலைவரிடமும் கூட பகிர மாட்டோம், {organisationName}",
+    "@setGoAnonymousSubtitle": {
+        "type": "text",
+        "description": "setGoAnonymousSubtitle",
+        "source_text": "We do not collect or share any personal data with anyone. Not even with your employer, {organisationName}",
+        "placeholders": {
+            "organisationName": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setHoursAgo": "{hours}ம.நே முன்பு",
+    "@setHoursAgo": {
+        "type": "text",
+        "description": "setHoursAgo",
+        "source_text": "{hours}h ago",
+        "placeholders": {
+            "hours": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setHowSelfCareGoalsWorkSubtitle2": "Spend more time every week taking regular breaks or watching your mood. Think you can enjoy {minutes} mins of self-care moments a week?",
+    "@setHowSelfCareGoalsWorkSubtitle2": {
+        "type": "text",
+        "description": "setHowSelfCareGoalsWorkSubtitle2",
+        "source_text": "Spend more time every week taking regular breaks or watching your mood. Think you can enjoy {minutes} mins of self-care moments a week?",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setLastDays": "இறுதி {numberOfDays} நாட்கள்",
+    "@setLastDays": {
+        "type": "text",
+        "description": "setLastDays",
+        "source_text": "Last {numberOfDays} days",
+        "placeholders": {
+            "numberOfDays": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMales": "{numberOfMales} ஆண்கள்",
+    "@setMales": {
+        "type": "text",
+        "description": "setMales",
+        "source_text": "{numberOfMales} Males",
+        "placeholders": {
+            "numberOfMales": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMember": "{member} உறுப்பினர்",
+    "@setMember": {
+        "type": "text",
+        "description": "setMember",
+        "source_text": "{member} member",
+        "placeholders": {
+            "member": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMembers": "{members} உறுப்பினர்கள்",
+    "@setMembers": {
+        "type": "text",
+        "description": "setMembers",
+        "source_text": "{members} members",
+        "placeholders": {
+            "members": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinsLeft": "{minutes} நிமி மீதமுள்ளது",
+    "@setMinsLeft": {
+        "type": "text",
+        "description": "setMinsLeft",
+        "source_text": "{minutes} mins left",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinutes": "{minutes} நிமிடங்கள்",
+    "@setMinutes": {
+        "type": "text",
+        "description": "setMinutes",
+        "source_text": "{minutes} mins ",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinutesAgo": "{minutes}நி முன்",
+    "@setMinutesAgo": {
+        "type": "text",
+        "description": "setMinutesAgo",
+        "source_text": "{minutes}m ago",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMore": "{numberOf} அதிகம்",
+    "@setMore": {
+        "type": "text",
+        "description": "setMore",
+        "source_text": "{numberOf} more",
+        "placeholders": {
+            "numberOf": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setQuestion": "{question} கேள்வி",
+    "@setQuestion": {
+        "type": "text",
+        "description": "setQuestion",
+        "source_text": "{question} question",
+        "placeholders": {
+            "question": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setQuestions": "{questions} கேள்விகள்",
+    "@setQuestions": {
+        "type": "text",
+        "description": "setQuestions",
+        "source_text": "{questions} questions",
+        "placeholders": {
+            "questions": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSave": "{numberOfSaves} சேமி",
+    "@setSave": {
+        "type": "text",
+        "description": "setSave",
+        "source_text": "{numberOfSaves} save",
+        "placeholders": {
+            "numberOfSaves": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSaves": "{numberOfSaves} சேமிப்புகள்",
+    "@setSaves": {
+        "type": "text",
+        "description": "setSaves",
+        "source_text": "{numberOfSaves} saves",
+        "placeholders": {
+            "numberOfSaves": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSecondsAgo": "{seconds}வி முன்",
+    "@setSecondsAgo": {
+        "type": "text",
+        "description": "setSecondsAgo",
+        "source_text": "{seconds}s ago",
+        "placeholders": {
+            "seconds": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSlotsLeft": "மீதமுள்ள இடங்கள்: {currentAvailableSlots} / {totalSlots}",
+    "@setSlotsLeft": {
+        "type": "text",
+        "description": "setSlotsLeft",
+        "source_text": "Slots left: {currentAvailableSlots} / {totalSlots}",
+        "placeholders": {
+            "currentAvailableSlots": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            },
+            "totalSlots": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setStressLevel": "உங்கள் மன அழுத்த நிலை {stressLevel} போலத் தெரிகிறது.",
+    "@setStressLevel": {
+        "type": "text",
+        "description": "setStressLevel",
+        "source_text": "Your stress level seems {stressLevel}.",
+        "placeholders": {
+            "stressLevel": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setTakeMinsSelfCare2": "{minutes} நிமி",
+    "@setTakeMinsSelfCare2": {
+        "type": "text",
+        "description": "setTakeMinsSelfCare2",
+        "source_text": "{minutes} mins ",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setUsersAggregatedVitals": "{numberOfUsers} பயனர்களின் ஒருங்கிணைக்கப்பட்ட வைட்டல்",
+    "@setUsersAggregatedVitals": {
+        "type": "text",
+        "description": "setUsersAggregatedVitals",
+        "source_text": "{numberOfUsers} users' aggregated vitals",
+        "placeholders": {
+            "numberOfUsers": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVote": "{vote} வாக்கு",
+    "@setVote": {
+        "type": "text",
+        "description": "setVote",
+        "source_text": "{vote} vote",
+        "placeholders": {
+            "vote": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVotes": "{votes} வாக்குகள்",
+    "@setVotes": {
+        "type": "text",
+        "description": "setVotes",
+        "source_text": "{votes} votes",
+        "placeholders": {
+            "votes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVotesRemaining": "Requires {numberOfVotes} votes left to open",
+    "@setVotesRemaining": {
+        "type": "text",
+        "description": "setVotesRemaining",
+        "source_text": "Requires {numberOfVotes} votes left to open",
+        "placeholders": {
+            "numberOfVotes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setWeeksAgo": "{weeks}வா முன்",
+    "@setWeeksAgo": {
+        "type": "text",
+        "description": "setWeeksAgo",
+        "source_text": "{weeks}w ago",
+        "placeholders": {
+            "weeks": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setYearsAgo": "{years}வ முன்",
+    "@setYearsAgo": {
+        "type": "text",
+        "description": "setYearsAgo",
+        "source_text": "{years}y ago",
+        "placeholders": {
+            "years": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "settings": "அமைப்புகள்",
+    "@settings": {
+        "type": "text",
+        "description": "settings",
+        "source_text": "Settings"
+    },
+    "setupCredentialsMessage": "உங்கள் செக்அப் அநாமதேய கணக்கை நாங்கள் அமைக்கும் வரை காத்திருக்கவும்...",
+    "@setupCredentialsMessage": {
+        "type": "text",
+        "description": "setupCredentialsMessage",
+        "source_text": "Please wait while we setting up your Checkup anonymous account..."
+    },
+    "shareYourAnswer": "உங்கள் பதிலைப் பகிருங்கள்",
+    "@shareYourAnswer": {
+        "type": "text",
+        "description": "shareYourAnswer",
+        "source_text": "Share your answer"
+    },
+    "signIn": "உள் நுழைய",
+    "@signIn": {
+        "type": "text",
+        "description": "signIn",
+        "source_text": "Sign In"
+    },
+    "signInSubtitle": "உங்கள் அநாமதேய கணக்கில் உள் நுழையவும்",
+    "@signInSubtitle": {
+        "type": "text",
+        "description": "signInSubtitle",
+        "source_text": "Sign in to your anonymous account"
+    },
+    "signInTitle": "உள் நுழைய",
+    "@signInTitle": {
+        "type": "text",
+        "description": "signInTitle",
+        "source_text": "Sign In"
+    },
+    "signOut": "வெளியேறவும்",
+    "@signOut": {
+        "type": "text",
+        "description": "signOut",
+        "source_text": "Sign out"
+    },
+    "skip": "தவிர்க்க",
+    "@skip": {
+        "type": "text",
+        "description": "skip",
+        "source_text": "Skip"
+    },
+    "skipGeneratedCredentialsDescription": "உங்கள் தனிப்பட்ட மின்னஞ்சலுக்கு ரகசிய ஆதாரச்சான்றுகளை அனுப்புவதை நிச்சயமாகத் தவிர்க்க விரும்புகிறீர்களா? இதனை மாற்ற முடியாது மற்றும் எதிர்காலத்தில் மீட்டெடுக்க முடியாது என்பதை நினைவில் கொள்ளவும்.",
+    "@skipGeneratedCredentialsDescription": {
+        "type": "text",
+        "description": "skipGeneratedCredentialsDescription",
+        "source_text": "Are you sure to skip sending the secret credentials to your personal email? Please note that this is irreversible and cannot be recovered in the future."
+    },
+    "skipGeneratedCredentialsTitle": "எச்சரிக்கையைத் தவிர்க்கவும்",
+    "@skipGeneratedCredentialsTitle": {
+        "type": "text",
+        "description": "skipGeneratedCredentialsTitle",
+        "source_text": "Skip Warning"
+    },
+    "stressIndex": "மன அழுத்தக் குறியீடு",
+    "@stressIndex": {
+        "type": "text",
+        "description": "stressIndex",
+        "source_text": "Stress Index"
+    },
+    "stressIndexDescription": "Baevsky's Stress Index is a geometric measure of HRV reflecting cardiovascular system stress. Stress index between 0 and 3 means low stress level. Stress index between 4 and 5 means normal stress level. Stress index between 7 and 10 means high stress level.",
+    "@stressIndexDescription": {
+        "type": "text",
+        "description": "stressIndexDescription",
+        "source_text": "Baevsky's Stress Index is a geometric measure of HRV reflecting cardiovascular system stress. Stress index between 0 and 3 means low stress level. Stress index between 4 and 5 means normal stress level. Stress index between 7 and 10 means high stress level."
+    },
+    "stressIndexNormalRangeValues": "-1 to 1 SI",
+    "@stressIndexNormalRangeValues": {
+        "type": "text",
+        "description": "stressIndexNormalRangeValues",
+        "source_text": "4 to 6 SI"
+    },
+    "stressIndexSymbol": "SI",
+    "@stressIndexSymbol": {
+        "type": "text",
+        "description": "stressIndexSymbol",
+        "source_text": "SI"
+    },
+    "stressLevel": "மன அழுத்த அளவு",
+    "@stressLevel": {
+        "type": "text",
+        "description": "stressLevel",
+        "source_text": "Stress Level"
+    },
+    "stressLevelTitle": "Your stress level seems",
+    "@stressLevelTitle": {
+        "type": "text",
+        "description": "stressLevelTitle",
+        "source_text": "Your stress level seems"
+    },
+    "submit": "சமர்ப்பி",
+    "@submit": {
+        "type": "text",
+        "description": "submit",
+        "source_text": "Submit"
+    },
+    "suggest": "பரிந்துரை",
+    "@suggest": {
+        "type": "text",
+        "description": "suggest",
+        "source_text": "Suggest"
+    },
+    "suggestNewSupportGroup": "புதிய ஆதரவுக் குழுவைப் பரிந்துரை",
+    "@suggestNewSupportGroup": {
+        "type": "text",
+        "description": "suggestNewSupportGroup",
+        "source_text": "Suggest New Support Group"
+    },
+    "suggestNewSupportGroupSubtitle": "A support group would open conversations that matter to you:",
+    "@suggestNewSupportGroupSubtitle": {
+        "type": "text",
+        "description": "suggestNewSupportGroupSubtitle",
+        "source_text": "A support group would open conversations that matter to you:"
+    },
+    "suggestion": "பரிந்துரைத்தல்",
+    "@suggestion": {
+        "type": "text",
+        "description": "suggestion",
+        "source_text": "Suggestion"
+    },
+    "suggestionsSubtitle": "நீங்கள் முயற்சி செய்யக்கூடிய ஒரு சிறிய விஷயம் இங்கே உள்ளது",
+    "@suggestionsSubtitle": {
+        "type": "text",
+        "description": "suggestionsSubtitle",
+        "source_text": "Here’s one small thing you can try doing"
+    },
+    "supportGroups": "ஆதரவுக் குழுக்கள்",
+    "@supportGroups": {
+        "type": "text",
+        "description": "supportGroups",
+        "source_text": "Support Groups"
+    },
+    "systolicBloodPressure": "சிஸ்டாலிக் இரத்த அழுத்தம்",
+    "@systolicBloodPressure": {
+        "type": "text",
+        "description": "systolicBloodPressure",
+        "source_text": "Systolic Blood Pressure"
+    },
+    "systolicBloodPressureSymbol": "SP",
+    "@systolicBloodPressureSymbol": {
+        "type": "text",
+        "description": "systolicBloodPressureSymbol",
+        "source_text": "SP"
+    },
+    "takeMinsSelfCare1": "எடுக்கவும்",
+    "@takeMinsSelfCare1": {
+        "type": "text",
+        "description": "takeMinsSelfCare1",
+        "source_text": "Take "
+    },
+    "takeMinsSelfCare3": "of self-care moments this week",
+    "@takeMinsSelfCare3": {
+        "type": "text",
+        "description": "takeMinsSelfCare3",
+        "source_text": "of self-care moments this week"
+    },
+    "temperature": "வெப்பநிலை",
+    "@temperature": {
+        "type": "text",
+        "description": "temperature",
+        "source_text": "Temperature"
+    },
+    "temperatureDescription": "வெப்பநிலை என்பது மனிதர்களிடையே காணப்படும் பொதுவான வெப்பநிலை வரம்பைத் தான் குறிக்கிறது.",
+    "@temperatureDescription": {
+        "type": "text",
+        "description": "temperatureDescription",
+        "source_text": "Temperature is the typical temperature range found in humans."
+    },
+    "temperatureNormalRangeValues": "36.1°C முதல் 37.2°C வரை",
+    "@temperatureNormalRangeValues": {
+        "type": "text",
+        "description": "temperatureNormalRangeValues",
+        "source_text": "36.1°C to 37.2°C"
+    },
+    "temperatureSymbol": "°C",
+    "@temperatureSymbol": {
+        "type": "text",
+        "description": "temperatureSymbol",
+        "source_text": "°C"
+    },
+    "termsOfService": "சேவை விதிமுறைகள்",
+    "@termsOfService": {
+        "type": "text",
+        "description": "termsOfService",
+        "source_text": "Terms of service"
+    },
+    "thankYou": "நன்றி",
+    "@thankYou": {
+        "type": "text",
+        "description": "thankYou",
+        "source_text": "Thank you"
+    },
+    "theCreditsSystem": "The Credits System",
+    "@theCreditsSystem": {
+        "type": "text",
+        "description": "theCreditsSystem",
+        "source_text": "The Credits System"
+    },
+    "theCreditsSystemSubtitle1": "When you take care of your mental health or help a colleague, you earn Credits which are exchangeable for rewards like GrabFood vouchers.",
+    "@theCreditsSystemSubtitle1": {
+        "type": "text",
+        "description": "theCreditsSystemSubtitle1",
+        "source_text": "When you take care of your mental health or help a colleague, you earn Credits which are exchangeable for rewards like GrabFood vouchers."
+    },
+    "theCreditsSystemSubtitle2": "You can view a list of activities here that earn Credits. When you earn enough, we will notify you through the app to redeem your vouchers.",
+    "@theCreditsSystemSubtitle2": {
+        "type": "text",
+        "description": "theCreditsSystemSubtitle2",
+        "source_text": "You can view a list of activities here that earn Credits. When you earn enough, we will notify you through the app to redeem your vouchers."
+    },
+    "title": "தலைப்பு",
+    "@title": {
+        "type": "text",
+        "description": "title",
+        "source_text": "Title"
+    },
+    "tooManyPasscodes": "Too many passcodes to remember?",
+    "@tooManyPasscodes": {
+        "type": "text",
+        "description": "tooManyPasscodes",
+        "source_text": "Too many passcodes to remember?"
+    },
+    "topAnswer": "முன்னணி பதில்",
+    "@topAnswer": {
+        "type": "text",
+        "description": "topAnswer",
+        "source_text": "Top Answer"
+    },
+    "topComment": "முதன்மை கருத்து",
+    "@topComment": {
+        "type": "text",
+        "description": "topComment",
+        "source_text": "Top Comment"
+    },
+    "topQuestionOfTheWeekSubtitle": "{topQuestion}",
+    "@topQuestionOfTheWeekSubtitle": {
+        "type": "text",
+        "description": "topQuestionOfTheWeekSubtitle",
+        "source_text": "{topQuestion}",
+        "placeholders": {
+            "topQuestion": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "topQuestionOfTheWeekTitle": "இந்த வாரத்தின் முதன்மை ஆதரவுக் குழு கேள்வி",
+    "@topQuestionOfTheWeekTitle": {
+        "type": "text",
+        "description": "topQuestionOfTheWeekTitle",
+        "source_text": "Top Support Group Question of The Week"
+    },
+    "totalActiveUsersByAgeGroup": "வயது அடிப்படையில் செயலில் இருக்கும் மொத்த பயனர்கள்",
+    "@totalActiveUsersByAgeGroup": {
+        "type": "text",
+        "description": "totalActiveUsersByAgeGroup",
+        "source_text": "Total Active Users by Age Group"
+    },
+    "totalActiveUsersByBodyMassIndex": "பாடி மாஸ் இன்டக்ஸ் அடிப்படையில் செயலில் இருக்கும் மொத்த பயனர்கள்",
+    "@totalActiveUsersByBodyMassIndex": {
+        "type": "text",
+        "description": "totalActiveUsersByBodyMassIndex",
+        "source_text": "Total Active Users by Body Mass Index"
+    },
+    "totalActiveUsersByGender": "பாலின அடிப்படையில் செயலில் இருக்கும் மொத்த பயனர்கள்",
+    "@totalActiveUsersByGender": {
+        "type": "text",
+        "description": "totalActiveUsersByGender",
+        "source_text": "Total Active Users by Gender"
+    },
+    "totalNumberOfActiveUsers": "செயலில் இருக்கும் பயனர்கள்",
+    "@totalNumberOfActiveUsers": {
+        "type": "text",
+        "description": "totalNumberOfActiveUsers",
+        "source_text": "Active Users"
+    },
+    "totalNumberOfCompletedScreenings": "பரிசோதனைகள் (முடிவடைந்தது)",
+    "@totalNumberOfCompletedScreenings": {
+        "type": "text",
+        "description": "totalNumberOfCompletedScreenings",
+        "source_text": "Screenings (Completed)"
+    },
+    "totalNumberOfEAPSuggestionsClicked": "EAP கிளிக் செய்யப்பட்டது",
+    "@totalNumberOfEAPSuggestionsClicked": {
+        "type": "text",
+        "description": "totalNumberOfEAPSuggestionsClicked",
+        "source_text": "EAP Clicked"
+    },
+    "totalNumberOfIncompletedScreenings": "பரிசோதனைகள் (முடிவடையவில்லை)",
+    "@totalNumberOfIncompletedScreenings": {
+        "type": "text",
+        "description": "totalNumberOfIncompletedScreenings",
+        "source_text": "Screenings (Incompleted)"
+    },
+    "totalNumberOfSuggestionsClicked": "சோதனை கிளிக் செய்யப்பட்டது",
+    "@totalNumberOfSuggestionsClicked": {
+        "type": "text",
+        "description": "totalNumberOfSuggestionsClicked",
+        "source_text": "Triage Clicked"
+    },
+    "totalNumberOfSuggestionsViewed": "சோதனை பார்க்கப்பட்டது",
+    "@totalNumberOfSuggestionsViewed": {
+        "type": "text",
+        "description": "totalNumberOfSuggestionsViewed",
+        "source_text": "Triage Viewed"
+    },
+    "totalNumberOfUsers": "மொத்த பயனர்கள்",
+    "@totalNumberOfUsers": {
+        "type": "text",
+        "description": "totalNumberOfUsers",
+        "source_text": "Total Users"
+    },
+    "totalUsersByAgeGroup": "வயது அடிப்படையில் பயனர்கள்",
+    "@totalUsersByAgeGroup": {
+        "type": "text",
+        "description": "totalUsersByAgeGroup",
+        "source_text": "Users by Age Group"
+    },
+    "totalUsersByBodyMassIndex": "பிஎம்ஐ அடிப்படையில் பயனர்கள்",
+    "@totalUsersByBodyMassIndex": {
+        "type": "text",
+        "description": "totalUsersByBodyMassIndex",
+        "source_text": "Users by BMI"
+    },
+    "totalUsersByGender": "பாலின அடிப்படையில் பயனர்கள்",
+    "@totalUsersByGender": {
+        "type": "text",
+        "description": "totalUsersByGender",
+        "source_text": "Users by Gender"
+    },
+    "underweight": "குறைவான எடை",
+    "@underweight": {
+        "type": "text",
+        "description": "underweight",
+        "source_text": "Underweight"
+    },
+    "underweightRange": "<18.5",
+    "@underweightRange": {
+        "type": "text",
+        "description": "underweightRange",
+        "source_text": "<18.5"
+    },
+    "unknown": "அறியப்படவில்லை",
+    "@unknown": {
+        "type": "text",
+        "description": "unknown",
+        "source_text": "Unknown"
+    },
+    "useSupportedBrowserMessage": "இந்த உலாவி இணக்கமானது இல்லை. இந்த அம்சத்தை அணுக, தயவு செய்து குரோம் (ஆண்டிராய்டு மட்டும்) அல்லது சஃபாரி (iOS மட்டும்) உலாவியின் சமீபத்திய பதிப்பைப் பயன்படுத்தவும்.",
+    "@useSupportedBrowserMessage": {
+        "type": "text",
+        "description": "useSupportedBrowserMessage",
+        "source_text": "This browser is not compatible. Please kindly use the latest version of Chrome (Android only) or Safari (iOS only) browser to access this feature."
+    },
+    "useSupportedBrowserTitle": "ஆதரவளிக்கும் உலாவியை பயன்படுத்தவும்",
+    "@useSupportedBrowserTitle": {
+        "type": "text",
+        "description": "useSupportedBrowserTitle",
+        "source_text": "Use Supported Browser"
+    },
+    "useTouchFaceId": "Use Touch/Face ID",
+    "@useTouchFaceId": {
+        "type": "text",
+        "description": "useTouchFaceId",
+        "source_text": "Use Touch/Face ID"
+    },
+    "useTouchFaceIdSubtitle": "Log in quickly and securely using Touch or Face ID",
+    "@useTouchFaceIdSubtitle": {
+        "type": "text",
+        "description": "useTouchFaceIdSubtitle",
+        "source_text": "Log in quickly and securely using Touch or Face ID"
+    },
+    "username": "பயனர்பெயர்",
+    "@username": {
+        "type": "text",
+        "description": "username",
+        "source_text": "username"
+    },
+    "users": "பயனர்கள்",
+    "@users": {
+        "type": "text",
+        "description": "users",
+        "source_text": "Users"
+    },
+    "viewMySuggestions": "என்னுடைய பரிந்துரைகளை காண்க",
+    "@viewMySuggestions": {
+        "type": "text",
+        "description": "viewMySuggestions",
+        "source_text": "View My Suggestions"
+    },
+    "viewThisWeekQuestions": "இந்த வாரத்துக்கான கேள்விகளைக் காண்க",
+    "@viewThisWeekQuestions": {
+        "type": "text",
+        "description": "viewThisWeekQuestions",
+        "source_text": "View this week's questions"
+    },
+    "week": "வாரம்",
+    "@week": {
+        "type": "text",
+        "description": "week",
+        "source_text": "Week"
+    },
+    "weekFri": "வெள்",
+    "@weekFri": {
+        "type": "text",
+        "description": "weekFri",
+        "source_text": "Fri"
+    },
+    "weekMon": "திங்",
+    "@weekMon": {
+        "type": "text",
+        "description": "weekMon",
+        "source_text": "Mon"
+    },
+    "weekSat": "சனி",
+    "@weekSat": {
+        "type": "text",
+        "description": "weekSat",
+        "source_text": "Sat"
+    },
+    "weekSun": "ஞா",
+    "@weekSun": {
+        "type": "text",
+        "description": "weekSun",
+        "source_text": "Sun"
+    },
+    "weekThu": "வியா",
+    "@weekThu": {
+        "type": "text",
+        "description": "weekThu",
+        "source_text": "Thu"
+    },
+    "weekTue": "செவ்",
+    "@weekTue": {
+        "type": "text",
+        "description": "weekTue",
+        "source_text": "Tue"
+    },
+    "weekWed": "புதன்",
+    "@weekWed": {
+        "type": "text",
+        "description": "weekWed",
+        "source_text": "Wed"
+    },
+    "weight": "எடை",
+    "@weight": {
+        "type": "text",
+        "description": "weight",
+        "source_text": "Weight"
+    },
+    "welcomeBack": "மீண்டும் வரவேற்கிறோம்.",
+    "@welcomeBack": {
+        "type": "text",
+        "description": "welcomeBack",
+        "source_text": "Welcome back."
+    },
+    "welcomeTribe": "Welcome to your tribe!",
+    "@welcomeTribe": {
+        "type": "text",
+        "description": "welcomeTribe",
+        "source_text": "Welcome to your tribe!"
+    },
+    "welcomeTribeSubtitle": "முதலில், உங்கள் கணக்கை பாதுகாப்பாக மாற்றலாம்.",
+    "@welcomeTribeSubtitle": {
+        "type": "text",
+        "description": "welcomeTribeSubtitle",
+        "source_text": "First, let's make your account secure."
+    },
+    "whatsOnYourMind": "உங்கள் மனதில் என்ன உள்ளது?",
+    "@whatsOnYourMind": {
+        "type": "text",
+        "description": "whatsOnYourMind",
+        "source_text": "What's on your mind?"
+    },
+    "workIssues": "Work Issues",
+    "@workIssues": {
+        "type": "text",
+        "description": "workIssues",
+        "source_text": "Work Issues"
+    },
+    "year": "வருடம்",
+    "@year": {
+        "type": "text",
+        "description": "year",
+        "source_text": "Year"
+    },
+    "yes": "ஆம்",
+    "@yes": {
+        "type": "text",
+        "description": "yes",
+        "source_text": "Yes"
+    },
+    "youngAdultGroup": "இளம் அடல்ட்",
+    "@youngAdultGroup": {
+        "type": "text",
+        "description": "youngAdultGroup",
+        "source_text": "Young Adult"
+    },
+    "youngAdultGroupRange": "17-30 வயது",
+    "@youngAdultGroupRange": {
+        "type": "text",
+        "description": "youngAdultGroupRange",
+        "source_text": "17-30 yo"
+    }
+}

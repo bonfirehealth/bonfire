@@ -1,0 +1,21 @@
+{
+    "appName": "bonfirehealth",
+    "roleName": "pinpointLambdaRole963c171a",
+    "cloudformationPolicyName": "cloudformationPolicy963c171a",
+    "cloudWatchPolicyName": "cloudWatchPolicy963c171a",
+    "pinpointPolicyName": "pinpointPolicy963c171a",
+    "authPolicyName": "pinpoint_amplify_963c171a",
+    "unauthPolicyName": "pinpoint_amplify_963c171a",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
