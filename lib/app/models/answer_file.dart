@@ -1,0 +1,312 @@
+/*
+* Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+*
+* Licensed under the Apache License, Version 2.0 (the "License").
+* You may not use this file except in compliance with the License.
+* A copy of the License is located at
+*
+*  http://aws.amazon.com/apache2.0
+*
+* or in the "license" file accompanying this file. This file is distributed
+* on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
+* express or implied. See the License for the specific language governing
+* permissions and limitations under the License.
+*/
+
+// NOTE: This file is generated and may not follow lint rules defined in your app
+// Generated files can be excluded from analysis in analysis_options.yaml
+// For more info, see: https://dart.dev/guides/language/analysis-options#excluding-code-from-analysis
+
+// ignore_for_file: public_member_api_docs, annotate_overrides, dead_code, dead_codepublic_member_api_docs, depend_on_referenced_packages, file_names, library_private_types_in_public_api, no_leading_underscores_for_library_prefixes, no_leading_underscores_for_local_identifiers, non_constant_identifier_names, null_check_on_nullable_type_parameter, prefer_adjacent_string_concatenation, prefer_const_constructors, prefer_if_null_operators, prefer_interpolation_to_compose_strings, slash_for_doc_comments, sort_child_properties_last, unnecessary_const, unnecessary_constructor_name, unnecessary_late, unnecessary_new, unnecessary_null_aware_assignments, unnecessary_nullable_for_final_variable_declarations, unnecessary_string_interpolations, use_build_context_synchronously
+
+// Package imports:
+import 'package:amplify_core/amplify_core.dart' as amplify_core;
+
+// Project imports:
+import 'model_provider.dart';
+
+/** This is an auto generated class representing the AnswerFile type in your schema. */
+class AnswerFile extends amplify_core.Model {
+  static const classType = const _AnswerFileModelType();
+  final String id;
+  final amplify_core.TemporalDateTime? _createdAt;
+  final amplify_core.TemporalDateTime? _updatedAt;
+  final bool? _isHidden;
+  final String? _key;
+  final String? _name;
+  final String? _url;
+  final Answer? _answer;
+  final User? _user;
+
+  @override
+  getInstanceType() => classType;
+  
+  @override
+  String getId() {
+    return id;
+  }
+  
+  amplify_core.TemporalDateTime? get createdAt {
+    return _createdAt;
+  }
+  
+  amplify_core.TemporalDateTime? get updatedAt {
+    return _updatedAt;
+  }
+  
+  bool? get isHidden {
+    return _isHidden;
+  }
+  
+  String? get key {
+    return _key;
+  }
+  
+  String? get name {
+    return _name;
+  }
+  
+  String? get url {
+    return _url;
+  }
+  
+  Answer? get answer {
+    return _answer;
+  }
+  
+  User? get user {
+    return _user;
+  }
+  
+  const AnswerFile._internal({required this.id, createdAt, updatedAt, isHidden, key, name, url, answer, user}): _createdAt = createdAt, _updatedAt = updatedAt, _isHidden = isHidden, _key = key, _name = name, _url = url, _answer = answer, _user = user;
+  
+  factory AnswerFile({String? id, amplify_core.TemporalDateTime? createdAt, amplify_core.TemporalDateTime? updatedAt, bool? isHidden, String? key, String? name, String? url, Answer? answer, User? user}) {
+    return AnswerFile._internal(
+      id: id == null ? amplify_core.UUID.getUUID() : id,
+      createdAt: createdAt,
+      updatedAt: updatedAt,
+      isHidden: isHidden,
+      key: key,
+      name: name,
+      url: url,
+      answer: answer,
+      user: user);
+  }
+  
+  bool equals(Object other) {
+    return this == other;
+  }
+  
+  @override
+  bool operator ==(Object other) {
+    if (identical(other, this)) return true;
+    return other is AnswerFile &&
+      id == other.id &&
+      _createdAt == other._createdAt &&
+      _updatedAt == other._updatedAt &&
+      _isHidden == other._isHidden &&
+      _key == other._key &&
+      _name == other._name &&
+      _url == other._url &&
+      _answer == other._answer &&
+      _user == other._user;
+  }
+  
+  @override
+  int get hashCode => toString().hashCode;
+  
+  @override
+  String toString() {
+    var buffer = new StringBuffer();
+    
+    buffer.write("AnswerFile {");
+    buffer.write("id=" + "$id" + ", ");
+    buffer.write("createdAt=" + (_createdAt != null ? _createdAt!.format() : "null") + ", ");
+    buffer.write("updatedAt=" + (_updatedAt != null ? _updatedAt!.format() : "null") + ", ");
+    buffer.write("isHidden=" + (_isHidden != null ? _isHidden!.toString() : "null") + ", ");
+    buffer.write("key=" + "$_key" + ", ");
+    buffer.write("name=" + "$_name" + ", ");
+    buffer.write("url=" + "$_url" + ", ");
+    buffer.write("answer=" + (_answer != null ? _answer!.toString() : "null") + ", ");
+    buffer.write("user=" + (_user != null ? _user!.toString() : "null"));
+    buffer.write("}");
+    
+    return buffer.toString();
+  }
+  
+  AnswerFile copyWith({String? id, amplify_core.TemporalDateTime? createdAt, amplify_core.TemporalDateTime? updatedAt, bool? isHidden, String? key, String? name, String? url, Answer? answer, User? user}) {
+    return AnswerFile._internal(
+      id: id ?? this.id,
+      createdAt: createdAt ?? this.createdAt,
+      updatedAt: updatedAt ?? this.updatedAt,
+      isHidden: isHidden ?? this.isHidden,
+      key: key ?? this.key,
+      name: name ?? this.name,
+      url: url ?? this.url,
+      answer: answer ?? this.answer,
+      user: user ?? this.user);
+  }
+  
+  AnswerFile copyWithModelFieldValues({
+    ModelFieldValue<String>? id,
+    ModelFieldValue<amplify_core.TemporalDateTime?>? createdAt,
+    ModelFieldValue<amplify_core.TemporalDateTime?>? updatedAt,
+    ModelFieldValue<bool?>? isHidden,
+    ModelFieldValue<String?>? key,
+    ModelFieldValue<String?>? name,
+    ModelFieldValue<String?>? url,
+    ModelFieldValue<Answer?>? answer,
+    ModelFieldValue<User?>? user
+  }) {
+    return AnswerFile._internal(
+      id: id == null ? this.id : id.value,
+      createdAt: createdAt == null ? this.createdAt : createdAt.value,
+      updatedAt: updatedAt == null ? this.updatedAt : updatedAt.value,
+      isHidden: isHidden == null ? this.isHidden : isHidden.value,
+      key: key == null ? this.key : key.value,
+      name: name == null ? this.name : name.value,
+      url: url == null ? this.url : url.value,
+      answer: answer == null ? this.answer : answer.value,
+      user: user == null ? this.user : user.value
+    );
+  }
+  
+  AnswerFile.fromJson(Map<String, dynamic> json)  
+    : id = json['id'],
+      _createdAt = json['createdAt'] != null ? amplify_core.TemporalDateTime.fromString(json['createdAt']) : null,
+      _updatedAt = json['updatedAt'] != null ? amplify_core.TemporalDateTime.fromString(json['updatedAt']) : null,
+      _isHidden = json['isHidden'],
+      _key = json['key'],
+      _name = json['name'],
+      _url = json['url'],
+      _answer = json['answer'] != null
+        ? Answer.fromJson(new Map<String, dynamic>.from(json['answer']))
+        : null,
+      _user = json['user'] != null
+        ? User.fromJson(new Map<String, dynamic>.from(json['user']))
+        : null;
+  
+  Map<String, dynamic> toJson() => {
+    'id': id, 'createdAt': _createdAt?.format(), 'updatedAt': _updatedAt?.format(), 'isHidden': _isHidden, 'key': _key, 'name': _name, 'url': _url, 'answer': _answer?.toJson(), 'user': _user?.toJson()
+  };
+  
+  Map<String, Object?> toMap() => {
+    'id': id,
+    'createdAt': _createdAt,
+    'updatedAt': _updatedAt,
+    'isHidden': _isHidden,
+    'key': _key,
+    'name': _name,
+    'url': _url,
+    'answer': _answer,
+    'user': _user
+  };
+
+  static final ID = amplify_core.QueryField(fieldName: "id");
+  static final CREATEDAT = amplify_core.QueryField(fieldName: "createdAt");
+  static final UPDATEDAT = amplify_core.QueryField(fieldName: "updatedAt");
+  static final ISHIDDEN = amplify_core.QueryField(fieldName: "isHidden");
+  static final KEY = amplify_core.QueryField(fieldName: "key");
+  static final NAME = amplify_core.QueryField(fieldName: "name");
+  static final URL = amplify_core.QueryField(fieldName: "url");
+  static final ANSWER = amplify_core.QueryField(
+    fieldName: "answer",
+    fieldType: amplify_core.ModelFieldType(amplify_core.ModelFieldTypeEnum.model, ofModelName: 'Answer'));
+  static final USER = amplify_core.QueryField(
+    fieldName: "user",
+    fieldType: amplify_core.ModelFieldType(amplify_core.ModelFieldTypeEnum.model, ofModelName: 'User'));
+  static var schema = amplify_core.Model.defineSchema(define: (amplify_core.ModelSchemaDefinition modelSchemaDefinition) {
+    modelSchemaDefinition.name = "AnswerFile";
+    modelSchemaDefinition.pluralName = "AnswerFiles";
+    
+    modelSchemaDefinition.authRules = [
+      amplify_core.AuthRule(
+        authStrategy: amplify_core.AuthStrategy.PRIVATE,
+        operations: const [
+          amplify_core.ModelOperation.CREATE,
+          amplify_core.ModelOperation.UPDATE,
+          amplify_core.ModelOperation.DELETE,
+          amplify_core.ModelOperation.READ
+        ]),
+      amplify_core.AuthRule(
+        authStrategy: amplify_core.AuthStrategy.PUBLIC,
+        operations: const [
+          amplify_core.ModelOperation.CREATE,
+          amplify_core.ModelOperation.UPDATE,
+          amplify_core.ModelOperation.DELETE,
+          amplify_core.ModelOperation.READ
+        ])
+    ];
+    
+    modelSchemaDefinition.indexes = [
+      amplify_core.ModelIndex(fields: const ["answerID", "updatedAt"], name: "byAnswer"),
+      amplify_core.ModelIndex(fields: const ["userID"], name: "byUser")
+    ];
+    
+    modelSchemaDefinition.addField(amplify_core.ModelFieldDefinition.id());
+    
+    modelSchemaDefinition.addField(amplify_core.ModelFieldDefinition.field(
+      key: AnswerFile.CREATEDAT,
+      isRequired: false,
+      ofType: amplify_core.ModelFieldType(amplify_core.ModelFieldTypeEnum.dateTime)
+    ));
+    
+    modelSchemaDefinition.addField(amplify_core.ModelFieldDefinition.field(
+      key: AnswerFile.UPDATEDAT,
+      isRequired: false,
+      ofType: amplify_core.ModelFieldType(amplify_core.ModelFieldTypeEnum.dateTime)
+    ));
+    
+    modelSchemaDefinition.addField(amplify_core.ModelFieldDefinition.field(
+      key: AnswerFile.ISHIDDEN,
+      isRequired: false,
+      ofType: amplify_core.ModelFieldType(amplify_core.ModelFieldTypeEnum.bool)
+    ));
+    
+    modelSchemaDefinition.addField(amplify_core.ModelFieldDefinition.field(
+      key: AnswerFile.KEY,
+      isRequired: false,
+      ofType: amplify_core.ModelFieldType(amplify_core.ModelFieldTypeEnum.string)
+    ));
+    
+    modelSchemaDefinition.addField(amplify_core.ModelFieldDefinition.field(
+      key: AnswerFile.NAME,
+      isRequired: false,
+      ofType: amplify_core.ModelFieldType(amplify_core.ModelFieldTypeEnum.string)
+    ));
+    
+    modelSchemaDefinition.addField(amplify_core.ModelFieldDefinition.field(
+      key: AnswerFile.URL,
+      isRequired: false,
+      ofType: amplify_core.ModelFieldType(amplify_core.ModelFieldTypeEnum.string)
+    ));
+    
+    modelSchemaDefinition.addField(amplify_core.ModelFieldDefinition.belongsTo(
+      key: AnswerFile.ANSWER,
+      isRequired: false,
+      targetName: 'answerID',
+      ofModelName: 'Answer'
+    ));
+    
+    modelSchemaDefinition.addField(amplify_core.ModelFieldDefinition.belongsTo(
+      key: AnswerFile.USER,
+      isRequired: false,
+      targetName: 'userID',
+      ofModelName: 'User'
+    ));
+  });
+}
+
+class _AnswerFileModelType extends amplify_core.ModelType<AnswerFile> {
+  const _AnswerFileModelType();
+  
+  @override
+  AnswerFile fromJson(Map<String, dynamic> jsonData) {
+    return AnswerFile.fromJson(jsonData);
+  }
+  
+  @override
+  String modelName() {
+    return 'AnswerFile';
+  }
+}

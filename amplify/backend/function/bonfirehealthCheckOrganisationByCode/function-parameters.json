@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "api": {
+      "bonfirehealth": [
+        "Query"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

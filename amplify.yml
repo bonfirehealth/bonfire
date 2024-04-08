@@ -1,0 +1,31 @@
+version: 1
+backend:
+  phases:
+    build:
+      commands:
+        - "# Execute Amplify CLI with the helper script"
+        - amplifyPush --simple
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - git clone https://github.com/flutter/flutter.git
+        - export PATH="$PATH:`pwd`/flutter/bin"
+        - cd flutter && git checkout 3.7.5 && cd ..
+        - aws s3api get-object --bucket $SECRETS_BUCKET --key ${AMPLIFY_CONFIG_BUCKET_FILE}_development.dart ${AMPLIFY_CONFIG_APP_FILE}_development.dart
+        - aws s3api get-object --bucket $SECRETS_BUCKET --key ${AMPLIFY_CONFIG_BUCKET_FILE}_staging.dart ${AMPLIFY_CONFIG_APP_FILE}_staging.dart
+        - aws s3api get-object --bucket $SECRETS_BUCKET --key ${AMPLIFY_CONFIG_BUCKET_FILE}_production.dart ${AMPLIFY_CONFIG_APP_FILE}_production.dart
+        - aws s3api get-object --bucket $SECRETS_BUCKET --key ${AMPLIFY_SECRETS_BUCKET_FILE}.dart ${AMPLIFY_SECRETS_APP_FILE}.dart
+    build:
+      commands:
+        - mv configs/index_${APP_ENVIRONMENT}.html web/index.html
+        - mv configs/manifest_${APP_ENVIRONMENT}.json web/manifest.json
+        - flutter build web --release -t lib/main_${APP_ENVIRONMENT}.dart --web-renderer html
+        - mv build/web/assets/NOTICES build/web/assets/NOTICES.txt
+        - sed "s/NOTICES/NOTICES.txt/g" build/web/flutter_service_worker.js >build/web/flutter_service_worker_tmp.js && mv build/web/flutter_service_worker_tmp.js build/web/flutter_service_worker.js
+  artifacts:
+    baseDirectory: build/web
+    files:
+      - "**/*"
+  cache:
+    paths: []

@@ -1,0 +1,29 @@
+mutation DeleteQuestionVote($input: DeleteQuestionVoteInput!) {
+  deleteQuestionVote(input: $input) {
+    ... on QuestionVote {
+      id
+      createdAt
+      updatedAt
+      isHidden
+      userID
+      user {
+        ... on User {
+          id
+          username
+          photoBase64
+        }
+      }
+      questionID
+      question {
+        ... on Question {
+          id
+          description
+          name
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

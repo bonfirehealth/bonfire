@@ -1,0 +1,59 @@
+part of '../groups_helper.dart';
+
+void _generateQuestionOnReportedPopupDialog(
+  BuildContext context,
+  QuestionsBloc bloc,
+  Question question,
+) {
+  final l10n = context.l10n;
+  showDialog<void>(
+    useSafeArea: false,
+    context: context,
+    builder: (BuildContext context) {
+      return PopupForm(
+        onTitleTextChanged: (String value) {},
+        onDescriptionTextChanged: (String value) {},
+        onSubmit: (
+          String title,
+          String description,
+        ) {
+          bloc.add(
+            QuestionsUserReport(
+              question.user!.id,
+              title,
+              description,
+            ),
+          );
+          Navigator.of(context).pop();
+          showDialog<void>(
+            useSafeArea: false,
+            context: context,
+            builder: (BuildContext context) {
+              return PopupTextDialog(
+                onButtonPressed: () {
+                  FocusScope.of(context).unfocus();
+                  Navigator.of(context).pop();
+                  Navigator.of(context).pop();
+                },
+                buttonText: l10n.ok,
+                title: l10n.confirmReportUserTitle,
+                subtitle1: l10n.confirmReportUserSubtitle,
+                subtitle2: '',
+                subtitle3: '',
+              );
+            },
+          );
+        },
+        header: l10n.reportUser,
+        submitText: l10n.send,
+      );
+    },
+  );
+  showDialog<void>(
+    useSafeArea: false,
+    context: context,
+    builder: (BuildContext context) {
+      return const SizedBox.shrink();
+    },
+  );
+}

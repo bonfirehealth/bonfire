@@ -1,0 +1,28 @@
+query GetAggregateMonthAssessment($aggregateID: ID!) {
+  getAggregateMonthAssessment(id: $aggregateID) {
+    ... on AggregateMonthAssessment {
+      id
+      createdAt
+      updatedAt
+      startDate
+      endDate
+      latestMood
+      latestStressLevel
+      averageOxygenLevel
+      averageOxygenSaturationLevel
+      averageRespiratoryRate
+      averageStressIndex
+      averageSystolicBloodPressure
+      averageDiastolicBloodPressure
+      averageHeartRate
+      averageHeartRateVariability
+      averageSympatheticNervousSystemIndex
+      averageScore
+      profileID
+      numberOfAssessments
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

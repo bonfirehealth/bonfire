@@ -1,0 +1,2669 @@
+{
+    "@@x-loco-version": "1.0.28 20230907-1",
+    "@@locale": "zh",
+    "@@last_modified": "2023-09-15T11:55:44+0545",
+    "@@author": "Bonfire Health",
+    "addAComment": "添加评论",
+    "@addAComment": {
+        "type": "text",
+        "description": "addAComment",
+        "source_text": "Add a comment"
+    },
+    "addAnAnswer": "添加回复",
+    "@addAnAnswer": {
+        "type": "text",
+        "description": "addAnAnswer",
+        "source_text": "Add an answer"
+    },
+    "age": "年龄",
+    "@age": {
+        "type": "text",
+        "description": "age",
+        "source_text": "Age"
+    },
+    "alissaSays": "Alissa 说",
+    "@alissaSays": {
+        "type": "text",
+        "description": "alissaSays",
+        "source_text": "Alissa says"
+    },
+    "allTime": "所有时间",
+    "@allTime": {
+        "type": "text",
+        "description": "allTime",
+        "source_text": "All Time"
+    },
+    "allowNotifications": "允许通知",
+    "@allowNotifications": {
+        "type": "text",
+        "description": "allowNotifications",
+        "source_text": "Allow Notifications"
+    },
+    "alreadyHaveAccount": "已有账户？登录。",
+    "@alreadyHaveAccount": {
+        "type": "text",
+        "description": "alreadyHaveAccount",
+        "source_text": "Already have an account? Log in."
+    },
+    "anger": "询问此支持组",
+    "@anger": {
+        "type": "text",
+        "description": "anger",
+        "source_text": "Anger"
+    },
+    "anonymousAccountCreated": "已成功创建匿名账户！",
+    "@anonymousAccountCreated": {
+        "type": "text",
+        "description": "anonymousAccountCreated",
+        "source_text": "Anonymous account successfully created!"
+    },
+    "askAboutYourHealth": "询问您的健康状况",
+    "@askAboutYourHealth": {
+        "type": "text",
+        "description": "askAboutYourHealth",
+        "source_text": "Ask about your health"
+    },
+    "askInThisSupportGroup": "在此支持群组中提问",
+    "@askInThisSupportGroup": {
+        "type": "text",
+        "description": "askInThisSupportGroup",
+        "source_text": "Ask in this support group"
+    },
+    "askPeerForSupport": "向同龄人寻求支持",
+    "@askPeerForSupport": {
+        "type": "text",
+        "description": "askPeerForSupport",
+        "source_text": "Ask a peer for support"
+    },
+    "askQuestion": "提出问题",
+    "@askQuestion": {
+        "type": "text",
+        "description": "askQuestion",
+        "source_text": "Ask Question"
+    },
+    "askQuestionSubtitle1": "开始您的问题",
+    "@askQuestionSubtitle1": {
+        "type": "text",
+        "description": "askQuestionSubtitle1",
+        "source_text": "Consider starting your question with "
+    },
+    "askQuestionSubtitle2": "以will、what、why、when、who、how 作为开头",
+    "@askQuestionSubtitle2": {
+        "type": "text",
+        "description": "askQuestionSubtitle2",
+        "source_text": "will, what, why, when, who or how"
+    },
+    "assessmentActionSubtitle": "接下来我能做什么？",
+    "@assessmentActionSubtitle": {
+        "type": "text",
+        "description": "assessmentActionSubtitle",
+        "source_text": "What can I do next?"
+    },
+    "assessments": "评估",
+    "@assessments": {
+        "type": "text",
+        "description": "assessments",
+        "source_text": "Assessments"
+    },
+    "attendingToYou": "由我为您服务...",
+    "@attendingToYou": {
+        "type": "text",
+        "description": "attendingToYou",
+        "source_text": "I'm attending to you..."
+    },
+    "back": "返回",
+    "@back": {
+        "type": "text",
+        "description": "back",
+        "source_text": "Back"
+    },
+    "biometricNotAuthenticated": "特性",
+    "@biometricNotAuthenticated": {
+        "type": "text",
+        "description": "biometricNotAuthenticated",
+        "source_text": "Your biometric credential is not authenticated, please try again."
+    },
+    "bloodOxygenLevel": "血氧水平",
+    "@bloodOxygenLevel": {
+        "type": "text",
+        "description": "bloodOxygenLevel",
+        "source_text": "Blood Oxygen Level"
+    },
+    "bloodOxygenLevelDescription": "血氧水平是人体血液中循环的氧气量。人们可以使用脉氧仪来测量人体血氧水平。在脉氧仪中，医生认为数值 < 95% 属于低水平。",
+    "@bloodOxygenLevelDescription": {
+        "type": "text",
+        "description": "bloodOxygenLevelDescription",
+        "source_text": "Blood Oxygen Level is the amount of oxygen circulating in their blood. A person can measure their blood oxygen levels using a pulse oximeter. On a pulse oximeter, doctors consider levels under 95% to be low. "
+    },
+    "bloodOxygenLevelNormalRangeValues": "95% SpO2 及以上",
+    "@bloodOxygenLevelNormalRangeValues": {
+        "type": "text",
+        "description": "bloodOxygenLevelNormalRangeValues",
+        "source_text": "95 %SpO2 and above"
+    },
+    "bloodOxygenLevelSymbol": "% SpO2",
+    "@bloodOxygenLevelSymbol": {
+        "type": "text",
+        "description": "bloodOxygenLevelSymbol",
+        "source_text": "%SpO2"
+    },
+    "bloodPressure": "血压",
+    "@bloodPressure": {
+        "type": "text",
+        "description": "bloodPressure",
+        "source_text": "Blood Pressure"
+    },
+    "bloodPressureDescription": "血压测量有两个数值：第一个数值称为收缩压，测量心脏跳动时的动脉压力。第二个数值称为舒张压，测量在两次心跳之间的动脉压力。",
+    "@bloodPressureDescription": {
+        "type": "text",
+        "description": "bloodPressureDescription",
+        "source_text": "Blood pressure is measured using two numbers: The first number, called systolic blood pressure, measures the pressure in your arteries when your heart beats. The second number, called diastolic blood pressure, measures the pressure in your arteries when your heart rests between beats."
+    },
+    "bloodPressureNormalRangeValues": "120/80 mmHg 及以下",
+    "@bloodPressureNormalRangeValues": {
+        "type": "text",
+        "description": "bloodPressureNormalRangeValues",
+        "source_text": "120/80 mmHg and below"
+    },
+    "bloodPressureSymbol": "mmHg",
+    "@bloodPressureSymbol": {
+        "type": "text",
+        "description": "bloodPressureSymbol",
+        "source_text": "mmHg"
+    },
+    "bloodPressureSystolic": "血压（收缩压）",
+    "@bloodPressureSystolic": {
+        "type": "text",
+        "description": "bloodPressureSystolic",
+        "source_text": "Blood Pressure (Systolic)"
+    },
+    "both": "二者",
+    "@both": {
+        "type": "text",
+        "description": "both",
+        "source_text": "Both"
+    },
+    "bpm": "bpm",
+    "@bpm": {
+        "type": "text",
+        "description": "bpm",
+        "source_text": "bpm"
+    },
+    "bySigning1": "注册即表示您同意本应用程序的",
+    "@bySigning1": {
+        "type": "text",
+        "description": "bySigning1",
+        "source_text": "By signing in, you agree to our app's"
+    },
+    "bySigning2": "服务条款",
+    "@bySigning2": {
+        "type": "text",
+        "description": "bySigning2",
+        "source_text": "terms of service"
+    },
+    "cameraPermissionDeniedMessage": "请在浏览器设置中启用相机权限。",
+    "@cameraPermissionDeniedMessage": {
+        "type": "text",
+        "description": "cameraPermissionDeniedMessage",
+        "source_text": "Please enable camera permission in your browser settings."
+    },
+    "cameraPermissionDeniedTitle": "相机权限被拒绝",
+    "@cameraPermissionDeniedTitle": {
+        "type": "text",
+        "description": "cameraPermissionDeniedTitle",
+        "source_text": "Camera Permission Denied"
+    },
+    "cancel": "取消",
+    "@cancel": {
+        "type": "text",
+        "description": "cancel",
+        "source_text": "Cancel"
+    },
+    "challenge": "Challenge",
+    "@challenge": {
+        "type": "text",
+        "description": "challenge",
+        "source_text": "Challenge"
+    },
+    "characters": "特点",
+    "@characters": {
+        "type": "text",
+        "description": "characters",
+        "source_text": "characters"
+    },
+    "chatResponseQuestionEmptyMessage": "您的问题不可为空。",
+    "@chatResponseQuestionEmptyMessage": {
+        "type": "text",
+        "description": "chatResponseQuestionEmptyMessage",
+        "source_text": "Your question should not be empty."
+    },
+    "chatResponseSystemErrorMessage": "哎呀！发生错误。请检查您的网络连接或联系我们寻求帮助。",
+    "@chatResponseSystemErrorMessage": {
+        "type": "text",
+        "description": "chatResponseSystemErrorMessage",
+        "source_text": "Oops! An error occurred. Please check your network connection or contact us for assistance."
+    },
+    "chatResponseViolateQuestionMessage": "您的问题违反了我们的使用政策。请提其它问题。",
+    "@chatResponseViolateQuestionMessage": {
+        "type": "text",
+        "description": "chatResponseViolateQuestionMessage",
+        "source_text": "Your question violates our usage policies. Please ask a different question."
+    },
+    "childGroup": "儿童",
+    "@childGroup": {
+        "type": "text",
+        "description": "childGroup",
+        "source_text": "Child"
+    },
+    "childGroupRange": "0-16 岁",
+    "@childGroupRange": {
+        "type": "text",
+        "description": "childGroupRange",
+        "source_text": "0-16 yo"
+    },
+    "choosePreferences": "创建密码",
+    "@choosePreferences": {
+        "type": "text",
+        "description": "choosePreferences",
+        "source_text": "What do you wish to manage?"
+    },
+    "choosePreferencesConfidential": "电子邮件地址",
+    "@choosePreferencesConfidential": {
+        "type": "text",
+        "description": "choosePreferencesConfidential",
+        "source_text": "Your preferences are strictly confidential."
+    },
+    "choosePreferencesSubtitle": "你选择的电子邮件地址不可用。请选择其他电子邮件地址。",
+    "@choosePreferencesSubtitle": {
+        "type": "text",
+        "description": "choosePreferencesSubtitle",
+        "source_text": "You can choose more than one and change preferences anytime."
+    },
+    "completeProfileSubtitle": "电子邮件地址不可用",
+    "@completeProfileSubtitle": {
+        "type": "text",
+        "description": "completeProfileSubtitle",
+        "source_text": "Complete your profile to personalise your user experience."
+    },
+    "completeProfileTitle": "完成个人资料",
+    "@completeProfileTitle": {
+        "type": "text",
+        "description": "completeProfileTitle",
+        "source_text": "Complete Profile"
+    },
+    "confirmReportGroupSubtitle": "私密的",
+    "@confirmReportGroupSubtitle": {
+        "type": "text",
+        "description": "confirmReportGroupSubtitle",
+        "source_text": "Thank you for reporting. Your submission is sent to your organisation administrator for review."
+    },
+    "confirmReportGroupTitle": "仅在手机上",
+    "@confirmReportGroupTitle": {
+        "type": "text",
+        "description": "confirmReportGroupTitle",
+        "source_text": "Report Group Confirmation"
+    },
+    "confirmReportUserSubtitle": "让我们来认识艾丽莎",
+    "@confirmReportUserSubtitle": {
+        "type": "text",
+        "description": "confirmReportUserSubtitle",
+        "source_text": "Thank you for reporting. Your submission is sent to your organisation administrator for review."
+    },
+    "confirmReportUserTitle": "输入组织代码",
+    "@confirmReportUserTitle": {
+        "type": "text",
+        "description": "confirmReportUserTitle",
+        "source_text": "Report User Confirmation"
+    },
+    "confirmSuggestGroupSubtitle": "输入6位密码",
+    "@confirmSuggestGroupSubtitle": {
+        "type": "text",
+        "description": "confirmSuggestGroupSubtitle",
+        "source_text": "Thank you for suggesting new group. The new group requires at least 10 votes to be created and opened."
+    },
+    "confirmSuggestGroupTitle": "在此输入你的个人电子邮件",
+    "@confirmSuggestGroupTitle": {
+        "type": "text",
+        "description": "confirmSuggestGroupTitle",
+        "source_text": "Suggest Group Confirmation"
+    },
+    "continueWithPasscode": "仅使用密码继续",
+    "@continueWithPasscode": {
+        "type": "text",
+        "description": "continueWithPasscode",
+        "source_text": "Continue with passcode only"
+    },
+    "createPasscode": "创建密码",
+    "@createPasscode": {
+        "type": "text",
+        "description": "createPasscode",
+        "source_text": "Create Passcode"
+    },
+    "credentialsCopiedMessage": "您可将凭证粘贴至手机中的任何位置。",
+    "@credentialsCopiedMessage": {
+        "type": "text",
+        "description": "credentialsCopiedMessage",
+        "source_text": "You can paste the credentials to anywhere in your phone."
+    },
+    "credentialsCopiedTitle": "已复制凭证",
+    "@credentialsCopiedTitle": {
+        "type": "text",
+        "description": "credentialsCopiedTitle",
+        "source_text": "Credentials Copied"
+    },
+    "credentialsNotValidMessage": "您的凭证无效。",
+    "@credentialsNotValidMessage": {
+        "type": "text",
+        "description": "credentialsNotValidMessage",
+        "source_text": "Your credentials are not valid."
+    },
+    "credentialsNotValidTitle": "凭证无效",
+    "@credentialsNotValidTitle": {
+        "type": "text",
+        "description": "credentialsNotValidTitle",
+        "source_text": "Invalid Credentials"
+    },
+    "credentialsValidMessage": "您的凭证有效",
+    "@credentialsValidMessage": {
+        "type": "text",
+        "description": "credentialsValidMessage",
+        "source_text": "Your credentials are valid."
+    },
+    "credentialsValidTitle": "有效凭证",
+    "@credentialsValidTitle": {
+        "type": "text",
+        "description": "credentialsValidTitle",
+        "source_text": "Valid Credentials"
+    },
+    "dashboard": "仪表盘",
+    "@dashboard": {
+        "type": "text",
+        "description": "dashboard",
+        "source_text": "Dashboard"
+    },
+    "day": "日期",
+    "@day": {
+        "type": "text",
+        "description": "day",
+        "source_text": "Day"
+    },
+    "defaultTopQuestionOfTheWeek": "Who in your life (or even an influencer) inspires you to be mentally and physically fit?",
+    "@defaultTopQuestionOfTheWeek": {
+        "type": "text",
+        "description": "defaultTopQuestionOfTheWeek",
+        "source_text": "Who in your life (or even an influencer) inspires you to be mentally and physically fit?"
+    },
+    "delete": "删除",
+    "@delete": {
+        "type": "text",
+        "description": "delete",
+        "source_text": "Delete"
+    },
+    "description": "描述",
+    "@description": {
+        "type": "text",
+        "description": "description",
+        "source_text": "Description"
+    },
+    "diastolicBloodPressure": "舒张压",
+    "@diastolicBloodPressure": {
+        "type": "text",
+        "description": "diastolicBloodPressure",
+        "source_text": "Diastolic Blood Pressure"
+    },
+    "diastolicBloodPressureSymbol": "DP",
+    "@diastolicBloodPressureSymbol": {
+        "type": "text",
+        "description": "diastolicBloodPressureSymbol",
+        "source_text": "DP"
+    },
+    "done": "完成",
+    "@done": {
+        "type": "text",
+        "description": "done",
+        "source_text": "Done"
+    },
+    "earnCredits": "在此输入标题",
+    "@earnCredits": {
+        "type": "text",
+        "description": "earnCredits",
+        "source_text": "Earn Credits"
+    },
+    "earnCreditsSubtitle": "输入唯一用户名",
+    "@earnCreditsSubtitle": {
+        "type": "text",
+        "description": "earnCreditsSubtitle",
+        "source_text": "Complete any of these 1-min activities to gain Credits. Credits earn you vouchers."
+    },
+    "emailAddress": "电子邮件地址",
+    "@emailAddress": {
+        "type": "text",
+        "description": "emailAddress",
+        "source_text": "Email Address"
+    },
+    "emailAddressNotAvailableMessage": "您选择的电子邮件地址不可用。请选择其他电子邮件地址。",
+    "@emailAddressNotAvailableMessage": {
+        "type": "text",
+        "description": "emailAddressNotAvailableMessage",
+        "source_text": "The email address you have chosen is not available. Please select another email address."
+    },
+    "emailAddressNotAvailableTitle": "电子邮件地址不可用",
+    "@emailAddressNotAvailableTitle": {
+        "type": "text",
+        "description": "emailAddressNotAvailableTitle",
+        "source_text": "Email Address Not Available"
+    },
+    "engageAlissaConfidential1": "您的所有健康数据",
+    "@engageAlissaConfidential1": {
+        "type": "text",
+        "description": "engageAlissaConfidential1",
+        "source_text": "All your health data stays "
+    },
+    "engageAlissaConfidential2": "仅在个人手机中",
+    "@engageAlissaConfidential2": {
+        "type": "text",
+        "description": "engageAlissaConfidential2",
+        "source_text": "private and confidential "
+    },
+    "engageAlissaConfidential3": "保持私密性",
+    "@engageAlissaConfidential3": {
+        "type": "text",
+        "description": "engageAlissaConfidential3",
+        "source_text": "on your phone only"
+    },
+    "engageAlissaNow": "让我们来认识艾丽莎",
+    "@engageAlissaNow": {
+        "type": "text",
+        "description": "engageAlissaNow",
+        "source_text": "Engage Alissa Now"
+    },
+    "engageAlissaSubtitle": "输入组织代码",
+    "@engageAlissaSubtitle": {
+        "type": "text",
+        "description": "engageAlissaSubtitle",
+        "source_text": "You can think of Alissa as the Siri or Google Assistant for emotional support. She will alert you when she senses you need help."
+    },
+    "engageAlissaTitle": "让我们来认识 Alissa",
+    "@engageAlissaTitle": {
+        "type": "text",
+        "description": "engageAlissaTitle",
+        "source_text": "Let's get to know Alissa"
+    },
+    "enterOrganisationCode": "输入组织代码",
+    "@enterOrganisationCode": {
+        "type": "text",
+        "description": "enterOrganisationCode",
+        "source_text": "Enter organisation code"
+    },
+    "enterPasscode": "输入6位密码",
+    "@enterPasscode": {
+        "type": "text",
+        "description": "enterPasscode",
+        "source_text": "Enter a 6-digit passcode"
+    },
+    "enterPersonalEmailAddress": "在此输入您的个人电子邮件",
+    "@enterPersonalEmailAddress": {
+        "type": "text",
+        "description": "enterPersonalEmailAddress",
+        "source_text": "Enter your personal email here"
+    },
+    "enterQuestionDescriptionHere": "在此输入描述（可选）",
+    "@enterQuestionDescriptionHere": {
+        "type": "text",
+        "description": "enterQuestionDescriptionHere",
+        "source_text": "Enter description here (optional)"
+    },
+    "enterQuestionHere": "在此输入问题",
+    "@enterQuestionHere": {
+        "type": "text",
+        "description": "enterQuestionHere",
+        "source_text": "Enter question here"
+    },
+    "enterTitleHere": "在此输入标题",
+    "@enterTitleHere": {
+        "type": "text",
+        "description": "enterTitleHere",
+        "source_text": "Enter title here"
+    },
+    "enterUniqueUsername": "输入唯一用户名",
+    "@enterUniqueUsername": {
+        "type": "text",
+        "description": "enterUniqueUsername",
+        "source_text": "Enter unique username"
+    },
+    "enterYourFinNumber": "输入您的 FIN 码",
+    "@enterYourFinNumber": {
+        "type": "text",
+        "description": "enterYourFinNumber",
+        "source_text": "Enter your FIN number"
+    },
+    "error": "错误",
+    "@error": {
+        "type": "text",
+        "description": "error",
+        "source_text": "Error"
+    },
+    "exitAppConfirmationTitle": "您确定要退出应用程序吗？",
+    "@exitAppConfirmationTitle": {
+        "type": "text",
+        "description": "exitAppConfirmationTitle",
+        "source_text": "Are you sure you want to exit the app?"
+    },
+    "facebookAd1": "Get a free health checkup while doing a 10 seconds live video stream? Sure!",
+    "@facebookAd1": {
+        "type": "text",
+        "description": "facebookAd1",
+        "source_text": "Get a free health checkup while doing a 10 seconds live video stream? Sure!"
+    },
+    "facebookAd2": "Take control of your health in 2023. Get a free health checkup in 10 seconds using your phone!",
+    "@facebookAd2": {
+        "type": "text",
+        "description": "facebookAd2",
+        "source_text": "Take control of your health in 2023. Get a free health checkup in 10 seconds using your phone!"
+    },
+    "facebookAd3": "Feeling stressed? Check your stress levels with just your phone's camera in 10 seconds.",
+    "@facebookAd3": {
+        "type": "text",
+        "description": "facebookAd3",
+        "source_text": "Feeling stressed? Check your stress levels with just your phone's camera in 10 seconds."
+    },
+    "facebookAd4": "No time for a health checkup? ",
+    "@facebookAd4": {
+        "type": "text",
+        "description": "facebookAd4",
+        "source_text": "No time for a health checkup? "
+    },
+    "facebookAd5": "Be a healthier you in 2023",
+    "@facebookAd5": {
+        "type": "text",
+        "description": "facebookAd5",
+        "source_text": "Be a healthier you in 2023"
+    },
+    "facebookAd6": "Check your stress level in 10s",
+    "@facebookAd6": {
+        "type": "text",
+        "description": "facebookAd6",
+        "source_text": "Check your stress level in 10s"
+    },
+    "facebookAd7": "No fitness tracker needed",
+    "@facebookAd7": {
+        "type": "text",
+        "description": "facebookAd7",
+        "source_text": "No fitness tracker needed"
+    },
+    "facebookAd8": "Know your health, be better",
+    "@facebookAd8": {
+        "type": "text",
+        "description": "facebookAd8",
+        "source_text": "Know your health, be better"
+    },
+    "facebookAd9": "Don't worry, just checkup",
+    "@facebookAd9": {
+        "type": "text",
+        "description": "facebookAd9",
+        "source_text": "Don't worry, just checkup"
+    },
+    "fatigueLevel": "疲劳程度",
+    "@fatigueLevel": {
+        "type": "text",
+        "description": "fatigueLevel",
+        "source_text": "Fatigue Level"
+    },
+    "female": "女性",
+    "@female": {
+        "type": "text",
+        "description": "female",
+        "source_text": "Female"
+    },
+    "filter": "筛选",
+    "@filter": {
+        "type": "text",
+        "description": "filter",
+        "source_text": "Filter"
+    },
+    "finalizingYourVitals": "确定您的生命体征...",
+    "@finalizingYourVitals": {
+        "type": "text",
+        "description": "finalizingYourVitals",
+        "source_text": "Finalizing your vitals..."
+    },
+    "gender": "性别",
+    "@gender": {
+        "type": "text",
+        "description": "gender",
+        "source_text": "Gender"
+    },
+    "generateAnotherUsername": "生成另一个用户名",
+    "@generateAnotherUsername": {
+        "type": "text",
+        "description": "generateAnotherUsername",
+        "source_text": "Generate another username"
+    },
+    "generateCredentialsWarningMessage1": "将您的密码凭证发送至个人电子邮件，以免将来丢失宝贵的健康数据。",
+    "@generateCredentialsWarningMessage1": {
+        "type": "text",
+        "description": "generateCredentialsWarningMessage1",
+        "source_text": "Send your secret credentials to your personal email so you don't lose your valuable health data in the future."
+    },
+    "generateCredentialsWarningMessage2": "若您忘记了当前密码，可以在 https：//app.bonfire.health/#/recover 使用恢复码重新获得账户的访问权限。",
+    "@generateCredentialsWarningMessage2": {
+        "type": "text",
+        "description": "generateCredentialsWarningMessage2",
+        "source_text": "If you have forgotten your current password, you can use your recovery codes to regain access to your account at https://app.bonfire.health/#/recover"
+    },
+    "getHelpNow": "立即获得帮助",
+    "@getHelpNow": {
+        "type": "text",
+        "description": "getHelpNow",
+        "source_text": "Get help now"
+    },
+    "getStarted": "立即开始",
+    "@getStarted": {
+        "type": "text",
+        "description": "getStarted",
+        "source_text": "Get Started"
+    },
+    "globalConfirmation": "确认",
+    "@globalConfirmation": {
+        "type": "text",
+        "description": "globalConfirmation",
+        "source_text": "Confirmation"
+    },
+    "goAnonymous": "匿名。",
+    "@goAnonymous": {
+        "type": "text",
+        "description": "goAnonymous",
+        "source_text": "Go anonymous."
+    },
+    "goals": "目标",
+    "@goals": {
+        "type": "text",
+        "description": "goals",
+        "source_text": "Goals"
+    },
+    "grief": "支持小组如何工作",
+    "@grief": {
+        "type": "text",
+        "description": "grief",
+        "source_text": "Grief"
+    },
+    "groups": "群组",
+    "@groups": {
+        "type": "text",
+        "description": "groups",
+        "source_text": "Groups"
+    },
+    "heartRate": "心率",
+    "@heartRate": {
+        "type": "text",
+        "description": "heartRate",
+        "source_text": "Heart Rate"
+    },
+    "heartRateDescription": "心率是指通过每分钟心脏收缩的次数来测量心跳的速度。",
+    "@heartRateDescription": {
+        "type": "text",
+        "description": "heartRateDescription",
+        "source_text": "Heart Rate is the speed of the heartbeat measured by the number of contractions of the heart per minute."
+    },
+    "heartRateNormalRangeValues": "60 -100 BPM",
+    "@heartRateNormalRangeValues": {
+        "type": "text",
+        "description": "heartRateNormalRangeValues",
+        "source_text": "60 to 100 BPM"
+    },
+    "heartRateReading": "心率读数",
+    "@heartRateReading": {
+        "type": "text",
+        "description": "heartRateReading",
+        "source_text": "Heart Rate Reading"
+    },
+    "heartRateReadingSource": "心率读数来源",
+    "@heartRateReadingSource": {
+        "type": "text",
+        "description": "heartRateReadingSource",
+        "source_text": "Source of Heart Rate Reading"
+    },
+    "heartRateSymbol": "BPM",
+    "@heartRateSymbol": {
+        "type": "text",
+        "description": "heartRateSymbol",
+        "source_text": "BPM"
+    },
+    "heartRateVariability": "心率变异性",
+    "@heartRateVariability": {
+        "type": "text",
+        "description": "heartRateVariability",
+        "source_text": "Heart Rate Variability"
+    },
+    "heartRateVariabilityDescription": "心率变异性即心跳速率变化的测量情况。它是压力的一个指标，HRV越高越好。",
+    "@heartRateVariabilityDescription": {
+        "type": "text",
+        "description": "heartRateVariabilityDescription",
+        "source_text": "Heart Rate Variability is simply a measure of the variation in time between each heartbeat. It is an indicator of stress, higher hrv is better."
+    },
+    "heartRateVariabilityNormalRangeValues": "20-200 HRV",
+    "@heartRateVariabilityNormalRangeValues": {
+        "type": "text",
+        "description": "heartRateVariabilityNormalRangeValues",
+        "source_text": "20 to 200 HRV"
+    },
+    "heartRateVariabilitySymbol": "HRV",
+    "@heartRateVariabilitySymbol": {
+        "type": "text",
+        "description": "heartRateVariabilitySymbol",
+        "source_text": "HRV"
+    },
+    "height": "高度",
+    "@height": {
+        "type": "text",
+        "description": "height",
+        "source_text": "Height"
+    },
+    "helloAlissa": "向您的健康检查助理 Alissa 打招呼。",
+    "@helloAlissa": {
+        "type": "text",
+        "description": "helloAlissa",
+        "source_text": "Say hello to Alissa, your health checkup assistant."
+    },
+    "helloAlissaSubtitle": "获得重要的健康警报，并探索关乎您身心健康的新事物。",
+    "@helloAlissaSubtitle": {
+        "type": "text",
+        "description": "helloAlissaSubtitle",
+        "source_text": "Get important health alerts and discover new things about your mental and physical health."
+    },
+    "helpPeerNow": "立即帮助同龄人",
+    "@helpPeerNow": {
+        "type": "text",
+        "description": "helpPeerNow",
+        "source_text": "Help a peer now"
+    },
+    "high": "高的",
+    "@high": {
+        "type": "text",
+        "description": "high",
+        "source_text": "High"
+    },
+    "howSelfCareGoalsWorkSubtitle1": "登录你的组织帐户",
+    "@howSelfCareGoalsWorkSubtitle1": {
+        "type": "text",
+        "description": "howSelfCareGoalsWorkSubtitle1",
+        "source_text": "Your app tracks your minutes spent in taking care of your mental health."
+    },
+    "howSelfCareGoalsWorkTitle": "组织登录",
+    "@howSelfCareGoalsWorkTitle": {
+        "type": "text",
+        "description": "howSelfCareGoalsWorkTitle",
+        "source_text": "How Self-Care Goals Work"
+    },
+    "howSupportGroupsWorkSubtitle1": "退网",
+    "@howSupportGroupsWorkSubtitle1": {
+        "type": "text",
+        "description": "howSupportGroupsWorkSubtitle1",
+        "source_text": "Support groups give you a safe space to seek advice quickly from colleagues like you."
+    },
+    "howSupportGroupsWorkSubtitle2": "我的评估",
+    "@howSupportGroupsWorkSubtitle2": {
+        "type": "text",
+        "description": "howSupportGroupsWorkSubtitle2",
+        "source_text": "Join existing groups or suggest new ones. New suggested groups require at least 10 votes to be created and opened."
+    },
+    "howSupportGroupsWorkTitle": "支持群组如何运作",
+    "@howSupportGroupsWorkTitle": {
+        "type": "text",
+        "description": "howSupportGroupsWorkTitle",
+        "source_text": "How Support Groups Work"
+    },
+    "hrv": "HRV",
+    "@hrv": {
+        "type": "text",
+        "description": "hrv",
+        "source_text": "hrv"
+    },
+    "insights": "见解",
+    "@insights": {
+        "type": "text",
+        "description": "insights",
+        "source_text": "Insights"
+    },
+    "invalidEmailAddressMessage": "电子邮件地址无效。请重试。",
+    "@invalidEmailAddressMessage": {
+        "type": "text",
+        "description": "invalidEmailAddressMessage",
+        "source_text": "Email address is invalid. Please try again."
+    },
+    "invalidEmailAddressTitle": "电子邮件地址无效",
+    "@invalidEmailAddressTitle": {
+        "type": "text",
+        "description": "invalidEmailAddressTitle",
+        "source_text": "Invalid Email Address"
+    },
+    "invoices": "账单",
+    "@invoices": {
+        "type": "text",
+        "description": "invoices",
+        "source_text": "Invoices"
+    },
+    "join": "加入",
+    "@join": {
+        "type": "text",
+        "description": "join",
+        "source_text": "Join"
+    },
+    "joined": "已加入",
+    "@joined": {
+        "type": "text",
+        "description": "joined",
+        "source_text": "Joined"
+    },
+    "journeys": "旅程",
+    "@journeys": {
+        "type": "text",
+        "description": "journeys",
+        "source_text": "Journeys"
+    },
+    "landingMessage": "本应用程序目前仅可在移动设备的移动网络浏览器中使用。请使用移动设备访问本应用程序。",
+    "@landingMessage": {
+        "type": "text",
+        "description": "landingMessage",
+        "source_text": "The app is currently available only on mobile web browser using your mobile device. Please kindly use your mobile device to access the app."
+    },
+    "landingTitle": "欢迎来到 Checkup",
+    "@landingTitle": {
+        "type": "text",
+        "description": "landingTitle",
+        "source_text": "Welcome to Checkup"
+    },
+    "lastUpdatedAt": "上次更新时间：",
+    "@lastUpdatedAt": {
+        "type": "text",
+        "description": "lastUpdatedAt",
+        "source_text": "Last updated at"
+    },
+    "login": "登录",
+    "@login": {
+        "type": "text",
+        "description": "login",
+        "source_text": "Login"
+    },
+    "loginSubtitle": "登录您的组织账户",
+    "@loginSubtitle": {
+        "type": "text",
+        "description": "loginSubtitle",
+        "source_text": "Login to your organisation account"
+    },
+    "loginTitle": "组织登录",
+    "@loginTitle": {
+        "type": "text",
+        "description": "loginTitle",
+        "source_text": "Organisation Login"
+    },
+    "logout": "退出",
+    "@logout": {
+        "type": "text",
+        "description": "logout",
+        "source_text": "Logout"
+    },
+    "low": "低",
+    "@low": {
+        "type": "text",
+        "description": "low",
+        "source_text": "Low"
+    },
+    "male": "男性",
+    "@male": {
+        "type": "text",
+        "description": "male",
+        "source_text": "Male"
+    },
+    "member": "成员",
+    "@member": {
+        "type": "text",
+        "description": "member",
+        "source_text": "Member"
+    },
+    "middleAgedAdultGroup": "中年人群",
+    "@middleAgedAdultGroup": {
+        "type": "text",
+        "description": "middleAgedAdultGroup",
+        "source_text": "Middle Age Adult"
+    },
+    "middleAgedAdultGroupRange": "31-45 岁",
+    "@middleAgedAdultGroupRange": {
+        "type": "text",
+        "description": "middleAgedAdultGroupRange",
+        "source_text": "31-45 yo"
+    },
+    "month": "月份",
+    "@month": {
+        "type": "text",
+        "description": "month",
+        "source_text": "Month"
+    },
+    "monthApr": "四月",
+    "@monthApr": {
+        "type": "text",
+        "description": "monthApr",
+        "source_text": "Apr"
+    },
+    "monthAug": "八月",
+    "@monthAug": {
+        "type": "text",
+        "description": "monthAug",
+        "source_text": "Aug"
+    },
+    "monthDec": "十二月",
+    "@monthDec": {
+        "type": "text",
+        "description": "monthDec",
+        "source_text": "Dec"
+    },
+    "monthFeb": "二月",
+    "@monthFeb": {
+        "type": "text",
+        "description": "monthFeb",
+        "source_text": "Feb"
+    },
+    "monthJan": "一月",
+    "@monthJan": {
+        "type": "text",
+        "description": "monthJan",
+        "source_text": "Jan"
+    },
+    "monthJul": "七月",
+    "@monthJul": {
+        "type": "text",
+        "description": "monthJul",
+        "source_text": "Jul"
+    },
+    "monthJun": "六月",
+    "@monthJun": {
+        "type": "text",
+        "description": "monthJun",
+        "source_text": "Jun"
+    },
+    "monthMar": "三月",
+    "@monthMar": {
+        "type": "text",
+        "description": "monthMar",
+        "source_text": "Mar"
+    },
+    "monthMay": "五月",
+    "@monthMay": {
+        "type": "text",
+        "description": "monthMay",
+        "source_text": "May"
+    },
+    "monthNov": "十一月",
+    "@monthNov": {
+        "type": "text",
+        "description": "monthNov",
+        "source_text": "Nov"
+    },
+    "monthOct": "十月",
+    "@monthOct": {
+        "type": "text",
+        "description": "monthOct",
+        "source_text": "Oct"
+    },
+    "monthSep": "九月",
+    "@monthSep": {
+        "type": "text",
+        "description": "monthSep",
+        "source_text": "Sep"
+    },
+    "myAssessments": "我的评估",
+    "@myAssessments": {
+        "type": "text",
+        "description": "myAssessments",
+        "source_text": "My Assessments"
+    },
+    "myHealthData": "我的健康数据",
+    "@myHealthData": {
+        "type": "text",
+        "description": "myHealthData",
+        "source_text": "My Health Data"
+    },
+    "myHealthDataSubtitle": "您的个人健康数据显示了您的压力水平。",
+    "@myHealthDataSubtitle": {
+        "type": "text",
+        "description": "myHealthDataSubtitle",
+        "source_text": "Your personal health data shows your stress level over time."
+    },
+    "myLatestSuggestions": "我的最新建议",
+    "@myLatestSuggestions": {
+        "type": "text",
+        "description": "myLatestSuggestions",
+        "source_text": "My Latest Suggestions"
+    },
+    "myLatestVitalReadings": "我的最新生命体征读数",
+    "@myLatestVitalReadings": {
+        "type": "text",
+        "description": "myLatestVitalReadings",
+        "source_text": "My Latest Vital Readings"
+    },
+    "myPreferences": "我的偏好",
+    "@myPreferences": {
+        "type": "text",
+        "description": "myPreferences",
+        "source_text": "My Preferences"
+    },
+    "mySavedQuestions": "我保存的问题",
+    "@mySavedQuestions": {
+        "type": "text",
+        "description": "mySavedQuestions",
+        "source_text": "My Saved Questions"
+    },
+    "newText": "新的",
+    "@newText": {
+        "type": "text",
+        "description": "newText",
+        "source_text": "New"
+
+    },
+    "newPassword": "新密码",
+    "@newPassword": {
+        "type": "text",
+        "description": "newPassword",
+        "source_text": "New password"
+    },
+    "newPasswordConfirm": "确认新密码",
+    "@newPasswordConfirm": {
+        "type": "text",
+        "description": "newPasswordConfirm",
+        "source_text": "Confirm new password"
+    },
+    "next": "下一个",
+    "@next": {
+        "type": "text",
+        "description": "next",
+        "source_text": "Next"
+    },
+    "no": "不",
+    "@no": {
+        "type": "text",
+        "description": "no",
+        "source_text": "No"
+    },
+    "noAnswers": "将您的回复分享至群组",
+    "@noAnswers": {
+        "type": "text",
+        "description": "noAnswers",
+        "source_text": "Share your answer to the group"
+    },
+    "noAssessmentsMessage": "没有评估",
+    "@noAssessmentsMessage": {
+        "type": "text",
+        "description": "noAssessmentsMessage",
+        "source_text": "No assessments"
+    },
+    "noComments": "将您的评论分享至群组",
+    "@noComments": {
+        "type": "text",
+        "description": "noComments",
+        "source_text": "Share your comment to the group"
+    },
+    "noData": "无数据",
+    "@noData": {
+        "type": "text",
+        "description": "noData",
+        "source_text": "No Data"
+    },
+    "noGroups": "创建新问题以开始",
+    "@noGroups": {
+        "type": "text",
+        "description": "noGroups",
+        "source_text": "Start a new group to get started"
+    },
+    "noHealthDataMessage": "无可用健康数据。开始您的首次检查。",
+    "@noHealthDataMessage": {
+        "type": "text",
+        "description": "noHealthDataMessage",
+        "source_text": "No health data available. Get started with your first screening."
+    },
+    "noQuestions": "创建新问题以开始",
+    "@noQuestions": {
+        "type": "text",
+        "description": "noQuestions",
+        "source_text": "Create a new question to get started"
+    },
+    "normal": "正常",
+    "@normal": {
+        "type": "text",
+        "description": "normal",
+        "source_text": "Normal"
+    },
+    "normalRange": "正常范围",
+    "@normalRange": {
+        "type": "text",
+        "description": "normalRange",
+        "source_text": "Normal Range"
+    },
+    "normalweight": "正常体重",
+    "@normalweight": {
+        "type": "text",
+        "description": "normalweight",
+        "source_text": "Normal Weight"
+    },
+    "normalweightRange": "18.5-22.9",
+    "@normalweightRange": {
+        "type": "text",
+        "description": "normalweightRange",
+        "source_text": "18.5-22.9"
+    },
+    "obese": "肥胖",
+    "@obese": {
+        "type": "text",
+        "description": "obese",
+        "source_text": "Obese"
+    },
+    "obeseRange": ">29.9",
+    "@obeseRange": {
+        "type": "text",
+        "description": "obeseRange",
+        "source_text": ">29.9"
+    },
+    "ok": "不错",
+    "@ok": {
+        "type": "text",
+        "description": "ok",
+        "source_text": "OK"
+    },
+    "oldAgedAdultGroup": "老年人群",
+    "@oldAgedAdultGroup": {
+        "type": "text",
+        "description": "oldAgedAdultGroup",
+        "source_text": "Old Aged Adult"
+    },
+    "oldAgedAdultGroupRange": ">45岁",
+    "@oldAgedAdultGroupRange": {
+        "type": "text",
+        "description": "oldAgedAdultGroupRange",
+        "source_text": ">45 yo"
+    },
+    "oneTime": "单次",
+    "@oneTime": {
+        "type": "text",
+        "description": "oneTime",
+        "source_text": "One-time"
+    },
+    "oneTimeSubtitle": "影片看起来暗暗的，我们找个亮一点的角度或地方吧...",
+    "@oneTimeSubtitle": {
+        "type": "text",
+        "description": "oneTimeSubtitle",
+        "source_text": "Check for sleep apnea risk in a few questions"
+    },
+    "others": "选择照片",
+    "@others": {
+        "type": "text",
+        "description": "others",
+        "source_text": "Others"
+    },
+    "overweight": "超重",
+    "@overweight": {
+        "type": "text",
+        "description": "overweight",
+        "source_text": "Overweight"
+    },
+    "overweightRange": "23-24.9",
+    "@overweightRange": {
+        "type": "text",
+        "description": "overweightRange",
+        "source_text": "23-24.9"
+    },
+    "oxygenLevel": "氧气水平",
+    "@oxygenLevel": {
+        "type": "text",
+        "description": "oxygenLevel",
+        "source_text": "Oxygen Level"
+    },
+    "oxygenLevelSymbol": "O2",
+    "@oxygenLevelSymbol": {
+        "type": "text",
+        "description": "oxygenLevelSymbol",
+        "source_text": "O2"
+    },
+    "parenthood": "评论",
+    "@parenthood": {
+        "type": "text",
+        "description": "parenthood",
+        "source_text": "Parenthood"
+    },
+    "passcodeNotMatched": "密码不匹配，请重试。",
+    "@passcodeNotMatched": {
+        "type": "text",
+        "description": "passcodeNotMatched",
+        "source_text": "The passcode does not match, please try again."
+    },
+    "password": "密码",
+    "@password": {
+        "type": "text",
+        "description": "password",
+        "source_text": "Password"
+    },
+    "passwordNotMatchedMessage": "您的密码与确认密码不匹配。",
+    "@passwordNotMatchedMessage": {
+        "type": "text",
+        "description": "passwordNotMatchedMessage",
+        "source_text": "Your password does not match with the confirm password."
+    },
+    "passwordNotMatchedTitle": "密码不匹配",
+    "@passwordNotMatchedTitle": {
+        "type": "text",
+        "description": "passwordNotMatchedTitle",
+        "source_text": "Password Not Matched"
+    },
+    "passwordNotMetRequirementMessage": "您的密码应至少包含1个大写字母、1个小写字母、1个数字和1个特殊字符。密码长度不少于8个字符。",
+    "@passwordNotMetRequirementMessage": {
+        "type": "text",
+        "description": "passwordNotMetRequirementMessage",
+        "source_text": "Your password should contains at least 1 uppercase letter, 1 lowercase letter, 1 digit and 1 special character. Your password length should have a minimum of 8 characters."
+    },
+    "passwordNotMetRequirementTitle": "不符合密码要求",
+    "@passwordNotMetRequirementTitle": {
+        "type": "text",
+        "description": "passwordNotMetRequirementTitle",
+        "source_text": "Password Requirements Not Met"
+    },
+    "passwordNotValidMessage": "您的密码无效。",
+    "@passwordNotValidMessage": {
+        "type": "text",
+        "description": "passwordNotValidMessage",
+        "source_text": "Your password is not valid."
+    },
+    "passwordNotValidTitle": "密码无效",
+    "@passwordNotValidTitle": {
+        "type": "text",
+        "description": "passwordNotValidTitle",
+        "source_text": "Invalid Password"
+    },
+    "pauseForNow": "评论",
+    "@pauseForNow": {
+        "type": "text",
+        "description": "pauseForNow",
+        "source_text": "I'll pause for now"
+    },
+    "pauseSupportAnytime": "您可以随时暂停我的支持",
+    "@pauseSupportAnytime": {
+        "type": "text",
+        "description": "pauseSupportAnytime",
+        "source_text": "You can pause my support at any time"
+    },
+    "personalDevelopment": "个人发展",
+    "@personalDevelopment": {
+        "type": "text",
+        "description": "personalDevelopment",
+        "source_text": "Personal Development"
+    },
+    "pleaseChooseGroup": "Please choose group",
+    "@pleaseChooseGroup": {
+        "type": "text",
+        "description": "pleaseChooseGroup",
+        "source_text": "Please choose group"
+    },
+    "poweredBy": "提供者",
+    "@poweredBy": {
+        "type": "text",
+        "description": "poweredBy",
+        "source_text": "Powered by"
+    },
+    "poweredByCheckup": "由 Checkup 提供支持",
+    "@poweredByCheckup": {
+        "type": "text",
+        "description": "poweredByCheckup",
+        "source_text": "Powered by Checkup"
+    },
+    "preobese": "肥胖前期",
+    "@preobese": {
+        "type": "text",
+        "description": "preobese",
+        "source_text": "Pre-Obese"
+    },
+    "preobeseRange": "25-29.9",
+    "@preobeseRange": {
+        "type": "text",
+        "description": "preobeseRange",
+        "source_text": "25-29.9"
+    },
+    "previous": "过去的",
+    "@previous": {
+        "type": "text",
+        "description": "previous",
+        "source_text": "Previous"
+    },
+    "profile": "个人资料",
+    "@profile": {
+        "type": "text",
+        "description": "profile",
+        "source_text": "Profile"
+    },
+    "questionsAndAnswers": "问答",
+    "@questionsAndAnswers": {
+        "type": "text",
+        "description": "questionsAndAnswers",
+        "source_text": "Q&A"
+    },
+    "readinessIndex": "准备指数",
+    "@readinessIndex": {
+        "type": "text",
+        "description": "readinessIndex",
+        "source_text": "Readiness Index"
+    },
+    "readinessIndexDescription": "准备指数衡量您身体恢复和压力状态的变化。若您的准备指数为 80/100，则表明您的神经系统有 80% 处于恢复状态（休息和消化） ，有20% 处于压力状态 （战斗或逃跑）。较高的准备指数是理想的。",
+    "@readinessIndexDescription": {
+        "type": "text",
+        "description": "readinessIndexDescription",
+        "source_text": "The Readiness Index measures the changes in your body’s recovery and stress states. If your Readiness Index is 80/100, it indicates your nervous system is 80% in recovery (rest and digest) and 20% in stress (fight or flight). A higher Readiness Index is ideal."
+    },
+    "readinessIndexNormalRangeValues": "50-100 RI",
+    "@readinessIndexNormalRangeValues": {
+        "type": "text",
+        "description": "readinessIndexNormalRangeValues",
+        "source_text": "50 to 100 RI"
+    },
+    "readinessIndexSymbol": "RI",
+    "@readinessIndexSymbol": {
+        "type": "text",
+        "description": "readinessIndexSymbol",
+        "source_text": "RI"
+    },
+    "readinessLevel": "Readiness Level",
+    "@readinessLevel": {
+        "type": "text",
+        "description": "readinessLevel",
+        "source_text": "Readiness Level"
+    },
+    "recoverAccount": "恢复账户",
+    "@recoverAccount": {
+        "type": "text",
+        "description": "recoverAccount",
+        "source_text": "Recover account"
+    },
+    "recoverAccountSubtitle": "使用恢复码恢复您的账户",
+    "@recoverAccountSubtitle": {
+        "type": "text",
+        "description": "recoverAccountSubtitle",
+        "source_text": "Recover your account using the recovery code"
+    },
+    "recoverAccountTitle": "恢复账户",
+    "@recoverAccountTitle": {
+        "type": "text",
+        "description": "recoverAccountTitle",
+        "source_text": "Recover account"
+    },
+    "recoveryCode": "恢复码",
+    "@recoveryCode": {
+        "type": "text",
+        "description": "recoveryCode",
+        "source_text": "Recovery code"
+    },
+    "recoveryCodes": "恢复码",
+    "@recoveryCodes": {
+        "type": "text",
+        "description": "recoveryCodes",
+        "source_text": "Recovery Codes"
+    },
+    "recurring": "多次",
+    "@recurring": {
+        "type": "text",
+        "description": "recurring",
+        "source_text": "Recurring"
+    },
+    "recurringSubtitle": "通过 5 个简短问题了解您的压力水平",
+    "@recurringSubtitle": {
+        "type": "text",
+        "description": "recurringSubtitle",
+        "source_text": "Check in on your stress level in 5 short questions"
+    },
+    "reenterPasscode": "再次输入您的密码",
+    "@reenterPasscode": {
+        "type": "text",
+        "description": "reenterPasscode",
+        "source_text": "Enter your passcode again"
+    },
+    "relationships": "关系",
+    "@relationships": {
+        "type": "text",
+        "description": "relationships",
+        "source_text": "Relationships"
+    },
+    "reportGroup": "Report group",
+    "@reportGroup": {
+        "type": "text",
+        "description": "reportGroup",
+        "source_text": "Report group"
+    },
+    "reportUser": "Report user",
+    "@reportUser": {
+        "type": "text",
+        "description": "reportUser",
+        "source_text": "Report user"
+    },
+    "resetPassword": "重置密码",
+    "@resetPassword": {
+        "type": "text",
+        "description": "resetPassword",
+        "source_text": "Reset password"
+    },
+    "resetPasswordFailedMessage": "您的账户密码重置失败。请重试。",
+    "@resetPasswordFailedMessage": {
+        "type": "text",
+        "description": "resetPasswordFailedMessage",
+        "source_text": "Your account password did not reset successfully. Please try again."
+    },
+    "resetPasswordFailedTitle": "重置密码失败",
+    "@resetPasswordFailedTitle": {
+        "type": "text",
+        "description": "resetPasswordFailedTitle",
+        "source_text": "Reset Password Failed"
+    },
+    "resetPasswordRedirectMessage": "即将转至登录页面，请稍候...",
+    "@resetPasswordRedirectMessage": {
+        "type": "text",
+        "description": "resetPasswordRedirectMessage",
+        "source_text": "Please wait while we redirect you to the sign in page..."
+    },
+    "resetPasswordSubtitle": "设置新密码",
+    "@resetPasswordSubtitle": {
+        "type": "text",
+        "description": "resetPasswordSubtitle",
+        "source_text": "Set new password"
+    },
+    "resetPasswordSuccessMessage": "成功",
+    "@resetPasswordSuccessMessage": {
+        "type": "text",
+        "description": "resetPasswordSuccessMessage",
+        "source_text": "The password has been reset successfully."
+    },
+    "resetPasswordSuccessTitle": "重置密码成功",
+    "@resetPasswordSuccessTitle": {
+        "type": "text",
+        "description": "resetPasswordSuccessTitle",
+        "source_text": "Reset Password Success"
+    },
+    "resetPasswordTitle": "重置密码",
+    "@resetPasswordTitle": {
+        "type": "text",
+        "description": "resetPasswordTitle",
+        "source_text": "Reset password"
+    },
+    "respiratoryRate": "呼吸率",
+    "@respiratoryRate": {
+        "type": "text",
+        "description": "respiratoryRate",
+        "source_text": "Respiratory Rate"
+    },
+    "respiratoryRateDescription": "呼吸率是人体每分钟呼吸的次数。它通常在人体静息时测量，只需通过计算胸部一分钟内上升的次数即可获得呼吸次数。",
+    "@respiratoryRateDescription": {
+        "type": "text",
+        "description": "respiratoryRateDescription",
+        "source_text": "The respiration rate is the number of breaths a person takes per minute. The rate is usually measured when a person is at rest and simply involves counting the number of breaths for one minute by counting how many times the chest rises."
+    },
+    "respiratoryRateNormalRangeValues": "12-16 RR",
+    "@respiratoryRateNormalRangeValues": {
+        "type": "text",
+        "description": "respiratoryRateNormalRangeValues",
+        "source_text": "12 to 16 RR"
+    },
+    "respiratoryRateSymbol": "RR",
+    "@respiratoryRateSymbol": {
+        "type": "text",
+        "description": "respiratoryRateSymbol",
+        "source_text": "RR"
+    },
+    "resumeQuestion": "继续？",
+    "@resumeQuestion": {
+        "type": "text",
+        "description": "resumeQuestion",
+        "source_text": "Resume?"
+    },
+    "rewards": "分钟",
+    "@rewards": {
+        "type": "text",
+        "description": "rewards",
+        "source_text": "Rewards"
+    },
+    "save": "保存",
+    "@save": {
+        "type": "text",
+        "description": "save",
+        "source_text": "Save"
+    },
+    "saveCredentials": "保存凭证",
+    "@saveCredentials": {
+        "type": "text",
+        "description": "saveCredentials",
+        "source_text": "Save Credentials"
+    },
+    "savedCollection": "已保存的收藏",
+    "@savedCollection": {
+        "type": "text",
+        "description": "savedCollection",
+        "source_text": "Saved Collection"
+    },
+    "savedHealthSuggestions": "健康建议",
+    "@savedHealthSuggestions": {
+        "type": "text",
+        "description": "savedHealthSuggestions",
+        "source_text": "Health Suggestions"
+    },
+    "savedQuestions": "问题",
+    "@savedQuestions": {
+        "type": "text",
+        "description": "savedQuestions",
+        "source_text": "Questions"
+    },
+    "screening": "检查",
+    "@screening": {
+        "type": "text",
+        "description": "screening",
+        "source_text": "Screening"
+    },
+    "screeningBadVideoQualityMessage": "视频看起来较暗，请找更明亮的角度或地方吧...",
+    "@screeningBadVideoQualityMessage": {
+        "type": "text",
+        "description": "screeningBadVideoQualityMessage",
+        "source_text": "The video looks dark, let's find a brighter angle or place..."
+    },
+    "screeningCheckingVideoQualityMessage": "确保您的视频质量符合 Instagram 或 TikTok 的标准...",
+    "@screeningCheckingVideoQualityMessage": {
+        "type": "text",
+        "description": "screeningCheckingVideoQualityMessage",
+        "source_text": "Making sure your video quality is Instagram or TikTok-worthy..."
+    },
+    "screeningPredictingMessage": "分析完毕！测量生命体征时，请放松...",
+    "@screeningPredictingMessage": {
+        "type": "text",
+        "description": "screeningPredictingMessage",
+        "source_text": "Analysis complete! You can relax while we measure your vitals..."
+    },
+    "screeningRecordingMessage": "正在分析..请把头和脸置于框内...",
+    "@screeningRecordingMessage": {
+        "type": "text",
+        "description": "screeningRecordingMessage",
+        "source_text": "Analyzing... Please keep your head still and face in the box..."
+    },
+    "screeningStartMessage": "在开始之前，让我们深呼吸5秒钟...",
+    "@screeningStartMessage": {
+        "type": "text",
+        "description": "screeningStartMessage",
+        "source_text": "Before we begin, let's take a deep breath for 5 seconds..."
+    },
+    "screeningSubtitle": "按此扫描您的脸部并检查生命体征",
+    "@screeningSubtitle": {
+        "type": "text",
+        "description": "screeningSubtitle",
+        "source_text": "Press to scan your face and check your vitals"
+    },
+    "screeningTitle": "您今天过得如何？",
+    "@screeningTitle": {
+        "type": "text",
+        "description": "screeningTitle",
+        "source_text": "How are you feeling today?"
+    },
+    "screeningWarmUpMessage": "深呼吸5秒钟...",
+    "@screeningWarmUpMessage": {
+        "type": "text",
+        "description": "screeningWarmUpMessage",
+        "source_text": "Take a deep breath for 5 seconds..."
+    },
+    "search": "选择照片",
+    "@search": {
+        "type": "text",
+        "description": "search",
+        "source_text": "Search"
+    },
+    "secretCredentialsSentMessage": "您的密码凭证已发送至个人电子邮件地址。",
+    "@secretCredentialsSentMessage": {
+        "type": "text",
+        "description": "secretCredentialsSentMessage",
+        "source_text": "Your secret credentials has just sent to your personal email address."
+    },
+    "secretCredentialsSentTitle": "已发送密码凭据",
+    "@secretCredentialsSentTitle": {
+        "type": "text",
+        "description": "secretCredentialsSentTitle",
+        "source_text": "Secret Credentials Sent"
+    },
+    "secureWithBiometrics": "评论",
+    "@secureWithBiometrics": {
+        "type": "text",
+        "description": "secureWithBiometrics",
+        "source_text": "Secure With Biometrics"
+    },
+    "selectPhoto": "选择照片",
+    "@selectPhoto": {
+        "type": "text",
+        "description": "selectPhoto",
+        "source_text": "Select Photo"
+    },
+    "send": "发送",
+    "@send": {
+        "type": "text",
+        "description": "send",
+        "source_text": "Send"
+    },
+    "setAnswer": "{answer} 回复",
+    "@setAnswer": {
+        "type": "text",
+        "description": "setAnswer",
+        "source_text": "{answer} answer",
+        "placeholders": {
+            "answer": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setAnswers": "{answers} 回复",
+    "@setAnswers": {
+        "type": "text",
+        "description": "setAnswers",
+        "source_text": "{answers} answers",
+        "placeholders": {
+            "answers": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setByUsername": "通过 {username}",
+    "@setByUsername": {
+        "type": "text",
+        "description": "setByUsername",
+        "source_text": "by {username}",
+        "placeholders": {
+            "username": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setComment": "{comment} 评论",
+    "@setComment": {
+        "type": "text",
+        "description": "setComment",
+        "source_text": "{comment} comment",
+        "placeholders": {
+            "comment": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setComments": "{comments} 评论",
+    "@setComments": {
+        "type": "text",
+        "description": "setComments",
+        "source_text": "{comments} comments",
+        "placeholders": {
+            "comments": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setCreditsEarned": "{earnedCredits} 积分",
+    "@setCreditsEarned": {
+        "type": "text",
+        "description": "setCreditsEarned",
+        "source_text": "{earnedCredits} Credits",
+        "placeholders": {
+            "earnedCredits": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setCreditsToEarn": "{earnCredits}  积分",
+    "@setCreditsToEarn": {
+        "type": "text",
+        "description": "setCreditsToEarn",
+        "source_text": "{earnCredits} Credits",
+        "placeholders": {
+            "earnCredits": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setDaysAgo": "{days} 天前",
+    "@setDaysAgo": {
+        "type": "text",
+        "description": "setDaysAgo",
+        "source_text": "{days}d ago",
+        "placeholders": {
+            "days": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setFemales": "{numberOfFemales} 位女性",
+    "@setFemales": {
+        "type": "text",
+        "description": "setFemales",
+        "source_text": "{numberOfFemales} Females",
+        "placeholders": {
+            "numberOfFemales": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setFoundMatches": "找到 {numberOfMatches} 个匹配项",
+    "@setFoundMatches": {
+        "type": "text",
+        "description": "setFoundMatches",
+        "source_text": "Found {numberOfMatches} matches",
+        "placeholders": {
+            "numberOfMatches": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setGoAnonymousSubtitle": "我们不会收集或与任何人分享任何个人数据。即使是您的雇主，{organisationName}",
+    "@setGoAnonymousSubtitle": {
+        "type": "text",
+        "description": "setGoAnonymousSubtitle",
+        "source_text": "We do not collect or share any personal data with anyone. Not even with your employer, {organisationName}",
+        "placeholders": {
+            "organisationName": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setHoursAgo": "{hours} 小时前",
+    "@setHoursAgo": {
+        "type": "text",
+        "description": "setHoursAgo",
+        "source_text": "{hours}h ago",
+        "placeholders": {
+            "hours": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setHowSelfCareGoalsWorkSubtitle2": "Spend more time every week taking regular breaks or watching your mood. Think you can enjoy {minutes} mins of self-care moments a week?",
+    "@setHowSelfCareGoalsWorkSubtitle2": {
+        "type": "text",
+        "description": "setHowSelfCareGoalsWorkSubtitle2",
+        "source_text": "Spend more time every week taking regular breaks or watching your mood. Think you can enjoy {minutes} mins of self-care moments a week?",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setLastDays": "最后 {numberOfDays} 天",
+    "@setLastDays": {
+        "type": "text",
+        "description": "setLastDays",
+        "source_text": "Last {numberOfDays} days",
+        "placeholders": {
+            "numberOfDays": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMales": " {numberOfMales} 位男性",
+    "@setMales": {
+        "type": "text",
+        "description": "setMales",
+        "source_text": "{numberOfMales} Males",
+        "placeholders": {
+            "numberOfMales": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMember": "{member} 成员",
+    "@setMember": {
+        "type": "text",
+        "description": "setMember",
+        "source_text": "{member} member",
+        "placeholders": {
+            "member": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMembers": "{members} 成员",
+    "@setMembers": {
+        "type": "text",
+        "description": "setMembers",
+        "source_text": "{members} members",
+        "placeholders": {
+            "members": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinsLeft": "剩余 {minutes} 分钟",
+    "@setMinsLeft": {
+        "type": "text",
+        "description": "setMinsLeft",
+        "source_text": "{minutes} mins left",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinutes": "{minutes} 分钟",
+    "@setMinutes": {
+        "type": "text",
+        "description": "setMinutes",
+        "source_text": "{minutes} mins ",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinutesAgo": "{minutes} 分钟前",
+    "@setMinutesAgo": {
+        "type": "text",
+        "description": "setMinutesAgo",
+        "source_text": "{minutes}m ago",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMore": "{numberOf} 更多",
+    "@setMore": {
+        "type": "text",
+        "description": "setMore",
+        "source_text": "{numberOf} more",
+        "placeholders": {
+            "numberOf": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setQuestion": "{question} 问题",
+    "@setQuestion": {
+        "type": "text",
+        "description": "setQuestion",
+        "source_text": "{question} question",
+        "placeholders": {
+            "question": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setQuestions": "{questions} 问题",
+    "@setQuestions": {
+        "type": "text",
+        "description": "setQuestions",
+        "source_text": "{questions} questions",
+        "placeholders": {
+            "questions": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSave": "保存 {numberOfSaves} 个",
+    "@setSave": {
+        "type": "text",
+        "description": "setSave",
+        "source_text": "{numberOfSaves} save",
+        "placeholders": {
+            "numberOfSaves": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSaves": "保存 {numberOfSaves} 个",
+    "@setSaves": {
+        "type": "text",
+        "description": "setSaves",
+        "source_text": "{numberOfSaves} saves",
+        "placeholders": {
+            "numberOfSaves": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSecondsAgo": "{seconds} 秒前",
+    "@setSecondsAgo": {
+        "type": "text",
+        "description": "setSecondsAgo",
+        "source_text": "{seconds}s ago",
+        "placeholders": {
+            "seconds": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSlotsLeft": "Slots left: {currentAvailableSlots} / {totalSlots}",
+    "@setSlotsLeft": {
+        "type": "text",
+        "description": "setSlotsLeft",
+        "source_text": "Slots left: {currentAvailableSlots} / {totalSlots}",
+        "placeholders": {
+            "currentAvailableSlots": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            },
+            "totalSlots": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setStressLevel": "您的压力水平约为 {stressLevel}。",
+    "@setStressLevel": {
+        "type": "text",
+        "description": "setStressLevel",
+        "source_text": "Your stress level seems {stressLevel}.",
+        "placeholders": {
+            "stressLevel": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setTakeMinsSelfCare2": "{minutes} 分钟",
+    "@setTakeMinsSelfCare2": {
+        "type": "text",
+        "description": "setTakeMinsSelfCare2",
+        "source_text": "{minutes} mins ",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setUsersAggregatedVitals": "{numberOfUsers} 位用户的总生命体征",
+    "@setUsersAggregatedVitals": {
+        "type": "text",
+        "description": "setUsersAggregatedVitals",
+        "source_text": "{numberOfUsers} users' aggregated vitals",
+        "placeholders": {
+            "numberOfUsers": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVote": "{vote} 投票",
+    "@setVote": {
+        "type": "text",
+        "description": "setVote",
+        "source_text": "{vote} vote",
+        "placeholders": {
+            "vote": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVotes": "{votes} 投票",
+    "@setVotes": {
+        "type": "text",
+        "description": "setVotes",
+        "source_text": "{votes} votes",
+        "placeholders": {
+            "votes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVotesRemaining": "Requires {numberOfVotes} votes left to open",
+    "@setVotesRemaining": {
+        "type": "text",
+        "description": "setVotesRemaining",
+        "source_text": "Requires {numberOfVotes} votes left to open",
+        "placeholders": {
+            "numberOfVotes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setWeeksAgo": "{weeks} 周前",
+    "@setWeeksAgo": {
+        "type": "text",
+        "description": "setWeeksAgo",
+        "source_text": "{weeks}w ago",
+        "placeholders": {
+            "weeks": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setYearsAgo": "{years} 年前",
+    "@setYearsAgo": {
+        "type": "text",
+        "description": "setYearsAgo",
+        "source_text": "{years}y ago",
+        "placeholders": {
+            "years": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "settings": "设置",
+    "@settings": {
+        "type": "text",
+        "description": "settings",
+        "source_text": "Settings"
+    },
+    "setupCredentialsMessage": "请稍候，正在设置您的匿名 Checkup 账户...",
+    "@setupCredentialsMessage": {
+        "type": "text",
+        "description": "setupCredentialsMessage",
+        "source_text": "Please wait while we setting up your Checkup anonymous account..."
+    },
+    "shareYourAnswer": "分享您的回复",
+    "@shareYourAnswer": {
+        "type": "text",
+        "description": "shareYourAnswer",
+        "source_text": "Share your answer"
+    },
+    "signIn": "登录",
+    "@signIn": {
+        "type": "text",
+        "description": "signIn",
+        "source_text": "Sign In"
+    },
+    "signInSubtitle": "登录您的匿名账户",
+    "@signInSubtitle": {
+        "type": "text",
+        "description": "signInSubtitle",
+        "source_text": "Sign in to your anonymous account"
+    },
+    "signInTitle": "登录",
+    "@signInTitle": {
+        "type": "text",
+        "description": "signInTitle",
+        "source_text": "Sign In"
+    },
+    "signOut": "登出",
+    "@signOut": {
+        "type": "text",
+        "description": "signOut",
+        "source_text": "Sign out"
+    },
+    "skip": "跳过",
+    "@skip": {
+        "type": "text",
+        "description": "skip",
+        "source_text": "Skip"
+    },
+    "skipGeneratedCredentialsDescription": "确定跳过将密码凭证发送至个人电子邮件？请注意，该操作不可更改，后期无法恢复。",
+    "@skipGeneratedCredentialsDescription": {
+        "type": "text",
+        "description": "skipGeneratedCredentialsDescription",
+        "source_text": "Are you sure to skip sending the secret credentials to your personal email? Please note that this is irreversible and cannot be recovered in the future."
+    },
+    "skipGeneratedCredentialsTitle": "跳过警告",
+    "@skipGeneratedCredentialsTitle": {
+        "type": "text",
+        "description": "skipGeneratedCredentialsTitle",
+        "source_text": "Skip Warning"
+    },
+    "stressIndex": "压力指数",
+    "@stressIndex": {
+        "type": "text",
+        "description": "stressIndex",
+        "source_text": "Stress Index"
+    },
+    "stressIndexDescription": "-1至1SI",
+    "@stressIndexDescription": {
+        "type": "text",
+        "description": "stressIndexDescription",
+        "source_text": "Baevsky's Stress Index is a geometric measure of HRV reflecting cardiovascular system stress. Stress index between 0 and 3 means low stress level. Stress index between 4 and 5 means normal stress level. Stress index between 7 and 10 means high stress level."
+    },
+    "stressIndexNormalRangeValues": "-1至1 SI",
+    "@stressIndexNormalRangeValues": {
+        "type": "text",
+        "description": "stressIndexNormalRangeValues",
+        "source_text": "4 to 6 SI"
+    },
+    "stressIndexSymbol": "SI",
+    "@stressIndexSymbol": {
+        "type": "text",
+        "description": "stressIndexSymbol",
+        "source_text": "SI"
+    },
+    "stressLevel": "压力等级",
+    "@stressLevel": {
+        "type": "text",
+        "description": "stressLevel",
+        "source_text": "Stress Level"
+    },
+    "stressLevelTitle": "Your stress level seems",
+    "@stressLevelTitle": {
+        "type": "text",
+        "description": "stressLevelTitle",
+        "source_text": "Your stress level seems"
+    },
+    "submit": "提交",
+    "@submit": {
+        "type": "text",
+        "description": "submit",
+        "source_text": "Submit"
+    },
+    "suggest": "建议",
+    "@suggest": {
+        "type": "text",
+        "description": "suggest",
+        "source_text": "Suggest"
+    },
+    "suggestNewSupportGroup": "建议新的支持群组",
+    "@suggestNewSupportGroup": {
+        "type": "text",
+        "description": "suggestNewSupportGroup",
+        "source_text": "Suggest New Support Group"
+    },
+    "suggestNewSupportGroupSubtitle": "A support group would open conversations that matter to you:",
+    "@suggestNewSupportGroupSubtitle": {
+        "type": "text",
+        "description": "suggestNewSupportGroupSubtitle",
+        "source_text": "A support group would open conversations that matter to you:"
+    },
+    "suggestion": "建议",
+    "@suggestion": {
+        "type": "text",
+        "description": "suggestion",
+        "source_text": "Suggestion"
+    },
+    "suggestionsSubtitle": "这里有一件小事，您可以尝试",
+    "@suggestionsSubtitle": {
+        "type": "text",
+        "description": "suggestionsSubtitle",
+        "source_text": "Here’s one small thing you can try doing"
+    },
+    "supportGroups": "支持群组",
+    "@supportGroups": {
+        "type": "text",
+        "description": "supportGroups",
+        "source_text": "Support Groups"
+    },
+    "systolicBloodPressure": "收缩压",
+    "@systolicBloodPressure": {
+        "type": "text",
+        "description": "systolicBloodPressure",
+        "source_text": "Systolic Blood Pressure"
+    },
+    "systolicBloodPressureSymbol": "SP",
+    "@systolicBloodPressureSymbol": {
+        "type": "text",
+        "description": "systolicBloodPressureSymbol",
+        "source_text": "SP"
+    },
+    "takeMinsSelfCare1": "深呼吸5秒钟...",
+    "@takeMinsSelfCare1": {
+        "type": "text",
+        "description": "takeMinsSelfCare1",
+        "source_text": "Take "
+    },
+    "takeMinsSelfCare3": "of self-care moments this week",
+    "@takeMinsSelfCare3": {
+        "type": "text",
+        "description": "takeMinsSelfCare3",
+        "source_text": "of self-care moments this week"
+    },
+    "temperature": "体温",
+    "@temperature": {
+        "type": "text",
+        "description": "temperature",
+        "source_text": "Temperature"
+    },
+    "temperatureDescription": "体温是人类特有的温度范围",
+    "@temperatureDescription": {
+        "type": "text",
+        "description": "temperatureDescription",
+        "source_text": "Temperature is the typical temperature range found in humans."
+    },
+    "temperatureNormalRangeValues": "36.1°C - 37.2°C",
+    "@temperatureNormalRangeValues": {
+        "type": "text",
+        "description": "temperatureNormalRangeValues",
+        "source_text": "36.1°C to 37.2°C"
+    },
+    "temperatureSymbol": "°C",
+    "@temperatureSymbol": {
+        "type": "text",
+        "description": "temperatureSymbol",
+        "source_text": "°C"
+    },
+    "termsOfService": "服务条款",
+    "@termsOfService": {
+        "type": "text",
+        "description": "termsOfService",
+        "source_text": "Terms of service"
+    },
+    "thankYou": "谢谢",
+    "@thankYou": {
+        "type": "text",
+        "description": "thankYou",
+        "source_text": "Thank you"
+    },
+    "theCreditsSystem": "The Credits System",
+    "@theCreditsSystem": {
+        "type": "text",
+        "description": "theCreditsSystem",
+        "source_text": "The Credits System"
+    },
+    "theCreditsSystemSubtitle1": "When you take care of your mental health or help a colleague, you earn Credits which are exchangeable for rewards like GrabFood vouchers.",
+    "@theCreditsSystemSubtitle1": {
+        "type": "text",
+        "description": "theCreditsSystemSubtitle1",
+        "source_text": "When you take care of your mental health or help a colleague, you earn Credits which are exchangeable for rewards like GrabFood vouchers."
+    },
+    "theCreditsSystemSubtitle2": "You can view a list of activities here that earn Credits. When you earn enough, we will notify you through the app to redeem your vouchers.",
+    "@theCreditsSystemSubtitle2": {
+        "type": "text",
+        "description": "theCreditsSystemSubtitle2",
+        "source_text": "You can view a list of activities here that earn Credits. When you earn enough, we will notify you through the app to redeem your vouchers."
+    },
+    "title": "标题",
+    "@title": {
+        "type": "text",
+        "description": "title",
+        "source_text": "Title"
+    },
+    "tooManyPasscodes": "Too many passcodes to remember?",
+    "@tooManyPasscodes": {
+        "type": "text",
+        "description": "tooManyPasscodes",
+        "source_text": "Too many passcodes to remember?"
+    },
+    "topAnswer": "热门回复",
+    "@topAnswer": {
+        "type": "text",
+        "description": "topAnswer",
+        "source_text": "Top Answer"
+    },
+    "topComment": "热门评论",
+    "@topComment": {
+        "type": "text",
+        "description": "topComment",
+        "source_text": "Top Comment"
+    },
+    "topQuestionOfTheWeekSubtitle": "{topQuestion}",
+    "@topQuestionOfTheWeekSubtitle": {
+        "type": "text",
+        "description": "topQuestionOfTheWeekSubtitle",
+        "source_text": "{topQuestion}",
+        "placeholders": {
+            "topQuestion": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "topQuestionOfTheWeekTitle": "本周最佳支持群组问题",
+    "@topQuestionOfTheWeekTitle": {
+        "type": "text",
+        "description": "topQuestionOfTheWeekTitle",
+        "source_text": "Top Support Group Question of The Week"
+    },
+    "totalActiveUsersByAgeGroup": "按年龄段划分的活跃用户总数",
+    "@totalActiveUsersByAgeGroup": {
+        "type": "text",
+        "description": "totalActiveUsersByAgeGroup",
+        "source_text": "Total Active Users by Age Group"
+    },
+    "totalActiveUsersByBodyMassIndex": "按体重指数划分的活跃用户总数",
+    "@totalActiveUsersByBodyMassIndex": {
+        "type": "text",
+        "description": "totalActiveUsersByBodyMassIndex",
+        "source_text": "Total Active Users by Body Mass Index"
+    },
+    "totalActiveUsersByGender": "按性别划分的活跃用户总数",
+    "@totalActiveUsersByGender": {
+        "type": "text",
+        "description": "totalActiveUsersByGender",
+        "source_text": "Total Active Users by Gender"
+    },
+    "totalNumberOfActiveUsers": "活跃用户",
+    "@totalNumberOfActiveUsers": {
+        "type": "text",
+        "description": "totalNumberOfActiveUsers",
+        "source_text": "Active Users"
+    },
+    "totalNumberOfCompletedScreenings": "检查（已完成）",
+    "@totalNumberOfCompletedScreenings": {
+        "type": "text",
+        "description": "totalNumberOfCompletedScreenings",
+        "source_text": "Screenings (Completed)"
+    },
+    "totalNumberOfEAPSuggestionsClicked": "已点击EAP",
+    "@totalNumberOfEAPSuggestionsClicked": {
+        "type": "text",
+        "description": "totalNumberOfEAPSuggestionsClicked",
+        "source_text": "EAP Clicked"
+    },
+    "totalNumberOfIncompletedScreenings": "检查（未完成）",
+    "@totalNumberOfIncompletedScreenings": {
+        "type": "text",
+        "description": "totalNumberOfIncompletedScreenings",
+        "source_text": "Screenings (Incompleted)"
+    },
+    "totalNumberOfSuggestionsClicked": "已点击分诊",
+    "@totalNumberOfSuggestionsClicked": {
+        "type": "text",
+        "description": "totalNumberOfSuggestionsClicked",
+        "source_text": "Triage Clicked"
+    },
+    "totalNumberOfSuggestionsViewed": "已查看分诊",
+    "@totalNumberOfSuggestionsViewed": {
+        "type": "text",
+        "description": "totalNumberOfSuggestionsViewed",
+        "source_text": "Triage Viewed"
+    },
+    "totalNumberOfUsers": "用户总数",
+    "@totalNumberOfUsers": {
+        "type": "text",
+        "description": "totalNumberOfUsers",
+        "source_text": "Total Users"
+    },
+    "totalUsersByAgeGroup": "按年龄段划分的用户",
+    "@totalUsersByAgeGroup": {
+        "type": "text",
+        "description": "totalUsersByAgeGroup",
+        "source_text": "Users by Age Group"
+    },
+    "totalUsersByBodyMassIndex": "按照 BMI 划分的用户",
+    "@totalUsersByBodyMassIndex": {
+        "type": "text",
+        "description": "totalUsersByBodyMassIndex",
+        "source_text": "Users by BMI"
+    },
+    "totalUsersByGender": "按性别划分的用户",
+    "@totalUsersByGender": {
+        "type": "text",
+        "description": "totalUsersByGender",
+        "source_text": "Users by Gender"
+    },
+    "underweight": "重量不足",
+    "@underweight": {
+        "type": "text",
+        "description": "underweight",
+        "source_text": "Underweight"
+    },
+    "underweightRange": "<18.5",
+    "@underweightRange": {
+        "type": "text",
+        "description": "underweightRange",
+        "source_text": "<18.5"
+    },
+    "unknown": "未知",
+    "@unknown": {
+        "type": "text",
+        "description": "unknown",
+        "source_text": "Unknown"
+    },
+    "useSupportedBrowserMessage": "此浏览器不兼容。请使用最新版本的Chrome（仅限Android）或Safari（仅限iOS）浏览器访问此功能。",
+    "@useSupportedBrowserMessage": {
+        "type": "text",
+        "description": "useSupportedBrowserMessage",
+        "source_text": "This browser is not compatible. Please kindly use the latest version of Chrome (Android only) or Safari (iOS only) browser to access this feature."
+    },
+    "useSupportedBrowserTitle": "使用支持的浏览器",
+    "@useSupportedBrowserTitle": {
+        "type": "text",
+        "description": "useSupportedBrowserTitle",
+        "source_text": "Use Supported Browser"
+    },
+    "useTouchFaceId": "Use Touch/Face ID",
+    "@useTouchFaceId": {
+        "type": "text",
+        "description": "useTouchFaceId",
+        "source_text": "Use Touch/Face ID"
+    },
+    "useTouchFaceIdSubtitle": "Log in quickly and securely using Touch or Face ID",
+    "@useTouchFaceIdSubtitle": {
+        "type": "text",
+        "description": "useTouchFaceIdSubtitle",
+        "source_text": "Log in quickly and securely using Touch or Face ID"
+    },
+    "username": "用户名称",
+    "@username": {
+        "type": "text",
+        "description": "username",
+        "source_text": "username"
+    },
+    "users": "用户",
+    "@users": {
+        "type": "text",
+        "description": "users",
+        "source_text": "Users"
+    },
+    "viewMySuggestions": "查看我的建议",
+    "@viewMySuggestions": {
+        "type": "text",
+        "description": "viewMySuggestions",
+        "source_text": "View My Suggestions"
+    },
+    "viewThisWeekQuestions": "查看本周的问题",
+    "@viewThisWeekQuestions": {
+        "type": "text",
+        "description": "viewThisWeekQuestions",
+        "source_text": "View this week's questions"
+    },
+    "week": "周",
+    "@week": {
+        "type": "text",
+        "description": "week",
+        "source_text": "Week"
+    },
+    "weekFri": "周五",
+    "@weekFri": {
+        "type": "text",
+        "description": "weekFri",
+        "source_text": "Fri"
+    },
+    "weekMon": "周一",
+    "@weekMon": {
+        "type": "text",
+        "description": "weekMon",
+        "source_text": "Mon"
+    },
+    "weekSat": "周六",
+    "@weekSat": {
+        "type": "text",
+        "description": "weekSat",
+        "source_text": "Sat"
+    },
+    "weekSun": "周日",
+    "@weekSun": {
+        "type": "text",
+        "description": "weekSun",
+        "source_text": "Sun"
+    },
+    "weekThu": "周四",
+    "@weekThu": {
+        "type": "text",
+        "description": "weekThu",
+        "source_text": "Thu"
+    },
+    "weekTue": "周二",
+    "@weekTue": {
+        "type": "text",
+        "description": "weekTue",
+        "source_text": "Tue"
+    },
+    "weekWed": "周三",
+    "@weekWed": {
+        "type": "text",
+        "description": "weekWed",
+        "source_text": "Wed"
+    },
+    "weight": "重量",
+    "@weight": {
+        "type": "text",
+        "description": "weight",
+        "source_text": "Weight"
+    },
+    "welcomeBack": "欢迎回来。",
+    "@welcomeBack": {
+        "type": "text",
+        "description": "welcomeBack",
+        "source_text": "Welcome back."
+    },
+    "welcomeTribe": "Welcome to your tribe!",
+    "@welcomeTribe": {
+        "type": "text",
+        "description": "welcomeTribe",
+        "source_text": "Welcome to your tribe!"
+    },
+    "welcomeTribeSubtitle": "首先，让我们确保您的账户安全。",
+    "@welcomeTribeSubtitle": {
+        "type": "text",
+        "description": "welcomeTribeSubtitle",
+        "source_text": "First, let's make your account secure."
+    },
+    "whatsOnYourMind": "您在想什么？",
+    "@whatsOnYourMind": {
+        "type": "text",
+        "description": "whatsOnYourMind",
+        "source_text": "What's on your mind?"
+    },
+    "workIssues": "Work Issues",
+    "@workIssues": {
+        "type": "text",
+        "description": "workIssues",
+        "source_text": "Work Issues"
+    },
+    "year": "年",
+    "@year": {
+        "type": "text",
+        "description": "year",
+        "source_text": "Year"
+    },
+    "yes": "是",
+    "@yes": {
+        "type": "text",
+        "description": "yes",
+        "source_text": "Yes"
+    },
+    "youngAdultGroup": "青年人群",
+    "@youngAdultGroup": {
+        "type": "text",
+        "description": "youngAdultGroup",
+        "source_text": "Young Adult"
+    },
+    "youngAdultGroupRange": "17-30 岁",
+    "@youngAdultGroupRange": {
+        "type": "text",
+        "description": "youngAdultGroupRange",
+        "source_text": "17-30 yo"
+    },
+    "longPressForHelp": "长按呼叫辅导员",
+    "@longPressForHelp": {
+        "type": "text",
+        "description": "longPressForHelp",
+        "source_text": ""
+    },
+    "counsellorCallDialogTitle1": "這是臨床幫助熱線，而不是 IT 支援號碼。如需 IT 諮詢，請聯絡右上角的 IT 支援。",
+    "@counsellorCallDialogTitle1": {
+        "type": "text",
+        "description": "counsellorCallDialogTitle1",
+        "source_text": "This is a clinical helpline, not an IT support number. For IT enquiries, please contact IT Support at the top right."
+    },
+    "counsellorCallDialogTitle2": "僅撥打此臨床幫助熱線尋求專業諮詢。您今天想與輔導員交談嗎？",
+    "@counsellorCallDialogTitle2": {
+        "type": "text",
+        "description": "counsellorCallDialogTitle2",
+        "source_text": "Only call this clinical helpline for professional counselling. Do you wish to speak with a counsellor today?"
+    },
+    "reflectBottomNavBar": "立即检查",
+    "@reflectBottomNavBar": {
+        "type": "text",
+        "description": "reflectBottomNavBar",
+        "source_text": ""
+    },
+    "connectBottomNavBar": "求助",
+    "@connectBottomNavBar": {
+        "type": "text",
+        "description": "connectBottomNavBar",
+        "source_text": ""
+    },
+    "meBottomNavBar": "见解",
+    "@meBottomNavBar": {
+        "type": "text",
+        "description": "meBottomNavBar",
+        "source_text": ""
+    },
+    "emptySuggestionsPromptTitle1": "想要获得正确的帮助吗？",
+    "@emptySuggestionsPromptTitle1": {
+        "type": "text",
+        "description": "emptySuggestionsPromptTitle1",
+        "source_text": ""
+    },
+    "emptySuggestionsPromptTitle2": "立即检查，获取个性化建议和健康提示",
+    "@emptySuggestionsPromptTitle2": {
+        "type": "text",
+        "description": "emptySuggestionsPromptTitle2",
+        "source_text": ""
+    },
+    "emptySuggestionsNavigateToScreenPageButton": "立即检查",
+    "@emptySuggestionsNavigateToScreenPageButton": {
+        "type": "text",
+        "description": "emptySuggestionsNavigateToScreenPageButton",
+        "source_text": ""
+    },
+    "myFamilyPlanTitle": "我的家庭计划",
+    "@myFamilyPlanTitle": {
+        "type": "text",
+        "description": "myFamilyPlanTitle",
+        "source_text": ""
+    },
+    "myLatestVitalsTitle": "我的最新健康状况",
+    "@myLatestVitalsTitle": {
+        "type": "text",
+        "description": "myLatestVitalsTitle",
+        "source_text": ""
+    },
+    "changeMyBMITitle": "更改我的体重指数",
+    "@changeMyBMITitle": {
+        "type": "text",
+        "description": "changeMyBMITitle",
+        "source_text": ""
+    },
+    "readinessIndex2": "准备指数",
+    "@readinessIndex2": {
+        "type": "text",
+        "description": "readinessIndex2",
+        "source_text": ""
+    },
+    "bloodPressure2": "血压",
+    "@bloodPressure2": {
+        "type": "text",
+        "description": "bloodPressure2",
+        "source_text": ""
+    },
+    "itSupportTitleButton": "IT 技术支持",
+    "@itSupportTitleButton": {
+        "type": "text",
+        "description": "itSupportTitleButton",
+        "source_text": ""
+    }
+}

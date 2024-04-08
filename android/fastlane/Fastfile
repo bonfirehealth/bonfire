@@ -1,0 +1,86 @@
+# update_fastlane
+
+fastlane_require 'dotenv'
+
+default_platform(:android)
+
+before_all do
+  Dotenv.overload '.env'
+end
+
+platform :android do
+  desc "Runs all the tests"
+  lane :test do
+    gradle(task: "test")
+  end
+
+  desc "Deploy new Checkup Staging build to Google Play Store"
+  lane :staging do |options|
+    upload_to_play_store(
+      track: "internal",
+      package_name: "#{ENV['PACKAGE_NAME_STAGING']}",
+      version_name:  options[:version_name],
+      version_code: options[:build_number],
+      aab: "#{ENV['APPBUNDLE_FILEPATH_STAGING']}",
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+
+    upload_to_play_store(
+      track: 'internal',
+      track_promote_to: 'alpha',
+      package_name: "#{ENV['PACKAGE_NAME_STAGING']}",
+      version_name:  options[:version_name],
+      version_code: options[:build_number],
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      skip_upload_changelogs: true,
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+  end
+
+  desc "Deploy new Checkup Production build to Google Play Store"
+  lane :production do |options|
+    upload_to_play_store(
+      track: 'internal',
+      package_name: "#{ENV['PACKAGE_NAME_PRODUCTION']}",
+      version_name:  options[:version_name],
+      version_code: options[:build_number],
+      aab: "#{ENV['APPBUNDLE_FILEPATH_PRODUCTION']}",
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+
+    upload_to_play_store(
+      track: 'internal',
+      track_promote_to: 'beta',
+      package_name: "#{ENV['PACKAGE_NAME_PRODUCTION']}",
+      version_name:  options[:version_name],
+      version_code: options[:build_number],
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      skip_upload_changelogs: true,
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+
+    upload_to_play_store(
+      track: 'internal',
+      track_promote_to: 'production',
+      package_name: "#{ENV['PACKAGE_NAME_PRODUCTION']}",
+      version_name:  options[:version_name],
+      version_code: options[:build_number],
+      skip_upload_apk: true,
+      skip_upload_aab: true,
+      skip_upload_changelogs: true,
+      skip_upload_metadata: true,
+      skip_upload_images: true,
+      skip_upload_screenshots: true
+    )
+  end
+end

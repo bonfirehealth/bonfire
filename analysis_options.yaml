@@ -1,0 +1,16 @@
+include: package:very_good_analysis/analysis_options.3.1.0.yaml
+
+analyzer:
+  exclude:
+    - "**/**.gr.dart"
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "lib/app/constants/amplify_config_*.dart"
+    - "lib/app/models/**.dart"
+  errors:
+    invalid_annotation_target: ignore
+linter:
+  rules:
+    public_member_api_docs: false
+    directives_ordering: false
+    lines_longer_than_80_chars: false

@@ -1,0 +1,31 @@
+query ListAllGroupVotes {
+  listGroupVotes {
+    items {
+      ... on GroupVote {
+        id
+        createdAt
+        updatedAt
+        isHidden
+        userID
+        user {
+          ... on User {
+            id
+            username
+            photoBase64
+          }
+        }
+        groupID
+        group {
+          ... on Group {
+            id
+            description
+            name
+          }
+        }
+        _deleted
+        _lastChangedAt
+        _version
+      }
+    }
+  }
+}

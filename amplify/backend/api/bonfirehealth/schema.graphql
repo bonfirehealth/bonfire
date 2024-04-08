@@ -1,0 +1,882 @@
+type Feedback @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  name: String
+  userID: ID! @index(name: "byUser")
+}
+
+type RecoveryCode @model @auth(rules: [{allow: private, provider: iam}, {allow: public}]) {
+  id: ID!
+  hashedCode: String
+  ipAddress: AWSIPAddress
+  isUsed: Boolean
+  userID: ID! @index(name: "byUser")
+  code: String
+}
+
+type SelfCareType @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  name: String
+  identifier: String
+}
+
+type NotificationType @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  name: String
+  identifier: String
+}
+
+type NotificationChannel @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  name: String
+  identifier: String
+}
+
+type NotificationAction @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  action: String
+  description: String
+  name: String
+  identifier: String
+  isCompleted: Boolean
+  routePath: String
+  url: AWSURL
+}
+
+type Notification @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  notificationAction: NotificationAction @hasOne
+  notificationChannel: NotificationChannel @hasOne
+  clickAction: String
+  colour: String
+  date: AWSDateTime
+  description: String
+  token: String
+  imageURL: AWSURL
+  isHidden: Boolean
+  isProcessing: Boolean
+  isRepeat: Boolean
+  isSent: Boolean
+  isSticky: Boolean
+  name: String
+  priority: String
+  routePath: String
+  sound: String
+  timezone: String
+  title: String
+  notificationType: NotificationType @hasOne
+  suggestion: Suggestion @hasOne
+  selfCare: SelfCare @hasOne
+  activity: Activity @hasOne
+  profileID: ID! @index(name: "byProfile")
+  userID: ID! @index(name: "byUser")
+}
+
+type Preference @model @auth(rules: [{allow: public}, {allow: owner}, {allow: private, operations: [read]}]) {
+  id: ID!
+  description: String
+  icon: String
+  identifier: String
+  name: String
+  isToDelete: Boolean
+  groupType: GroupType @hasOne
+  profiles: [Profile] @manyToMany(relationName: "ProfilePreference")
+}
+
+type SuggestionType @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  name: String
+  identifier: String
+}
+
+type Suggestion @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  icon: String
+  index: Int
+  isHidden: Boolean
+  name: String
+  numberOfClicks: Int
+  numberOfViews: Int
+  routePath: String
+  stressLevel: String
+  url: AWSURL
+  uri: String
+  organisationID: ID! @index(name: "byOrganisation", queryField: "listSuggestionsByIndex", sortKeyFields: ["index"])
+  activity: Activity @hasOne
+  suggestionType: SuggestionType @hasOne
+  selfCare: SelfCare @hasOne
+  profiles: [Profile] @manyToMany(relationName: "ProfileSuggestion")
+}
+
+type Profile @model @auth(rules: [{allow: owner}, {allow: private}, {allow: public}]) {
+  id: ID!
+  age: Int
+  gender: String
+  weight: Float
+  weightUnit: String
+  weightUnitName: String
+  height: Float
+  heightUnit: String
+  heightUnitName: String
+  bodyMassIndex: Float
+  mood: String
+  stressLevel: String
+  oxygenLevel: Float
+  oxygenSaturationLevel: Float
+  respiratoryRate: Float
+  bodyTemperature: Float
+  stressIndex: Float
+  systolicBloodPressure: Float
+  diastolicBloodPressure: Float
+  heartRate: Float
+  heartRateVariability: Float
+  sympatheticNervousSystemIndex: Float
+  timezone: String
+  userID: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userID"])
+  activities: [Activity] @manyToMany(relationName: "ProfileActivity")
+  assessments: [Assessment] @hasMany(indexName: "byProfile", fields: ["id"])
+  aggregateHourAssessments: [AggregateHourAssessment] @hasMany(indexName: "byProfile", fields: ["id"])
+  aggregateDayAssessments: [AggregateDayAssessment] @hasMany(indexName: "byProfile", fields: ["id"])
+  aggregateMonthAssessments: [AggregateMonthAssessment] @hasMany(indexName: "byProfile", fields: ["id"])
+  aggregateYearAssessments: [AggregateYearAssessment] @hasMany(indexName: "byProfile", fields: ["id"])
+  notifications: [Notification] @hasMany(indexName: "byProfile", fields: ["id"])
+  preferences: [Preference] @manyToMany(relationName: "ProfilePreference")
+  selfCareUsages: [SelfCare] @manyToMany(relationName: "SelfCareUsage")
+  suggestions: [Suggestion] @manyToMany(relationName: "ProfileSuggestion")
+}
+
+type ActivityType @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  name: String
+  identifier: String
+}
+
+type SelfCare @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  name: String
+  icon: String
+  index: Int!
+  isHidden: Boolean
+  numberOfAvailableSlots: Int
+  numberOfTotalSlots: Int
+  routePath: String
+  url: AWSURL
+  activity: Activity @hasOne
+  selfCareType: SelfCareType @hasOne
+  profiles: [Profile] @manyToMany(relationName: "SelfCareUsage")
+}
+
+type Assessment @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  startDate: AWSDateTime
+  endDate: AWSDateTime
+  mood: String
+  stressLevel: String
+  oxygenLevel: Float
+  oxygenSaturationLevel: Float
+  respiratoryRate: Float
+  stressIndex: Float
+  bodyTemperature: Float
+  systolicBloodPressure: Float
+  diastolicBloodPressure: Float
+  heartRate: Float
+  heartRateManual: Float
+  heartRateManualSource: String
+  heartRateVariability: Float
+  sympatheticNervousSystemIndex: Float
+  kbType: String
+  kbArtefact: Float
+  kbArtefactLevel: String
+  kbCreateTimestamp: String
+  kbMeanHrBpm: Float
+  kbMeanRRMs: Float
+  kbPnsIndex: Float
+  kbReadiness: Float
+  kbRmssdMs: Float
+  kbSd1Ms: Float
+  kbSd2Ms: Float
+  kbSdnnMs: Float
+  kbSnsIndex: Float
+  kbStressIndex: Float
+  score: Float
+  timezone: String
+  profileID: ID! @index(name: "byProfile")
+  organisationID: ID
+  selfCare: SelfCare @hasOne
+}
+
+type Country @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  name: String
+  countryCode: String
+  countryDialCode: String
+  providers: [Provider] @hasMany(indexName: "byCountry", fields: ["id"])
+}
+
+type Professional @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  providerID: ID! @index(name: "byProvider")
+}
+
+type Provider @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  professionals: [Professional] @hasMany(indexName: "byProvider", fields: ["id"])
+  countryID: ID! @index(name: "byCountry")
+}
+
+type Activity @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  duration: Int
+  name: String
+  activityType: ActivityType @hasOne
+  reward: Reward @hasOne
+  profiles: [Profile] @manyToMany(relationName: "ProfileActivity")
+}
+
+type UserType @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  name: String
+  identifier: String
+}
+
+type User @model @auth(rules: [{allow: owner}, {allow: private, provider: iam}, {allow: private, provider: userPools}, {allow: public}]) {
+  id: ID!
+  externalUserID: String
+  photoURL: AWSURL
+  userType: UserType @hasOne
+  profile: Profile @hasOne
+  emailAddress: String
+  firstName: String
+  lastName: String
+  parentId: String
+  uniqueLinkValue: String
+  telegramId: String
+  telegramChatId: String
+  deletedAt: AWSDateTime
+  avatar: String
+  fullMobileNumber: String
+  ipAddress: String
+  isEmailAddressVerified: Boolean
+  isMobileNumberVerified: Boolean
+  isLoggedOut: Boolean
+  isSecretCredentialsSent: Boolean
+  photoBase64: String
+  username: String
+  webPushNotificationToken: String
+  mobilePushNotificationToken: String
+  straitsxProfileID: String
+  straitsxProfileHash: String
+  straitsxRegistrationIDHash: String
+  feedbacks: [Feedback] @hasMany(indexName: "byUser", fields: ["id"])
+  groups: [Group] @manyToMany(relationName: "UserGroup")
+  groupFiles: [GroupFile] @hasMany(indexName: "byUser", fields: ["id"])
+  groupVotes: [GroupVote] @hasMany(indexName: "byUser", fields: ["id"])
+  suggestedGroups: [Group] @hasMany(indexName: "byUser", fields: ["id"])
+  notifications: [Notification] @hasMany(indexName: "byUser", fields: ["id"])
+  organisations: [Organisation] @manyToMany(relationName: "OrganisationUser")
+  questions: [Question] @hasMany(indexName: "byUser", fields: ["id"])
+  questionFiles: [QuestionFile] @hasMany(indexName: "byUser", fields: ["id"])
+  questionSaves: [QuestionSave] @hasMany(indexName: "byUser", fields: ["id"])
+  questionVotes: [QuestionVote] @hasMany(indexName: "byUser", fields: ["id"])
+  answers: [Answer] @hasMany(indexName: "byUser", fields: ["id"])
+  answerFiles: [AnswerFile] @hasMany(indexName: "byUser", fields: ["id"])
+  answerVotes: [AnswerVote] @hasMany(indexName: "byUser", fields: ["id"])
+  comments: [Comment] @hasMany(indexName: "byUser", fields: ["id"])
+  commentFiles: [CommentFile] @hasMany(indexName: "byUser", fields: ["id"])
+  commentVotes: [CommentVote] @hasMany(indexName: "byUser", fields: ["id"])
+  recoveryCodes: [RecoveryCode] @hasMany(indexName: "byUser", fields: ["id"])
+}
+
+type ReportedUser @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  description: String
+  isVerified: Boolean
+  isHidden: Boolean
+  name: String
+  organisationID: ID! @index(name: "byOrganisation", queryField: "latestReportedUsers", sortKeyFields: ["updatedAt"])
+  organisation: Organisation @belongsTo(fields: ["organisationID"])
+  reporterID: ID! @index(name: "byUser")
+  reporter: User @hasOne(fields: ["reporterID"])
+  userID: ID!
+  user: User @hasOne(fields: ["userID"])
+}
+
+type OrganisationType @model @auth(rules: [{allow: private, provider: iam}, {allow: private, operations: [read]}, {allow: public}]) {
+  id: ID!
+  description: String
+  name: String
+  identifier: String
+}
+
+type Organisation @model @auth(rules: [{allow: private, provider: iam}, {allow: private, operations: [read, update]}, {allow: public}]) {
+  id: ID!
+  code: String!
+  organisationType: OrganisationType @hasOne
+  users: [User] @manyToMany(relationName: "OrganisationUser")
+  name: String
+  totalNumberOfActiveUsers: Int
+  totalNumberOfUsers: Int
+  totalNumberOfCompletedScreenings: Int
+  totalNumberOfIncompletedScreenings: Int
+  totalNumberOfSuggestionsClicked: Int
+  totalNumberOfSuggestionsViewed: Int
+  logoURL: String
+  logoBase64: String
+  themeColor: String
+  token: String
+  secretCode: String
+  telegramId: String
+  aggregateHourOrganisationAssessments: [AggregateHourOrganisationAssessment] @hasMany(indexName: "byOrganisation", fields: ["id"])
+  aggregateDayOrganisationAssessments: [AggregateDayOrganisationAssessment] @hasMany(indexName: "byOrganisation", fields: ["id"])
+  aggregateMonthOrganisationAssessments: [AggregateMonthOrganisationAssessment] @hasMany(indexName: "byOrganisation", fields: ["id"])
+  aggregateYearOrganisationAssessments: [AggregateYearOrganisationAssessment] @hasMany(indexName: "byOrganisation", fields: ["id"])
+  groups: [Group] @hasMany(indexName: "byOrganisation", fields: ["id"])
+  groupTags: [GroupTag] @hasMany(indexName: "byOrganisation", fields: ["id"])
+  groupTypes: [GroupType] @hasMany(indexName: "byOrganisation", fields: ["id"])
+  suggestions: [Suggestion] @hasMany(indexName: "byOrganisation", fields: ["id"])
+  reportedUsers: [ReportedUser] @hasMany(indexName: "byOrganisation", fields: ["id"])
+}
+
+type Reward @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  name: String
+  rewardCredits: Int
+  maxNumberOfRedemptions: Int
+  rewardType: RewardType @hasOne
+}
+
+type RewardType @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  name: String
+  identifier: String
+}
+
+type AggregateHourAssessment @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  startDate: AWSDateTime
+  endDate: AWSDateTime
+  latestMood: String
+  latestStressLevel: String
+  averageOxygenLevel: Float
+  averageOxygenSaturationLevel: Float
+  averageRespiratoryRate: Float
+  averageStressIndex: Float
+  averageBodyTemperature: Float
+  averageSystolicBloodPressure: Float
+  averageDiastolicBloodPressure: Float
+  averageHeartRate: Float
+  averageHeartRateVariability: Float
+  averageSympatheticNervousSystemIndex: Float
+  averageScore: Float
+  numberOfAssessments: Int
+  profileID: ID! @index(name: "byProfile", queryField: "aggregateHourAssessmentsByEndDate", sortKeyFields: ["endDate"])
+}
+
+type AggregateDayAssessment @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  startDate: AWSDateTime
+  endDate: AWSDateTime
+  latestMood: String
+  latestStressLevel: String
+  averageOxygenLevel: Float
+  averageOxygenSaturationLevel: Float
+  averageRespiratoryRate: Float
+  averageStressIndex: Float
+  averageBodyTemperature: Float
+  averageSystolicBloodPressure: Float
+  averageDiastolicBloodPressure: Float
+  averageHeartRate: Float
+  averageHeartRateVariability: Float
+  averageSympatheticNervousSystemIndex: Float
+  averageScore: Float
+  numberOfAssessments: Int
+  profileID: ID! @index(name: "byProfile", queryField: "aggregateDayAssessmentsByEndDate", sortKeyFields: ["endDate"])
+}
+
+type AggregateMonthAssessment @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  startDate: AWSDateTime
+  endDate: AWSDateTime
+  latestMood: String
+  latestStressLevel: String
+  averageOxygenLevel: Float
+  averageOxygenSaturationLevel: Float
+  averageRespiratoryRate: Float
+  averageStressIndex: Float
+  averageBodyTemperature: Float
+  averageSystolicBloodPressure: Float
+  averageDiastolicBloodPressure: Float
+  averageHeartRate: Float
+  averageHeartRateVariability: Float
+  averageSympatheticNervousSystemIndex: Float
+  averageScore: Float
+  numberOfAssessments: Int
+  profileID: ID! @index(name: "byProfile", queryField: "aggregateMonthAssessmentsByEndDate", sortKeyFields: ["endDate"])
+}
+
+type AggregateYearAssessment @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  startDate: AWSDateTime
+  endDate: AWSDateTime
+  latestMood: String
+  latestStressLevel: String
+  averageOxygenLevel: Float
+  averageOxygenSaturationLevel: Float
+  averageRespiratoryRate: Float
+  averageStressIndex: Float
+  averageBodyTemperature: Float
+  averageSystolicBloodPressure: Float
+  averageDiastolicBloodPressure: Float
+  averageHeartRate: Float
+  averageHeartRateVariability: Float
+  averageSympatheticNervousSystemIndex: Float
+  averageScore: Float
+  numberOfAssessments: Int
+  profileID: ID! @index(name: "byProfile", queryField: "aggregateYearAssessmentsByEndDate", sortKeyFields: ["endDate"])
+}
+
+type AggregateHourOrganisationAssessment @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  startDate: AWSDateTime
+  endDate: AWSDateTime
+  latestMood: String
+  latestStressLevel: String
+  averageOxygenLevel: Float
+  averageOxygenSaturationLevel: Float
+  averageRespiratoryRate: Float
+  averageStressIndex: Float
+  averageBodyTemperature: Float
+  averageSystolicBloodPressure: Float
+  averageDiastolicBloodPressure: Float
+  averageHeartRate: Float
+  averageHeartRateVariability: Float
+  averageSympatheticNervousSystemIndex: Float
+  averageScore: Float
+  averageOxygenLevelForMale: Float
+  averageOxygenSaturationLevelForMale: Float
+  averageRespiratoryRateForMale: Float
+  averageStressIndexForMale: Float
+  averageBodyTemperatureForMale: Float
+  averageSystolicBloodPressureForMale: Float
+  averageDiastolicBloodPressureForMale: Float
+  averageHeartRateForMale: Float
+  averageHeartRateVariabilityForMale: Float
+  averageSympatheticNervousSystemIndexForMale: Float
+  averageScoreForMale: Float
+  averageOxygenLevelForFemale: Float
+  averageOxygenSaturationLevelForFemale: Float
+  averageRespiratoryRateForFemale: Float
+  averageStressIndexForFemale: Float
+  averageBodyTemperatureForFemale: Float
+  averageSystolicBloodPressureForFemale: Float
+  averageDiastolicBloodPressureForFemale: Float
+  averageHeartRateForFemale: Float
+  averageHeartRateVariabilityForFemale: Float
+  averageSympatheticNervousSystemIndexForFemale: Float
+  averageScoreForFemale: Float
+  numberOfProfiles: Int
+  numberOfMaleProfiles: Int
+  numberOfFemaleProfiles: Int
+  numberOfProfilesLowRiskStressIndex: Int
+  numberOfProfilesMediumRiskStressIndex: Int
+  numberOfProfilesHighRiskStressIndex: Int
+  numberOfProfilesNormalRiskBloodPressure: Int
+  numberOfProfilesElevatedRiskBloodPressure: Int
+  numberOfProfilesHypertensiveRiskBloodPressure: Int
+  organisationID: ID! @index(name: "byOrganisation", queryField: "aggregateHourOrganisationAssessmentsByEndDate", sortKeyFields: ["endDate"])
+}
+
+type AggregateDayOrganisationAssessment @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  startDate: AWSDateTime
+  endDate: AWSDateTime
+  latestMood: String
+  latestStressLevel: String
+  averageOxygenLevel: Float
+  averageOxygenSaturationLevel: Float
+  averageRespiratoryRate: Float
+  averageStressIndex: Float
+  averageBodyTemperature: Float
+  averageSystolicBloodPressure: Float
+  averageDiastolicBloodPressure: Float
+  averageHeartRate: Float
+  averageHeartRateVariability: Float
+  averageSympatheticNervousSystemIndex: Float
+  averageScore: Float
+  averageOxygenLevelForMale: Float
+  averageOxygenSaturationLevelForMale: Float
+  averageRespiratoryRateForMale: Float
+  averageStressIndexForMale: Float
+  averageBodyTemperatureForMale: Float
+  averageSystolicBloodPressureForMale: Float
+  averageDiastolicBloodPressureForMale: Float
+  averageHeartRateForMale: Float
+  averageHeartRateVariabilityForMale: Float
+  averageSympatheticNervousSystemIndexForMale: Float
+  averageScoreForMale: Float
+  averageOxygenLevelForFemale: Float
+  averageOxygenSaturationLevelForFemale: Float
+  averageRespiratoryRateForFemale: Float
+  averageStressIndexForFemale: Float
+  averageBodyTemperatureForFemale: Float
+  averageSystolicBloodPressureForFemale: Float
+  averageDiastolicBloodPressureForFemale: Float
+  averageHeartRateForFemale: Float
+  averageHeartRateVariabilityForFemale: Float
+  averageSympatheticNervousSystemIndexForFemale: Float
+  averageScoreForFemale: Float
+  numberOfProfiles: Int
+  numberOfMaleProfiles: Int
+  numberOfFemaleProfiles: Int
+  numberOfProfilesLowRiskStressIndex: Int
+  numberOfProfilesMediumRiskStressIndex: Int
+  numberOfProfilesHighRiskStressIndex: Int
+  numberOfProfilesNormalRiskBloodPressure: Int
+  numberOfProfilesElevatedRiskBloodPressure: Int
+  numberOfProfilesHypertensiveRiskBloodPressure: Int
+  organisationID: ID! @index(name: "byOrganisation", queryField: "aggregateDayOrganisationAssessmentsByEndDate", sortKeyFields: ["endDate"])
+}
+
+type AggregateMonthOrganisationAssessment @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  startDate: AWSDateTime
+  endDate: AWSDateTime
+  latestMood: String
+  latestStressLevel: String
+  averageOxygenLevel: Float
+  averageOxygenSaturationLevel: Float
+  averageRespiratoryRate: Float
+  averageStressIndex: Float
+  averageBodyTemperature: Float
+  averageSystolicBloodPressure: Float
+  averageDiastolicBloodPressure: Float
+  averageHeartRate: Float
+  averageHeartRateVariability: Float
+  averageSympatheticNervousSystemIndex: Float
+  averageScore: Float
+  averageOxygenLevelForMale: Float
+  averageOxygenSaturationLevelForMale: Float
+  averageRespiratoryRateForMale: Float
+  averageStressIndexForMale: Float
+  averageBodyTemperatureForMale: Float
+  averageSystolicBloodPressureForMale: Float
+  averageDiastolicBloodPressureForMale: Float
+  averageHeartRateForMale: Float
+  averageHeartRateVariabilityForMale: Float
+  averageSympatheticNervousSystemIndexForMale: Float
+  averageScoreForMale: Float
+  averageOxygenLevelForFemale: Float
+  averageOxygenSaturationLevelForFemale: Float
+  averageRespiratoryRateForFemale: Float
+  averageStressIndexForFemale: Float
+  averageBodyTemperatureForFemale: Float
+  averageSystolicBloodPressureForFemale: Float
+  averageDiastolicBloodPressureForFemale: Float
+  averageHeartRateForFemale: Float
+  averageHeartRateVariabilityForFemale: Float
+  averageSympatheticNervousSystemIndexForFemale: Float
+  averageScoreForFemale: Float
+  numberOfProfiles: Int
+  numberOfMaleProfiles: Int
+  numberOfFemaleProfiles: Int
+  numberOfProfilesLowRiskStressIndex: Int
+  numberOfProfilesMediumRiskStressIndex: Int
+  numberOfProfilesHighRiskStressIndex: Int
+  numberOfProfilesNormalRiskBloodPressure: Int
+  numberOfProfilesElevatedRiskBloodPressure: Int
+  numberOfProfilesHypertensiveRiskBloodPressure: Int
+  organisationID: ID! @index(name: "byOrganisation", queryField: "aggregateMonthOrganisationAssessmentsByEndDate", sortKeyFields: ["endDate"])
+}
+
+type AggregateYearOrganisationAssessment @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  startDate: AWSDateTime
+  endDate: AWSDateTime
+  latestMood: String
+  latestStressLevel: String
+  averageOxygenLevel: Float
+  averageOxygenSaturationLevel: Float
+  averageRespiratoryRate: Float
+  averageStressIndex: Float
+  averageBodyTemperature: Float
+  averageSystolicBloodPressure: Float
+  averageDiastolicBloodPressure: Float
+  averageHeartRate: Float
+  averageHeartRateVariability: Float
+  averageSympatheticNervousSystemIndex: Float
+  averageScore: Float
+  averageOxygenLevelForMale: Float
+  averageOxygenSaturationLevelForMale: Float
+  averageRespiratoryRateForMale: Float
+  averageStressIndexForMale: Float
+  averageBodyTemperatureForMale: Float
+  averageSystolicBloodPressureForMale: Float
+  averageDiastolicBloodPressureForMale: Float
+  averageHeartRateForMale: Float
+  averageHeartRateVariabilityForMale: Float
+  averageSympatheticNervousSystemIndexForMale: Float
+  averageScoreForMale: Float
+  averageOxygenLevelForFemale: Float
+  averageOxygenSaturationLevelForFemale: Float
+  averageRespiratoryRateForFemale: Float
+  averageStressIndexForFemale: Float
+  averageBodyTemperatureForFemale: Float
+  averageSystolicBloodPressureForFemale: Float
+  averageDiastolicBloodPressureForFemale: Float
+  averageHeartRateForFemale: Float
+  averageHeartRateVariabilityForFemale: Float
+  averageSympatheticNervousSystemIndexForFemale: Float
+  averageScoreForFemale: Float
+  numberOfProfiles: Int
+  numberOfMaleProfiles: Int
+  numberOfFemaleProfiles: Int
+  numberOfProfilesLowRiskStressIndex: Int
+  numberOfProfilesMediumRiskStressIndex: Int
+  numberOfProfilesHighRiskStressIndex: Int
+  numberOfProfilesNormalRiskBloodPressure: Int
+  numberOfProfilesElevatedRiskBloodPressure: Int
+  numberOfProfilesHypertensiveRiskBloodPressure: Int
+
+  organisationID: ID! @index(name: "byOrganisation", queryField: "aggregateYearOrganisationAssessmentsByEndDate", sortKeyFields: ["endDate"])
+}
+
+type Group @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  description: String
+  icon: String
+  identifier: String
+  index: Int
+  isApproved: Boolean
+  isHidden: Boolean
+  name: String
+  numberOfClicks: Int
+  numberOfQuestions: Int
+  numberOfUsers: Int
+  numberOfViews: Int
+  numberOfVotes: Int
+  organisationID: ID! @index(name: "byOrganisation", queryField: "latestGroups", sortKeyFields: ["updatedAt", "numberOfVotes"])
+  organisation: Organisation @belongsTo(fields: ["organisationID"])
+  suggesterID: ID! @index(name: "byUser")
+  suggester: User @belongsTo(fields: ["suggesterID"])
+  groupType: GroupType @hasOne
+  users: [User] @manyToMany(relationName: "UserGroup")
+  questions: [Question] @hasMany(indexName: "byGroup", fields: ["id"])
+  files: [GroupFile] @hasMany(indexName: "byGroup", fields: ["id"])
+  tags: [GroupTag] @manyToMany(relationName: "GroupTagGroup")
+  votes: [GroupVote] @hasMany(indexName: "byGroup", fields: ["id"])
+}
+
+type GroupFile @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  isHidden: Boolean
+  key: String
+  name: String
+  url: AWSURL
+  groupID: ID! @index(name: "byGroup", sortKeyFields: ["updatedAt"])
+  group: Group @belongsTo(fields: ["groupID"])
+  userID: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userID"])
+}
+
+type GroupTag @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  name: String
+  identifier: String
+  organisationID: ID! @index(name: "byOrganisation")
+  groups: [Group] @manyToMany(relationName: "GroupTagGroup")
+}
+
+type GroupType @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  description: String
+  icon: String
+  identifier: String
+  name: String
+  groupTypeID: ID! @index(name: "byGroupType")
+  preference: Preference @belongsTo(fields: ["groupTypeID"])
+  organisationID: ID! @index(name: "byOrganisation")
+}
+
+type GroupVote @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  isHidden: Boolean
+  groupID: ID! @index(name: "byGroup", sortKeyFields: ["updatedAt"])
+  group: Group @belongsTo(fields: ["groupID"])
+  userID: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userID"])
+}
+
+type Question @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  description: String
+  icon: String
+  identifier: String
+  index: Int
+  isHidden: Boolean
+  name: String
+  numberOfAnswers: Int
+  numberOfClicks: Int
+  numberOfSaves: Int
+  numberOfVotes: Int
+  numberOfViews: Int
+  groupID: ID! @index(name: "byGroup", queryField: "latestQuestions", sortKeyFields: ["updatedAt", "numberOfVotes"])
+  group: Group @belongsTo(fields: ["groupID"])
+  userID: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userID"])
+  answers: [Answer] @hasMany(indexName: "byQuestion", fields: ["id"])
+  files: [QuestionFile] @hasMany(indexName: "byQuestion", fields: ["id"])
+  saves: [QuestionSave] @hasMany(indexName: "byQuestion", fields: ["id"])
+  votes: [QuestionVote] @hasMany(indexName: "byQuestion", fields: ["id"])
+}
+
+type QuestionSave @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  isHidden: Boolean
+  questionID: ID! @index(name: "byQuestion")
+  question: Question @belongsTo(fields: ["questionID"])
+  userID: ID! @index(name: "byUser", queryField: "latestQuestionSaves", sortKeyFields: ["updatedAt"])
+  user: User @belongsTo(fields: ["userID"])
+}
+
+type QuestionFile @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  isHidden: Boolean
+  key: String
+  name: String
+  url: AWSURL
+  questionID: ID! @index(name: "byQuestion", sortKeyFields: ["updatedAt"])
+  question: Question @belongsTo(fields: ["questionID"])
+  userID: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userID"])
+}
+
+type QuestionVote @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  isHidden: Boolean
+  questionID: ID! @index(name: "byQuestion", sortKeyFields: ["updatedAt"])
+  question: Question @belongsTo(fields: ["questionID"])
+  userID: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userID"])
+}
+
+type Answer @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  description: String
+  identifier: String
+  index: Int
+  isHidden: Boolean
+  name: String
+  numberOfClicks: Int
+  numberOfComments: Int
+  numberOfVotes: Int
+  numberOfViews: Int
+  questionID: ID! @index(name: "byQuestion", queryField: "latestAnswers", sortKeyFields: ["updatedAt", "numberOfVotes"])
+  question: Question @belongsTo(fields: ["questionID"])
+  userID: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userID"])
+  comments: [Comment] @hasMany(indexName: "byAnswer", fields: ["id"])
+  files: [AnswerFile] @hasMany(indexName: "byAnswer", fields: ["id"])
+  votes: [AnswerVote] @hasMany(indexName: "byAnswer", fields: ["id"])
+}
+
+type AnswerFile @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  isHidden: Boolean
+  key: String
+  name: String
+  url: AWSURL
+  answerID: ID! @index(name: "byAnswer", sortKeyFields: ["updatedAt"])
+  answer: Answer @belongsTo(fields: ["answerID"])
+  userID: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userID"])
+}
+
+type AnswerVote @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  isHidden: Boolean
+  answerID: ID! @index(name: "byAnswer", sortKeyFields: ["updatedAt"])
+  answer: Answer @belongsTo(fields: ["answerID"])
+  userID: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userID"])
+}
+
+type Comment @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  description: String
+  identifier: String
+  index: Int
+  isHidden: Boolean
+  name: String
+  numberOfClicks: Int
+  numberOfVotes: Int
+  numberOfViews: Int
+  answerID: ID! @index(name: "byAnswer", queryField: "latestComments", sortKeyFields: ["updatedAt", "numberOfVotes"])
+  answer: Answer @belongsTo(fields: ["answerID"])
+  userID: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userID"])
+  files: [CommentFile] @hasMany(indexName: "byComment", fields: ["id"])
+  votes: [CommentVote] @hasMany(indexName: "byComment", fields: ["id"])
+}
+
+type CommentFile @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  isHidden: Boolean
+  key: String
+  name: String
+  url: AWSURL
+  commentID: ID! @index(name: "byComment", sortKeyFields: ["updatedAt"])
+  comment: Comment @belongsTo(fields: ["commentID"])
+  userID: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userID"])
+}
+
+type CommentVote @model @auth(rules: [{allow: private}, {allow: public}]) {
+  id: ID!
+  createdAt: AWSDateTime
+  updatedAt: AWSDateTime
+  isHidden: Boolean
+  commentID: ID! @index(name: "byComment", sortKeyFields: ["updatedAt"])
+  comment: Comment @belongsTo(fields: ["commentID"])
+  userID: ID! @index(name: "byUser")
+  user: User @belongsTo(fields: ["userID"])
+} 

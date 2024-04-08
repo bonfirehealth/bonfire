@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "api": {
+      "bonfirehealth": [
+        "Query",
+        "Mutation"
+      ]
+    }
+  },
+  "lambdaLayers": []
+}

@@ -1,0 +1,18 @@
+query ListAllGroupTags($organisationID: ID) {
+  listGroupTags(filter: {organisationID: {eq: $organisationID}}) {
+    items {
+      ... on GroupTag {
+        id
+        createdAt
+        updatedAt
+        description
+        identifier
+        name
+        organisationID
+        _deleted
+        _lastChangedAt
+        _version
+      }
+    }
+  }
+}

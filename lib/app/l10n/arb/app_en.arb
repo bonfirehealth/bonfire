@@ -1,0 +1,2331 @@
+{
+    "@@x-loco-version": "1.0.28 20230907-1",
+    "@@locale": "en",
+    "@@last_modified": "2023-09-10T18:59:55+0545",
+    "@@author": "Bonfire Health",
+    "addAComment": "Add a comment",
+    "@addAComment": {
+        "type": "text",
+        "description": "addAComment"
+    },
+    "addAnAnswer": "Add an answer",
+    "@addAnAnswer": {
+        "type": "text",
+        "description": "addAnAnswer"
+    },
+    "age": "Age",
+    "@age": {
+        "type": "text",
+        "description": "age"
+    },
+    "alissaSays": "Alissa says",
+    "@alissaSays": {
+        "type": "text",
+        "description": "alissaSays"
+    },
+    "allTime": "All Time",
+    "@allTime": {
+        "type": "text",
+        "description": "allTime"
+    },
+    "allowNotifications": "Allow Notifications",
+    "@allowNotifications": {
+        "type": "text",
+        "description": "allowNotifications"
+    },
+    "alreadyHaveAccount": "Already have an account? Log in.",
+    "@alreadyHaveAccount": {
+        "type": "text",
+        "description": "alreadyHaveAccount"
+    },
+    "anger": "Anger",
+    "@anger": {
+        "type": "text",
+        "description": "anger"
+    },
+    "askAboutYourHealth": "Ask about your health",
+    "@askAboutYourHealth": {
+        "type": "text",
+        "description": "askAboutYourHealth"
+    },
+    "askInThisSupportGroup": "Ask in this support group",
+    "@askInThisSupportGroup": {
+        "type": "text",
+        "description": "askInThisSupportGroup"
+    },
+    "askPeerForSupport": "Ask a peer for support",
+    "@askPeerForSupport": {
+        "type": "text",
+        "description": "askPeerForSupport"
+    },
+    "askQuestion": "Ask Question",
+    "@askQuestion": {
+        "type": "text",
+        "description": "askQuestion"
+    },
+    "askQuestionSubtitle1": "Consider starting your question with ",
+    "@askQuestionSubtitle1": {
+        "type": "text",
+        "description": "askQuestionSubtitle1"
+    },
+    "askQuestionSubtitle2": "will, what, why, when, who or how",
+    "@askQuestionSubtitle2": {
+        "type": "text",
+        "description": "askQuestionSubtitle2"
+    },
+    "assessmentActionSubtitle": "What can I do next?",
+    "@assessmentActionSubtitle": {
+        "type": "text",
+        "description": "assessmentActionSubtitle"
+    },
+    "assessments": "Assessments",
+    "@assessments": {
+        "type": "text",
+        "description": "assessments"
+    },
+    "attendingToYou": "I'm attending to you...",
+    "@attendingToYou": {
+        "type": "text",
+        "description": "attendingToYou"
+    },
+    "back": "Back",
+    "@back": {
+        "type": "text",
+        "description": "back"
+    },
+    "biometricNotAuthenticated": "Your biometric credential is not authenticated, please try again.",
+    "@biometricNotAuthenticated": {
+        "type": "text",
+        "description": "biometricNotAuthenticated"
+    },
+    "bloodOxygenLevel": "Blood Oxygen Level",
+    "@bloodOxygenLevel": {
+        "type": "text",
+        "description": "bloodOxygenLevel"
+    },
+    "bloodOxygenLevelDescription": "Blood Oxygen Level is the amount of oxygen circulating in their blood. A person can measure their blood oxygen levels using a pulse oximeter. On a pulse oximeter, doctors consider levels under 95% to be low. ",
+    "@bloodOxygenLevelDescription": {
+        "type": "text",
+        "description": "bloodOxygenLevelDescription"
+    },
+    "bloodOxygenLevelNormalRangeValues": "95 %SpO2 and above",
+    "@bloodOxygenLevelNormalRangeValues": {
+        "type": "text",
+        "description": "bloodOxygenLevelNormalRangeValues"
+    },
+    "bloodOxygenLevelSymbol": "%SpO2",
+    "@bloodOxygenLevelSymbol": {
+        "type": "text",
+        "description": "bloodOxygenLevelSymbol"
+    },
+    "bloodPressure": "Blood Pressure",
+    "@bloodPressure": {
+        "type": "text",
+        "description": "bloodPressure"
+    },
+    "bloodPressureDescription": "Blood pressure is measured using two numbers: The first number, called systolic blood pressure, measures the pressure in your arteries when your heart beats. The second number, called diastolic blood pressure, measures the pressure in your arteries when your heart rests between beats.",
+    "@bloodPressureDescription": {
+        "type": "text",
+        "description": "bloodPressureDescription"
+    },
+    "bloodPressureNormalRangeValues": "120/80 mmHg and below",
+    "@bloodPressureNormalRangeValues": {
+        "type": "text",
+        "description": "bloodPressureNormalRangeValues"
+    },
+    "bloodPressureSymbol": "mmHg",
+    "@bloodPressureSymbol": {
+        "type": "text",
+        "description": "bloodPressureSymbol"
+    },
+    "bloodPressureSystolic": "Blood Pressure (Systolic)",
+    "@bloodPressureSystolic": {
+        "type": "text",
+        "description": "bloodPressureSystolic"
+    },
+    "both": "Both",
+    "@both": {
+        "type": "text",
+        "description": "both"
+    },
+    "bpm": "bpm",
+    "@bpm": {
+        "type": "text",
+        "description": "bpm"
+    },
+    "bySigning1": "By signing in, you agree to our app's",
+    "@bySigning1": {
+        "type": "text",
+        "description": "bySigning1"
+    },
+    "bySigning2": "terms of service",
+    "@bySigning2": {
+        "type": "text",
+        "description": "bySigning2"
+    },
+    "termsOfUse": "terms of use",
+    "@termsOfUse": {
+        "type": "text",
+        "description": "termsOfUse"
+    },
+    "cameraPermissionDeniedMessage": "Please enable camera permission in your browser settings.",
+    "@cameraPermissionDeniedMessage": {
+        "type": "text",
+        "description": "cameraPermissionDeniedMessage"
+    },
+    "cameraPermissionDeniedTitle": "Camera Permission Denied",
+    "@cameraPermissionDeniedTitle": {
+        "type": "text",
+        "description": "cameraPermissionDeniedTitle"
+    },
+    "cancel": "Cancel",
+    "@cancel": {
+        "type": "text",
+        "description": "cancel"
+    },
+    "challenge": "Challenge",
+    "@challenge": {
+        "type": "text",
+        "description": "challenge"
+    },
+    "characters": "characters",
+    "@characters": {
+        "type": "text",
+        "description": "characters"
+    },
+    "chatResponseQuestionEmptyMessage": "Your question should not be empty.",
+    "@chatResponseQuestionEmptyMessage": {
+        "type": "text",
+        "description": "chatResponseQuestionEmptyMessage"
+    },
+    "chatResponseSystemErrorMessage": "Oops! An error occurred. Please check your network connection or contact us for assistance.",
+    "@chatResponseSystemErrorMessage": {
+        "type": "text",
+        "description": "chatResponseSystemErrorMessage"
+    },
+    "chatResponseViolateQuestionMessage": "Your question violates our usage policies. Please ask a different question.",
+    "@chatResponseViolateQuestionMessage": {
+        "type": "text",
+        "description": "chatResponseViolateQuestionMessage"
+    },
+    "childGroup": "Child",
+    "@childGroup": {
+        "type": "text",
+        "description": "childGroup"
+    },
+    "childGroupRange": "0-16 yo",
+    "@childGroupRange": {
+        "type": "text",
+        "description": "childGroupRange"
+    },
+    "choosePreferences": "What do you wish to manage?",
+    "@choosePreferences": {
+        "type": "text",
+        "description": "choosePreferences"
+    },
+    "choosePreferencesConfidential": "Your preferences are strictly confidential.",
+    "@choosePreferencesConfidential": {
+        "type": "text",
+        "description": "choosePreferencesConfidential"
+    },
+    "choosePreferencesSubtitle": "You can choose more than one and change preferences anytime.",
+    "@choosePreferencesSubtitle": {
+        "type": "text",
+        "description": "choosePreferencesSubtitle"
+    },
+    "compareWith": "Compare with",
+    "@compareWith": {
+        "type": "text",
+        "description": "compareWith"
+    },
+    "completeProfileSubtitle": "Complete your profile to personalise your user experience.",
+    "@completeProfileSubtitle": {
+        "type": "text",
+        "description": "completeProfileSubtitle"
+    },
+    "completeProfileTitle": "Let's understand your BMI to tailor our suggestions for you",
+    "@completeProfileTitle": {
+        "type": "text",
+        "description": "completeProfileTitle"
+    },
+    "connect": "Connect",
+    "@connect": {
+        "type": "text",
+        "description": "connect"
+    },
+    "confirmReportGroupSubtitle": "Thank you for reporting. Your submission is sent to your organisation administrator for review.",
+    "@confirmReportGroupSubtitle": {
+        "type": "text",
+        "description": "confirmReportGroupSubtitle"
+    },
+    "confirmReportGroupTitle": "Report Group Confirmation",
+    "@confirmReportGroupTitle": {
+        "type": "text",
+        "description": "confirmReportGroupTitle"
+    },
+    "confirmReportUserSubtitle": "Thank you for reporting. Your submission is sent to your organisation administrator for review.",
+    "@confirmReportUserSubtitle": {
+        "type": "text",
+        "description": "confirmReportUserSubtitle"
+    },
+    "confirmReportUserTitle": "Report User Confirmation",
+    "@confirmReportUserTitle": {
+        "type": "text",
+        "description": "confirmReportUserTitle"
+    },
+    "confirmSuggestGroupSubtitle": "Thank you for suggesting new group. The new group requires at least 10 votes to be created and opened.",
+    "@confirmSuggestGroupSubtitle": {
+        "type": "text",
+        "description": "confirmSuggestGroupSubtitle"
+    },
+    "confirmSuggestGroupTitle": "Suggest Group Confirmation",
+    "@confirmSuggestGroupTitle": {
+        "type": "text",
+        "description": "confirmSuggestGroupTitle"
+    },
+    "continueWithPasscode": "Continue with passcode only",
+    "@continueWithPasscode": {
+        "type": "text",
+        "description": "continueWithPasscode"
+    },
+    "createPasscode": "Create Passcode",
+    "@createPasscode": {
+        "type": "text",
+        "description": "createPasscode"
+    },
+    "credentialsCopiedMessage": "You can paste the credentials to anywhere in your phone.",
+    "@credentialsCopiedMessage": {
+        "type": "text",
+        "description": "credentialsCopiedMessage"
+    },
+    "credentialsCopiedTitle": "Credentials Copied",
+    "@credentialsCopiedTitle": {
+        "type": "text",
+        "description": "credentialsCopiedTitle"
+    },
+    "credentialsNotValidMessage": "Your credentials are not valid.",
+    "@credentialsNotValidMessage": {
+        "type": "text",
+        "description": "credentialsNotValidMessage"
+    },
+    "credentialsNotValidTitle": "Invalid Credentials",
+    "@credentialsNotValidTitle": {
+        "type": "text",
+        "description": "credentialsNotValidTitle"
+    },
+    "credentialsValidMessage": "Your credentials are valid.",
+    "@credentialsValidMessage": {
+        "type": "text",
+        "description": "credentialsValidMessage"
+    },
+    "credentialsValidTitle": "Valid Credentials",
+    "@credentialsValidTitle": {
+        "type": "text",
+        "description": "credentialsValidTitle"
+    },
+    "dashboard": "Dashboard",
+    "@dashboard": {
+        "type": "text",
+        "description": "dashboard"
+    },
+    "day": "Day",
+    "@day": {
+        "type": "text",
+        "description": "day"
+    },
+    "defaultTopQuestionOfTheWeek": "Who in your life (or even an influencer) inspires you to be mentally and physically fit?",
+    "@defaultTopQuestionOfTheWeek": {
+        "type": "text",
+        "description": "defaultTopQuestionOfTheWeek"
+    },
+    "delete": "Delete",
+    "@delete": {
+        "type": "text",
+        "description": "delete"
+    },
+    "description": "Description",
+    "@description": {
+        "type": "text",
+        "description": "description"
+    },
+    "diastolicBloodPressure": "Diastolic Blood Pressure",
+    "@diastolicBloodPressure": {
+        "type": "text",
+        "description": "diastolicBloodPressure"
+    },
+    "diastolicBloodPressureSymbol": "DP",
+    "@diastolicBloodPressureSymbol": {
+        "type": "text",
+        "description": "diastolicBloodPressureSymbol"
+    },
+    "done": "Done",
+    "@done": {
+        "type": "text",
+        "description": "done"
+    },
+    "earnCredits": "Earn Credits",
+    "@earnCredits": {
+        "type": "text",
+        "description": "earnCredits"
+    },
+    "earnCreditsSubtitle": "Complete any of these 1-min activities to gain Credits. Credits earn you vouchers.",
+    "@earnCreditsSubtitle": {
+        "type": "text",
+        "description": "earnCreditsSubtitle"
+    },
+    "emailAddress": "Email Address",
+    "@emailAddress": {
+        "type": "text",
+        "description": "emailAddress"
+    },
+    "emailAddressNotAvailableMessage": "The email address you have chosen is not available. Please select another email address.",
+    "@emailAddressNotAvailableMessage": {
+        "type": "text",
+        "description": "emailAddressNotAvailableMessage"
+    },
+    "emailAddressNotAvailableTitle": "Email Address Not Available",
+    "@emailAddressNotAvailableTitle": {
+        "type": "text",
+        "description": "emailAddressNotAvailableTitle"
+    },
+    "engageAlissaConfidential1": "All your health data stays ",
+    "@engageAlissaConfidential1": {
+        "type": "text",
+        "description": "engageAlissaConfidential1"
+    },
+    "engageAlissaConfidential2": "private and confidential ",
+    "@engageAlissaConfidential2": {
+        "type": "text",
+        "description": "engageAlissaConfidential2"
+    },
+    "engageAlissaConfidential3": "on your phone only",
+    "@engageAlissaConfidential3": {
+        "type": "text",
+        "description": "engageAlissaConfidential3"
+    },
+    "engageAlissaNow": "Engage Alissa Now",
+    "@engageAlissaNow": {
+        "type": "text",
+        "description": "engageAlissaNow"
+    },
+    "engageAlissaSubtitle": "You can think of Alissa as the Siri or Google Assistant for emotional support. She will alert you when she senses you need help.",
+    "@engageAlissaSubtitle": {
+        "type": "text",
+        "description": "engageAlissaSubtitle"
+    },
+    "engageAlissaTitle": "Let's get to know Alissa",
+    "@engageAlissaTitle": {
+        "type": "text",
+        "description": "engageAlissaTitle"
+    },
+    "enterOrganisationCode": "Enter organisation code",
+    "@enterOrganisationCode": {
+        "type": "text",
+        "description": "enterOrganisationCode"
+    },
+    "enterPasscode": "Enter a 6-digit passcode",
+    "@enterPasscode": {
+        "type": "text",
+        "description": "enterPasscode"
+    },
+    "enterPersonalEmailAddress": "Enter your personal email here",
+    "@enterPersonalEmailAddress": {
+        "type": "text",
+        "description": "enterPersonalEmailAddress"
+    },
+    "enterQuestionDescriptionHere": "Enter description here (optional)",
+    "@enterQuestionDescriptionHere": {
+        "type": "text",
+        "description": "enterQuestionDescriptionHere"
+    },
+    "enterQuestionHere": "Enter question here",
+    "@enterQuestionHere": {
+        "type": "text",
+        "description": "enterQuestionHere"
+    },
+    "enterTitleHere": "Enter title here",
+    "@enterTitleHere": {
+        "type": "text",
+        "description": "enterTitleHere"
+    },
+    "enterUniqueUsername": "Enter unique username",
+    "@enterUniqueUsername": {
+        "type": "text",
+        "description": "enterUniqueUsername"
+    },
+    "enterYourFinNumber": "Enter your FIN number",
+    "@enterYourFinNumber": {
+        "type": "text",
+        "description": "enterYourFinNumber"
+    },
+    "error": "Error",
+    "@error": {
+        "type": "text",
+        "description": "error"
+    },
+    "exitAppConfirmationTitle": "Are you sure you want to exit the app?",
+    "@exitAppConfirmationTitle": {
+        "type": "text",
+        "description": "exitAppConfirmationTitle"
+    },
+    "facebookAd1": "Get a free health checkup while doing a 10 seconds live video stream? Sure!",
+    "@facebookAd1": {
+        "type": "text",
+        "description": "facebookAd1"
+    },
+    "facebookAd2": "Take control of your health in 2023. Get a free health checkup in 10 seconds using your phone!",
+    "@facebookAd2": {
+        "type": "text",
+        "description": "facebookAd2"
+    },
+    "facebookAd3": "Feeling stressed? Check your stress levels with just your phone's camera in 10 seconds.",
+    "@facebookAd3": {
+        "type": "text",
+        "description": "facebookAd3"
+    },
+    "facebookAd4": "No time for a health checkup? ",
+    "@facebookAd4": {
+        "type": "text",
+        "description": "facebookAd4"
+    },
+    "facebookAd5": "Be a healthier you in 2023",
+    "@facebookAd5": {
+        "type": "text",
+        "description": "facebookAd5"
+    },
+    "facebookAd6": "Check your stress level in 10s",
+    "@facebookAd6": {
+        "type": "text",
+        "description": "facebookAd6"
+    },
+    "facebookAd7": "No fitness tracker needed",
+    "@facebookAd7": {
+        "type": "text",
+        "description": "facebookAd7"
+    },
+    "facebookAd8": "Know your health, be better",
+    "@facebookAd8": {
+        "type": "text",
+        "description": "facebookAd8"
+    },
+    "facebookAd9": "Don't worry, just checkup",
+    "@facebookAd9": {
+        "type": "text",
+        "description": "facebookAd9"
+    },
+    "fatigueLevel": "Fatigue Level",
+    "@fatigueLevel": {
+        "type": "text",
+        "description": "fatigueLevel"
+    },
+    "female": "Female",
+    "@female": {
+        "type": "text",
+        "description": "female"
+    },
+    "filter": "Filter",
+    "@filter": {
+        "type": "text",
+        "description": "filter"
+    },
+    "finalizingYourVitals": "Finalizing your vitals...",
+    "@finalizingYourVitals": {
+        "type": "text",
+        "description": "finalizingYourVitals"
+    },
+    "gender": "Gender",
+    "@gender": {
+        "type": "text",
+        "description": "gender"
+    },
+    "generateAnotherUsername": "Generate another username",
+    "@generateAnotherUsername": {
+        "type": "text",
+        "description": "generateAnotherUsername"
+    },
+    "generateCredentialsPageTitle": "Let's understand your BMI to tailor our suggestions for you",
+    "@generateCredentialsPageTitle": {
+        "type": "text",
+        "description": "generateCredentialsPageTitle"
+    },
+    "generateCredentialsStepTitle1": "Gender & BMI saved",
+    "@generateCredentialsStepTitle1": {
+        "type": "text",
+        "description": "generateCredentialsStepTitle1"
+    },
+    "generateCredentialsStepTitle2": "Account created",
+    "@generateCredentialsStepTitle2": {
+        "type": "text",
+        "description": "generateCredentialsStepTitle2"
+    },
+    "generateCredentialsStepTitle3": "Secret credentials emailed to you",
+    "@generateCredentialsStepTitle3": {
+        "type": "text",
+        "description": "generateCredentialsStepTitle3"
+    },
+    "getHelpNow": "Get help now",
+    "@getHelpNow": {
+        "type": "text",
+        "description": "getHelpNow"
+    },
+    "getStarted": "Get Started",
+    "@getStarted": {
+        "type": "text",
+        "description": "getStarted"
+    },
+    "globalConfirmation": "Confirmation",
+    "@globalConfirmation": {
+        "type": "text",
+        "description": "globalConfirmation"
+    },
+    "goAnonymous": "Go anonymous.",
+    "@goAnonymous": {
+        "type": "text",
+        "description": "goAnonymous"
+    },
+    "goals": "Goals",
+    "@goals": {
+        "type": "text",
+        "description": "goals"
+    },
+    "grief": "Grief",
+    "@grief": {
+        "type": "text",
+        "description": "grief"
+    },
+    "groups": "Groups",
+    "@groups": {
+        "type": "text",
+        "description": "groups"
+    },
+    "heartRate": "Heart Rate",
+    "@heartRate": {
+        "type": "text",
+        "description": "heartRate"
+    },
+    "heartRateDescription": "Heart Rate is the speed of the heartbeat measured by the number of contractions of the heart per minute.",
+    "@heartRateDescription": {
+        "type": "text",
+        "description": "heartRateDescription"
+    },
+    "heartRateNormalRangeValues": "60 to 100 BPM",
+    "@heartRateNormalRangeValues": {
+        "type": "text",
+        "description": "heartRateNormalRangeValues"
+    },
+    "heartRateReading": "Heart Rate Reading",
+    "@heartRateReading": {
+        "type": "text",
+        "description": "heartRateReading"
+    },
+    "heartRateReadingSource": "Source of Heart Rate Reading",
+    "@heartRateReadingSource": {
+        "type": "text",
+        "description": "heartRateReadingSource"
+    },
+    "heartRateSymbol": "BPM",
+    "@heartRateSymbol": {
+        "type": "text",
+        "description": "heartRateSymbol"
+    },
+    "heartRateVariability": "Heart Rate Variability",
+    "@heartRateVariability": {
+        "type": "text",
+        "description": "heartRateVariability"
+    },
+    "heartRateVariabilityDescription": "Heart Rate Variability is simply a measure of the variation in time between each heartbeat. It is an indicator of stress, higher hrv is better.",
+    "@heartRateVariabilityDescription": {
+        "type": "text",
+        "description": "heartRateVariabilityDescription"
+    },
+    "heartRateVariabilityNormalRangeValues": "20 to 200 HRV",
+    "@heartRateVariabilityNormalRangeValues": {
+        "type": "text",
+        "description": "heartRateVariabilityNormalRangeValues"
+    },
+    "heartRateVariabilitySymbol": "HRV",
+    "@heartRateVariabilitySymbol": {
+        "type": "text",
+        "description": "heartRateVariabilitySymbol"
+    },
+    "height": "Height",
+    "@height": {
+        "type": "text",
+        "description": "height"
+    },
+    "helloAlissa": "Say hello to Alissa, your health checkup assistant.",
+    "@helloAlissa": {
+        "type": "text",
+        "description": "helloAlissa"
+    },
+    "helloAlissaSubtitle": "Get important health alerts and discover new things about your mental and physical health.",
+    "@helloAlissaSubtitle": {
+        "type": "text",
+        "description": "helloAlissaSubtitle"
+    },
+    "helpPeerNow": "Help a peer now",
+    "@helpPeerNow": {
+        "type": "text",
+        "description": "helpPeerNow"
+    },
+    "high": "High",
+    "@high": {
+        "type": "text",
+        "description": "high"
+    },
+    "howSelfCareGoalsWorkSubtitle1": "Your app tracks your minutes spent in taking care of your mental health.",
+    "@howSelfCareGoalsWorkSubtitle1": {
+        "type": "text",
+        "description": "howSelfCareGoalsWorkSubtitle1"
+    },
+    "howSelfCareGoalsWorkTitle": "How Self-Care Goals Work",
+    "@howSelfCareGoalsWorkTitle": {
+        "type": "text",
+        "description": "howSelfCareGoalsWorkTitle"
+    },
+    "howSupportGroupsWorkSubtitle1": "Support groups give you a safe space to seek advice quickly from colleagues like you.",
+    "@howSupportGroupsWorkSubtitle1": {
+        "type": "text",
+        "description": "howSupportGroupsWorkSubtitle1"
+    },
+    "howSupportGroupsWorkSubtitle2": "Join existing groups or suggest new ones. New suggested groups require at least 10 votes to be created and opened.",
+    "@howSupportGroupsWorkSubtitle2": {
+        "type": "text",
+        "description": "howSupportGroupsWorkSubtitle2"
+    },
+    "howSupportGroupsWorkTitle": "How Support Groups Work",
+    "@howSupportGroupsWorkTitle": {
+        "type": "text",
+        "description": "howSupportGroupsWorkTitle"
+    },
+    "hrv": "hrv",
+    "@hrv": {
+        "type": "text",
+        "description": "hrv"
+    },
+    "insights": "Insights",
+    "@insights": {
+        "type": "text",
+        "description": "insights"
+    },
+    "invalidEmailAddressMessage": "Email address is invalid. Please try again.",
+    "@invalidEmailAddressMessage": {
+        "type": "text",
+        "description": "invalidEmailAddressMessage"
+    },
+    "invalidEmailAddressTitle": "Invalid Email Address",
+    "@invalidEmailAddressTitle": {
+        "type": "text",
+        "description": "invalidEmailAddressTitle"
+    },
+    "invoices": "Invoices",
+    "@invoices": {
+        "type": "text",
+        "description": "invoices"
+    },
+    "join": "Join",
+    "@join": {
+        "type": "text",
+        "description": "join"
+    },
+    "joined": "Joined",
+    "@joined": {
+        "type": "text",
+        "description": "joined"
+    },
+    "journeys": "Journeys",
+    "@journeys": {
+        "type": "text",
+        "description": "journeys"
+    },
+    "landingMessage": "The app is currently available only on mobile web browser using your mobile device. Please kindly use your mobile device to access the app.",
+    "@landingMessage": {
+        "type": "text",
+        "description": "landingMessage"
+    },
+    "landingTitle": "Welcome to Checkup",
+    "@landingTitle": {
+        "type": "text",
+        "description": "landingTitle"
+    },
+    "lastUpdatedAt": "Last updated at",
+    "@lastUpdatedAt": {
+        "type": "text",
+        "description": "lastUpdatedAt"
+    },
+    "login": "Login",
+    "@login": {
+        "type": "text",
+        "description": "login"
+    },
+    "loginSubtitle": "Login to your organisation account",
+    "@loginSubtitle": {
+        "type": "text",
+        "description": "loginSubtitle"
+    },
+    "loginTitle": "Organisation Login",
+    "@loginTitle": {
+        "type": "text",
+        "description": "loginTitle"
+    },
+    "logout": "Logout",
+    "@logout": {
+        "type": "text",
+        "description": "logout"
+    },
+    "low": "Low",
+    "@low": {
+        "type": "text",
+        "description": "low"
+    },
+    "male": "Male",
+    "@male": {
+        "type": "text",
+        "description": "male"
+    },
+    "me": "Me",
+    "@me": {
+        "type": "text",
+        "description": "me"
+    },
+    "member": "Member",
+    "@member": {
+        "type": "text",
+        "description": "member"
+    },
+    "middleAgedAdultGroup": "Middle Age Adult",
+    "@middleAgedAdultGroup": {
+        "type": "text",
+        "description": "middleAgedAdultGroup"
+    },
+    "middleAgedAdultGroupRange": "31-45 yo",
+    "@middleAgedAdultGroupRange": {
+        "type": "text",
+        "description": "middleAgedAdultGroupRange"
+    },
+    "month": "Month",
+    "@month": {
+        "type": "text",
+        "description": "month"
+    },
+    "monthApr": "Apr",
+    "@monthApr": {
+        "type": "text",
+        "description": "monthApr"
+    },
+    "monthAug": "Aug",
+    "@monthAug": {
+        "type": "text",
+        "description": "monthAug"
+    },
+    "monthDec": "Dec",
+    "@monthDec": {
+        "type": "text",
+        "description": "monthDec"
+    },
+    "monthFeb": "Feb",
+    "@monthFeb": {
+        "type": "text",
+        "description": "monthFeb"
+    },
+    "monthJan": "Jan",
+    "@monthJan": {
+        "type": "text",
+        "description": "monthJan"
+    },
+    "monthJul": "Jul",
+    "@monthJul": {
+        "type": "text",
+        "description": "monthJul"
+    },
+    "monthJun": "Jun",
+    "@monthJun": {
+        "type": "text",
+        "description": "monthJun"
+    },
+    "monthMar": "Mar",
+    "@monthMar": {
+        "type": "text",
+        "description": "monthMar"
+    },
+    "monthMay": "May",
+    "@monthMay": {
+        "type": "text",
+        "description": "monthMay"
+    },
+    "monthNov": "Nov",
+    "@monthNov": {
+        "type": "text",
+        "description": "monthNov"
+    },
+    "monthOct": "Oct",
+    "@monthOct": {
+        "type": "text",
+        "description": "monthOct"
+    },
+    "monthSep": "Sep",
+    "@monthSep": {
+        "type": "text",
+        "description": "monthSep"
+    },
+    "myAssessments": "My Assessments",
+    "@myAssessments": {
+        "type": "text",
+        "description": "myAssessments"
+    },
+    "myHealthData": "My Health Data",
+    "@myHealthData": {
+        "type": "text",
+        "description": "myHealthData"
+    },
+    "myHealthDataSubtitle": "Your personal health data shows your stress level over time.",
+    "@myHealthDataSubtitle": {
+        "type": "text",
+        "description": "myHealthDataSubtitle"
+    },
+    "myLatestSuggestions": "My Latest Suggestions",
+    "@myLatestSuggestions": {
+        "type": "text",
+        "description": "myLatestSuggestions"
+    },
+    "myLatestVitalReadings": "My Latest Vital Readings",
+    "@myLatestVitalReadings": {
+        "type": "text",
+        "description": "myLatestVitalReadings"
+    },
+    "myPreferences": "My Preferences",
+    "@myPreferences": {
+        "type": "text",
+        "description": "myPreferences"
+    },
+    "mySavedQuestions": "My Saved Questions",
+    "@mySavedQuestions": {
+        "type": "text",
+        "description": "mySavedQuestions"
+    },
+    "newText": "New",
+    "@newText": {
+        "type": "text",
+        "description": "newText"
+    },
+    "newPassword": "New password",
+    "@newPassword": {
+        "type": "text",
+        "description": "newPassword"
+    },
+    "newPasswordConfirm": "Confirm new password",
+    "@newPasswordConfirm": {
+        "type": "text",
+        "description": "newPasswordConfirm"
+    },
+    "next": "Next",
+    "@next": {
+        "type": "text",
+        "description": "next"
+    },
+    "no": "No",
+    "@no": {
+        "type": "text",
+        "description": "no"
+    },
+    "noAnswers": "Share your answer to the group",
+    "@noAnswers": {
+        "type": "text",
+        "description": "noAnswers"
+    },
+    "noAssessmentsMessage": "No assessments",
+    "@noAssessmentsMessage": {
+        "type": "text",
+        "description": "noAssessmentsMessage"
+    },
+    "noComments": "Share your comment to the group",
+    "@noComments": {
+        "type": "text",
+        "description": "noComments"
+    },
+    "noData": "No Data",
+    "@noData": {
+        "type": "text",
+        "description": "noData"
+    },
+    "noGroups": "Start a new group to get started",
+    "@noGroups": {
+        "type": "text",
+        "description": "noGroups"
+    },
+    "noHealthDataMessage": "No health data available. Get started with your first screening.",
+    "@noHealthDataMessage": {
+        "type": "text",
+        "description": "noHealthDataMessage"
+    },
+    "noQuestions": "Create a new question to get started",
+    "@noQuestions": {
+        "type": "text",
+        "description": "noQuestions"
+    },
+    "normal": "Normal",
+    "@normal": {
+        "type": "text",
+        "description": "normal"
+    },
+    "normalRange": "Normal Range",
+    "@normalRange": {
+        "type": "text",
+        "description": "normalRange"
+    },
+    "normalweight": "Normal Weight",
+    "@normalweight": {
+        "type": "text",
+        "description": "normalweight"
+    },
+    "normalweightRange": "18.5-22.9",
+    "@normalweightRange": {
+        "type": "text",
+        "description": "normalweightRange"
+    },
+    "obese": "Obese",
+    "@obese": {
+        "type": "text",
+        "description": "obese"
+    },
+    "obeseRange": ">29.9",
+    "@obeseRange": {
+        "type": "text",
+        "description": "obeseRange"
+    },
+    "ok": "OK",
+    "@ok": {
+        "type": "text",
+        "description": "ok"
+    },
+    "oldAgedAdultGroup": "Old Aged Adult",
+    "@oldAgedAdultGroup": {
+        "type": "text",
+        "description": "oldAgedAdultGroup"
+    },
+    "oldAgedAdultGroupRange": ">45 yo",
+    "@oldAgedAdultGroupRange": {
+        "type": "text",
+        "description": "oldAgedAdultGroupRange"
+    },
+    "oneTime": "One-time",
+    "@oneTime": {
+        "type": "text",
+        "description": "oneTime"
+    },
+    "oneTimeSubtitle": "Check for sleep apnea risk in a few questions",
+    "@oneTimeSubtitle": {
+        "type": "text",
+        "description": "oneTimeSubtitle"
+    },
+    "others": "Others",
+    "@others": {
+        "type": "text",
+        "description": "others"
+    },
+    "overweight": "Overweight",
+    "@overweight": {
+        "type": "text",
+        "description": "overweight"
+    },
+    "overweightRange": "23-24.9",
+    "@overweightRange": {
+        "type": "text",
+        "description": "overweightRange"
+    },
+    "oxygenLevel": "Oxygen Level",
+    "@oxygenLevel": {
+        "type": "text",
+        "description": "oxygenLevel"
+    },
+    "oxygenLevelSymbol": "O2",
+    "@oxygenLevelSymbol": {
+        "type": "text",
+        "description": "oxygenLevelSymbol"
+    },
+    "parenthood": "Parenthood",
+    "@parenthood": {
+        "type": "text",
+        "description": "parenthood"
+    },
+    "passcodeNotMatched": "The passcode does not match, please try again.",
+    "@passcodeNotMatched": {
+        "type": "text",
+        "description": "passcodeNotMatched"
+    },
+    "password": "Password",
+    "@password": {
+        "type": "text",
+        "description": "password"
+    },
+    "passwordNotMatchedMessage": "Your password does not match with the confirm password.",
+    "@passwordNotMatchedMessage": {
+        "type": "text",
+        "description": "passwordNotMatchedMessage"
+    },
+    "passwordNotMatchedTitle": "Password Not Matched",
+    "@passwordNotMatchedTitle": {
+        "type": "text",
+        "description": "passwordNotMatchedTitle"
+    },
+    "passwordNotMetRequirementMessage": "Your password should contains at least 1 uppercase letter, 1 lowercase letter, 1 digit and 1 special character. Your password length should have a minimum of 8 characters.",
+    "@passwordNotMetRequirementMessage": {
+        "type": "text",
+        "description": "passwordNotMetRequirementMessage"
+    },
+    "passwordNotMetRequirementTitle": "Password Requirements Not Met",
+    "@passwordNotMetRequirementTitle": {
+        "type": "text",
+        "description": "passwordNotMetRequirementTitle"
+    },
+    "passwordNotValidMessage": "Your password is not valid.",
+    "@passwordNotValidMessage": {
+        "type": "text",
+        "description": "passwordNotValidMessage"
+    },
+    "passwordNotValidTitle": "Invalid Password",
+    "@passwordNotValidTitle": {
+        "type": "text",
+        "description": "passwordNotValidTitle"
+    },
+    "pauseForNow": "I'll pause for now",
+    "@pauseForNow": {
+        "type": "text",
+        "description": "pauseForNow"
+    },
+    "pauseSupportAnytime": "You can pause my support at any time",
+    "@pauseSupportAnytime": {
+        "type": "text",
+        "description": "pauseSupportAnytime"
+    },
+    "personalDevelopment": "Personal Development",
+    "@personalDevelopment": {
+        "type": "text",
+        "description": "personalDevelopment"
+    },
+    "pleaseChooseGroup": "Please choose group",
+    "@pleaseChooseGroup": {
+        "type": "text",
+        "description": "pleaseChooseGroup"
+    },
+    "poweredBy": "Powered by",
+    "@poweredBy": {
+        "type": "text",
+        "description": "poweredBy"
+    },
+    "poweredByCheckup": "Powered by Checkup",
+    "@poweredByCheckup": {
+        "type": "text",
+        "description": "poweredByCheckup"
+    },
+    "preobese": "Pre-Obese",
+    "@preobese": {
+        "type": "text",
+        "description": "preobese"
+    },
+    "preobeseRange": "25-29.9",
+    "@preobeseRange": {
+        "type": "text",
+        "description": "preobeseRange"
+    },
+    "previous": "Previous",
+    "@previous": {
+        "type": "text",
+        "description": "previous"
+    },
+    "profile": "Profile",
+    "@profile": {
+        "type": "text",
+        "description": "profile"
+    },
+    "questionsAndAnswers": "Q&A",
+    "@questionsAndAnswers": {
+        "type": "text",
+        "description": "questionsAndAnswers"
+    },
+    "readinessIndex": "Readiness Index",
+    "@readinessIndex": {
+        "type": "text",
+        "description": "readinessIndex"
+    },
+    "readinessIndexDescription": "The Readiness Index measures the changes in your body’s recovery and stress states. If your Readiness Index is 80/100, it indicates your nervous system is 80% in recovery (rest and digest) and 20% in stress (fight or flight). A higher Readiness Index is ideal.",
+    "@readinessIndexDescription": {
+        "type": "text",
+        "description": "readinessIndexDescription"
+    },
+    "readinessIndexNormalRangeValues": "50 to 100 RI",
+    "@readinessIndexNormalRangeValues": {
+        "type": "text",
+        "description": "readinessIndexNormalRangeValues"
+    },
+    "readinessIndexSymbol": "RI",
+    "@readinessIndexSymbol": {
+        "type": "text",
+        "description": "readinessIndexSymbol"
+    },
+    "readinessLevel": "Readiness Level",
+    "@readinessLevel": {
+        "type": "text",
+        "description": "readinessLevel"
+    },
+    "recoverAccount": "Recover account",
+    "@recoverAccount": {
+        "type": "text",
+        "description": "recoverAccount"
+    },
+    "recoverAccountSubtitle": "Recover your account using the recovery code",
+    "@recoverAccountSubtitle": {
+        "type": "text",
+        "description": "recoverAccountSubtitle"
+    },
+    "recoverAccountTitle": "Recover account",
+    "@recoverAccountTitle": {
+        "type": "text",
+        "description": "recoverAccountTitle"
+    },
+    "recoveryCode": "Recovery code",
+    "@recoveryCode": {
+        "type": "text",
+        "description": "recoveryCode"
+    },
+    "recoveryCodes": "Recovery Codes",
+    "@recoveryCodes": {
+        "type": "text",
+        "description": "recoveryCodes"
+    },
+    "recurring": "Recurring",
+    "@recurring": {
+        "type": "text",
+        "description": "recurring"
+    },
+    "recurringSubtitle": "Check in on your stress level in 5 short questions",
+    "@recurringSubtitle": {
+        "type": "text",
+        "description": "recurringSubtitle"
+    },
+    "reenterPasscode": "Enter your passcode again",
+    "@reenterPasscode": {
+        "type": "text",
+        "description": "reenterPasscode"
+    },
+    "reflect": "Reflect",
+    "@reflect": {
+        "type": "text",
+        "description": "reflect"
+    },
+    "relationships": "Relationships",
+    "@relationships": {
+        "type": "text",
+        "description": "relationships"
+    },
+    "reportGroup": "Report group",
+    "@reportGroup": {
+        "type": "text",
+        "description": "reportGroup"
+    },
+    "reportUser": "Report user",
+    "@reportUser": {
+        "type": "text",
+        "description": "reportUser"
+    },
+    "resetPassword": "Reset password",
+    "@resetPassword": {
+        "type": "text",
+        "description": "resetPassword"
+    },
+    "resetPasswordFailedMessage": "Your account password did not reset successfully. Please try again.",
+    "@resetPasswordFailedMessage": {
+        "type": "text",
+        "description": "resetPasswordFailedMessage"
+    },
+    "resetPasswordFailedTitle": "Reset Password Failed",
+    "@resetPasswordFailedTitle": {
+        "type": "text",
+        "description": "resetPasswordFailedTitle"
+    },
+    "resetPasswordRedirectMessage": "Please wait while we redirect you to the sign in page...",
+    "@resetPasswordRedirectMessage": {
+        "type": "text",
+        "description": "resetPasswordRedirectMessage"
+    },
+    "resetPasswordSubtitle": "Set new password",
+    "@resetPasswordSubtitle": {
+        "type": "text",
+        "description": "resetPasswordSubtitle"
+    },
+    "resetPasswordSuccessMessage": "The password has been reset successfully.",
+    "@resetPasswordSuccessMessage": {
+        "type": "text",
+        "description": "resetPasswordSuccessMessage"
+    },
+    "resetPasswordSuccessTitle": "Reset Password Success",
+    "@resetPasswordSuccessTitle": {
+        "type": "text",
+        "description": "resetPasswordSuccessTitle"
+    },
+    "resetPasswordTitle": "Reset password",
+    "@resetPasswordTitle": {
+        "type": "text",
+        "description": "resetPasswordTitle"
+    },
+    "respiratoryRate": "Respiratory Rate",
+    "@respiratoryRate": {
+        "type": "text",
+        "description": "respiratoryRate"
+    },
+    "respiratoryRateDescription": "The respiration rate is the number of breaths a person takes per minute. The rate is usually measured when a person is at rest and simply involves counting the number of breaths for one minute by counting how many times the chest rises.",
+    "@respiratoryRateDescription": {
+        "type": "text",
+        "description": "respiratoryRateDescription"
+    },
+    "respiratoryRateNormalRangeValues": "12 to 16 RR",
+    "@respiratoryRateNormalRangeValues": {
+        "type": "text",
+        "description": "respiratoryRateNormalRangeValues"
+    },
+    "respiratoryRateSymbol": "RR",
+    "@respiratoryRateSymbol": {
+        "type": "text",
+        "description": "respiratoryRateSymbol"
+    },
+    "resumeQuestion": "Resume?",
+    "@resumeQuestion": {
+        "type": "text",
+        "description": "resumeQuestion"
+    },
+    "rewards": "Rewards",
+    "@rewards": {
+        "type": "text",
+        "description": "rewards"
+    },
+    "save": "Save",
+    "@save": {
+        "type": "text",
+        "description": "save"
+    },
+    "saveCredentials": "Save Credentials",
+    "@saveCredentials": {
+        "type": "text",
+        "description": "saveCredentials"
+    },
+    "savedCollection": "Saved Collection",
+    "@savedCollection": {
+        "type": "text",
+        "description": "savedCollection"
+    },
+    "savedHealthSuggestions": "Health Suggestions",
+    "@savedHealthSuggestions": {
+        "type": "text",
+        "description": "savedHealthSuggestions"
+    },
+    "savedQuestions": "Questions",
+    "@savedQuestions": {
+        "type": "text",
+        "description": "savedQuestions"
+    },
+    "scanYourFaceTitle": "Scan Your Face,\ncheck your health",
+    "@scanYourFaceTitle": {
+        "type": "text",
+        "description": "scanYourFaceTitle on search department page"
+    },
+    "screening": "Screening",
+    "@screening": {
+        "type": "text",
+        "description": "screening"
+    },
+    "screeningBadVideoQualityMessage": "The video looks dark, let's find a brighter angle or place...",
+    "@screeningBadVideoQualityMessage": {
+        "type": "text",
+        "description": "screeningBadVideoQualityMessage"
+    },
+    "screeningCheckingVideoQualityMessage": "Making sure your video quality is Instagram or TikTok-worthy...",
+    "@screeningCheckingVideoQualityMessage": {
+        "type": "text",
+        "description": "screeningCheckingVideoQualityMessage"
+    },
+    "screeningPredictingMessage": "Analysis complete! You can relax while we measure your vitals...",
+    "@screeningPredictingMessage": {
+        "type": "text",
+        "description": "screeningPredictingMessage"
+    },
+    "screeningRecordingMessage": "Analyzing... Please keep your head still and face in the box...",
+    "@screeningRecordingMessage": {
+        "type": "text",
+        "description": "screeningRecordingMessage"
+    },
+    "screeningStartMessage": "Place your index finger tip on camera",
+    "@screeningStartMessage": {
+        "type": "text",
+        "description": "screeningStartMessage"
+    },
+    "screeningTitle": "Tap to Checkup",
+    "@screeningTitle": {
+        "type": "text",
+        "description": "screeningTitle"
+    },
+    "screeningTitleForDriver": "Long press for drivers",
+    "@screeningTitleForDriver": {
+        "type": "text",
+        "description": "screeningTitleForDriver"
+    },
+    "screeningWarmUpMessage": "Take a deep breath for 5 seconds...",
+    "@screeningWarmUpMessage": {
+        "type": "text",
+        "description": "screeningWarmUpMessage"
+    },
+    "search": "Search",
+    "@search": {
+        "type": "text",
+        "description": "search"
+    },
+    "searchYourDepartment": "Search your department",
+    "@searchYourDepartment": {
+        "type": "text",
+        "description": "searchYourDepartment"
+    },
+    "secretCredentialsSentMessage": "Your secret credentials has just sent to your personal email address.",
+    "@secretCredentialsSentMessage": {
+        "type": "text",
+        "description": "secretCredentialsSentMessage"
+    },
+    "secretCredentialsSentTitle": "Secret Credentials Sent",
+    "@secretCredentialsSentTitle": {
+        "type": "text",
+        "description": "secretCredentialsSentTitle"
+    },
+    "secureWithBiometrics": "Secure With Biometrics",
+    "@secureWithBiometrics": {
+        "type": "text",
+        "description": "secureWithBiometrics"
+    },
+    "selectPhoto": "Select Photo",
+    "@selectPhoto": {
+        "type": "text",
+        "description": "selectPhoto"
+    },
+    "send": "Send",
+    "@send": {
+        "type": "text",
+        "description": "send"
+    },
+    "sendMe": "Send Me",
+    "@sendMe": {
+        "type": "text",
+        "description": "sendMe"
+    },
+    "setAnswer": "{answer} answer",
+    "@setAnswer": {
+        "type": "text",
+        "description": "setAnswer",
+        "placeholders": {
+            "answer": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setAnswers": "{answers} answers",
+    "@setAnswers": {
+        "type": "text",
+        "description": "setAnswers",
+        "placeholders": {
+            "answers": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setByUsername": "by {username}",
+    "@setByUsername": {
+        "type": "text",
+        "description": "setByUsername",
+        "placeholders": {
+            "username": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setComment": "{comment} comment",
+    "@setComment": {
+        "type": "text",
+        "description": "setComment",
+        "placeholders": {
+            "comment": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setComments": "{comments} comments",
+    "@setComments": {
+        "type": "text",
+        "description": "setComments",
+        "placeholders": {
+            "comments": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setCreditsEarned": "{earnedCredits} Credits",
+    "@setCreditsEarned": {
+        "type": "text",
+        "description": "setCreditsEarned",
+        "placeholders": {
+            "earnedCredits": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setCreditsToEarn": "{earnCredits} Credits",
+    "@setCreditsToEarn": {
+        "type": "text",
+        "description": "setCreditsToEarn",
+        "placeholders": {
+            "earnCredits": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setDaysAgo": "{days}d ago",
+    "@setDaysAgo": {
+        "type": "text",
+        "description": "setDaysAgo",
+        "placeholders": {
+            "days": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setFemales": "{numberOfFemales} Females",
+    "@setFemales": {
+        "type": "text",
+        "description": "setFemales",
+        "placeholders": {
+            "numberOfFemales": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setFoundMatches": "Found {numberOfMatches} matches",
+    "@setFoundMatches": {
+        "type": "text",
+        "description": "setFoundMatches",
+        "placeholders": {
+            "numberOfMatches": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setGoAnonymousSubtitle": "We do not collect or share any personal data with anyone. Not even with your employer, {organisationName}",
+    "@setGoAnonymousSubtitle": {
+        "type": "text",
+        "description": "setGoAnonymousSubtitle",
+        "placeholders": {
+            "organisationName": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setHoursAgo": "{hours}h ago",
+    "@setHoursAgo": {
+        "type": "text",
+        "description": "setHoursAgo",
+        "placeholders": {
+            "hours": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setHowSelfCareGoalsWorkSubtitle2": "Spend more time every week taking regular breaks or watching your mood. Think you can enjoy {minutes} mins of self-care moments a week?",
+    "@setHowSelfCareGoalsWorkSubtitle2": {
+        "type": "text",
+        "description": "setHowSelfCareGoalsWorkSubtitle2",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setLastDays": "Last {numberOfDays} days",
+    "@setLastDays": {
+        "type": "text",
+        "description": "setLastDays",
+        "placeholders": {
+            "numberOfDays": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMales": "{numberOfMales} Males",
+    "@setMales": {
+        "type": "text",
+        "description": "setMales",
+        "placeholders": {
+            "numberOfMales": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMember": "{member} member",
+    "@setMember": {
+        "type": "text",
+        "description": "setMember",
+        "placeholders": {
+            "member": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMembers": "{members} members",
+    "@setMembers": {
+        "type": "text",
+        "description": "setMembers",
+        "placeholders": {
+            "members": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinsLeft": "{minutes} mins left",
+    "@setMinsLeft": {
+        "type": "text",
+        "description": "setMinsLeft",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinutes": "{minutes} mins ",
+    "@setMinutes": {
+        "type": "text",
+        "description": "setMinutes",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMinutesAgo": "{minutes}m ago",
+    "@setMinutesAgo": {
+        "type": "text",
+        "description": "setMinutesAgo",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setMore": "{numberOf} more",
+    "@setMore": {
+        "type": "text",
+        "description": "setMore",
+        "placeholders": {
+            "numberOf": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setQuestion": "{question} question",
+    "@setQuestion": {
+        "type": "text",
+        "description": "setQuestion",
+        "placeholders": {
+            "question": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setQuestions": "{questions} questions",
+    "@setQuestions": {
+        "type": "text",
+        "description": "setQuestions",
+        "placeholders": {
+            "questions": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSave": "{numberOfSaves} save",
+    "@setSave": {
+        "type": "text",
+        "description": "setSave",
+        "placeholders": {
+            "numberOfSaves": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSaves": "{numberOfSaves} saves",
+    "@setSaves": {
+        "type": "text",
+        "description": "setSaves",
+        "placeholders": {
+            "numberOfSaves": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSecondsAgo": "{seconds}s ago",
+    "@setSecondsAgo": {
+        "type": "text",
+        "description": "setSecondsAgo",
+        "placeholders": {
+            "seconds": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setSlotsLeft": "Slots left: {currentAvailableSlots} / {totalSlots}",
+    "@setSlotsLeft": {
+        "type": "text",
+        "description": "setSlotsLeft",
+        "placeholders": {
+            "currentAvailableSlots": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            },
+            "totalSlots": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setStressLevel": "Your stress level seems {stressLevel}.",
+    "@setStressLevel": {
+        "type": "text",
+        "description": "setStressLevel",
+        "placeholders": {
+            "stressLevel": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setTakeMinsSelfCare2": "{minutes} mins ",
+    "@setTakeMinsSelfCare2": {
+        "type": "text",
+        "description": "setTakeMinsSelfCare2",
+        "placeholders": {
+            "minutes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setUsersAggregatedVitals": "{numberOfUsers} users' aggregated vitals",
+    "@setUsersAggregatedVitals": {
+        "type": "text",
+        "description": "setUsersAggregatedVitals",
+        "placeholders": {
+            "numberOfUsers": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVote": "{vote} vote",
+    "@setVote": {
+        "type": "text",
+        "description": "setVote",
+        "placeholders": {
+            "vote": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVotes": "{votes} votes",
+    "@setVotes": {
+        "type": "text",
+        "description": "setVotes",
+        "placeholders": {
+            "votes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setVotesRemaining": "Requires {numberOfVotes} votes left to open",
+    "@setVotesRemaining": {
+        "type": "text",
+        "description": "setVotesRemaining",
+        "placeholders": {
+            "numberOfVotes": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setWeeksAgo": "{weeks}w ago",
+    "@setWeeksAgo": {
+        "type": "text",
+        "description": "setWeeksAgo",
+        "placeholders": {
+            "weeks": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "setYearsAgo": "{years}y ago",
+    "@setYearsAgo": {
+        "type": "text",
+        "description": "setYearsAgo",
+        "placeholders": {
+            "years": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "settings": "Settings",
+    "@settings": {
+        "type": "text",
+        "description": "settings"
+    },
+    "setupCredentialsMessage": "Please wait while we setting up your Checkup anonymous account...",
+    "@setupCredentialsMessage": {
+        "type": "text",
+        "description": "setupCredentialsMessage"
+    },
+    "shareYourAnswer": "Share your answer",
+    "@shareYourAnswer": {
+        "type": "text",
+        "description": "shareYourAnswer"
+    },
+    "signIn": "Sign In",
+    "@signIn": {
+        "type": "text",
+        "description": "signIn"
+    },
+    "signInSubtitle": "Sign in to your anonymous account",
+    "@signInSubtitle": {
+        "type": "text",
+        "description": "signInSubtitle"
+    },
+    "signInTitle": "Sign In",
+    "@signInTitle": {
+        "type": "text",
+        "description": "signInTitle"
+    },
+    "signOut": "Sign out",
+    "@signOut": {
+        "type": "text",
+        "description": "signOut"
+    },
+    "skip": "Skip",
+    "@skip": {
+        "type": "text",
+        "description": "skip"
+    },
+    "skipGeneratedCredentialsDescription": "Are you sure to skip sending the secret credentials to your personal email? Please note that this is irreversible and cannot be recovered in the future.",
+    "@skipGeneratedCredentialsDescription": {
+        "type": "text",
+        "description": "skipGeneratedCredentialsDescription"
+    },
+    "skipGeneratedCredentialsTitle": "Skip Warning",
+    "@skipGeneratedCredentialsTitle": {
+        "type": "text",
+        "description": "skipGeneratedCredentialsTitle"
+    },
+    "stressIndex": "Stress Index",
+    "@stressIndex": {
+        "type": "text",
+        "description": "stressIndex"
+    },
+    "stressIndexDescription": "Baevsky's Stress Index is a geometric measure of HRV reflecting cardiovascular system stress. Stress index between 0 and 3 means low stress level. Stress index between 4 and 5 means normal stress level. Stress index between 7 and 10 means high stress level.",
+    "@stressIndexDescription": {
+        "type": "text",
+        "description": "stressIndexDescription"
+    },
+    "stressIndexNormalRangeValues": "4 to 6 SI",
+    "@stressIndexNormalRangeValues": {
+        "type": "text",
+        "description": "stressIndexNormalRangeValues"
+    },
+    "stressIndexSymbol": "SI",
+    "@stressIndexSymbol": {
+        "type": "text",
+        "description": "stressIndexSymbol"
+    },
+    "stressLevel": "Stress Level",
+    "@stressLevel": {
+        "type": "text",
+        "description": "stressLevel"
+    },
+    "stressLevelTitle": "Your stress level seems",
+    "@stressLevelTitle": {
+        "type": "text",
+        "description": "stressLevelTitle"
+    },
+    "submit": "Submit",
+    "@submit": {
+        "type": "text",
+        "description": "submit"
+    },
+    "suggest": "Suggest",
+    "@suggest": {
+        "type": "text",
+        "description": "suggest"
+    },
+    "suggestNewSupportGroup": "Suggest New Support Group",
+    "@suggestNewSupportGroup": {
+        "type": "text",
+        "description": "suggestNewSupportGroup"
+    },
+    "suggestNewSupportGroupSubtitle": "A support group would open conversations that matter to you:",
+    "@suggestNewSupportGroupSubtitle": {
+        "type": "text",
+        "description": "suggestNewSupportGroupSubtitle"
+    },
+    "suggestion": "Suggestion",
+    "@suggestion": {
+        "type": "text",
+        "description": "suggestion"
+    },
+    "suggestionsSubtitle": "Here’s one small thing you can try doing",
+    "@suggestionsSubtitle": {
+        "type": "text",
+        "description": "suggestionsSubtitle"
+    },
+    "supportGroups": "Support Groups",
+    "@supportGroups": {
+        "type": "text",
+        "description": "supportGroups"
+    },
+    "systolicBloodPressure": "Systolic Blood Pressure",
+    "@systolicBloodPressure": {
+        "type": "text",
+        "description": "systolicBloodPressure"
+    },
+    "systolicBloodPressureSymbol": "SP",
+    "@systolicBloodPressureSymbol": {
+        "type": "text",
+        "description": "systolicBloodPressureSymbol"
+    },
+    "takeMinsSelfCare1": "Take ",
+    "@takeMinsSelfCare1": {
+        "type": "text",
+        "description": "takeMinsSelfCare1"
+    },
+    "takeMinsSelfCare3": "of self-care moments this week",
+    "@takeMinsSelfCare3": {
+        "type": "text",
+        "description": "takeMinsSelfCare3"
+    },
+    "temperature": "Temperature",
+    "@temperature": {
+        "type": "text",
+        "description": "temperature"
+    },
+    "temperatureDescription": "Temperature is the typical temperature range found in humans.",
+    "@temperatureDescription": {
+        "type": "text",
+        "description": "temperatureDescription"
+    },
+    "temperatureNormalRangeValues": "36.1°C to 37.2°C",
+    "@temperatureNormalRangeValues": {
+        "type": "text",
+        "description": "temperatureNormalRangeValues"
+    },
+    "temperatureSymbol": "°C",
+    "@temperatureSymbol": {
+        "type": "text",
+        "description": "temperatureSymbol"
+    },
+    "termsOfService": "Terms of service",
+    "@termsOfService": {
+        "type": "text",
+        "description": "termsOfService"
+    },
+    "thankYou": "Thank you",
+    "@thankYou": {
+        "type": "text",
+        "description": "thankYou"
+    },
+    "theCreditsSystem": "The Credits System",
+    "@theCreditsSystem": {
+        "type": "text",
+        "description": "theCreditsSystem"
+    },
+    "theCreditsSystemSubtitle1": "When you take care of your mental health or help a colleague, you earn Credits which are exchangeable for rewards like GrabFood vouchers.",
+    "@theCreditsSystemSubtitle1": {
+        "type": "text",
+        "description": "theCreditsSystemSubtitle1"
+    },
+    "theCreditsSystemSubtitle2": "You can view a list of activities here that earn Credits. When you earn enough, we will notify you through the app to redeem your vouchers.",
+    "@theCreditsSystemSubtitle2": {
+        "type": "text",
+        "description": "theCreditsSystemSubtitle2"
+    },
+    "title": "Title",
+    "@title": {
+        "type": "text",
+        "description": "title"
+    },
+    "tooManyPasscodes": "Too many passcodes to remember?",
+    "@tooManyPasscodes": {
+        "type": "text",
+        "description": "tooManyPasscodes"
+    },
+    "topAnswer": "Top Answer",
+    "@topAnswer": {
+        "type": "text",
+        "description": "topAnswer"
+    },
+    "topComment": "Top Comment",
+    "@topComment": {
+        "type": "text",
+        "description": "topComment"
+    },
+    "topQuestionOfTheWeekSubtitle": "{topQuestion}",
+    "@topQuestionOfTheWeekSubtitle": {
+        "type": "text",
+        "description": "topQuestionOfTheWeekSubtitle",
+        "placeholders": {
+            "topQuestion": {
+                "description": "Not available in Loco",
+                "example": "Not available in Loco"
+            }
+        }
+    },
+    "topQuestionOfTheWeekTitle": "Top Support Group Question of The Week",
+    "@topQuestionOfTheWeekTitle": {
+        "type": "text",
+        "description": "topQuestionOfTheWeekTitle"
+    },
+    "totalActiveUsersByAgeGroup": "Total Active Users by Age Group",
+    "@totalActiveUsersByAgeGroup": {
+        "type": "text",
+        "description": "totalActiveUsersByAgeGroup"
+    },
+    "totalActiveUsersByBodyMassIndex": "Total Active Users by Body Mass Index",
+    "@totalActiveUsersByBodyMassIndex": {
+        "type": "text",
+        "description": "totalActiveUsersByBodyMassIndex"
+    },
+    "totalActiveUsersByGender": "Total Active Users by Gender",
+    "@totalActiveUsersByGender": {
+        "type": "text",
+        "description": "totalActiveUsersByGender"
+    },
+    "totalNumberOfActiveUsers": "Active Users",
+    "@totalNumberOfActiveUsers": {
+        "type": "text",
+        "description": "totalNumberOfActiveUsers"
+    },
+    "totalNumberOfCompletedScreenings": "Screenings (Completed)",
+    "@totalNumberOfCompletedScreenings": {
+        "type": "text",
+        "description": "totalNumberOfCompletedScreenings"
+    },
+    "totalNumberOfEAPSuggestionsClicked": "EAP Clicked",
+    "@totalNumberOfEAPSuggestionsClicked": {
+        "type": "text",
+        "description": "totalNumberOfEAPSuggestionsClicked"
+    },
+    "totalNumberOfIncompletedScreenings": "Screenings (Incompleted)",
+    "@totalNumberOfIncompletedScreenings": {
+        "type": "text",
+        "description": "totalNumberOfIncompletedScreenings"
+    },
+    "totalNumberOfSuggestionsClicked": "Triage Clicked",
+    "@totalNumberOfSuggestionsClicked": {
+        "type": "text",
+        "description": "totalNumberOfSuggestionsClicked"
+    },
+    "totalNumberOfSuggestionsViewed": "Triage Viewed",
+    "@totalNumberOfSuggestionsViewed": {
+        "type": "text",
+        "description": "totalNumberOfSuggestionsViewed"
+    },
+    "totalNumberOfUsers": "Total Users",
+    "@totalNumberOfUsers": {
+        "type": "text",
+        "description": "totalNumberOfUsers"
+    },
+    "totalUsersByAgeGroup": "Users by Age Group",
+    "@totalUsersByAgeGroup": {
+        "type": "text",
+        "description": "totalUsersByAgeGroup"
+    },
+    "totalUsersByBodyMassIndex": "Users by BMI",
+    "@totalUsersByBodyMassIndex": {
+        "type": "text",
+        "description": "totalUsersByBodyMassIndex"
+    },
+    "totalUsersByGender": "Users by Gender",
+    "@totalUsersByGender": {
+        "type": "text",
+        "description": "totalUsersByGender"
+    },
+    "underweight": "Underweight",
+    "@underweight": {
+        "type": "text",
+        "description": "underweight"
+    },
+    "underweightRange": "<18.5",
+    "@underweightRange": {
+        "type": "text",
+        "description": "underweightRange"
+    },
+    "unknown": "Unknown",
+    "@unknown": {
+        "type": "text",
+        "description": "unknown"
+    },
+    "useSupportedBrowserMessage": "This browser is not compatible. Please kindly use the latest version of Chrome (Android only) or Safari (iOS only) browser to access this feature.",
+    "@useSupportedBrowserMessage": {
+        "type": "text",
+        "description": "useSupportedBrowserMessage"
+    },
+    "useSupportedBrowserTitle": "Use Supported Browser",
+    "@useSupportedBrowserTitle": {
+        "type": "text",
+        "description": "useSupportedBrowserTitle"
+    },
+    "useTouchFaceId": "Use Touch/Face ID",
+    "@useTouchFaceId": {
+        "type": "text",
+        "description": "useTouchFaceId"
+    },
+    "useTouchFaceIdSubtitle": "Log in quickly and securely using Touch or Face ID",
+    "@useTouchFaceIdSubtitle": {
+        "type": "text",
+        "description": "useTouchFaceIdSubtitle"
+    },
+    "username": "username",
+    "@username": {
+        "type": "text",
+        "description": "username"
+    },
+    "users": "Users",
+    "@users": {
+        "type": "text",
+        "description": "users"
+    },
+    "viewMySuggestions": "View My Suggestions",
+    "@viewMySuggestions": {
+        "type": "text",
+        "description": "viewMySuggestions"
+    },
+    "viewThisWeekQuestions": "View this week's questions",
+    "@viewThisWeekQuestions": {
+        "type": "text",
+        "description": "viewThisWeekQuestions"
+    },
+    "week": "Week",
+    "@week": {
+        "type": "text",
+        "description": "week"
+    },
+    "weekFri": "Fri",
+    "@weekFri": {
+        "type": "text",
+        "description": "weekFri"
+    },
+    "weekMon": "Mon",
+    "@weekMon": {
+        "type": "text",
+        "description": "weekMon"
+    },
+    "weekSat": "Sat",
+    "@weekSat": {
+        "type": "text",
+        "description": "weekSat"
+    },
+    "weekSun": "Sun",
+    "@weekSun": {
+        "type": "text",
+        "description": "weekSun"
+    },
+    "weekThu": "Thu",
+    "@weekThu": {
+        "type": "text",
+        "description": "weekThu"
+    },
+    "weekTue": "Tue",
+    "@weekTue": {
+        "type": "text",
+        "description": "weekTue"
+    },
+    "weekWed": "Wed",
+    "@weekWed": {
+        "type": "text",
+        "description": "weekWed"
+    },
+    "weight": "Weight",
+    "@weight": {
+        "type": "text",
+        "description": "weight"
+    },
+    "welcomeBack": "Welcome back.",
+    "@welcomeBack": {
+        "type": "text",
+        "description": "welcomeBack"
+    },
+    "welcomeTribe": "Welcome to your tribe!",
+    "@welcomeTribe": {
+        "type": "text",
+        "description": "welcomeTribe"
+    },
+    "welcomeTribeSubtitle": "First, let's make your account secure.",
+    "@welcomeTribeSubtitle": {
+        "type": "text",
+        "description": "welcomeTribeSubtitle"
+    },
+    "whatsOnYourMind": "What's on your mind?",
+    "@whatsOnYourMind": {
+        "type": "text",
+        "description": "whatsOnYourMind"
+    },
+    "workIssues": "Work Issues",
+    "@workIssues": {
+        "type": "text",
+        "description": "workIssues"
+    },
+    "year": "Year",
+    "@year": {
+        "type": "text",
+        "description": "year"
+    },
+    "yes": "Yes",
+    "@yes": {
+        "type": "text",
+        "description": "yes"
+    },
+    "youngAdultGroup": "Young Adult",
+    "@youngAdultGroup": {
+        "type": "text",
+        "description": "youngAdultGroup"
+    },
+    "youngAdultGroupRange": "17-30 yo",
+    "@youngAdultGroupRange": {
+        "type": "text",
+        "description": "youngAdultGroupRange"
+    },
+    "yourEmail": "your email",
+    "@yourEmail": {
+        "type": "text",
+        "description": "yourEmail"
+    },
+    "loginAgain": "Login again",
+    "@loginAgain": {
+        "type": "text",
+        "description": "loginAgain"
+    },
+    "longPressForHelp": "Long press to call a Counsellor",
+    "@longPressForHelp": {
+        "type": "text",
+        "description": "longPressForHelp",
+        "source_text": ""
+    },
+    "counsellorCallDialogTitle1": "This is a clinical helpline, not an IT support number. For IT enquiries, please contact IT Support at the top right.",
+    "@counsellorCallDialogTitle1": {
+        "type": "text",
+        "description": "counsellorCallDialogTitle1",
+        "source_text": ""
+    },
+    "counsellorCallDialogTitle2": "Only call this clinical helpline for professional counselling. Do you wish to speak with a counsellor today?",
+    "@counsellorCallDialogTitle2": {
+        "type": "text",
+        "description": "counsellorCallDialogTitle2",
+        "source_text": ""
+    },
+    "reflectBottomNavBar": "Measure",
+    "@reflectBottomNavBar": {
+        "type": "text",
+        "description": "reflectBottomNavBar",
+        "source_text": ""
+    },
+    "connectBottomNavBar": "Connect",
+    "@connectBottomNavBar": {
+        "type": "text",
+        "description": "connectBottomNavBar",
+        "source_text": ""
+    },
+    "meBottomNavBar": "Me",
+    "@meBottomNavBar": {
+        "type": "text",
+        "description": "meBottomNavBar",
+        "source_text": ""
+    },
+    "emptySuggestionsPromptTitle1": "Want to get the right support?",
+    "@emptySuggestionsPromptTitle1": {
+        "type": "text",
+        "description": "emptySuggestionsPromptTitle1",
+        "source_text": ""
+    },
+    "emptySuggestionsPromptTitle2": "Screen now for personalised suggestions and health tips",
+    "@emptySuggestionsPromptTitle2": {
+        "type": "text",
+        "description": "emptySuggestionsPromptTitle2",
+        "source_text": ""
+    },
+    "emptySuggestionsNavigateToScreenPageButton": "Check my health",
+    "@emptySuggestionsNavigateToScreenPageButton": {
+        "type": "text",
+        "description": "emptySuggestionsNavigateToScreenPageButton",
+        "source_text": ""
+    },
+    "myFamilyPlanTitle": "My family plan",
+    "@myFamilyPlanTitle": {
+        "type": "text",
+        "description": "myFamilyPlanTitle",
+        "source_text": ""
+    },
+    "myLatestVitalsTitle": "My latest vitals",
+    "@myLatestVitalsTitle": {
+        "type": "text",
+        "description": "myLatestVitalsTitle",
+        "source_text": ""
+    },
+    "changeMyBMITitle": "Change my BMI",
+    "@changeMyBMITitle": {
+        "type": "text",
+        "description": "changeMyBMITitle",
+        "source_text": ""
+    },
+    "readinessIndex2": "Readiness Index",
+    "@readinessIndex2": {
+        "type": "text",
+        "description": "readinessIndex2",
+        "source_text": ""
+    },
+    "bloodPressure2": "Blood Pressure",
+    "@bloodPressure2": {
+        "type": "text",
+        "description": "bloodPressure2",
+        "source_text": ""
+    },
+    "itSupportTitleButton": "IT Support",
+    "@itSupportTitleButton": {
+        "type": "text",
+        "description": "itSupportTitleButton",
+        "source_text": ""
+    }
+}

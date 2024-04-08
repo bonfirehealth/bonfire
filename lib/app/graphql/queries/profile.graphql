@@ -1,0 +1,325 @@
+query GetProfile($profileID: ID!) {
+  getProfile(id: $profileID) {
+    ... on Profile {
+      id
+      createdAt
+      updatedAt
+      age
+      gender
+      weight
+      weightUnit
+      weightUnitName
+      height
+      heightUnit
+      heightUnitName
+      bodyMassIndex
+      mood
+      stressLevel
+      stressIndex
+      oxygenLevel
+      oxygenSaturationLevel
+      respiratoryRate
+      systolicBloodPressure
+      diastolicBloodPressure
+      heartRate
+      heartRateVariability
+      sympatheticNervousSystemIndex
+      timezone
+      assessments(limit: 999999999) {
+        items {
+          ... on Assessment {
+            id
+            createdAt
+            updatedAt
+            startDate
+            endDate
+            mood
+            stressLevel
+            stressIndex
+            oxygenLevel
+            oxygenSaturationLevel
+            respiratoryRate
+            bodyTemperature
+            systolicBloodPressure
+            diastolicBloodPressure
+            heartRate
+            heartRateManual
+            heartRateManualSource
+            heartRateVariability
+            sympatheticNervousSystemIndex
+            score
+            profileID
+            assessmentSelfCareId
+            selfCare {
+              ... on SelfCare {
+                id
+                createdAt
+                updatedAt
+                description
+                name
+                icon
+                index
+                numberOfAvailableSlots
+                numberOfTotalSlots
+                routePath
+                selfCareActivityId
+                activity {
+                  ... on Activity {
+                    id
+                    createdAt
+                    updatedAt
+                    description
+                    duration
+                    name
+                    activityActivityTypeId
+                    activityType {
+                      ... on ActivityType {
+                        id
+                        createdAt
+                        updatedAt
+                        description
+                        identifier
+                        name
+                      }
+                    }
+                    reward {
+                      ... on Reward {
+                        id
+                        createdAt
+                        updatedAt
+                        description
+                        name
+                        rewardCredits
+                        maxNumberOfRedemptions
+                        rewardType {
+                          ... on RewardType {
+                            id
+                            createdAt
+                            updatedAt
+                            description
+                            identifier
+                            name
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                selfCareSelfCareTypeId
+                selfCareType {
+                  ... on SelfCareType {
+                    id
+                    createdAt
+                    updatedAt
+                    description
+                    identifier
+                    name
+                  }
+                }
+                url
+              }
+            }
+          }
+        }
+      }
+      activities {
+        items {
+          ... on ProfileActivity {
+            id
+            createdAt
+            updatedAt
+            profileID
+            activityID
+            owner
+            profile {
+              ... on Profile {
+                id
+              }
+            }
+            activity {
+              ... on Activity {
+                id
+                createdAt
+                updatedAt
+                description
+                name
+                activityActivityTypeId
+                activityType {
+                  ... on ActivityType {
+                    id
+                    createdAt
+                    updatedAt
+                    description
+                    name
+                    identifier
+                  }
+                }
+                reward {
+                  ... on Reward {
+                    id
+                    createdAt
+                    updatedAt
+                    description
+                    name
+                    rewardCredits
+                    maxNumberOfRedemptions
+                    rewardType {
+                      ... on RewardType {
+                        id
+                        createdAt
+                        updatedAt
+                        description
+                        identifier
+                        name
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            _deleted
+            _lastChangedAt
+            _version
+          }
+        }
+      }
+      notifications {
+        items {
+          ... on Notification {
+            id
+            notificationAction {
+              ... on NotificationAction {
+                id
+                createdAt
+                updatedAt
+                description
+                name
+                action
+                isCompleted
+                routePath
+                url
+              }
+            }
+          }
+        }
+      }
+      preferences {
+        items {
+          ... on ProfilePreference {
+            id
+            createdAt
+            updatedAt
+            preferenceID
+            profileID
+            owner
+            preference {
+              ... on Preference {
+                id
+                isToDelete
+              }
+            }
+            profile {
+              ... on Profile {
+                id
+              }
+            }
+            _deleted
+            _lastChangedAt
+            _version
+          }
+        }
+      }
+      selfCareUsages {
+        items {
+          ... on SelfCareUsage {
+            id
+            createdAt
+            updatedAt
+            profileID
+            selfCareID
+            owner
+            profile {
+              ... on Profile {
+                id
+              }
+            }
+            selfCare {
+              ... on SelfCare {
+                id
+                createdAt
+                updatedAt
+                description
+                name
+                icon
+                index
+                numberOfAvailableSlots
+                numberOfTotalSlots
+                routePath
+                selfCareActivityId
+                activity {
+                  ... on Activity {
+                    id
+                    createdAt
+                    updatedAt
+                    description
+                    name
+                    activityActivityTypeId
+                    activityType {
+                      ... on ActivityType {
+                        id
+                        createdAt
+                        updatedAt
+                        description
+                        identifier
+                        name
+                      }
+                    }
+                    reward {
+                      ... on Reward {
+                        id
+                        createdAt
+                        updatedAt
+                        description
+                        name
+                        rewardCredits
+                        maxNumberOfRedemptions
+                        rewardType {
+                          ... on RewardType {
+                            id
+                            createdAt
+                            updatedAt
+                            description
+                            identifier
+                            name
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+                selfCareSelfCareTypeId
+                selfCareType {
+                  ... on SelfCareType {
+                    id
+                    createdAt
+                    updatedAt
+                    description
+                    identifier
+                    name
+                  }
+                }
+                url
+              }
+            }
+            _deleted
+            _lastChangedAt
+            _version
+          }
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

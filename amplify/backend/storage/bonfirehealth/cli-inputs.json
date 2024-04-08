@@ -1,0 +1,14 @@
+{
+  "resourceName": "bonfirehealth",
+  "policyUUID": "3cab4d4f",
+  "bucketName": "bonfirehealth",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}

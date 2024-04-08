@@ -1,0 +1,16 @@
+mutation UpdateGroupTag($input: UpdateGroupTagInput!) {
+  updateGroupTag(input: $input) {
+    ... on GroupTag {
+      id
+      createdAt
+      updatedAt
+      description
+      identifier
+      name
+      organisationID
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

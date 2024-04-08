@@ -1,0 +1,28 @@
+query GetAggregateYearAssessment($aggregateID: ID!) {
+  getAggregateYearAssessment(id: $aggregateID) {
+    ... on AggregateYearAssessment {
+      id
+      createdAt
+      updatedAt
+      startDate
+      endDate
+      latestMood
+      latestStressLevel
+      averageOxygenLevel
+      averageOxygenSaturationLevel
+      averageRespiratoryRate
+      averageStressIndex
+      averageSystolicBloodPressure
+      averageDiastolicBloodPressure
+      averageHeartRate
+      averageHeartRateVariability
+      averageSympatheticNervousSystemIndex
+      averageScore
+      profileID
+      numberOfAssessments
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

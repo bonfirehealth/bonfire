@@ -1,0 +1,30 @@
+query GetAnswerVote($answerVoteID: ID!) {
+  getAnswerVote(id: $answerVoteID) {
+    ... on AnswerVote {
+      id
+      createdAt
+      updatedAt
+      isHidden
+      name
+      userID
+      user {
+        ... on User {
+          id
+          username
+          photoBase64
+        }
+      }
+      answerID
+      answer {
+        ... on Answer {
+          id
+          description
+          name
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

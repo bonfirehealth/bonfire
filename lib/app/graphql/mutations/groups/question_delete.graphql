@@ -1,0 +1,225 @@
+mutation DeleteQuestion($input: DeleteQuestionInput!) {
+  deleteQuestion(input: $input) {
+    ... on Question {
+      id
+      createdAt
+      updatedAt
+      description
+      identifier
+      index
+      isHidden
+      name
+      numberOfAnswers
+      numberOfClicks
+      numberOfSaves
+      numberOfVotes
+      numberOfViews
+      userID
+      user {
+        ... on User {
+          id
+          username
+          photoBase64
+        }
+      }
+      groupID
+      group {
+        ... on Group {
+          id
+          description
+          name
+        }
+      }
+      answers(sortDirection: DESC) {
+        items {
+          ... on Answer {
+            id
+            createdAt
+            updatedAt
+            description
+            identifier
+            index
+            isHidden
+            name
+            numberOfClicks
+            numberOfComments
+            numberOfVotes
+            numberOfViews
+            userID
+            user {
+              ... on User {
+                id
+                username
+              }
+            }
+            questionID
+            question {
+              ... on Question {
+                id
+                description
+                name
+              }
+            }
+            comments {
+              items {
+                ... on Comment {
+                  id
+                  createdAt
+                  updatedAt
+                  description
+                  identifier
+                  index
+                  isHidden
+                  name
+                  numberOfClicks
+                  numberOfVotes
+                  numberOfViews
+                  userID
+                  answerID
+                  files {
+                    items {
+                      ... on CommentFile {
+                        id
+                        createdAt
+                        updatedAt
+                        isHidden
+                        key
+                        name
+                        url
+                        userID
+                        commentID
+                        _deleted
+                        _lastChangedAt
+                        _version
+                      }
+                    }
+                  }
+                  votes {
+                    items {
+                      ... on CommentVote {
+                        id
+                        createdAt
+                        updatedAt
+                        isHidden
+                        userID
+                        user {
+                          ... on User {
+                            id
+                          }
+                        }
+                        commentID
+                        comment {
+                          ... on Comment {
+                            id
+                          }
+                        }
+                        _deleted
+                        _lastChangedAt
+                        _version
+                      }
+                    }
+                  }
+                  _deleted
+                  _lastChangedAt
+                  _version
+                }
+              }
+            }
+            files {
+              items {
+                ... on AnswerFile {
+                  id
+                  createdAt
+                  updatedAt
+                  isHidden
+                  key
+                  name
+                  url
+                  userID
+                  answerID
+                  _deleted
+                  _lastChangedAt
+                  _version
+                }
+              }
+            }
+            votes {
+              items {
+                ... on AnswerVote {
+                  id
+                  createdAt
+                  updatedAt
+                  isHidden
+                  userID
+                  user {
+                    ... on User {
+                      id
+                    }
+                  }
+                  answerID
+                  answer {
+                    ... on Answer {
+                      id
+                    }
+                  }
+                  _deleted
+                  _lastChangedAt
+                  _version
+                }
+              }
+            }
+            _deleted
+            _lastChangedAt
+            _version
+          }
+        }
+      }
+      files {
+        items {
+          ... on QuestionFile {
+            id
+            createdAt
+            updatedAt
+            isHidden
+            key
+            name
+            url
+            userID
+            questionID
+            _deleted
+            _lastChangedAt
+            _version
+          }
+        }
+      }
+      votes {
+        items {
+          ... on QuestionVote {
+            id
+            createdAt
+            updatedAt
+            isHidden
+            userID
+            user {
+              ... on User {
+                id
+              }
+            }
+            questionID
+            question {
+              ... on Question {
+                id
+              }
+            }
+            _deleted
+            _lastChangedAt
+            _version
+          }
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

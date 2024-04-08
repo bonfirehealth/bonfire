@@ -1,0 +1,39 @@
+mutation DeleteReportedUser($input: DeleteReportedUserInput!) {
+  deleteReportedUser(input: $input) {
+    ... on ReportedUser {
+      id
+      createdAt
+      updatedAt
+      description
+      isVerified
+      isHidden
+      name
+      organisationID
+      organisation {
+        ... on Organisation {
+          id
+          name
+        }
+      }
+      reporterID
+      reporter {
+        ... on User {
+          id
+          username
+          photoBase64
+        }
+      }
+      userID
+      user {
+        ... on User {
+          id
+          username
+          photoBase64
+        }
+      }
+      _version
+      _deleted
+      _lastChangedAt
+    }
+  }
+}

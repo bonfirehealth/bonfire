@@ -1,0 +1,19 @@
+query ListAllGroupTypes($organisationID: ID) {
+  listGroupTypes(filter: {organisationID: {eq: $organisationID}}) {
+    items {
+      ... on GroupType {
+        id
+        createdAt
+        updatedAt
+        description
+        icon
+        identifier
+        name
+        organisationID
+        _deleted
+        _lastChangedAt
+        _version
+      }
+    }
+  }
+}

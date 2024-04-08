@@ -1,0 +1,17 @@
+query GetGroupType($groupTypeID: ID!) {
+  getGroupType(id: $groupTypeID) {
+    ... on GroupType {
+      id
+      createdAt
+      updatedAt
+      description
+      icon
+      identifier
+      name
+      organisationID
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

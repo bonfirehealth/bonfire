@@ -1,0 +1,33 @@
+query ListAllCommentVotesByCommentAndUser($commentID: ID, $userID: ID) {
+  listCommentVotes(
+    filter: {commentID: {eq: $commentID}, userID: {eq: $userID}}
+  ) {
+    items {
+      ... on CommentVote {
+        id
+        createdAt
+        updatedAt
+        isHidden
+        userID
+        user {
+          ... on User {
+            id
+            username
+            photoBase64
+          }
+        }
+        commentID
+        comment {
+          ... on Comment {
+            id
+            description
+            name
+          }
+        }
+        _deleted
+        _lastChangedAt
+        _version
+      }
+    }
+  }
+}

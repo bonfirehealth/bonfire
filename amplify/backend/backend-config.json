@@ -1,0 +1,559 @@
+{
+  "analytics": {
+    "bonfirehealth": {
+      "providerPlugin": "awscloudformation",
+      "service": "Pinpoint"
+    }
+  },
+  "api": {
+    "bonfirehealth": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "bonfirehealth"
+        }
+      ],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [
+            {
+              "authenticationType": "AWS_IAM"
+            },
+            {
+              "apiKeyConfig": {
+                "apiKeyExpirationDays": 30,
+                "description": "api key description"
+              },
+              "authenticationType": "API_KEY"
+            }
+          ],
+          "defaultAuthentication": {
+            "authenticationType": "AMAZON_COGNITO_USER_POOLS",
+            "userPoolConfig": {
+              "userPoolId": "authbonfirehealth"
+            }
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
+  "auth": {
+    "bonfirehealth": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [
+            "REQUIRES_LOWERCASE",
+            "REQUIRES_UPPERCASE",
+            "REQUIRES_NUMBERS",
+            "REQUIRES_SYMBOLS"
+          ],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL",
+          "PHONE_NUMBER"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "bonfireFamilyMemberPasswordManager": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "bonfireTelegramBot": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput",
+            "GraphQLAPIKeyOutput"
+          ],
+          "category": "api",
+          "resourceName": "bonfirehealth"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "bonfirehealthAggregateAssessmentsByTimePeriod": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput",
+            "GraphQLAPIKeyOutput"
+          ],
+          "category": "api",
+          "resourceName": "bonfirehealth"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "bonfirehealthAggregateOrganisationAssessmentsByTimePeriod": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput",
+            "GraphQLAPIKeyOutput"
+          ],
+          "category": "api",
+          "resourceName": "bonfirehealth"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "bonfirehealthCheckEmailAddressAvailability": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "bonfirehealth"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "bonfirehealthCheckOrganisationByCode": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput",
+            "GraphQLAPIKeyOutput"
+          ],
+          "category": "api",
+          "resourceName": "bonfirehealth"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "bonfirehealthConfirmSignUp": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "bonfirehealth"
+        },
+        {
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput",
+            "GraphQLAPIKeyOutput"
+          ],
+          "category": "api",
+          "resourceName": "bonfirehealth"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "bonfirehealthGenerateRecoveryCodes": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput",
+            "GraphQLAPIKeyOutput"
+          ],
+          "category": "api",
+          "resourceName": "bonfirehealth"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "bonfirehealthListenForAggregateAssessmentsByTimePeriod": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput"
+          ],
+          "category": "api",
+          "resourceName": "bonfirehealth"
+        },
+        {
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput",
+            "GraphQLAPIKeyOutput"
+          ],
+          "category": "api",
+          "resourceName": "bonfirehealth"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "bonfirehealthRecoverAccount": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "bonfirehealth"
+        },
+        {
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput",
+            "GraphQLAPIKeyOutput"
+          ],
+          "category": "api",
+          "resourceName": "bonfirehealth"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "bonfirehealthResetPassword": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "UserPoolId"
+          ],
+          "category": "auth",
+          "resourceName": "bonfirehealth"
+        },
+        {
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput",
+            "GraphQLAPIKeyOutput"
+          ],
+          "category": "api",
+          "resourceName": "bonfirehealth"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "bonfirehealthSendSecretCredentialsEmail": {
+      "build": true,
+      "dependsOn": [
+        {
+          "attributes": [
+            "GraphQLAPIIdOutput",
+            "GraphQLAPIEndpointOutput",
+            "GraphQLAPIKeyOutput"
+          ],
+          "category": "api",
+          "resourceName": "bonfirehealth"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "bonfirehealthWeeklyReport": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "type": "cicd"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_bonfireFamilyMemberPasswordManager_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfireFamilyMemberPasswordManager"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfireFamilyMemberPasswordManager_encryptionKey": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfireFamilyMemberPasswordManager"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfireFamilyMemberPasswordManager_iv": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfireFamilyMemberPasswordManager"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfireFamilyMemberPasswordManager_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfireFamilyMemberPasswordManager"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfireTelegramBot_apiToken": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfireTelegramBot"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfireTelegramBot_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfireTelegramBot"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfireTelegramBot_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfireTelegramBot"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthAggregateAssessmentsByTimePeriod_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthAggregateAssessmentsByTimePeriod"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthAggregateAssessmentsByTimePeriod_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthAggregateAssessmentsByTimePeriod"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthAggregateOrganisationAssessmentsByTimePeriod_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthAggregateOrganisationAssessmentsByTimePeriod"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthAggregateOrganisationAssessmentsByTimePeriod_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthAggregateOrganisationAssessmentsByTimePeriod"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthCheckEmailAddressAvailability_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthCheckEmailAddressAvailability"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthCheckEmailAddressAvailability_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthCheckEmailAddressAvailability"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthCheckOrganisationByCode_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthCheckOrganisationByCode"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthCheckOrganisationByCode_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthCheckOrganisationByCode"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthConfirmSignUp_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthConfirmSignUp"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthConfirmSignUp_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthConfirmSignUp"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthGenerateRecoveryCodes_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthGenerateRecoveryCodes"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthGenerateRecoveryCodes_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthGenerateRecoveryCodes"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthListenForAggregateAssessmentsByTimePeriod_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthListenForAggregateAssessmentsByTimePeriod"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthListenForAggregateAssessmentsByTimePeriod_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthListenForAggregateAssessmentsByTimePeriod"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthRecoverAccount_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthRecoverAccount"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthRecoverAccount_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthRecoverAccount"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthResetPassword_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthResetPassword"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthResetPassword_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthResetPassword"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthSendSecretCredentialsEmail_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthSendSecretCredentialsEmail"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthSendSecretCredentialsEmail_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthSendSecretCredentialsEmail"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthWeeklyReport_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthWeeklyReport"
+        }
+      ]
+    },
+    "AMPLIFY_function_bonfirehealthWeeklyReport_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "bonfirehealthWeeklyReport"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_appId": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    },
+    "AMPLIFY_hosting_amplifyhosting_type": {
+      "usedBy": [
+        {
+          "category": "hosting",
+          "resourceName": "amplifyhosting"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "bonfirehealth": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+query ListAllAnswerVotesByAnswerAndUser($answerID: ID, $userID: ID) {
+  listAnswerVotes(filter: {answerID: {eq: $answerID}, userID: {eq: $userID}}) {
+    items {
+      ... on AnswerVote {
+        id
+        createdAt
+        updatedAt
+        isHidden
+        userID
+        user {
+          ... on User {
+            id
+            username
+            photoBase64
+          }
+        }
+        answerID
+        answer {
+          ... on Answer {
+            id
+            description
+            name
+          }
+        }
+        _deleted
+        _lastChangedAt
+        _version
+      }
+    }
+  }
+}

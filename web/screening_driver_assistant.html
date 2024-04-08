@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #loadingOverlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, #2D77F6, #2961EA);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+        }
+
+        #loadingSpinner {
+            width: 60px;
+            height: 60px;
+            animation: spin 1s linear infinite;
+            background-color: transparent;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        #buttonContainer {
+            position: absolute;
+            bottom: 30px;
+            left: 0;
+            width: 100%;
+        }
+
+        #startButton {
+            width: calc(100% - 40px);
+            margin: 0 20px;
+            background-color: #1A56CF;
+            padding: 15px 20px;
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: 800;
+            display: none;
+            transition: background-color 0.3s ease;
+        }
+
+        #startButton:hover {
+            background-color: #2961EA;
+        }
+
+        #liveView {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #webcam {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .flippable {
+            transform: scaleX(-1);
+        }
+
+        #closeButton {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 2px;
+            z-index: 3;
+            display: none;
+        }
+    </style>
+
+    <script async src="https://docs.opencv.org/master/opencv.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+    <script>
+        class AlertManager {
+            constructor(alertSoundDurationInSeconds) {
+                this.alertSoundDurationInSeconds = alertSoundDurationInSeconds;
+                this.startAlarmTime = null;
+                this.lastAlertTime = null;
+                this.isAlarmed = false;
+            }
+
+            maybeAlert() {
+                if (!this.isAlarmed || (Date.now() - this.lastAlertTime) >= this.alertSoundDurationInSeconds * 1000) {
+                    // Play the alert sound only if it's not already playing or the last alert was more than alertSoundDurationInSeconds ago
+                    this.lastAlertTime = Date.now();
+                    this.isAlarmed = true;
+                    var sound = new Howl({
+                        src: ['alarm.wav']
+                    });
+                    sound.play();
+                }
+
+            }
+
+            resetAlert() {
+                this.isAlarmed = false;
+            }
+        }
+
+        function calculateEyeAspectRatio(landmarks) {
+            const leftEyeIndices = [362, 263, 374, 386];
+            const rightEyeIndices = [33, 133, 145, 159];
+
+            function getEyeAspectRatio(indices) {
+                const [l, r, t, b] = indices;
+                const lpEye = [landmarks[l].x, landmarks[l].y];
+                const rpEye = [landmarks[r].x, landmarks[r].y];
+                const eyeWidth = Math.hypot(lpEye[0] - rpEye[0], lpEye[1] - rpEye[1]);
+
+                const tpEye = [landmarks[t].x, landmarks[t].y];
+                const bpEye = [landmarks[b].x, landmarks[b].y];
+                const eyeHeight = Math.hypot(tpEye[0] - bpEye[0], tpEye[1] - bpEye[1]);
+
+                const ratio = eyeHeight / (eyeWidth + 1e-8);
+                return ratio;
+            }
+
+            const leftEyeRatio = getEyeAspectRatio(leftEyeIndices);
+            const rightEyeRatio = getEyeAspectRatio(rightEyeIndices);
+            const avgRatio = (leftEyeRatio + rightEyeRatio) / 2;
+            return avgRatio;
+        }
+
+        class GazeScorer {
+            _calc1EyeScore(landmarks, eyeLmsNums, eyeIrisNum) {
+                const iris = [landmarks[eyeIrisNum].x, landmarks[eyeIrisNum].y];
+
+                const eyeXMin = Math.min(...eyeLmsNums.map(index => landmarks[index].x));
+                const eyeYMin = Math.min(...eyeLmsNums.map(index => landmarks[index].y));
+                const eyeXMax = Math.max(...eyeLmsNums.map(index => landmarks[index].x));
+                const eyeYMax = Math.max(...eyeLmsNums.map(index => landmarks[index].y));
+
+                const eyeCenter = [
+                    (eyeXMin + eyeXMax) / 2,
+                    (eyeYMin + eyeYMax) / 2
+                ];
+
+                const eyeGazeScore = Math.sqrt(Math.pow(iris[0] - eyeCenter[0], 2) + Math.pow(iris[1] - eyeCenter[1], 2)) / eyeCenter[0];
+
+                return eyeGazeScore
+            }
+
+            calculateGazeScore(landmarks) {
+                const EYES_LMS_NUMS = [33, 133, 160, 144, 158, 153, 362, 263, 385, 380, 387, 373]
+                const LEFT_IRIS_NUM = 468
+                const RIGHT_IRIS_NUM = 473
+
+                const leftEyeResult = this._calc1EyeScore(landmarks, EYES_LMS_NUMS.slice(0, 6), LEFT_IRIS_NUM);
+                const rightEyeResult = this._calc1EyeScore(landmarks, EYES_LMS_NUMS.slice(6), RIGHT_IRIS_NUM);
+
+                const avgGazeScore = (leftEyeResult + rightEyeResult) / 2;
+
+                return avgGazeScore;
+            }
+        }
+
+        function calculateFaceOrientation(landmarks, width, height) {
+            // console.log(`width ${width} height ${height}`)
+            // Calculate roll, pitch, yaw
+            var face_2d = [];
+            var points = [1, 33, 263, 61, 291, 199];
+            var pointsObj = [0, -1.126865, 7.475604, // nose 1
+                -4.445859, 2.663991, 3.173422, //left eye corner 33
+                4.445859, 2.663991, 3.173422, //right eye corner 263
+                -2.456206, -4.342621, 4.283884,// left mouth corner 61
+                2.456206, -4.342621, 4.283884,// right mouth corner 291
+                0, -9.403378, 4.264492];//chin
+
+            var roll = 0,
+                pitch = 0,
+                yaw = 0;
+            var x, y, z;
+
+            // Camera internals
+            var normalizedFocaleY = 1.28; // Logitech 922
+            var focalLength = height * normalizedFocaleY;
+            var s = 0;//0.953571;
+            var cx = width / 2;
+            var cy = height / 2;
+
+            var cam_matrix = cv.matFromArray(3, 3, cv.CV_64FC1, [
+                focalLength,
+                s,
+                cx,
+                0,
+                focalLength,
+                cy,
+                0,
+                0,
+                1
+            ]);
+
+            //The distortion parameters
+            var k1 = 0.1318020374;
+            var k2 = -0.1550007612;
+            var p1 = -0.0071350401;
+            var p2 = -0.0096747708;
+            var dist_matrix = cv.matFromArray(4, 1, cv.CV_64FC1, [k1, k2, p1, p2]);
+
+            // Collect neccessary points
+            for (const point of points) {
+                var point0 = landmarks[point];
+
+                // drawingUtils.drawLandmarks(canvasCtx, [point0], { color: "#FFFFFF" }); // expects normalized landmark
+
+                var x = point0.x * width;
+                var y = point0.y * height;
+                //var z = point0.z;
+
+                // Get the 2D Coordinates
+                face_2d.push(x);
+                face_2d.push(y);
+            }
+            //
+            if (face_2d.length > 0) {
+                // Initial guess
+                //Rotation in axis-angle form
+                var rvec = new cv.Mat();// = cv.matFromArray(1, 3, cv.CV_64FC1, [0, 0, 0]); //new cv.Mat({ width: 1, height: 3 }, cv.CV_64FC1); // Output rotation vector
+                var tvec = new cv.Mat();// = cv.matFromArray(1, 3, cv.CV_64FC1, [-100, 100, 1000]); //new cv.Mat({ width: 1, height: 3 }, cv.CV_64FC1); // Output translation vector
+
+                const numRows = points.length;
+                const imagePoints = cv.matFromArray(numRows, 2, cv.CV_64FC1, face_2d);
+
+                var modelPointsObj = cv.matFromArray(6, 3, cv.CV_64FC1, pointsObj);
+
+                // https://docs.opencv.org/4.6.0/d9/d0c/group__calib3d.html#ga549c2075fac14829ff4a58bc931c033d
+                // https://docs.opencv.org/4.6.0/d5/d1f/calib3d_solvePnP.html
+                var success = cv.solvePnP(
+                    modelPointsObj, //modelPoints,
+                    imagePoints,
+                    cam_matrix,
+                    dist_matrix,
+                    rvec, // Output rotation vector
+                    tvec,
+                    false, //  uses the provided rvec and tvec values as initial approximations
+                    cv.SOLVEPNP_ITERATIVE//SOLVEPNP_EPNP //SOLVEPNP_ITERATIVE (default but pose seems unstable)
+                );
+
+                if (success) {
+                    var rmat = cv.Mat.zeros(3, 3, cv.CV_64FC1);
+                    const jaco = new cv.Mat();
+
+                    // Get rotational matrix rmat
+                    cv.Rodrigues(rvec, rmat, jaco); // jacobian	Optional output Jacobian matrix
+
+                    var sy = Math.sqrt(
+                        rmat.data64F[0] * rmat.data64F[0] + rmat.data64F[3] * rmat.data64F[3]
+                    );
+
+                    var singular = sy < 1e-6;
+
+                    // we need decomposeProjectionMatrix
+
+                    if (!singular) {
+                        //console.log("!singular");
+                        x = Math.atan2(rmat.data64F[7], rmat.data64F[8]);
+                        y = Math.atan2(-rmat.data64F[6], sy);
+                        z = Math.atan2(rmat.data64F[3], rmat.data64F[0]);
+                    } else {
+                        x = Math.atan2(-rmat.data64F[5], rmat.data64F[4]);
+                        //  x = Math.atan2(rmat.data64F[1], rmat.data64F[2]);
+                        y = Math.atan2(-rmat.data64F[6], sy);
+                        z = 0;
+                    }
+
+                    roll = z;
+                    pitch = x;
+                    yaw = y;
+
+                    var worldPoints = cv.matFromArray(9, 3, cv.CV_64FC1, [
+                        modelPointsObj.data64F[0] + 3,
+                        modelPointsObj.data64F[1],
+                        modelPointsObj.data64F[2], // x axis
+                        modelPointsObj.data64F[0],
+                        modelPointsObj.data64F[1] + 3,
+                        modelPointsObj.data64F[2], // y axis
+                        modelPointsObj.data64F[0],
+                        modelPointsObj.data64F[1],
+                        modelPointsObj.data64F[2] - 3, // z axis
+                        modelPointsObj.data64F[0],
+                        modelPointsObj.data64F[1],
+                        modelPointsObj.data64F[2], //
+                        modelPointsObj.data64F[3],
+                        modelPointsObj.data64F[4],
+                        modelPointsObj.data64F[5], //
+                        modelPointsObj.data64F[6],
+                        modelPointsObj.data64F[7],
+                        modelPointsObj.data64F[8], //
+                        modelPointsObj.data64F[9],
+                        modelPointsObj.data64F[10],
+                        modelPointsObj.data64F[11], //
+                        modelPointsObj.data64F[12],
+                        modelPointsObj.data64F[13],
+                        modelPointsObj.data64F[14], //
+                        modelPointsObj.data64F[15],
+                        modelPointsObj.data64F[16],
+                        modelPointsObj.data64F[17] //
+                    ]);
+
+                    //console.log("worldPoints : " + worldPoints.data64F);
+
+                    var imagePointsProjected = new cv.Mat(
+                        { width: 9, height: 2 },
+                        cv.CV_64FC1
+                    );
+                    cv.projectPoints(
+                        worldPoints, // TODO object points that never change !
+                        rvec,
+                        tvec,
+                        cam_matrix,
+                        dist_matrix,
+                        imagePointsProjected,
+                        jaco
+                    );
+
+                    jaco.delete();
+                    imagePointsProjected.delete();
+                }
+
+                rvec.delete();
+                tvec.delete();
+
+                roll = 180.0 * (roll / Math.PI)
+                pitch = 180.0 * (pitch / Math.PI)
+                yaw = 180.0 * (yaw / Math.PI)
+                return [roll, pitch, yaw]
+            }
+            // *****************************************************
+        }
+
+        class AttentionScorer {
+            constructor(
+                captureFPS,
+                {
+                    earThreshold = 0.2,
+                    perclosThreshold = 0.1,
+                    gazeThresold = 0.012,
+                    gazeTimeThreshold = 2,
+                    rollThreshold = 20,
+                    pitchThreshold = 20,
+                    yawThreshold = 20,
+                    distractedTimeThreshold = 2,
+                }) {
+                this.earThreshold = earThreshold;
+                this.captureFPS = captureFPS;
+                this.deltaTimeFrame = 1 / captureFPS;
+                this.perclosThreshold = perclosThreshold
+                this.perclosTimePeriod = 60;
+                this.eyeClosureCounter = 0
+
+                this.perclosScore = -1;
+
+                this.gazeThreshold = gazeThresold;
+                this.gazeTimeThreshold = gazeTimeThreshold;
+                this.lastTimeLookAhead = null;
+                this.notLookAheadTime = 0;
+
+                // Face-based
+                this.noFaceTimeDuration = 3;  // seconds
+                this.noFaceTime = 0;
+
+                // Distraction threshold
+                this.rollThreshold = rollThreshold;
+                this.pitchThreshold = pitchThreshold;
+                this.yawThreshold = yawThreshold;
+                this.distractedTime = 0;
+                this.lastTimeAttended = null;
+                this.distractedTimeThreshold = distractedTimeThreshold;
+            }
+
+            updateScores({
+                earScore = null,
+                gazeScore = null,
+                headRoll = null,
+                headPitch = null,
+                headYaw = null,
+                isFaceDetected = true,
+            }) {
+                // EAR score
+                if (earScore !== null && earScore <= this.earThreshold) {
+                    const maxValue = this.perclosThreshold * this.perclosTimePeriod / this.deltaTimeFrame * 2
+                    this.eyeClosureCounter = Math.min(this.eyeClosureCounter + 1, maxValue);
+                } else {
+                    this.eyeClosureCounter = Math.max(0, this.eyeClosureCounter - 1);
+                }
+
+                const closureTime = this.eyeClosureCounter * this.deltaTimeFrame;
+                this.perclosScore = closureTime / this.perclosTimePeriod;
+
+                // GAZE score
+                if (gazeScore !== null && gazeScore <= this.gazeThreshold) {
+                    this.lastLookAheadTime = Date.now() * 1000
+                    this.notLookAheadTime = 0.0
+                } else {
+                    this.notLookAheadTime = Date.now() * 1000 - this.lastLookAheadTime
+                }
+
+                // Distraction check
+                if ((headRoll !== null && Math.abs(headRoll) > this.rollThreshold) ||
+                    (headPitch !== null && 180 - Math.abs(headPitch) > this.pitchThreshold) ||
+                    (headYaw !== null && Math.abs(headYaw) > this.yawThreshold)) {
+                    this.distractedTime = Date.now() * 1000 - this.lastTimeAttended;
+                } else {
+                    this.lastTimeAttended = Date.now() * 1000
+                    this.distractedTime = 0
+                }
+
+                // no face
+                if (!isFaceDetected) {
+                    this.noFaceTime += this.deltaTimeFrame
+                } else {
+                    this.noFaceTime = 0;
+                }
+            }
+
+            isTired() {
+                return this.perclosScore > this.perclosThreshold
+            }
+
+            isLookingAway() {
+                return this.notLookAheadTime > this.gazeTimeThreshold
+            }
+
+            isDistracted() {
+                return this.distractedTime > this.distractedTimeThreshold
+            }
+
+            isNoFace() {
+                return this.noFaceTime > this.noFaceTimeDuration
+            }
+        }
+
+    </script>
+
+    <script id="rendered-js" type="module">
+        import vision from "https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.0";
+
+        const { FaceLandmarker, FilesetResolver, DrawingUtils } = vision;
+        const demosSection = document.getElementById("demos");
+        // const imageBlendShapes = document.getElementById("image-blend-shapes");
+        // const videoBlendShapes = document.getElementById("video-blend-shapes");
+        let faceLandmarker;
+        let runningMode = "VIDEO";
+        let startButton;
+        let webcamRunning = false;
+        const videoWidth = 480;
+        let t0 = undefined;
+        let counter = 0;
+        let isAlarmed = false;
+
+
+        async function runDemo() {
+            // Read more `CopyWebpackPlugin`, copy wasm set from "https://cdn.skypack.dev/node_modules" to `/wasm`
+            const filesetResolver = await FilesetResolver.forVisionTasks("https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.0/wasm");
+            faceLandmarker = await FaceLandmarker.createFromOptions(filesetResolver, {
+                baseOptions: {
+                    modelAssetPath: `https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task`,
+                    delegate: "GPU"
+                },
+                outputFaceBlendshapes: true,
+                runningMode,
+                numFaces: 1
+            });
+        }
+        runDemo();
+
+        const video = document.getElementById("webcam");
+
+        // Check if webcam access is supported.
+        function hasGetUserMedia() {
+            return !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
+        }
+        // If webcam supported, add event listener to button for when user
+        // wants to activate it.
+        if (hasGetUserMedia()) {
+            console.log('webcam supported')
+        }
+        else {
+            console.warn("getUserMedia() is not supported by your browser");
+        }
+
+
+        function showLoadingSpinner() {
+            const loadingOverlay = document.getElementById("loadingOverlay");
+            loadingOverlay.style.display = "flex";
+        }
+
+        function hideLoadingSpinner() {
+            const loadingOverlay = document.getElementById("loadingOverlay");
+            loadingOverlay.style.display = "none";
+        }
+
+        function showStartButton() {
+            const startButton = document.getElementById("startButton");
+            startButton.style.display = "block";
+        }
+
+        function hideStartButton() {
+            const startButton = document.getElementById("startButton");
+            startButton.style.display = "none";
+        }
+
+        function showCloseButton() {
+            const closeButton = document.getElementById("closeButton");
+            closeButton.style.display = "block";
+        }
+
+        function handleCloseButton() {
+            // redirect to /home/screening
+            window.location.href = "/#/home/";
+        }
+
+        const waitForFaceLandmarker = new Promise((resolve, reject) => {
+            const maxWaitTime = 60000; // Maximum wait time in milliseconds (60 seconds)
+            let elapsedTime = 0;
+
+            function checkFaceLandmarker() {
+                if (faceLandmarker) {
+                    resolve();
+                } else if (elapsedTime >= maxWaitTime) {
+                    reject(new Error("Timeout: FaceLandmarker not loaded within the specified time."));
+                } else {
+                    setTimeout(checkFaceLandmarker, 100); // Check again after 100 milliseconds
+                    elapsedTime += 100;
+                }
+            }
+
+            checkFaceLandmarker();
+        });
+
+        waitForFaceLandmarker
+            .then(() => {
+                // Continue with webcam activation once FaceLandmarker is loaded
+                if (webcamRunning === true) {
+                    webcamRunning = false;
+                    hideLoadingSpinner();
+                } else {
+                    webcamRunning = true;
+                }
+
+                startButton = document.getElementById("startButton");
+                startButton.addEventListener("click", predictWebcam);
+
+                // getUsermedia parameters.
+                const constraints = {
+                    video: { facingMode: "environment" }
+                };
+
+                // Activate the webcam stream.
+                navigator.mediaDevices.getUserMedia(constraints)
+                    .then(function (stream) {
+                        video.srcObject = stream;
+                        video.addEventListener("loadeddata", function () {
+                            showStartButton()
+                            showCloseButton()
+
+                            const closeButton = document.getElementById("closeButton");
+                            closeButton.addEventListener("click", handleCloseButton);
+
+                            hideLoadingSpinner();
+                        });
+                    })
+                    .catch(function (error) {
+                        console.error("Error accessing webcam:", error);
+                        hideLoadingSpinner();
+                    });
+            })
+            .catch((error) => {
+                console.error(error.message);
+                hideLoadingSpinner();
+            });
+
+
+        let lastVideoTime = -1;
+        let results = undefined;
+
+        // AttentionScorer params
+        const fpsLimit = 30
+        const captureFpsValue = fpsLimit
+        const earThresholdValue = 0.25
+        const gazeThresholdValue = 0.012
+        const gazeTimeThresholdValue = 2
+        const perclosThresholdValue = 0.067
+        const earTimeThresholdValue = 2
+        const rollThresholdValue = 15
+        const pitchThresholdValue = 15
+        const yawThresholdValue = 15
+        const distractedTimeThresholdValue = 2
+        const poseTimeThresholdValue = 4.0
+        const verboseValue = false
+        const alarmSoundDurationInSeconds = 3;
+
+        const alertManager = new AlertManager(3);
+        const gazeScorer = new GazeScorer()
+        const attentionScorer = new AttentionScorer(
+            captureFpsValue,
+            {
+                earThreshold: earThresholdValue,
+                perclosThreshold: perclosThresholdValue,
+                gazeThresold: gazeThresholdValue,
+                gazeTimeThreshold: gazeTimeThresholdValue,
+                rollThreshold: rollThresholdValue,
+                pitchThreshold: pitchThresholdValue,
+                yawThreshold: yawThresholdValue,
+                distractedTimeThreshold: distractedTimeThresholdValue
+            },
+        );
+
+        async function predictWebcam() {
+            hideStartButton()
+
+            const radio = video.videoHeight / video.videoWidth;
+
+            // Now let's start detecting the stream.
+            if (runningMode === "IMAGE") {
+                runningMode = "VIDEO";
+                await faceLandmarker.setOptions({ runningMode: runningMode });
+            }
+            let nowInMs = Date.now();
+            if (lastVideoTime !== video.currentTime) {
+                lastVideoTime = video.currentTime;
+                results = faceLandmarker.detectForVideo(video, nowInMs);
+            }
+            if (results.faceLandmarks && results.faceLandmarks[0]) {
+                const landmarks = results.faceLandmarks[0]
+
+                const ear = calculateEyeAspectRatio(landmarks)
+                const gazeScore = gazeScorer.calculateGazeScore(landmarks)
+
+                const [roll, pitch, yaw] = calculateFaceOrientation(landmarks, video.videoWidth, video.videoHeight)
+
+                attentionScorer.updateScores({ earScore: ear, gazeScore: gazeScore, headRoll: roll, headPitch: pitch, headYaw: yaw })
+            } else {
+                // No face detected
+                attentionScorer.updateScores({ isFaceDetected: false })
+            }
+
+            if (attentionScorer.isTired()) {
+                alertManager.maybeAlert()
+            }
+
+            if (attentionScorer.isNoFace()) {
+                alertManager.maybeAlert()
+            }
+
+            if (attentionScorer.isDistracted()) {
+                alertManager.maybeAlert()
+            }
+
+            // Call this function again to keep predicting when the browser is ready.
+            if (webcamRunning === true) {
+                window.requestAnimationFrame(predictWebcam);
+            }
+        }
+    </script>
+</head>
+
+<body style="padding: 0; margin: 0;">
+    <!-- Loading Spinner Overlay -->
+    <div id="loadingOverlay">
+        <img id="loadingSpinner" src="spinner.svg" alt="spinner icon" />
+    </div>
+
+    <div id="liveView" class="videoView">
+        <video id="webcam" class="flippable" style="position: absolute" autoplay playsinline></video>
+
+        <div id="buttonContainer">
+            <button id="startButton" type="button">Start now</button>
+        </div>
+    </div>
+
+    <button id="closeButton" type="button">
+        <img src="close.svg" alt="close icon" style="width: 20px; height: 20px; background-color: transparent; " />
+    </button>
+
+</body>
+
+</html>

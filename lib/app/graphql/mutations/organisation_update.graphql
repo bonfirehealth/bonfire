@@ -1,0 +1,29 @@
+mutation UpdateOrganisation($input: UpdateOrganisationInput!) {
+  updateOrganisation(input: $input) {
+    ... on Organisation {
+      id
+      code
+      name
+      totalNumberOfActiveUsers
+      totalNumberOfUsers
+      totalNumberOfCompletedScreenings
+      totalNumberOfIncompletedScreenings
+      totalNumberOfSuggestionsClicked
+      totalNumberOfSuggestionsViewed
+      logoURL
+      logoBase64
+      themeColor
+      organisationType {
+        ... on OrganisationType {
+          id
+          description
+          name
+          identifier
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

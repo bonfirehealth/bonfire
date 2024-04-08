@@ -1,0 +1,199 @@
+mutation UpdateUser($input: UpdateUserInput!) {
+  updateUser(input: $input) {
+    ... on User {
+      id
+      externalUserID
+      emailAddress
+      username
+      userType {
+        ... on UserType {
+          id
+          description
+          name
+          identifier
+        }
+      }
+      photoBase64
+      photoURL
+      profile {
+        ... on Profile {
+          id
+          age
+          gender
+          weight
+          weightUnit
+          weightUnitName
+          height
+          heightUnit
+          heightUnitName
+          bodyMassIndex
+          mood
+          stressLevel
+          stressIndex
+          bodyTemperature
+          oxygenLevel
+          oxygenSaturationLevel
+          respiratoryRate
+          systolicBloodPressure
+          diastolicBloodPressure
+          heartRate
+          heartRateVariability
+          sympatheticNervousSystemIndex
+          timezone
+          assessments(limit: 999999999) {
+            items {
+              ... on Assessment {
+                id
+                createdAt
+                updatedAt
+                startDate
+                endDate
+                mood
+                stressLevel
+                stressIndex
+                bodyTemperature
+                oxygenLevel
+                oxygenSaturationLevel
+                respiratoryRate
+                systolicBloodPressure
+                diastolicBloodPressure
+                heartRate
+                heartRateManual
+                heartRateManualSource
+                heartRateVariability
+                sympatheticNervousSystemIndex
+                score
+                profileID
+                assessmentSelfCareId
+                selfCare {
+                  ... on SelfCare {
+                    id
+                    createdAt
+                    updatedAt
+                    description
+                    name
+                    icon
+                    index
+                    numberOfAvailableSlots
+                    numberOfTotalSlots
+                    routePath
+                    selfCareActivityId
+                    activity {
+                      ... on Activity {
+                        id
+                        createdAt
+                        updatedAt
+                        description
+                        duration
+                        name
+                        activityActivityTypeId
+                        activityType {
+                          ... on ActivityType {
+                            id
+                            createdAt
+                            updatedAt
+                            description
+                            identifier
+                            name
+                          }
+                        }
+                        reward {
+                          ... on Reward {
+                            id
+                            createdAt
+                            updatedAt
+                            description
+                            name
+                            rewardCredits
+                            maxNumberOfRedemptions
+                            rewardType {
+                              ... on RewardType {
+                                id
+                                createdAt
+                                updatedAt
+                                description
+                                identifier
+                                name
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                    selfCareSelfCareTypeId
+                    selfCareType {
+                      ... on SelfCareType {
+                        id
+                        createdAt
+                        updatedAt
+                        description
+                        identifier
+                        name
+                      }
+                    }
+                    url
+                  }
+                }
+                _version
+                _deleted
+              }
+            }
+          }
+          activities {
+            items {
+              ... on ProfileActivity {
+                id
+              }
+            }
+          }
+          notifications {
+            items {
+              ... on Notification {
+                id
+              }
+            }
+          }
+          preferences {
+            items {
+              ... on ProfilePreference {
+                id
+              }
+            }
+          }
+          selfCareUsages {
+            items {
+              ... on SelfCareUsage {
+                id
+              }
+            }
+          }
+          _version
+          _deleted
+        }
+      }
+      organisations {
+        items {
+          ... on OrganisationUser {
+            id
+            organisation {
+              id
+              name
+              logoURL
+              themeColor
+            }
+          }
+        }
+      }
+      notifications {
+        items {
+          ... on Notification {
+            id
+          }
+        }
+      }
+      _deleted
+      _lastChangedAt
+      _version
+    }
+  }
+}

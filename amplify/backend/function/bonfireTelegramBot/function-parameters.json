@@ -1,0 +1,18 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "apiToken",
+      "environmentVariableName": "apiToken"
+    }
+  ],
+  "permissions": {
+    "api": {
+      "bonfirehealth": [
+        "Query",
+        "Mutation",
+        "Subscription"
+      ]
+    }
+  }
+}
